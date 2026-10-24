@@ -1,0 +1,48 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+PASS imported triangles match build  [31346, 31346.0]
+PASS imported size matches build (0.05 m)  [(26.60122, 12.96, 16.37554), [26.6, 12.96, 16.38]]
+PASS sits on ground (min y ~ 0)  0.0
+PASS every surface has an opaque untextured material  [0, 0]
+PASS all palette materials present  ["Bronze", "Cedar", "Coping", "Fabric", "Floor", "Jade", "Lantern", "Plaster", "SpiritHerb", "Stone", "TileLight", "Timber", "Window"]
+PASS 69 authored shapes plus 4 documented static-leaf boxes  73
+PASS plaque text present  ["CONTRIBUTION HALL"]
+PASS clearance main_door_width_at_wall >= 0.9 m (collision / visible)  3.20 / 3.20
+PASS clearance main_door_width_inside_leaves >= 0.9 m (collision / visible)  4.04 / 3.04
+PASS clearance main_door_headroom >= 2.1 m (collision / visible)  3.60 / 3.60
+PASS clearance door_canopy_headroom >= 2.1 m (collision / visible)  8.05 / 3.42
+PASS clearance aisle_width_between_plinths >= 0.9 m (collision / visible)  9.68 / 3.53
+PASS clearance counter_end_lane_width >= 0.9 m (collision / visible)  1.34 / 1.37
+PASS clearance storeroom_door_width >= 0.9 m (collision / visible)  1.60 / 1.60
+PASS clearance storeroom_door_width_inside_leaves >= 0.9 m (collision / visible)  1.40 / 1.44
+PASS clearance storeroom_door_headroom >= 2.1 m (collision / visible)  2.60 / 2.60
+PASS clearance storeroom_lane_width >= 0.9 m (collision / visible)  4.98 / 5.09
+PASS clearance wing_veranda_headroom >= 2.1 m (collision / visible)  8.05 / 4.34
+PASS clearance pavilion_clear_height >= 2.1 m (collision / visible)  6.92 / 6.92
+PASS walk: stair, terrace, door, aisle to the exchange counter  (0.0, 0.600089, -0.419064)
+PASS walk: no visible geometry inside the upper body (84 samples): stair, terrace, door, aisle to the exchange counter  []
+PASS walk: third-person camera never inside visible geometry (84 samples): stair, terrace, door, aisle to the exchange counter  []
+PASS walk: staff lane past the counter end to the reward racks  (4.15, 0.600386, -4.088042)
+PASS walk: no visible geometry inside the upper body (72 samples): staff lane past the counter end to the reward racks  []
+PASS walk: third-person camera never inside visible geometry (72 samples): staff lane past the counter end to the reward racks  []
+PASS walk: east storeroom (supplies) through its side door  (11.56666, 0.598964, -2.4)
+PASS walk: no visible geometry inside the upper body (60 samples): east storeroom (supplies) through its side door  []
+PASS walk: third-person camera never inside visible geometry (60 samples): east storeroom (supplies) through its side door  []
+PASS walk: west storeroom (manuals and treasures) through its side door  (-11.56667, 0.598338, -2.4)
+PASS walk: no visible geometry inside the upper body (60 samples): west storeroom (manuals and treasures) through its side door  []
+PASS walk: third-person camera never inside visible geometry (60 samples): west storeroom (manuals and treasures) through its side door  []
+PASS walk: front wall reward board blocks  (3.85, 0.600609, 5.591547)
+PASS walk: no visible geometry inside the upper body (32 samples): front wall reward board blocks  []
+PASS walk: third-person camera never inside visible geometry (32 samples): front wall reward board blocks  []
+PASS walk: east wing veranda walkable up to the storeroom wall  (8.6, 0.600089, 3.430937)
+PASS walk: no visible geometry inside the upper body (40 samples): east wing veranda walkable up to the storeroom wall  []
+PASS walk: third-person camera never inside visible geometry (40 samples): east wing veranda walkable up to the storeroom wall  []
+PASS walk: west wing veranda walkable up to the storeroom wall  (-8.6, 0.600089, 3.430934)
+PASS walk: no visible geometry inside the upper body (40 samples): west wing veranda walkable up to the storeroom wall  []
+PASS walk: third-person camera never inside visible geometry (40 samples): west wing veranda walkable up to the storeroom wall  []
+PASS walk: back out through the door and down the stair  (0.0, 0.000843, 26.50197)
+PASS walk: no visible geometry inside the upper body (72 samples): back out through the door and down the stair  []
+PASS walk: third-person camera never inside visible geometry (72 samples): back out through the door and down the stair  []
+43 PASS / 0 FAIL

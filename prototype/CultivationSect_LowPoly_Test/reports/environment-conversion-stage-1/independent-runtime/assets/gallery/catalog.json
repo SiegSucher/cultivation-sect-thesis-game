@@ -1,0 +1,38 @@
+[
+  {
+    "id": "main_sect_hall",
+    "name": "Split-Cloud Main Sect Hall",
+    "group": "Buildings",
+    "status": "Visual direction approved - verification only; further conversions on hold",
+    "resource": "res://scenes/buildings/tang_main_hall.tscn",
+    "model": "res://assets/architecture/tang_main_hall/main_sect_hall.glb",
+    "source": "res://source/split_cloud_hall.blend"
+  },
+  {
+    "id": "sect_gate",
+    "name": "Sect Gate and Gatehouse",
+    "group": "Buildings",
+    "status": "Stage 1 low-poly gate - visual review pending",
+    "resource": "res://scenes/buildings/sect_gate.tscn",
+    "model": "res://assets/architecture/sect_gate/sect_gate.glb",
+    "source": "res://source/sect_gate_low_poly.blend"
+  },
+  {
+    "id": "martial_training_ground",
+    "name": "Large Martial Training Ground",
+    "group": "Buildings",
+    "status": "Not yet converted - original textured Training Ground",
+    "resource": "res://scenes/buildings/martial_training_ground.tscn",
+    "model": "res://assets/architecture/martial_training_ground/martial_training_ground.glb",
+    "source": ""
+  },
+  {
+    "id": "scripture_pavilion",
+    "name": "Scripture Pavilion",
+    "group": "Buildings",
+    "status": "Not yet converted - original textured Scripture Pavilion",
+    "resource": "res://scenes/buildings/scripture_pavilion.tscn",
+    "model": "res://assets/architecture/scripture_pavilion/scripture_pavilion.glb",
+    "source": ""
+  }
+]

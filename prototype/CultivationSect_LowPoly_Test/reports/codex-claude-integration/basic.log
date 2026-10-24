@@ -1,0 +1,25 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS disciple_residence imported triangles match build  [9518, 9518.0]
+PASS disciple_residence imported size matches build (0.05 m)  [(21.40122, 6.955353, 10.89071), [21.4, 6.96, 10.89]]
+PASS disciple_residence sits on ground (min y ~ 0)  0.0
+PASS disciple_residence has authored collision  36
+PASS elder_residence imported triangles match build  [16338, 16338.0]
+PASS elder_residence imported size matches build (0.05 m)  [(22.64, 8.050104, 22.30463), [22.64, 8.05, 22.3]]
+PASS elder_residence sits on ground (min y ~ 0)  0.0
+PASS elder_residence has authored collision  49
+PASS dining_hall_kitchen imported triangles match build  [23328, 23328.0]
+PASS dining_hall_kitchen imported size matches build (0.05 m)  [(23.14744, 9.255352, 21.12061), [23.15, 9.26, 21.12]]
+PASS dining_hall_kitchen sits on ground (min y ~ 0)  0.0
+PASS dining_hall_kitchen has authored collision  53
+PASS spirit_herb_garden imported triangles match build  [12474, 12474.0]
+PASS spirit_herb_garden imported size matches build (0.05 m)  [(24.46, 6.506274, 25.14392), [24.46, 6.51, 25.14]]
+PASS spirit_herb_garden sits on ground (min y ~ 0)  -0.0062743765302
+PASS spirit_herb_garden has authored collision  37
+PASS disciple_residence walk: room 2 reached  (2.2, 0.500154, 0.280185)
+PASS disciple_residence walk: solid wall between doors blocks  (1.0, 0.500162, 2.431976)
+PASS elder_residence walk: gate, stair, main room reached  (0.0, 0.999916, -5.369799)
+PASS dining_hall_kitchen walk: dining hall and kitchen reached  (0.0, 0.598942, -9.918278)
+PASS spirit_herb_garden walk: garden gate passable  (0.0, -0.001638, 3.287551)
+PASS spirit_herb_garden walk: pavilion stair climbable  (0.0, 0.500049, -7.299167)
+22 PASS / 0 FAIL

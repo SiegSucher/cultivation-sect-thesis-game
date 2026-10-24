@@ -1,0 +1,140 @@
+{
+	"added_sections": [
+		{
+			"node": "rail_stair_4in11_2m_001",
+			"position": [
+				-6.34999990463257,
+				0.0599999986588955,
+				105.0
+			],
+			"run_origin_m": 0.0,
+			"side": -1.0,
+			"span": 2
+		},
+		{
+			"node": "rail_stair_4in11_2m_002",
+			"position": [
+				-6.34999990463257,
+				0.787272751331329,
+				103.0
+			],
+			"run_origin_m": 2.0,
+			"side": -1.0,
+			"span": 2
+		},
+		{
+			"node": "rail_stair_4in11_2m_003",
+			"position": [
+				-6.34999990463257,
+				1.51454544067383,
+				101.0
+			],
+			"run_origin_m": 4.0,
+			"side": -1.0,
+			"span": 2
+		},
+		{
+			"node": "rail_stair_4in11_2m_004",
+			"position": [
+				-6.34999990463257,
+				2.24181818962097,
+				99.0
+			],
+			"run_origin_m": 6.0,
+			"side": -1.0,
+			"span": 2
+		},
+		{
+			"node": "rail_stair_4in11_2m_005",
+			"position": [
+				-6.34999990463257,
+				2.96909093856812,
+				97.0
+			],
+			"run_origin_m": 8.0,
+			"side": -1.0,
+			"span": 2
+		},
+		{
+			"node": "rail_stair_4in11_1m_001",
+			"position": [
+				-6.34999990463257,
+				3.69636368751526,
+				95.0
+			],
+			"run_origin_m": 10.0,
+			"side": -1.0,
+			"span": 1
+		},
+		{
+			"node": "rail_stair_4in11_2m_006",
+			"position": [
+				6.34999990463257,
+				0.0599999986588955,
+				105.0
+			],
+			"run_origin_m": 0.0,
+			"side": 1.0,
+			"span": 2
+		},
+		{
+			"node": "rail_stair_4in11_2m_007",
+			"position": [
+				6.34999990463257,
+				0.787272751331329,
+				103.0
+			],
+			"run_origin_m": 2.0,
+			"side": 1.0,
+			"span": 2
+		},
+		{
+			"node": "rail_stair_4in11_2m_008",
+			"position": [
+				6.34999990463257,
+				1.51454544067383,
+				101.0
+			],
+			"run_origin_m": 4.0,
+			"side": 1.0,
+			"span": 2
+		},
+		{
+			"node": "rail_stair_4in11_2m_009",
+			"position": [
+				6.34999990463257,
+				2.24181818962097,
+				99.0
+			],
+			"run_origin_m": 6.0,
+			"side": 1.0,
+			"span": 2
+		},
+		{
+			"node": "rail_stair_4in11_2m_010",
+			"position": [
+				6.34999990463257,
+				2.96909093856812,
+				97.0
+			],
+			"run_origin_m": 8.0,
+			"side": 1.0,
+			"span": 2
+		},
+		{
+			"node": "rail_stair_4in11_1m_002",
+			"position": [
+				6.34999990463257,
+				3.69636368751526,
+				95.0
+			],
+			"run_origin_m": 10.0,
+			"side": 1.0,
+			"span": 1
+		}
+	],
+	"existing_payload_preserved_verbatim": true,
+	"landing_posts_reused": true,
+	"rail_pitch_offset_m": 0.06,
+	"terrain_rebuilt": false
+}

@@ -1,0 +1,42 @@
+{
+	"blend_distance_m": 48,
+	"pine_batches": [
+		{
+			"batch": "Mountain_pine_tiered_00",
+			"existing_pines_seated_vertically": 236,
+			"total": 240
+		},
+		{
+			"batch": "Mountain_pine_tiered_01",
+			"existing_pines_seated_vertically": 236,
+			"total": 240
+		},
+		{
+			"batch": "Mountain_pine_tiered_02",
+			"existing_pines_seated_vertically": 236,
+			"total": 240
+		},
+		{
+			"batch": "Mountain_pine_windswept_00",
+			"existing_pines_seated_vertically": 236,
+			"total": 240
+		},
+		{
+			"batch": "Mountain_pine_windswept_01",
+			"existing_pines_seated_vertically": 236,
+			"total": 240
+		},
+		{
+			"batch": "Mountain_pine_windswept_02",
+			"existing_pines_seated_vertically": 236,
+			"total": 240
+		}
+	],
+	"terrain_vertices": 352386,
+	"unchanged_interior_xz": [
+		-156,
+		-170,
+		156,
+		190
+	]
+}

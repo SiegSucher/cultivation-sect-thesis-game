@@ -1,0 +1,129 @@
+{
+	"checks": [
+		{
+			"check": "Phase 4C launches",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection forest",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection entry_stairs",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection arrival",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection middle_stairs",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection living",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection cloud",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection grand",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection hall",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Continuous forest-to-Hall route TPP",
+			"detail": {
+				"active_walking_seconds": 62.7833333333333,
+				"camera": "TPP",
+				"pass": true,
+				"test_elapsed_seconds": 64.7833333333333,
+				"walked_metres": 242.802241984755
+			},
+			"pass": true
+		},
+		{
+			"check": "Connection forest",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection entry_stairs",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection arrival",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection middle_stairs",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection living",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection cloud",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection grand",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection hall",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Continuous forest-to-Hall route FPP",
+			"detail": {
+				"active_walking_seconds": 62.7833333333333,
+				"camera": "FPP",
+				"pass": true,
+				"test_elapsed_seconds": 64.7833333333333,
+				"walked_metres": 242.822528604418
+			},
+			"pass": true
+		}
+	],
+	"failures": 0,
+	"main_route_runs": [
+		{
+			"active_walking_seconds": 62.7833333333333,
+			"camera": "TPP",
+			"pass": true,
+			"test_elapsed_seconds": 64.7833333333333,
+			"walked_metres": 242.802241984755
+		},
+		{
+			"active_walking_seconds": 62.7833333333333,
+			"camera": "FPP",
+			"pass": true,
+			"test_elapsed_seconds": 64.7833333333333,
+			"walked_metres": 242.822528604418
+		}
+	],
+	"passes": 19
+}

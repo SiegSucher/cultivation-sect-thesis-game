@@ -1,0 +1,25 @@
+{
+  "palette": {
+    "Stone": "667e88",
+    "Coping": "bcc6bd",
+    "Timber": "432d2d",
+    "Cedar": "896048",
+    "Jade": "22594f",
+    "TileLight": "46796b",
+    "Plaster": "e6d9b8",
+    "Window": "284c53",
+    "Bronze": "cda668",
+    "Floor": "85624d",
+    "Lantern": "ffda91",
+    "Fabric": "456e73"
+  },
+  "material_count": 12,
+  "batches": {
+    "Hall": 12,
+    "Grand": 3,
+    "Private": 3
+  },
+  "source": "C:\\Users\\pasto\\OneDrive\\Documents\\ChatGPT\\Character Sprite Image for Thesis game\\prototype\\CultivationSect_LowPoly_Test\\source\\split_cloud_hall.blend",
+  "hall_vertices": 48163,
+  "hall_triangles": 71557
+}

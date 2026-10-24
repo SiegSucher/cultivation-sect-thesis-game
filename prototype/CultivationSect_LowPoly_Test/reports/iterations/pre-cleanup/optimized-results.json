@@ -1,0 +1,281 @@
+{
+	"adapter": "NVIDIA GeForce RTX 3050 Laptop GPU",
+	"captures": [
+		{
+			"file": "res://reports/screenshots/optimized-front.png",
+			"fov": 58.0,
+			"position": "(0.0, 13.0, 45.0)",
+			"target": "(0.0, 8.0, 2.0)"
+		},
+		{
+			"file": "res://reports/screenshots/optimized-three-quarter.png",
+			"fov": 58.0,
+			"position": "(33.0, 23.0, 41.0)",
+			"target": "(0.0, 8.0, 2.0)"
+		},
+		{
+			"file": "res://reports/screenshots/optimized-roof-detail.png",
+			"fov": 56.0,
+			"position": "(18.0, 19.0, 24.0)",
+			"target": "(0.0, 11.0, 4.0)"
+		},
+		{
+			"file": "res://reports/screenshots/optimized-interior.png",
+			"fov": 82.0,
+			"position": "(0.0, 3.22, 5.9)",
+			"target": "(0.0, 4.8, -7.0)"
+		}
+	],
+	"checks": [
+		{
+			"check": "Identity transform and origin",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "All three doors loaded",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Inside existing envelope",
+			"detail": {
+				"bounds": "[P: (-20.82926, 0.0, -12.0), S: (41.65852, 18.22064, 30.18)]",
+				"bounds_max": [
+					20.8292617797852,
+					18.2206439971924,
+					18.1800003051758
+				],
+				"bounds_min": [
+					-20.8292617797852,
+					0.0,
+					-12.0
+				],
+				"near_static_surfaces": 12,
+				"near_static_triangles": 71685
+			},
+			"pass": true
+		},
+		{
+			"check": "Screenshot front",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Screenshot three-quarter",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Screenshot roof-detail",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Screenshot interior",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Main stair, door and central aisle",
+			"detail": {
+				"actual": "(0.0, 1.530838, -2.163718)",
+				"floor": true,
+				"physics_frames": 404,
+				"target": "(0.0, 1.55, -2.3)"
+			},
+			"pass": true
+		},
+		{
+			"check": "Main stair, door and central aisle stable floor",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Dais stair climb",
+			"detail": {
+				"actual": "(0.0, 2.150829, -4.450355)",
+				"floor": true,
+				"physics_frames": 37,
+				"target": "(0.0, 2.15, -4.6)"
+			},
+			"pass": true
+		},
+		{
+			"check": "Dais stair climb stable floor",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Dais elevation",
+			"detail": 2.15082931518555,
+			"pass": true
+		},
+		{
+			"check": "West administration room",
+			"detail": {
+				"actual": "(-12.86667, 1.530838, -0.8)",
+				"floor": true,
+				"physics_frames": 193,
+				"target": "(-13.0, 1.56, -0.8)"
+			},
+			"pass": true
+		},
+		{
+			"check": "West administration room stable floor",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "East administration room",
+			"detail": {
+				"actual": "(12.86667, 1.530838, -0.8)",
+				"floor": true,
+				"physics_frames": 193,
+				"target": "(13.0, 1.56, -0.8)"
+			},
+			"pass": true
+		},
+		{
+			"check": "East administration room stable floor",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "First-person capture",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "First-person camera",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Third-person camera",
+			"detail": 4.25086641311646,
+			"pass": true
+		},
+		{
+			"check": "Third-person capture",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Closed entrance blocks movement",
+			"detail": 8.00000095367432,
+			"pass": true
+		}
+	],
+	"geometry": {
+		"bounds": "[P: (-20.82926, 0.0, -12.0), S: (41.65852, 18.22064, 30.18)]",
+		"bounds_max": [
+			20.8292617797852,
+			18.2206439971924,
+			18.1800003051758
+		],
+		"bounds_min": [
+			-20.8292617797852,
+			0.0,
+			-12.0
+		],
+		"near_static_surfaces": 12,
+		"near_static_triangles": 71685
+	},
+	"godot": "4.7.2-stable (official)",
+	"limits": "Automated real inspection controller; no human playtest, production player, populated world, exported game or target low-end hardware.",
+	"msaa_setting": 2,
+	"renderer": "gl_compatibility",
+	"resolution": [
+		1280,
+		720
+	],
+	"samples": [
+		{
+			"average_fps": 410.018809612891,
+			"frames": 240,
+			"frames_over_33ms": 0,
+			"max_ms": 2.961,
+			"mean_draw_calls": 98.0,
+			"mean_ms": 2.4389125,
+			"mean_rendered_primitives": 213943.0,
+			"p50_ms": 2.506,
+			"p95_ms": 2.821,
+			"static_memory_bytes": 43133477.0,
+			"video_memory_bytes": 54024969.0,
+			"view": "front"
+		},
+		{
+			"average_fps": 427.582643707854,
+			"frames": 240,
+			"frames_over_33ms": 0,
+			"max_ms": 3.008,
+			"mean_draw_calls": 92.0,
+			"mean_ms": 2.33872916666667,
+			"mean_rendered_primitives": 213703.0,
+			"p50_ms": 2.363,
+			"p95_ms": 2.853,
+			"static_memory_bytes": 43137949.0,
+			"video_memory_bytes": 54024969.0,
+			"view": "three-quarter"
+		},
+		{
+			"average_fps": 416.163080439121,
+			"frames": 240,
+			"frames_over_33ms": 0,
+			"max_ms": 3.081,
+			"mean_draw_calls": 90.3875,
+			"mean_ms": 2.40290416666667,
+			"mean_rendered_primitives": 224518.783333333,
+			"p50_ms": 2.494,
+			"p95_ms": 2.833,
+			"static_memory_bytes": 43139121.0,
+			"video_memory_bytes": 54024969.0,
+			"view": "360-degree exterior sweep"
+		},
+		{
+			"average_fps": 253.425199968322,
+			"frames": 240,
+			"frames_over_33ms": 0,
+			"max_ms": 4.875,
+			"mean_draw_calls": 100.0,
+			"mean_ms": 3.9459375,
+			"mean_rendered_primitives": 357425.0,
+			"p50_ms": 3.938,
+			"p95_ms": 4.525,
+			"static_memory_bytes": 43143613.0,
+			"video_memory_bytes": 54024969.0,
+			"view": "interior"
+		},
+		{
+			"average_fps": 289.850521670554,
+			"frames": 240,
+			"frames_over_33ms": 0,
+			"max_ms": 4.261,
+			"mean_draw_calls": 87.0,
+			"mean_ms": 3.45005416666667,
+			"mean_rendered_primitives": 356489.0,
+			"p50_ms": 3.408,
+			"p95_ms": 4.018,
+			"static_memory_bytes": 43160449.0,
+			"video_memory_bytes": 54024969.0,
+			"view": "first-person interior"
+		},
+		{
+			"average_fps": 280.010407053462,
+			"frames": 240,
+			"frames_over_33ms": 0,
+			"max_ms": 4.798,
+			"mean_draw_calls": 135.0,
+			"mean_ms": 3.57129583333333,
+			"mean_rendered_primitives": 387005.0,
+			"p50_ms": 3.647,
+			"p95_ms": 4.112,
+			"static_memory_bytes": 43165469.0,
+			"video_memory_bytes": 54024969.0,
+			"view": "third-person interior"
+		}
+	],
+	"variant": "optimized",
+	"vsync": false
+}

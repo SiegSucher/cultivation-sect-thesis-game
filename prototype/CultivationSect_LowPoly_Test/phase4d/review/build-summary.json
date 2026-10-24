@@ -1,0 +1,208 @@
+{
+	"architecture_inherited": true,
+	"connections": [
+		{
+			"area_m2": 20.4,
+			"building": "mission_hall",
+			"inner_width_m": 6.0,
+			"length_m": 3.4,
+			"local_bounds": [
+				-3.0,
+				11.6,
+				3.0,
+				15.0
+			],
+			"outer_width_m": 6.0,
+			"style": "stone",
+			"world_top_corners": [
+				"(-28.0, 10.04, 30.0)",
+				"(-22.0, 10.04, 30.0)",
+				"(-22.0, 10.04, 26.6)",
+				"(-28.0, 10.04, 26.6)"
+			]
+		},
+		{
+			"area_m2": 13.2,
+			"building": "exchange_hall",
+			"inner_width_m": 6.0,
+			"length_m": 2.2,
+			"local_bounds": [
+				-3.0,
+				9.8,
+				3.0,
+				12.0
+			],
+			"outer_width_m": 6.0,
+			"style": "stone",
+			"world_top_corners": [
+				"(32.0, 10.04, 26.0)",
+				"(38.0, 10.04, 26.0)",
+				"(38.0, 10.04, 23.8)",
+				"(32.0, 10.04, 23.8)"
+			]
+		},
+		{
+			"area_m2": 13.216,
+			"building": "disciple_residence",
+			"inner_width_m": 5.8,
+			"length_m": 2.24,
+			"local_bounds": [
+				-3.0,
+				5.76,
+				3.0,
+				8.0
+			],
+			"outer_width_m": 6.0,
+			"style": "stone",
+			"world_top_corners": [
+				"(-25.0, 10.04, 43.0)",
+				"(-31.0, 10.04, 43.0)",
+				"(-30.9, 10.04, 45.24)",
+				"(-25.1, 10.04, 45.24)"
+			]
+		},
+		{
+			"area_m2": 17.4,
+			"building": "dining_hall_kitchen",
+			"inner_width_m": 6.0,
+			"length_m": 2.9,
+			"local_bounds": [
+				-3.0,
+				8.1,
+				3.0,
+				11.0
+			],
+			"outer_width_m": 6.0,
+			"style": "stone",
+			"world_top_corners": [
+				"(43.0, 10.04, 41.0)",
+				"(37.0, 10.04, 41.0)",
+				"(37.0, 10.04, 43.9)",
+				"(43.0, 10.04, 43.9)"
+			]
+		},
+		{
+			"area_m2": 33.6,
+			"building": "martial_training_ground",
+			"inner_width_m": 12.0,
+			"length_m": 2.8,
+			"local_bounds": [
+				-6.0,
+				29.2,
+				6.0,
+				32.0
+			],
+			"outer_width_m": 12.0,
+			"style": "stone",
+			"world_top_corners": [
+				"(-103.0, 14.04, 11.0)",
+				"(-91.0, 14.04, 11.0)",
+				"(-91.0, 14.04, 8.200001)",
+				"(-103.0, 14.04, 8.200001)"
+			]
+		},
+		{
+			"area_m2": 13.23,
+			"building": "scripture_pavilion",
+			"inner_width_m": 4.8,
+			"length_m": 2.7,
+			"local_bounds": [
+				-2.5,
+				12.3,
+				2.5,
+				15.0
+			],
+			"outer_width_m": 5.0,
+			"style": "stone",
+			"world_top_corners": [
+				"(-50.5, 28.04, -113.0)",
+				"(-45.5, 28.04, -113.0)",
+				"(-45.6, 28.04, -115.7)",
+				"(-50.4, 28.04, -115.7)"
+			]
+		},
+		{
+			"area_m2": 15.39,
+			"building": "elder_residence",
+			"inner_width_m": 3.0,
+			"length_m": 3.42,
+			"local_bounds": [
+				-3.0,
+				11.58,
+				3.0,
+				15.0
+			],
+			"outer_width_m": 6.0,
+			"style": "stone",
+			"world_top_corners": [
+				"(-52.0, 28.04, -73.0)",
+				"(-46.0, 28.04, -73.0)",
+				"(-47.5, 28.04, -76.42)",
+				"(-50.5, 28.04, -76.42)"
+			]
+		},
+		{
+			"area_m2": 17.384,
+			"building": "alchemy_pavilion",
+			"inner_width_m": 3.4,
+			"length_m": 4.24,
+			"local_bounds": [
+				-2.4,
+				8.76,
+				2.4,
+				13.0
+			],
+			"outer_width_m": 4.8,
+			"style": "stone",
+			"world_top_corners": [
+				"(74.6, 20.04, -69.0)",
+				"(79.4, 20.04, -69.0)",
+				"(78.7, 20.04, -73.24)",
+				"(75.3, 20.04, -73.24)"
+			]
+		},
+		{
+			"area_m2": 6.0,
+			"building": "medicine_hall",
+			"inner_width_m": 6.0,
+			"length_m": 1.0,
+			"local_bounds": [
+				-3.0,
+				7.0,
+				3.0,
+				8.0
+			],
+			"outer_width_m": 6.0,
+			"style": "stone",
+			"world_top_corners": [
+				"(99.0, 10.04, 12.0)",
+				"(105.0, 10.04, 12.0)",
+				"(105.0, 10.04, 11.0)",
+				"(99.0, 10.04, 11.0)"
+			]
+		},
+		{
+			"area_m2": 27.36,
+			"building": "spirit_herb_garden",
+			"inner_width_m": 2.6,
+			"length_m": 5.7,
+			"local_bounds": [
+				-3.5,
+				12.3,
+				3.5,
+				18.0
+			],
+			"outer_width_m": 7.0,
+			"style": "earth",
+			"world_top_corners": [
+				"(117.5, 10.04, -21.0)",
+				"(124.5, 10.04, -21.0)",
+				"(122.3, 10.04, -26.7)",
+				"(119.7, 10.04, -26.7)"
+			]
+		}
+	],
+	"new_collision_shapes": 0,
+	"terrain_rebuilt": false,
+	"total_area_m2": 177.18
+}

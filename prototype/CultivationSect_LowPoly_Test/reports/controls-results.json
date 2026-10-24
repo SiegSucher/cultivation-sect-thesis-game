@@ -1,0 +1,35 @@
+{
+	"checks": [
+		{
+			"check": "Default scene opens in review view",
+			"pass": true
+		},
+		{
+			"check": "1 starts walking with first-person camera",
+			"pass": true
+		},
+		{
+			"check": "Tab changes to third person",
+			"pass": true
+		},
+		{
+			"check": "E requests door opening",
+			"pass": true
+		},
+		{
+			"check": "3 returns to exterior review and pauses player",
+			"pass": true
+		},
+		{
+			"check": "Esc opens copied gallery",
+			"pass": true
+		},
+		{
+			"check": "Gallery Hall Walk returns to experiment",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"limits": "Programmatically dispatched input events; human rehearsal remains unperformed.",
+	"passed": 7
+}

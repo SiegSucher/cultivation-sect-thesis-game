@@ -1,0 +1,16 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+[godot_ai game_helper] registered mcp capture (debugger active=false, logger=true)
+BASELINE EDGE { "x": -5.93, "uphill_without_new_rails": true, "end": (-5.926614, 4.039854, 93.32937) }
+BASELINE EDGE { "x": -5.65, "uphill_without_new_rails": true, "end": (-5.649955, 3.700467, 93.34191) }
+BASELINE EDGE { "x": -5.3, "uphill_without_new_rails": true, "end": (-5.299957, 3.697425, 93.34191) }
+BASELINE EDGE { "x": 5.3, "uphill_without_new_rails": true, "end": (5.299559, 3.790215, 93.33961) }
+BASELINE EDGE { "x": 5.65, "uphill_without_new_rails": true, "end": (5.649915, 3.794907, 93.33194) }
+BLOCKED (5.93, 4.0, 93.2) at (5.93, -0.07487, 105.2258) contacts ["/root/Phase4C_CompactValley/ValleyGroundCollision"]
+BASELINE EDGE { "x": 5.93, "uphill_without_new_rails": false, "end": (5.93, -0.07487, 105.2258) }
+BLOCKED (-5.65, 0.0, 105.8) at (-5.649989, 3.631403, 93.71949) contacts ["/root/Phase4C_CompactValley/ValleyGroundCollision"]
+BASELINE UPPER MARGIN { "x": -5.65, "downhill_without_new_rails": false, "end": (-5.649989, 3.631403, 93.71949) }
+BLOCKED (5.65, 0.0, 105.8) at (5.65, 3.750067, 93.72178) contacts ["/root/Phase4C_CompactValley/ValleyGroundCollision"]
+BASELINE UPPER MARGIN { "x": 5.65, "downhill_without_new_rails": false, "end": (5.65, 3.750067, 93.72178) }

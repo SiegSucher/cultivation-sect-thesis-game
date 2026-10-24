@@ -1,0 +1,8 @@
+{
+  "cpu_identifier": "Intel64 Family 6 Model 154 Stepping 3, GenuineIntel",
+  "ram_GiB": 15.63,
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "cpu_marketing_name": "Not queried successfully; CIM access unavailable",
+  "power_mode": "Not controlled",
+  "background_load": "Not controlled"
+}

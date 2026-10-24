@@ -1,0 +1,148 @@
+{
+	"adapter": "NVIDIA GeForce RTX 3050 Laptop GPU",
+	"camera_poses": [
+		{
+			"fov": 52.0,
+			"position": "(48.0, 38.0, 50.0)",
+			"target": "(0.0, 1.0, -1.0)",
+			"view": "overview"
+		},
+		{
+			"fov": 78.0,
+			"position": "(0.0, 2.1, 25.0)",
+			"target": "(0.0, 2.3, -20.0)",
+			"view": "court"
+		},
+		{
+			"fov": 68.0,
+			"position": "(12.0, 5.3, -8.5)",
+			"target": "(0.0, 2.8, -22.0)",
+			"view": "shelter"
+		},
+		{
+			"fov": 65.0,
+			"position": "(-18.6, 2.3, 14.2)",
+			"target": "(-23.9, 1.2, 8.0)",
+			"view": "equipment"
+		},
+		{
+			"fov": 68.0,
+			"position": "(20.6, 2.4, 23.2)",
+			"target": "(25.3, 1.5, 17.5)",
+			"view": "racks"
+		}
+	],
+	"captures": [
+		{
+			"file": "res://reports/training-ground-fix/benchmarks/training-after-shadowCheck-B2-overview.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/training-ground-fix/benchmarks/training-after-shadowCheck-B2-court.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/training-ground-fix/benchmarks/training-after-shadowCheck-B2-shelter.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/training-ground-fix/benchmarks/training-after-shadowCheck-B2-equipment.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/training-ground-fix/benchmarks/training-after-shadowCheck-B2-racks.png",
+			"pass": true
+		}
+	],
+	"conditions": "Existing per-facility walkthrough rig: ambient .55, shadowed sun 180m Training / 100m Pavilion; Pavilion retains six unshadowed lights. 45-frame warmups, 240 measured frames, uncapped. No fixed-fps used for benchmark.",
+	"facility": "training",
+	"failed": 0,
+	"godot": "4.7.2-stable (official)",
+	"legacy_camera_policy": true,
+	"limits": "Short local rendered observations. No human, populated town, representative low-end hardware or sustained thermal test.",
+	"msaa": 2,
+	"physics_off": false,
+	"project_root": "C:/Users/pasto/OneDrive/Documents/ChatGPT/Character Sprite Image for Thesis game/prototype/CultivationSect_LowPoly_Test/",
+	"renderer": "gl_compatibility",
+	"resolution": [
+		1280,
+		720
+	],
+	"run": "shadowCheck-B2",
+	"samples": [
+		{
+			"fps": 256.890278950732,
+			"frames": 240,
+			"max_ms": 11.117,
+			"mean_draw_calls": 40.0,
+			"mean_ms": 3.8927125,
+			"mean_objects": 147.0,
+			"mean_primitives": 95156.0,
+			"p50_ms": 2.604,
+			"p95_ms": 8.82,
+			"physics_ms": 0.587750000000002,
+			"process_ms": 71.0563999999999,
+			"video_memory_bytes": 54295169.0,
+			"view": "overview",
+			"viewport_gpu_ms": 3.04878332416217,
+			"viewport_render_cpu_ms": 0.85304166674614
+		},
+		{
+			"fps": 330.654572057209,
+			"frames": 240,
+			"max_ms": 10.883,
+			"mean_draw_calls": 40.0,
+			"mean_ms": 3.02430416666667,
+			"mean_objects": 147.0,
+			"mean_primitives": 95290.0,
+			"p50_ms": 2.057,
+			"p95_ms": 8.719,
+			"physics_ms": 0.727000000000002,
+			"process_ms": 72.2999999999997,
+			"video_memory_bytes": 54295169.0,
+			"view": "court",
+			"viewport_gpu_ms": 2.26403751224279,
+			"viewport_render_cpu_ms": 0.801654166231553
+		},
+		{
+			"fps": 267.940276112455,
+			"frames": 240,
+			"max_ms": 12.076,
+			"mean_draw_calls": 25.0,
+			"mean_ms": 3.732175,
+			"mean_objects": 132.0,
+			"mean_primitives": 91142.0,
+			"p50_ms": 2.679,
+			"p95_ms": 8.822,
+			"physics_ms": 0.688999999999996,
+			"process_ms": 79.1290000000004,
+			"video_memory_bytes": 54295169.0,
+			"view": "shelter",
+			"viewport_gpu_ms": 3.01550417294105,
+			"viewport_render_cpu_ms": 0.827275001257658
+		},
+		{
+			"fps": 289.343828476978,
+			"frames": 240,
+			"max_ms": 10.692,
+			"mean_draw_calls": 40.0,
+			"mean_ms": 3.45609583333333,
+			"mean_objects": 147.0,
+			"mean_primitives": 95147.3,
+			"p50_ms": 2.405,
+			"p95_ms": 8.836,
+			"physics_ms": 0.856999999999999,
+			"process_ms": 29.9000833333333,
+			"video_memory_bytes": 54295169.0,
+			"view": "360 sweep",
+			"viewport_gpu_ms": 2.55978333055973,
+			"viewport_render_cpu_ms": 0.878354164709647
+		}
+	],
+	"shadows_off": true,
+	"static_only": true,
+	"utc": "2026-10-23T09:25:16",
+	"variant": "after",
+	"viewport_timer_enabled": true,
+	"vsync": false
+}

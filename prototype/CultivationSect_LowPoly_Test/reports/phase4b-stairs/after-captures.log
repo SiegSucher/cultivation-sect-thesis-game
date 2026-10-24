@@ -1,0 +1,16 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 566.07 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3050 Laptop GPU
+
+[godot_ai game_helper] registered mcp capture (debugger active=false, logger=true)
+PASS Current scene launches with unchanged player 
+PASS Capture arrival-flight-fpp 
+PASS Capture arrival-upper-fpp 
+PASS Capture living-flight-fpp 
+PASS Capture living-upper-fpp 
+PASS Capture arrival-flight-tpp 
+PASS Capture arrival-upper-tpp 
+PASS Capture living-flight-tpp 
+PASS Capture living-upper-tpp 
+PASS Capture arrival-edge 
+PASS Capture living-edge 
+FOCUSED after 11 PASS / 0 FAIL

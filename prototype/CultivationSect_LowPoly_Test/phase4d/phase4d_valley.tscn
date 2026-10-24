@@ -1,0 +1,10 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" path="res://phase4c/phase4c_valley.tscn" id="approved"]
+[ext_resource type="Script" path="res://phase4d/walkthrough.gd" id="script"]
+[ext_resource type="PackedScene" path="res://phase4d/resources/entrance_connections.tscn" id="connections"]
+
+[node name="Phase4D_CompactValley" instance=ExtResource("approved")]
+script = ExtResource("script")
+
+[node name="DistrictEntranceConnections" parent="." instance=ExtResource("connections")]

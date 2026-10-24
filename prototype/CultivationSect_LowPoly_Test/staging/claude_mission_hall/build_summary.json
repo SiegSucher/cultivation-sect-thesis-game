@@ -1,0 +1,43 @@
+{
+  "mission_hall": {
+    "name": "Mission Hall",
+    "scene": "res://staging/claude_mission_hall/mission_hall/mission_hall.tscn",
+    "model": "res://staging/claude_mission_hall/mission_hall/mission_hall.glb",
+    "triangles": 17790,
+    "vertices": 12014,
+    "surfaces": 12,
+    "materials": [
+      "Bronze",
+      "Cedar",
+      "Coping",
+      "Fabric",
+      "Floor",
+      "Jade",
+      "Lantern",
+      "Plaster",
+      "Stone",
+      "TileLight",
+      "Timber",
+      "Window"
+    ],
+    "bounds_min": [
+      -9.53,
+      0.0,
+      -9.701
+    ],
+    "bounds_max": [
+      9.53,
+      9.805,
+      11.62
+    ],
+    "size_xyz_m": [
+      19.06,
+      9.81,
+      21.32
+    ],
+    "collision_shapes": 37,
+    "plaques": [
+      "MISSION HALL"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "original_files_unchanged": 1599,
+  "preexisting_test_files": 4707,
+  "all_staging_files_unchanged": 48,
+  "existing_file_changes": [
+    "HANDOFF.md",
+    "reports/CODEX_REPORT.md",
+    "reports/LOW_POLY_CONVERSION_INVENTORY.md",
+    "assets/gallery/catalog.json"
+  ],
+  "model_and_source_byte_identical": true,
+  "scene_only_glb_path_changed": true,
+  "previous_eight_catalog_entries_unchanged": true,
+  "staged_uid": "uid://cjwrrph5fosng",
+  "canonical_uid": "uid://opp8b4xhv8ra"
+}

@@ -1,0 +1,346 @@
+{
+  "checks": 37,
+  "failures": 0,
+  "results": [
+    {
+      "check": "module bounds match connection convention: walls/wall_section_2m",
+      "detail": {
+        "max": "(2.0, 2.7, 0.38)",
+        "max_error_m": 0.0,
+        "min": "(0.0, 0.0, -0.38)"
+      },
+      "pass": true
+    },
+    {
+      "check": "module bounds match connection convention: walls/wall_section_4m",
+      "detail": {
+        "max": "(4.0, 2.7, 0.38)",
+        "max_error_m": 0.0,
+        "min": "(0.0, 0.0, -0.38)"
+      },
+      "pass": true
+    },
+    {
+      "check": "module bounds match connection convention: walls/wall_pier",
+      "detail": {
+        "max": "(0.5717, 3.31, 0.5717)",
+        "max_error_m": 0.0017,
+        "min": "(-0.5717, 0.0, -0.5717)"
+      },
+      "pass": true
+    },
+    {
+      "check": "module bounds match connection convention: walls/wall_corner",
+      "detail": {
+        "max": "(0.67, 3.46, 0.67)",
+        "max_error_m": 0.0,
+        "min": "(-0.67, 0.0, -0.67)"
+      },
+      "pass": true
+    },
+    {
+      "check": "module bounds match connection convention: walls/wall_gate_end",
+      "detail": {
+        "max": "(0.73, 3.24, 0.45)",
+        "max_error_m": 0.0,
+        "min": "(-0.11, 0.0, -0.45)"
+      },
+      "pass": true
+    },
+    {
+      "check": "module bounds match connection convention: railings/rail_section_1m",
+      "detail": {
+        "max": "(0.88, 1.34, 0.15)",
+        "max_error_m": 0.0,
+        "min": "(-0.15, -0.05, -0.15)"
+      },
+      "pass": true
+    },
+    {
+      "check": "module bounds match connection convention: railings/rail_section_2m",
+      "detail": {
+        "max": "(1.88, 1.34, 0.15)",
+        "max_error_m": 0.0,
+        "min": "(-0.15, -0.05, -0.15)"
+      },
+      "pass": true
+    },
+    {
+      "check": "module bounds match connection convention: railings/rail_post",
+      "detail": {
+        "max": "(0.15, 1.34, 0.15)",
+        "max_error_m": 0.0,
+        "min": "(-0.15, -0.05, -0.15)"
+      },
+      "pass": true
+    },
+    {
+      "check": "module bounds match connection convention: retaining/retaining_wall_4x2",
+      "detail": {
+        "max": "(4.0, 2.0, 0.06)",
+        "max_error_m": 0.0,
+        "min": "(0.0, 0.0, -0.62)"
+      },
+      "pass": true
+    },
+    {
+      "check": "module bounds match connection convention: retaining/retaining_wall_4x4",
+      "detail": {
+        "max": "(4.0, 4.0, 0.06)",
+        "max_error_m": 0.0,
+        "min": "(0.0, 0.0, -0.62)"
+      },
+      "pass": true
+    },
+    {
+      "check": "module bounds match connection convention: retaining/retaining_corner_2",
+      "detail": {
+        "max": "(0.1, 2.0, 0.1)",
+        "max_error_m": 0.0,
+        "min": "(-0.7, 0.0, -0.7)"
+      },
+      "pass": true
+    },
+    {
+      "check": "module bounds match connection convention: retaining/retaining_end_2",
+      "detail": {
+        "max": "(0.4, 2.0, 0.1)",
+        "max_error_m": 0.0,
+        "min": "(-0.4, 0.0, -0.7)"
+      },
+      "pass": true
+    },
+    {
+      "check": "module bounds match connection convention: edging/edging_2m",
+      "detail": {
+        "max": "(1.992, 0.14, 0.09)",
+        "max_error_m": 0.0,
+        "min": "(0.008, -0.04, -0.09)"
+      },
+      "pass": true
+    },
+    {
+      "check": "stair rail 22 deg 1 m ends at the next post face, 1.10 m above the pitch line",
+      "detail": {
+        "end_x": 0.88,
+        "expected_top_y": 1.456,
+        "top_y": 1.456
+      },
+      "pass": true
+    },
+    {
+      "check": "stair rail 22 deg 2 m ends at the next post face, 1.10 m above the pitch line",
+      "detail": {
+        "end_x": 1.88,
+        "expected_top_y": 1.86,
+        "top_y": 1.86
+      },
+      "pass": true
+    },
+    {
+      "check": "stair rail 24 deg 1 m ends at the next post face, 1.10 m above the pitch line",
+      "detail": {
+        "end_x": 0.88,
+        "expected_top_y": 1.492,
+        "top_y": 1.492
+      },
+      "pass": true
+    },
+    {
+      "check": "stair rail 24 deg 2 m ends at the next post face, 1.10 m above the pitch line",
+      "detail": {
+        "end_x": 1.88,
+        "expected_top_y": 1.937,
+        "top_y": 1.937
+      },
+      "pass": true
+    },
+    {
+      "check": "review scene opens",
+      "detail": 176,
+      "pass": true
+    },
+    {
+      "check": "continuous run (no gaps, faces aligned across joints): boundary wall dado, gate end to pier",
+      "detail": {
+        "depth_range_m": 0.0,
+        "misses": 0,
+        "samples": 368
+      },
+      "pass": true
+    },
+    {
+      "check": "continuous run (no gaps, faces aligned across joints): boundary wall plaster, gate end to pier",
+      "detail": {
+        "depth_range_m": 0.0,
+        "misses": 0,
+        "samples": 368
+      },
+      "pass": true
+    },
+    {
+      "check": "continuous run (no gaps, faces aligned across joints): boundary wall tile cap, across section joint",
+      "detail": {
+        "depth_range_m": 0.0,
+        "misses": 0,
+        "samples": 366
+      },
+      "pass": true
+    },
+    {
+      "check": "continuous run (no gaps, faces aligned across joints): platform guardrail plinth across posts",
+      "detail": {
+        "depth_range_m": 0.0,
+        "misses": 0,
+        "samples": 345
+      },
+      "pass": true
+    },
+    {
+      "check": "continuous run (no gaps, faces aligned across joints): platform guardrail top rail between posts",
+      "detail": {
+        "depth_range_m": 0.0,
+        "misses": 0,
+        "samples": 81
+      },
+      "pass": true
+    },
+    {
+      "check": "continuous run (no gaps, faces aligned across joints): 22 deg stair rail top rail follows the slope, z -5.8..-4.2",
+      "detail": {
+        "depth_range_m": 0.0,
+        "misses": 0,
+        "samples": 81
+      },
+      "pass": true
+    },
+    {
+      "check": "continuous run (no gaps, faces aligned across joints): 22 deg stair rail top rail follows the slope, z -7.8..-6.2",
+      "detail": {
+        "depth_range_m": 0.0,
+        "misses": 0,
+        "samples": 81
+      },
+      "pass": true
+    },
+    {
+      "check": "continuous run (no gaps, faces aligned across joints): retaining wall face across the module joint",
+      "detail": {
+        "depth_range_m": 0.072,
+        "misses": 0,
+        "samples": 346
+      },
+      "pass": true
+    },
+    {
+      "check": "walks beside the boundary wall past joints and the pier",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(-4.70001, -0.011157, -28.9)",
+        "lowest_y": -0.011,
+        "travel": 8.79998970031738
+      },
+      "pass": true
+    },
+    {
+      "check": "wall blocks passage at x=-11.4",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(-11.4, -0.013021, -29.38783)",
+        "lowest_y": -0.014,
+        "travel": 1.88783264160156
+      },
+      "pass": true
+    },
+    {
+      "check": "wall blocks passage at x=-9.9",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(-9.9, -0.012797, -29.38783)",
+        "lowest_y": -0.014,
+        "travel": 1.88783264160156
+      },
+      "pass": true
+    },
+    {
+      "check": "climbs the 22 deg stair lane to the landing",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(-14.0, 2.019553, -10.59843)",
+        "lowest_y": -0.017,
+        "travel": 8.09843063354492
+      },
+      "pass": true
+    },
+    {
+      "check": "climbs along the lane edge beside the rail without snagging or clipping",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(-12.92, 2.01948, -10.5972)",
+        "lowest_y": -0.018,
+        "travel": 8.09719562530518
+      },
+      "pass": true
+    },
+    {
+      "check": "stair rail stops sideways exit at z=-5.3",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(-12.90191, 0.542453, -5.292624)",
+        "lowest_y": 0.542,
+        "travel": 1.09811401367188
+      },
+      "pass": true
+    },
+    {
+      "check": "stair rail stops sideways exit at z=-7.1",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(-12.90145, 1.27044, -7.091264)",
+        "lowest_y": 1.269,
+        "travel": 1.09858071804047
+      },
+      "pass": true
+    },
+    {
+      "check": "platform guardrail stops the player at the terrace edge",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(14.0, 2.000136, -2.580937)",
+        "lowest_y": 2.0,
+        "travel": 1.9190628528595
+      },
+      "pass": true
+    },
+    {
+      "check": "platform corner holds a diagonal approach",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(17.41855, 2.000941, -2.581452)",
+        "lowest_y": 2.001,
+        "travel": 1.1576007604599
+      },
+      "pass": true
+    },
+    {
+      "check": "open edging is crossed without a snag",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(3.0, -0.011197, 1.000001)",
+        "lowest_y": -0.019,
+        "travel": 3.99999904632568
+      },
+      "pass": true
+    },
+    {
+      "check": "passing the sign post: boards stay above the avatar",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(7.7, -0.011308, 9.65)",
+        "lowest_y": -0.019,
+        "travel": 5.19999980926514
+      },
+      "pass": true
+    }
+  ]
+}

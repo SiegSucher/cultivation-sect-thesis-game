@@ -1,0 +1,436 @@
+[gd_scene load_steps=59 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/architecture/dining_hall_kitchen/dining_hall_kitchen.glb" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="Shape_000"]
+size = Vector3(22, 0.54, 12.8)
+
+[sub_resource type="BoxShape3D" id="Shape_001"]
+size = Vector3(22.2, 0.06, 13)
+
+[sub_resource type="BoxShape3D" id="Shape_002"]
+size = Vector3(13.2, 0.54, 6.2)
+
+[sub_resource type="BoxShape3D" id="Shape_003"]
+size = Vector3(13.4, 0.06, 6.4)
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_004"]
+points = PackedVector3Array(-3, 0.6, 6.9, -3, 0, 6.9, -3, 0, 8.1, 3, 0.6, 6.9, 3, 0, 6.9, 3, 0, 8.1)
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_005"]
+points = PackedVector3Array(6.7, 0.6, -9.1, 6.7, 0, -9.1, 7.6, 0, -9.1, 6.7, 0.6, -7.3, 6.7, 0, -7.3, 7.6, 0, -7.3)
+
+[sub_resource type="BoxShape3D" id="Shape_006"]
+size = Vector3(3.25, 4.2, 0.3)
+
+[sub_resource type="BoxShape3D" id="Shape_007"]
+size = Vector3(3.75, 4.2, 0.3)
+
+[sub_resource type="BoxShape3D" id="Shape_008"]
+size = Vector3(3.75, 4.2, 0.3)
+
+[sub_resource type="BoxShape3D" id="Shape_009"]
+size = Vector3(3.25, 4.2, 0.3)
+
+[sub_resource type="BoxShape3D" id="Shape_010"]
+size = Vector3(1.5, 1.6, 0.24)
+
+[sub_resource type="BoxShape3D" id="Shape_011"]
+size = Vector3(3, 0.9, 0.24)
+
+[sub_resource type="BoxShape3D" id="Shape_012"]
+size = Vector3(1.5, 1.6, 0.24)
+
+[sub_resource type="BoxShape3D" id="Shape_013"]
+size = Vector3(9.2, 4.2, 0.3)
+
+[sub_resource type="BoxShape3D" id="Shape_014"]
+size = Vector3(9.2, 4.2, 0.3)
+
+[sub_resource type="BoxShape3D" id="Shape_015"]
+size = Vector3(1.6, 1.6, 0.24)
+
+[sub_resource type="BoxShape3D" id="Shape_016"]
+size = Vector3(0.3, 4.2, 9.2)
+
+[sub_resource type="BoxShape3D" id="Shape_017"]
+size = Vector3(0.3, 4.2, 9.2)
+
+[sub_resource type="BoxShape3D" id="Shape_018"]
+size = Vector3(19.8, 0.06, 9)
+
+[sub_resource type="BoxShape3D" id="Shape_019"]
+size = Vector3(0.4, 4.25, 0.4)
+
+[sub_resource type="BoxShape3D" id="Shape_020"]
+size = Vector3(0.4, 4.25, 0.4)
+
+[sub_resource type="BoxShape3D" id="Shape_021"]
+size = Vector3(0.4, 4.25, 0.4)
+
+[sub_resource type="BoxShape3D" id="Shape_022"]
+size = Vector3(0.4, 4.25, 0.4)
+
+[sub_resource type="BoxShape3D" id="Shape_023"]
+size = Vector3(0.4, 4.25, 0.4)
+
+[sub_resource type="BoxShape3D" id="Shape_024"]
+size = Vector3(0.4, 4.25, 0.4)
+
+[sub_resource type="BoxShape3D" id="Shape_025"]
+size = Vector3(6, 0.8, 0.9)
+
+[sub_resource type="BoxShape3D" id="Shape_026"]
+size = Vector3(5.8, 0.45, 0.32)
+
+[sub_resource type="BoxShape3D" id="Shape_027"]
+size = Vector3(5.8, 0.45, 0.32)
+
+[sub_resource type="BoxShape3D" id="Shape_028"]
+size = Vector3(6, 0.8, 0.9)
+
+[sub_resource type="BoxShape3D" id="Shape_029"]
+size = Vector3(5.8, 0.45, 0.32)
+
+[sub_resource type="BoxShape3D" id="Shape_030"]
+size = Vector3(5.8, 0.45, 0.32)
+
+[sub_resource type="BoxShape3D" id="Shape_031"]
+size = Vector3(6, 0.8, 0.9)
+
+[sub_resource type="BoxShape3D" id="Shape_032"]
+size = Vector3(5.8, 0.45, 0.32)
+
+[sub_resource type="BoxShape3D" id="Shape_033"]
+size = Vector3(5.8, 0.45, 0.32)
+
+[sub_resource type="BoxShape3D" id="Shape_034"]
+size = Vector3(6, 0.8, 0.9)
+
+[sub_resource type="BoxShape3D" id="Shape_035"]
+size = Vector3(5.8, 0.45, 0.32)
+
+[sub_resource type="BoxShape3D" id="Shape_036"]
+size = Vector3(5.8, 0.45, 0.32)
+
+[sub_resource type="BoxShape3D" id="Shape_037"]
+size = Vector3(3, 1, 0.7)
+
+[sub_resource type="BoxShape3D" id="Shape_038"]
+size = Vector3(3, 1, 0.7)
+
+[sub_resource type="BoxShape3D" id="Shape_039"]
+size = Vector3(0.3, 3.4, 6.8)
+
+[sub_resource type="BoxShape3D" id="Shape_040"]
+size = Vector3(0.3, 3.4, 2.7)
+
+[sub_resource type="BoxShape3D" id="Shape_041"]
+size = Vector3(0.3, 3.4, 2.7)
+
+[sub_resource type="BoxShape3D" id="Shape_042"]
+size = Vector3(0.24, 0.9, 1.4)
+
+[sub_resource type="BoxShape3D" id="Shape_043"]
+size = Vector3(11.2, 3.4, 0.3)
+
+[sub_resource type="BoxShape3D" id="Shape_044"]
+size = Vector3(11, 0.06, 6.6)
+
+[sub_resource type="BoxShape3D" id="Shape_045"]
+size = Vector3(1.1, 7.6, 1.1)
+
+[sub_resource type="BoxShape3D" id="Shape_046"]
+size = Vector3(5.8, 0.8, 1.3)
+
+[sub_resource type="CylinderShape3D" id="Shape_047"]
+height = 0.9
+radius = 0.42
+
+[sub_resource type="CylinderShape3D" id="Shape_048"]
+height = 0.9
+radius = 0.42
+
+[sub_resource type="BoxShape3D" id="Shape_049"]
+size = Vector3(2.4, 0.85, 1)
+
+[sub_resource type="BoxShape3D" id="Shape_050"]
+size = Vector3(0.4, 2.2, 1.4)
+
+[sub_resource type="BoxShape3D" id="Shape_051"]
+size = Vector3(1.4, 0.68, 1.3)
+
+[sub_resource type="CylinderShape3D" id="Shape_052"]
+height = 0.8
+radius = 0.8
+
+[sub_resource type="BoxShape3D" id="DoorLeaf_MainEntrance"]
+size = Vector3(0.08, 3.24, 1.48)
+
+[sub_resource type="BoxShape3D" id="DoorLeaf_WestEntrance"]
+size = Vector3(0.08, 2.54, 0.73)
+
+[sub_resource type="BoxShape3D" id="DoorLeaf_EastEntrance"]
+size = Vector3(0.08, 2.54, 0.73)
+
+[sub_resource type="BoxShape3D" id="DoorLeaf_KitchenService"]
+size = Vector3(0.68, 2.44, 0.08)
+
+[node name="DiningHallKitchen" type="Node3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="Collision" type="StaticBody3D" parent="." groups=["solid_world"]]
+collision_mask = 2
+
+[node name="Podium_000" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.27, 0.4)
+shape = SubResource("Shape_000")
+
+[node name="PodiumCap_001" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.57, 0.4)
+shape = SubResource("Shape_001")
+
+[node name="KitchenPodium_002" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.27, -9.1)
+shape = SubResource("Shape_002")
+
+[node name="KitchenPodiumCap_003" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.57, -9.1)
+shape = SubResource("Shape_003")
+
+[node name="StairRamp_004" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_004")
+
+[node name="StairRamp_005" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_005")
+
+[node name="Wall_006" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.375, 2.7, 4.4)
+shape = SubResource("Shape_006")
+
+[node name="Wall_007" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.375, 2.7, 4.4)
+shape = SubResource("Shape_007")
+
+[node name="Wall_008" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.375, 2.7, 4.4)
+shape = SubResource("Shape_008")
+
+[node name="Wall_009" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.375, 2.7, 4.4)
+shape = SubResource("Shape_009")
+
+[node name="WallLintel_010" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6, 4, 4.4)
+shape = SubResource("Shape_010")
+
+[node name="WallLintel_011" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.35, 4.4)
+shape = SubResource("Shape_011")
+
+[node name="WallLintel_012" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6, 4, 4.4)
+shape = SubResource("Shape_012")
+
+[node name="Wall_013" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.4, 2.7, -4.8)
+shape = SubResource("Shape_013")
+
+[node name="Wall_014" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.4, 2.7, -4.8)
+shape = SubResource("Shape_014")
+
+[node name="WallLintel_015" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4, -4.8)
+shape = SubResource("Shape_015")
+
+[node name="Wall_016" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 2.7, -0.2)
+shape = SubResource("Shape_016")
+
+[node name="Wall_017" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 2.7, -0.2)
+shape = SubResource("Shape_017")
+
+[node name="Ceiling_018" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.82, -0.2)
+shape = SubResource("Shape_018")
+
+[node name="Column_019" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -10, 2.725, 5.95)
+shape = SubResource("Shape_019")
+
+[node name="Column_020" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.2, 2.725, 5.95)
+shape = SubResource("Shape_020")
+
+[node name="Column_021" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9, 2.725, 5.95)
+shape = SubResource("Shape_021")
+
+[node name="Column_022" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9, 2.725, 5.95)
+shape = SubResource("Shape_022")
+
+[node name="Column_023" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.2, 2.725, 5.95)
+shape = SubResource("Shape_023")
+
+[node name="Column_024" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10, 2.725, 5.95)
+shape = SubResource("Shape_024")
+
+[node name="LongTable_025" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 1, -1.6)
+shape = SubResource("Shape_025")
+
+[node name="Bench_026" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0.825, -2.38)
+shape = SubResource("Shape_026")
+
+[node name="Bench_027" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0.825, -0.82)
+shape = SubResource("Shape_027")
+
+[node name="LongTable_028" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 1, 2)
+shape = SubResource("Shape_028")
+
+[node name="Bench_029" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0.825, 1.22)
+shape = SubResource("Shape_029")
+
+[node name="Bench_030" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0.825, 2.78)
+shape = SubResource("Shape_030")
+
+[node name="LongTable_031" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 1, -1.6)
+shape = SubResource("Shape_031")
+
+[node name="Bench_032" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0.825, -2.38)
+shape = SubResource("Shape_032")
+
+[node name="Bench_033" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0.825, -0.82)
+shape = SubResource("Shape_033")
+
+[node name="LongTable_034" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 1, 2)
+shape = SubResource("Shape_034")
+
+[node name="Bench_035" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0.825, 1.22)
+shape = SubResource("Shape_035")
+
+[node name="Bench_036" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0.825, 2.78)
+shape = SubResource("Shape_036")
+
+[node name="ServingCounter_037" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6, 1.1, -4.05)
+shape = SubResource("Shape_037")
+
+[node name="ServingCounter_038" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6, 1.1, -4.05)
+shape = SubResource("Shape_038")
+
+[node name="Wall_039" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.6, 2.3, -8.2)
+shape = SubResource("Shape_039")
+
+[node name="Wall_040" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.6, 2.3, -6.15)
+shape = SubResource("Shape_040")
+
+[node name="Wall_041" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.6, 2.3, -10.25)
+shape = SubResource("Shape_041")
+
+[node name="WallLintel_042" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.6, 3.55, -8.2)
+shape = SubResource("Shape_042")
+
+[node name="Wall_043" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.3, -11.6)
+shape = SubResource("Shape_043")
+
+[node name="KitchenCeiling_044" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.02, -8.2)
+shape = SubResource("Shape_044")
+
+[node name="Chimney_045" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.6, 4.4, -10.9)
+shape = SubResource("Shape_045")
+
+[node name="Stove_046" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6, 1.1, -10.85)
+shape = SubResource("Shape_046")
+
+[node name="WaterVat_047" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 1.05, -10.9)
+shape = SubResource("Shape_047")
+
+[node name="WaterVat_048" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.2, 1.05, -10.9)
+shape = SubResource("Shape_048")
+
+[node name="PrepTable_049" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6, 1.025, -7.6)
+shape = SubResource("Shape_049")
+
+[node name="KitchenShelf_050" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.25, 1.7, -8.2)
+shape = SubResource("Shape_050")
+
+[node name="Firewood_051" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.6, 0.34, -11.1)
+shape = SubResource("Shape_051")
+
+[node name="Well_052" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.6, 0.4, -10.4)
+shape = SubResource("Shape_052")
+
+[node name="Plaque" type="Label3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 4.38, 6.2)
+pixel_size = 0.0055
+modulate = Color(0.718, 0.631, 0.427, 1)
+outline_size = 0
+text = "DINING HALL"
+font_size = 64
+
+[node name="DoorLeaf_MainEntrance_Left" type="CollisionShape3D" parent="Collision"]
+position = Vector3(-1.44, 2.25, 3.54)
+shape = SubResource("DoorLeaf_MainEntrance")
+
+[node name="DoorLeaf_MainEntrance_Right" type="CollisionShape3D" parent="Collision"]
+position = Vector3(1.44, 2.25, 3.54)
+shape = SubResource("DoorLeaf_MainEntrance")
+
+[node name="DoorLeaf_WestEntrance_Left" type="CollisionShape3D" parent="Collision"]
+position = Vector3(-6.69, 1.9, 3.915)
+shape = SubResource("DoorLeaf_WestEntrance")
+
+[node name="DoorLeaf_WestEntrance_Right" type="CollisionShape3D" parent="Collision"]
+position = Vector3(-5.31, 1.9, 3.915)
+shape = SubResource("DoorLeaf_WestEntrance")
+
+[node name="DoorLeaf_EastEntrance_Left" type="CollisionShape3D" parent="Collision"]
+position = Vector3(5.31, 1.9, 3.915)
+shape = SubResource("DoorLeaf_EastEntrance")
+
+[node name="DoorLeaf_EastEntrance_Right" type="CollisionShape3D" parent="Collision"]
+position = Vector3(6.69, 1.9, 3.915)
+shape = SubResource("DoorLeaf_EastEntrance")
+
+[node name="DoorLeaf_KitchenService_Left" type="CollisionShape3D" parent="Collision"]
+position = Vector3(5.14, 1.85, -7.56)
+shape = SubResource("DoorLeaf_KitchenService")
+
+[node name="DoorLeaf_KitchenService_Right" type="CollisionShape3D" parent="Collision"]
+position = Vector3(5.14, 1.85, -8.84)
+shape = SubResource("DoorLeaf_KitchenService")

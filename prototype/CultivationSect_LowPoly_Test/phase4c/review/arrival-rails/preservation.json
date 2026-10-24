@@ -1,0 +1,32 @@
+{
+  "pass": true,
+  "preexisting_files_checked": 6241,
+  "modified": [
+    "phase4c/import_kit.gd",
+    "phase4c/README.md",
+    "phase4c/safety_assembly.gd",
+    "phase4c/resources/safety_assembly.tscn",
+    "phase4c/review/REVIEW.md"
+  ],
+  "added": [
+    "phase4c/integrate_arrival_rails.gd",
+    "phase4c/resources/kit/railings/rail_stair_4in11_1m.tscn",
+    "phase4c/resources/kit/railings/rail_stair_4in11_1m_model.scn",
+    "phase4c/resources/kit/railings/rail_stair_4in11_2m.tscn",
+    "phase4c/resources/kit/railings/rail_stair_4in11_2m_model.scn"
+  ],
+  "missing": [],
+  "unexpected_changes": [],
+  "adapters": [
+    {
+      "module": "rail_stair_4in11_1m",
+      "only_model_path_changed": true
+    },
+    {
+      "module": "rail_stair_4in11_2m",
+      "only_model_path_changed": true
+    }
+  ],
+  "existing_support_payload_preserved_verbatim": true,
+  "only_twelve_arrival_sections_appended": true
+}

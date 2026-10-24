@@ -1,0 +1,461 @@
+{
+	"captures": [
+		{
+			"file": "res://reports/codex-claude-integration/gallery-disciple_residence.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/codex-claude-integration/gallery-disciple_residence-interior.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/codex-claude-integration/gallery-elder_residence.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/codex-claude-integration/gallery-elder_residence-interior.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/codex-claude-integration/gallery-dining_hall_kitchen.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/codex-claude-integration/gallery-dining_hall_kitchen-interior.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/codex-claude-integration/gallery-spirit_herb_garden.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/codex-claude-integration/gallery-spirit_herb_garden-interior.png",
+			"pass": true
+		}
+	],
+	"checks": [
+		{
+			"check": "Eight explicit catalog entries, no world scan",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Existing gallery entry loads 0",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Existing gallery entry loads 1",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Existing gallery entry loads 2",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Existing gallery entry loads 3",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "disciple_residence canonical gallery resource",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "disciple_residence source resolves to copied native file",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "disciple_residence static doors correctly have no toggle action",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "disciple_residence Walk action enabled",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Gallery capture gallery-disciple_residence",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "disciple_residence gallery interior camera clears solids",
+			"detail": "(2.2, 2.15, 1.3)",
+			"pass": true
+		},
+		{
+			"check": "Gallery capture gallery-disciple_residence-interior",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "disciple_residence Walk opens correct wrapper",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "disciple_residence 1 starts walk with existing player",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "disciple_residence W moves inspection player",
+			"detail": {
+				"after": "(2.2, -0.011157, 7.499999)",
+				"before": "(2.2, -0.011849, 8.5)"
+			},
+			"pass": true
+		},
+		{
+			"check": "disciple_residence Tab selects third person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "disciple_residence Tab returns to first person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "disciple_residence mouse look",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "disciple_residence 1 pauses walk for review",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Review switch 0 from disciple_residence",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Review switch 1 from disciple_residence",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Review switch 2 from disciple_residence",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Review switch 3 from disciple_residence",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "disciple_residence Esc returns to eight-asset gallery",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "elder_residence canonical gallery resource",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "elder_residence source resolves to copied native file",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "elder_residence static doors correctly have no toggle action",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "elder_residence Walk action enabled",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Gallery capture gallery-elder_residence",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "elder_residence gallery interior camera clears solids",
+			"detail": "(0.0, 2.65, -2.9)",
+			"pass": true
+		},
+		{
+			"check": "Gallery capture gallery-elder_residence-interior",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "elder_residence Walk opens correct wrapper",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "elder_residence 1 starts walk with existing player",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "elder_residence W moves inspection player",
+			"detail": {
+				"after": "(0.0, -0.011157, 13.0)",
+				"before": "(0.0, -0.011849, 14.0)"
+			},
+			"pass": true
+		},
+		{
+			"check": "elder_residence Tab selects third person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "elder_residence Tab returns to first person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "elder_residence mouse look",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "elder_residence 1 pauses walk for review",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Review switch 0 from elder_residence",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Review switch 1 from elder_residence",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Review switch 2 from elder_residence",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Review switch 3 from elder_residence",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "elder_residence Esc returns to eight-asset gallery",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "dining_hall_kitchen canonical gallery resource",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "dining_hall_kitchen source resolves to copied native file",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "dining_hall_kitchen static doors correctly have no toggle action",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "dining_hall_kitchen Walk action enabled",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Gallery capture gallery-dining_hall_kitchen",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "dining_hall_kitchen gallery interior camera clears solids",
+			"detail": "(0.0, 2.25, 3.8)",
+			"pass": true
+		},
+		{
+			"check": "Gallery capture gallery-dining_hall_kitchen-interior",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "dining_hall_kitchen Walk opens correct wrapper",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "dining_hall_kitchen 1 starts walk with existing player",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "dining_hall_kitchen W moves inspection player",
+			"detail": {
+				"after": "(0.0, -0.011157, 9.999993)",
+				"before": "(0.0, -0.011849, 11.0)"
+			},
+			"pass": true
+		},
+		{
+			"check": "dining_hall_kitchen Tab selects third person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "dining_hall_kitchen Tab returns to first person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "dining_hall_kitchen mouse look",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "dining_hall_kitchen 1 pauses walk for review",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Review switch 0 from dining_hall_kitchen",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Review switch 1 from dining_hall_kitchen",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Review switch 2 from dining_hall_kitchen",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Review switch 3 from dining_hall_kitchen",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "dining_hall_kitchen Esc returns to eight-asset gallery",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "spirit_herb_garden canonical gallery resource",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "spirit_herb_garden source resolves to copied native file",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "spirit_herb_garden static doors correctly have no toggle action",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "spirit_herb_garden Walk action enabled",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Gallery capture gallery-spirit_herb_garden",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "spirit_herb_garden gallery interior camera clears solids",
+			"detail": "(0.0, 2.15, -6.2)",
+			"pass": true
+		},
+		{
+			"check": "Gallery capture gallery-spirit_herb_garden-interior",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "spirit_herb_garden Walk opens correct wrapper",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "spirit_herb_garden 1 starts walk with existing player",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "spirit_herb_garden W moves inspection player",
+			"detail": {
+				"after": "(0.0, -0.011157, 14.0)",
+				"before": "(0.0, -0.011849, 15.0)"
+			},
+			"pass": true
+		},
+		{
+			"check": "spirit_herb_garden Tab selects third person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "spirit_herb_garden Tab returns to first person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "spirit_herb_garden mouse look",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "spirit_herb_garden 1 pauses walk for review",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Review switch 0 from spirit_herb_garden",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Review switch 1 from spirit_herb_garden",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Review switch 2 from spirit_herb_garden",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Review switch 3 from spirit_herb_garden",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "spirit_herb_garden Esc returns to eight-asset gallery",
+			"detail": null,
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"limits": [
+		"Programmatic real input events, not human keyboard/mouse rehearsal",
+		"Native-source path and file tested; OS Open source button launch not executed"
+	],
+	"passed": 81
+}

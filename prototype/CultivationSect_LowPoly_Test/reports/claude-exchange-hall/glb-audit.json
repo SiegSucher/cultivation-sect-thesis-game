@@ -1,0 +1,30 @@
+[
+  {
+    "model": "staging/claude_exchange_hall/exchange_hall/exchange_hall.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 31346,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Bronze",
+      "Cedar",
+      "Coping",
+      "Fabric",
+      "Floor",
+      "Jade",
+      "Lantern",
+      "Plaster",
+      "SpiritHerb",
+      "Stone",
+      "TileLight",
+      "Timber",
+      "Window"
+    ],
+    "pass": true
+  }
+]

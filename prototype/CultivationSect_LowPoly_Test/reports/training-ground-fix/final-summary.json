@@ -1,0 +1,89 @@
+{
+  "collision_fixed": true,
+  "triangles_before": 4560,
+  "triangles_after": 4476,
+  "degenerates_before": 84,
+  "degenerates_after": 0,
+  "historical_render_regression_reproduced": false,
+  "historical_cause_confirmed": false,
+  "FPS_gain_from_collision_cleanup_established": false,
+  "persistent_rendering_changes": false,
+  "tests": {
+    "roof physics": {
+      "passed": 5,
+      "failed": 0,
+      "evidence": "roof-physics.json"
+    },
+    "functional headless": {
+      "passed": 66,
+      "failed": 0,
+      "evidence": "functional/headless-results.json"
+    },
+    "functional rendered": {
+      "passed": 87,
+      "failed": 0,
+      "evidence": "functional/rendered-results.json"
+    },
+    "all-twelve gallery": {
+      "passed": 466,
+      "failed": 0,
+      "evidence": "gallery/launch-results.json"
+    }
+  },
+  "human_playtested": false,
+  "production_player_verified": false,
+  "preservation": {
+    "preexisting_test_files_checked": 5337,
+    "existing_files_changed": [
+      "HANDOFF.md",
+      "assets/architecture/martial_training_ground/martial_training_ground.json"
+    ],
+    "missing_files": [],
+    "original_files_match_task_start": 1599,
+    "original_files_match_recorded_baseline": 1599,
+    "original_changed_or_missing": [],
+    "staging_files_preserved": 62,
+    "staging_added_removed_changed": false,
+    "all_other_json_fields_identical": true,
+    "all_valid_roof_triangles_identical": true,
+    "read_only_external_author_references_match": {
+      "build_training_ground.py": true,
+      "training_design.py": true
+    },
+    "protected_hashes": {
+      "source/martial_training_ground_low_poly.blend": "0187388e4e77eea0e4bdd4f0784444bae6e7524ef3e534634e69fe4aff263099",
+      "assets/architecture/martial_training_ground/martial_training_ground.glb": "4eeb0474475d057d1754ade459f595ec4ac5e8e524a1e5ed39a8d300fdd6ad82",
+      "scenes/buildings/martial_training_ground.tscn": "8997ee5634beb8fd2dfcb86cbc1622c02a30973a7ccb1c825b33e28a7628eb48",
+      "scripts/martial_training_ground.gd": "04e86d0ea82d53bb010711fa7c8c7d55c65f500001c7a5a8f61bf22581307000",
+      "scripts/training_inspection_player.gd": "35ece8a71aef39bd7ec9f869430f1fe5bed3482f813ea66e8bc055cd37a2adbf",
+      "scripts/hall_experiment.gd": "ae9695d581135c34f7908e865ea80dcd0b3d9904500b972a642442350ab6cb58",
+      "assets/gallery/catalog.json": "ca0fae84be0036412b5030afae770a350b2d8aa657c4811770a63301fc6a13cb"
+    },
+    "tests": {
+      "roof physics": {
+        "passed": 5,
+        "failed": 0,
+        "evidence": "roof-physics.json"
+      },
+      "functional headless": {
+        "passed": 66,
+        "failed": 0,
+        "evidence": "functional/headless-results.json"
+      },
+      "functional rendered": {
+        "passed": 87,
+        "failed": 0,
+        "evidence": "functional/rendered-results.json"
+      },
+      "all-twelve gallery": {
+        "passed": 466,
+        "failed": 0,
+        "evidence": "gallery/launch-results.json"
+      }
+    },
+    "benchmark_processes": 20,
+    "paired_blocks": 24,
+    "frame_intervals": 28800,
+    "screenshots": 178
+  }
+}

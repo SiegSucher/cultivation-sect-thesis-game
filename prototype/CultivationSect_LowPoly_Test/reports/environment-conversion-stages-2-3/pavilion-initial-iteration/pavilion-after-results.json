@@ -1,0 +1,188 @@
+{
+	"adapter": "NVIDIA GeForce RTX 3050 Laptop GPU",
+	"camera_poses": [
+		{
+			"fov": 50.0,
+			"position": "(27.0, 22.0, 32.0)",
+			"target": "(0.0, 8.0, 0.0)",
+			"view": "overview"
+		},
+		{
+			"fov": 80.0,
+			"position": "(0.0, 2.74, 5.4)",
+			"target": "(0.0, 2.7, -4.0)",
+			"view": "ground-library"
+		},
+		{
+			"fov": 80.0,
+			"position": "(4.0, 7.0, 4.8)",
+			"target": "(-6.6, 7.0, -4.0)",
+			"view": "ordinary-gallery"
+		},
+		{
+			"fov": 84.0,
+			"position": "(0.0, 11.55, 4.7)",
+			"target": "(0.0, 11.5, -3.8)",
+			"view": "archive"
+		},
+		{
+			"fov": 75.0,
+			"position": "(6.3, 2.8, 3.8)",
+			"target": "(6.3, 5.0, -1.5)",
+			"view": "stairs"
+		},
+		{
+			"fov": 75.0,
+			"pitch": -0.08,
+			"player": "(0.0, 1.086458, 5.4)",
+			"view": "first-person",
+			"yaw": 0.0
+		},
+		{
+			"fov": 75.0,
+			"pitch": -0.08,
+			"player": "(0.0, 1.086458, 5.4)",
+			"view": "third-person",
+			"yaw": 0.0
+		}
+	],
+	"captures": [
+		{
+			"file": "res://reports/environment-conversion-stages-2-3/pavilion-after-overview.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/environment-conversion-stages-2-3/pavilion-after-ground-library.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/environment-conversion-stages-2-3/pavilion-after-ordinary-gallery.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/environment-conversion-stages-2-3/pavilion-after-archive.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/environment-conversion-stages-2-3/pavilion-after-stairs.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/environment-conversion-stages-2-3/pavilion-after-first-person.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/environment-conversion-stages-2-3/pavilion-after-third-person.png",
+			"pass": true
+		}
+	],
+	"conditions": "Existing per-facility walkthrough rig: ambient .55, shadowed sun 180m Training / 100m Pavilion; Pavilion retains six unshadowed lights. 45-frame warmups, 240 measured frames, uncapped. No fixed-fps used for benchmark.",
+	"facility": "pavilion",
+	"failed": 0,
+	"godot": "4.7.2-stable (official)",
+	"limits": "Short local rendered observations. No human, populated town, representative low-end hardware or sustained thermal test.",
+	"msaa": 2,
+	"project_root": "C:/Users/pasto/OneDrive/Documents/ChatGPT/Character Sprite Image for Thesis game/prototype/CultivationSect_LowPoly_Test/",
+	"renderer": "gl_compatibility",
+	"resolution": [
+		1280,
+		720
+	],
+	"round": 1,
+	"samples": [
+		{
+			"fps": 133.449285935112,
+			"frames": 240,
+			"max_ms": 9.915,
+			"mean_draw_calls": 137.0,
+			"mean_ms": 7.49348333333334,
+			"mean_objects": 352.0,
+			"mean_primitives": 387828.0,
+			"p50_ms": 7.48,
+			"p95_ms": 9.206,
+			"video_memory_bytes": 58702443.0,
+			"view": "overview"
+		},
+		{
+			"fps": 90.3924841662498,
+			"frames": 240,
+			"max_ms": 13.285,
+			"mean_draw_calls": 196.0,
+			"mean_ms": 11.0628666666667,
+			"mean_objects": 411.0,
+			"mean_primitives": 641252.0,
+			"p50_ms": 11.183,
+			"p95_ms": 12.162,
+			"video_memory_bytes": 58702443.0,
+			"view": "ground-library"
+		},
+		{
+			"fps": 96.0449106001966,
+			"frames": 240,
+			"max_ms": 11.609,
+			"mean_draw_calls": 138.0,
+			"mean_ms": 10.4117958333333,
+			"mean_objects": 353.0,
+			"mean_primitives": 502562.0,
+			"p50_ms": 10.408,
+			"p95_ms": 11.205,
+			"video_memory_bytes": 58702443.0,
+			"view": "ordinary-gallery"
+		},
+		{
+			"fps": 97.7616253847836,
+			"frames": 240,
+			"max_ms": 12.666,
+			"mean_draw_calls": 180.0,
+			"mean_ms": 10.2289625,
+			"mean_objects": 395.0,
+			"mean_primitives": 624554.0,
+			"p50_ms": 10.237,
+			"p95_ms": 11.362,
+			"video_memory_bytes": 58702443.0,
+			"view": "archive"
+		},
+		{
+			"fps": 137.733379167941,
+			"frames": 240,
+			"max_ms": 11.68,
+			"mean_draw_calls": 126.483333333333,
+			"mean_ms": 7.26040416666667,
+			"mean_objects": 341.483333333333,
+			"mean_primitives": 449105.766666667,
+			"p50_ms": 7.36,
+			"p95_ms": 8.617,
+			"video_memory_bytes": 58702443.0,
+			"view": "360 sweep"
+		},
+		{
+			"fps": 85.9866792302759,
+			"frames": 240,
+			"max_ms": 14.329,
+			"mean_draw_calls": 199.0,
+			"mean_ms": 11.6297083333333,
+			"mean_objects": 414.0,
+			"mean_primitives": 647700.0,
+			"p50_ms": 11.698,
+			"p95_ms": 12.552,
+			"video_memory_bytes": 58702443.0,
+			"view": "first-person"
+		},
+		{
+			"fps": 209.720547370629,
+			"frames": 240,
+			"max_ms": 18.113,
+			"mean_draw_calls": 218.0,
+			"mean_ms": 4.76825,
+			"mean_objects": 433.0,
+			"mean_primitives": 680240.0,
+			"p50_ms": 4.608,
+			"p95_ms": 5.734,
+			"video_memory_bytes": 58702443.0,
+			"view": "third-person"
+		}
+	],
+	"utc": "2026-10-22T11:57:26",
+	"variant": "after",
+	"vsync": false
+}

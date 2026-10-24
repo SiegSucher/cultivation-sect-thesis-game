@@ -1,0 +1,15 @@
+{
+  "medicine_hall": {
+    "original_shapes": 53,
+    "final_shapes": 54,
+    "original_model_changed": false,
+    "counter_correction": "Four existing counter boxes enlarged/recentred to the actual timber top",
+    "camera_correction": "One concave shape copies actual stair/herb detail triangles; separate camera-only body",
+    "integration_contract": "Register a character collision exception against camera_only_obstruction bodies; supplied review does so. Production controller integration NOT tested."
+  },
+  "alchemy_pavilion": {
+    "original_shapes": 43,
+    "final_shapes": 43,
+    "correction": null
+  }
+}

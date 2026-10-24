@@ -1,0 +1,58 @@
+[
+	{
+		"captured": true,
+		"catalog": {
+			"group": "Buildings",
+			"id": "main_sect_hall",
+			"model": "res://assets/architecture/tang_main_hall/main_sect_hall.glb",
+			"name": "Split-Cloud Main Sect Hall",
+			"resource": "res://scenes/buildings/tang_main_hall.tscn",
+			"source": "res://source/split_cloud_hall.blend",
+			"status": "Visual direction approved - verification only; further conversions on hold"
+		},
+		"file": "res://reports/environment-conversion-stage-1/approved-hall.png",
+		"name": "approved-hall"
+	},
+	{
+		"captured": true,
+		"catalog": {
+			"group": "Buildings",
+			"id": "sect_gate",
+			"model": "res://assets/architecture/sect_gate/sect_gate.glb",
+			"name": "Sect Gate and Gatehouse",
+			"resource": "res://scenes/buildings/sect_gate.tscn",
+			"source": "res://source/sect_gate_low_poly.blend",
+			"status": "Stage 1 low-poly gate - visual review pending"
+		},
+		"file": "res://reports/environment-conversion-stage-1/converted-gate.png",
+		"name": "converted-gate"
+	},
+	{
+		"captured": true,
+		"catalog": {
+			"group": "Buildings",
+			"id": "martial_training_ground",
+			"model": "res://assets/architecture/martial_training_ground/martial_training_ground.glb",
+			"name": "Large Martial Training Ground",
+			"resource": "res://scenes/buildings/martial_training_ground.tscn",
+			"source": "",
+			"status": "Not yet converted - original textured Training Ground"
+		},
+		"file": "res://reports/environment-conversion-stage-1/unconverted-training.png",
+		"name": "unconverted-training"
+	},
+	{
+		"captured": true,
+		"catalog": {
+			"group": "Buildings",
+			"id": "scripture_pavilion",
+			"model": "res://assets/architecture/scripture_pavilion/scripture_pavilion.glb",
+			"name": "Scripture Pavilion",
+			"resource": "res://scenes/buildings/scripture_pavilion.tscn",
+			"source": "",
+			"status": "Not yet converted - original textured Scripture Pavilion"
+		},
+		"file": "res://reports/environment-conversion-stage-1/unconverted-pavilion.png",
+		"name": "unconverted-pavilion"
+	}
+]

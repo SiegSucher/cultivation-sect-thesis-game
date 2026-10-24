@@ -1,0 +1,37 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+[godot_ai game_helper] registered mcp capture (debugger active=false, logger=true)
+PASS Current Phase 4C launches 
+PASS Arrival chain side -1.0 { "lengths": [2, 2, 2, 2, 2, 1], "max_origin_error_m": 0.0, "unit_scale_upright": true }
+PASS Reuse one existing upper landing leading post side -1.0 { "landing_post_count": 1, "end_origin": (-6.35, 4.06, 94.0) }
+PASS Existing stone strips support flight and landing side -1.0 [0.00039817224849, 0.00029194918546, 0.00018236333674, 0.00001869981939, 0.00000288183039, 0.00000003814697, 0.00000003814697, 0.00000003814697]
+PASS Arrival chain side 1.0 { "lengths": [2, 2, 2, 2, 2, 1], "max_origin_error_m": 0.0, "unit_scale_upright": true }
+PASS Reuse one existing upper landing leading post side 1.0 { "landing_post_count": 1, "end_origin": (6.35, 4.06, 94.0) }
+PASS Existing stone strips support flight and landing side 1.0 [0.00039817224849, 0.00029194918546, 0.00018236333674, 0.00001869981939, 0.00000288183039, 0.00000003814697, 0.00000003814697, 0.00000003814697]
+PASS Visible plinth and top-rail faces join side -1.0 { "rays": 66, "misses": 0 }
+PASS Top rail stays 1.16 m above walking pitch side -1.0 0.00003665230491
+PASS Visible plinth and top-rail faces join side 1.0 { "rays": 66, "misses": 0 }
+PASS Top rail stays 1.16 m above walking pitch side 1.0 0.00003665230491
+PASS Arrival TPP up edge x 0.00 via existing approaches { "end": (0.0, 4.000824, 93.3251), "on_floor": true }
+PASS Arrival TPP down edge x 0.00 via existing approaches { "end": (0.0, 0.000058, 105.6371), "on_floor": true }
+PASS Arrival TPP up edge x -5.93 via existing approaches { "end": (-0.006974, 4.000834, 93.35678), "on_floor": true }
+PASS Arrival TPP down edge x -5.93 via existing approaches { "end": (-0.005662, 0.000829, 105.6725), "on_floor": true }
+PASS Arrival TPP up edge x 5.93 via existing approaches { "end": (0.006994, 4.000824, 93.35919), "on_floor": true }
+PASS Arrival TPP down edge x 5.93 via existing approaches { "end": (0.00557, 0.000062, 105.6737), "on_floor": true }
+PASS Arrival FPP up edge x 0.00 via existing approaches { "end": (0.0, 4.000824, 93.3251), "on_floor": true }
+PASS Arrival FPP down edge x 0.00 via existing approaches { "end": (0.0, 0.000058, 105.6371), "on_floor": true }
+PASS Arrival FPP up edge x -5.93 via existing approaches { "end": (-0.006974, 4.000834, 93.35678), "on_floor": true }
+PASS Arrival FPP down edge x -5.93 via existing approaches { "end": (-0.005662, 0.000829, 105.6725), "on_floor": true }
+PASS Arrival FPP up edge x 5.93 via existing approaches { "end": (0.006994, 4.000824, 93.35919), "on_floor": true }
+PASS Arrival FPP down edge x 5.93 via existing approaches { "end": (0.00557, 0.000062, 105.6737), "on_floor": true }
+PASS Sideways blocked side -1.0 run 3.0 { "end": (-5.944986, 1.142637, 102.0132), "movement_collider": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_stair_4in11_2m_002/Collision", "waist_ray_hits_rail": true }
+PASS Sideways blocked side -1.0 run 6.0 { "end": (-5.948551, 2.234881, 99.01191), "movement_collider": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_stair_4in11_2m_004/Collision", "waist_ray_hits_rail": true }
+PASS Sideways blocked side -1.0 run 10.5 { "end": (-5.949064, 3.872057, 94.51132), "movement_collider": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_stair_4in11_1m_001/Collision", "waist_ray_hits_rail": true }
+PASS Sideways blocked side -1.0 run 12.0 { "end": (-5.944943, 4.039635, 93.0), "movement_collider": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_section_2m_001/Collision", "waist_ray_hits_rail": true }
+PASS Sideways blocked side 1.0 run 3.0 { "end": (5.947721, 1.143072, 102.0104), "movement_collider": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_stair_4in11_2m_007/Collision", "waist_ray_hits_rail": true }
+PASS Sideways blocked side 1.0 run 6.0 { "end": (5.944196, 2.23485, 99.01273), "movement_collider": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_stair_4in11_2m_009/Collision", "waist_ray_hits_rail": true }
+PASS Sideways blocked side 1.0 run 10.5 { "end": (5.944721, 3.87049, 94.51054), "movement_collider": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_stair_4in11_1m_002/Collision", "waist_ray_hits_rail": true }
+PASS Sideways blocked side 1.0 run 12.0 { "end": (5.944943, 4.039609, 93.0), "movement_collider": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_section_2m_002/Collision", "waist_ray_hits_rail": true }
+ARRIVAL RAILS 31 PASS / 0 FAIL

@@ -1,0 +1,192 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+[   0% ] first_scan_filesystem | Started Project initialization (5 steps)
+[   0% ] first_scan_filesystem | Scanning file structure...
+[  16% ] first_scan_filesystem | Loading global class names...
+[  33% ] first_scan_filesystem | Verifying GDExtensions...
+[  50% ] first_scan_filesystem | Creating autoload scripts...
+[  66% ] first_scan_filesystem | Initializing plugins...
+[  83% ] first_scan_filesystem | Starting file scan...
+[ DONE ] first_scan_filesystem
+
+WARNING: UID duplicate detected between res://baseline/hall/grand_door_leaf.glb and res://assets/architecture/tang_main_hall/grand_door_leaf.glb.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/grand_door_leaf_CarvedTimber_albedo.png and res://assets/architecture/tang_main_hall/grand_door_leaf_CarvedTimber_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/grand_door_leaf_DarkTimber_albedo.png and res://assets/architecture/tang_main_hall/grand_door_leaf_DarkTimber_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/grand_door_leaf_Hall_CarvedWood_Albedo.png and res://assets/architecture/tang_main_hall/grand_door_leaf_Hall_CarvedWood_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/grand_door_leaf_Hall_CarvedWood_Roughness.png and res://assets/architecture/tang_main_hall/grand_door_leaf_Hall_CarvedWood_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/grand_door_leaf_Hall_Timber_Albedo.png and res://assets/architecture/tang_main_hall/grand_door_leaf_Hall_Timber_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/grand_door_leaf_Hall_Timber_Roughness.png and res://assets/architecture/tang_main_hall/grand_door_leaf_Hall_Timber_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/grand_door_leaf_Hall_Wood_Normal.png and res://assets/architecture/tang_main_hall/grand_door_leaf_Hall_Wood_Normal.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/grand_door_leaf_shared_roughness.png and res://assets/architecture/tang_main_hall/grand_door_leaf_shared_roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/grand_door_leaf_WarmTimber_albedo.png and res://assets/architecture/tang_main_hall/grand_door_leaf_WarmTimber_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall.glb and res://assets/architecture/tang_main_hall/main_sect_hall.glb.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_AisleStone_albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_AisleStone_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_CarvedTimber_albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_CarvedTimber_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_DarkTimber_albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_DarkTimber_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_FoundationStone_albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_FoundationStone_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_ArchStone_Albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_ArchStone_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_ArchStone_Roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_ArchStone_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_Ashlar_Albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_Ashlar_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_Ashlar_Roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_Ashlar_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_CarvedWood_Albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_CarvedWood_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_CarvedWood_Roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_CarvedWood_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_Coping_Albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_Coping_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_Coping_Roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_Coping_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_Fabric_Albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_Fabric_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_Fabric_Roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_Fabric_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_FloorTimber_Albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_FloorTimber_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_FloorTimber_Roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_FloorTimber_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_JadeTile_Albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_JadeTile_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_JadeTile_Roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_JadeTile_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_Paving_Albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_Paving_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_Paving_Normal.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_Paving_Normal.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_Paving_Roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_Paving_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_Plaster_Albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_Plaster_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_Plaster_Roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_Plaster_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_Stone_Normal.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_Stone_Normal.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_Tile_Normal.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_Tile_Normal.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_Timber_Albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_Timber_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_Timber_Roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_Timber_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_Hall_Wood_Normal.png and res://assets/architecture/tang_main_hall/main_sect_hall_Hall_Wood_Normal.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_JadeTile_albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_JadeTile_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod.glb and res://assets/architecture/tang_main_hall/main_sect_hall_lod.glb.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_CarvedTimber_albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_CarvedTimber_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_DarkTimber_albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_DarkTimber_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_FoundationStone_albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_FoundationStone_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_ArchStone_Albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_ArchStone_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_ArchStone_Roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_ArchStone_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_Ashlar_Albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_Ashlar_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_Ashlar_Roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_Ashlar_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_CarvedWood_Albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_CarvedWood_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_CarvedWood_Roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_CarvedWood_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_Coping_Albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_Coping_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_Coping_Roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_Coping_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_Fabric_Albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_Fabric_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_Fabric_Roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_Fabric_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_JadeTile_Albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_JadeTile_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_JadeTile_Roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_JadeTile_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_Paving_Albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_Paving_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_Paving_Normal.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_Paving_Normal.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_Paving_Roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_Paving_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_Plaster_Albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_Plaster_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_Plaster_Roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_Plaster_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_Stone_Normal.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_Stone_Normal.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_Tile_Normal.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_Tile_Normal.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_Timber_Albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_Timber_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_Timber_Roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_Timber_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_Hall_Wood_Normal.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_Hall_Wood_Normal.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_JadeTile_albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_JadeTile_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_PalePlaster_albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_PalePlaster_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_RoofSoffit_albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_RoofSoffit_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_shared_roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_shared_roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_StoneCoping_albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_StoneCoping_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_lod_WarmTimber_albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_lod_WarmTimber_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_PalePlaster_albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_PalePlaster_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_RoofSoffit_albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_RoofSoffit_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_SeatFabric_albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_SeatFabric_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_shared_roughness.png and res://assets/architecture/tang_main_hall/main_sect_hall_shared_roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_StoneCoping_albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_StoneCoping_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/main_sect_hall_WarmTimber_albedo.png and res://assets/architecture/tang_main_hall/main_sect_hall_WarmTimber_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/room_door_leaf.glb and res://assets/architecture/tang_main_hall/room_door_leaf.glb.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/room_door_leaf_CarvedTimber_albedo.png and res://assets/architecture/tang_main_hall/room_door_leaf_CarvedTimber_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/room_door_leaf_DarkTimber_albedo.png and res://assets/architecture/tang_main_hall/room_door_leaf_DarkTimber_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/room_door_leaf_Hall_CarvedWood_Albedo.png and res://assets/architecture/tang_main_hall/room_door_leaf_Hall_CarvedWood_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/room_door_leaf_Hall_CarvedWood_Roughness.png and res://assets/architecture/tang_main_hall/room_door_leaf_Hall_CarvedWood_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/room_door_leaf_Hall_Timber_Albedo.png and res://assets/architecture/tang_main_hall/room_door_leaf_Hall_Timber_Albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/room_door_leaf_Hall_Timber_Roughness.png and res://assets/architecture/tang_main_hall/room_door_leaf_Hall_Timber_Roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/room_door_leaf_Hall_Wood_Normal.png and res://assets/architecture/tang_main_hall/room_door_leaf_Hall_Wood_Normal.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/room_door_leaf_shared_roughness.png and res://assets/architecture/tang_main_hall/room_door_leaf_shared_roughness.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+WARNING: UID duplicate detected between res://baseline/hall/room_door_leaf_WarmTimber_albedo.png and res://assets/architecture/tang_main_hall/room_door_leaf_WarmTimber_albedo.png.
+   at: _process_file_system (editor/file_system/editor_file_system.cpp:1405)
+[   0% ] loading_editor_layout | Started Loading editor (5 steps)
+[   0% ] loading_editor_layout | Loading editor layout...
+[  16% ] loading_editor_layout | Loading docks...
+[ DONE ] loading_editor_layout
+

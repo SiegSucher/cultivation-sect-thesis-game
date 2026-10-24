@@ -1,0 +1,1468 @@
+{
+	"camera_failures": [],
+	"camera_samples": 698,
+	"captures": [],
+	"checks": [
+		{
+			"check": "Dedicated third floor above ordinary collection",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Exactly identified ground stair shelf removed",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Preserved metre convention and independent origin",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Runtime default authorization denied",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Moving gate follows the near-model visibility range",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Gate cannot be opened remotely from another floor",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Visible mesh headroom throughout both stair widths",
+			"detail": {
+				"obstructed": [],
+				"samples": 486
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person climbs entrance",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(0.0, 1.050838, 8.477807)",
+				"frames": 91,
+				"target": "(0.0, 1.05, 8.4)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person enters ordinary library",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(0.0, 1.086834, 5.497183)",
+				"frames": 45,
+				"target": "(0.0, 1.086, 5.4)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person traverses ordinary ground aisle",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(0.0, 1.086838, -3.302814)",
+				"frames": 132,
+				"target": "(0.0, 1.086, -3.4)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person returns to front cross aisle",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(0.0, 1.086834, 5.36385)",
+				"frames": 130,
+				"target": "(0.0, 1.086, 5.45)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person reaches cleared east stair approach",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(7.89995, 1.086792, 6.090794)",
+				"frames": 119,
+				"target": "(8.0, 1.086, 6.1)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person follows formerly blocked approach",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(7.093286, 1.180977, 4.108591)",
+				"frames": 33,
+				"target": "(7.05, 1.086, 4.0)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person aligns on original stair",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(6.374527, 1.237236, 4.012845)",
+				"frames": 11,
+				"target": "(6.3, 1.2, 4.0)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person climbs original stair naturally",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(6.301167, 5.350824, -3.770638)",
+				"frames": 161,
+				"target": "(6.3, 5.35, -3.9)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person leaves original landing",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(4.106017, 5.349733, -4.561789)",
+				"frames": 35,
+				"target": "(4.0, 5.35, -4.6)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person crosses released ordinary rear reading aisle",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-6.493896, 5.350829, -4.599621)",
+				"frames": 159,
+				"target": "(-6.6, 5.35, -4.6)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person returns across ordinary rear aisle",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(3.906046, 5.350801, -4.599998)",
+				"frames": 156,
+				"target": "(4.0, 5.35, -4.6)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person traverses ordinary east gallery",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(3.99869, 5.350833, 4.866217)",
+				"frames": 142,
+				"target": "(4.0, 5.35, 5.0)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person crosses ordinary front gallery",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-6.467201, 5.350829, 4.998323)",
+				"frames": 157,
+				"target": "(-6.6, 5.35, 5.0)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person browses unchanged west scripture shelves",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-6.598127, 5.350833, -4.267421)",
+				"frames": 139,
+				"target": "(-6.6, 5.35, -4.4)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person returns along west browsing aisle",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-6.599972, 5.350829, 4.865914)",
+				"frames": 137,
+				"target": "(-6.6, 5.35, 5.0)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person approaches archive staircase",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-4.737479, 5.350829, 4.990783)",
+				"frames": 28,
+				"target": "(-4.6, 5.35, 5.0)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person enters archive stair",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-4.62329, 5.350829, 4.33397)",
+				"frames": 10,
+				"target": "(-4.6, 5.35, 4.2)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person climbs to dedicated archive landing",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-4.600219, 9.900816, -3.966774)",
+				"frames": 174,
+				"target": "(-4.6, 9.9, -4.05)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person no configured provider denies entry",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "First-person unauthorized request denied with feedback",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "First-person cannot walk through closed secured gate",
+			"detail": "(-4.600219, 9.900149, -4.507703)",
+			"pass": true
+		},
+		{
+			"check": "First-person permission boundary handles an already-open gate",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "First-person revoked authorization cannot follow through open leaves",
+			"detail": "(-4.600137, 9.90005, -4.529063)",
+			"pass": true
+		},
+		{
+			"check": "First-person authorized request opens fitted leaves",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "First-person gate collision stays enabled during opening",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "First-person enters authorized archive",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-4.600013, 9.900816, -5.595731)",
+				"frames": 16,
+				"target": "(-4.6, 9.9, -5.7)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person traverses archive rear corridor",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(3.399338, 9.900833, -5.698704)",
+				"frames": 120,
+				"target": "(3.5, 9.9, -5.7)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person reaches rare collection cross aisle",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(3.495514, 9.900838, -2.833656)",
+				"frames": 43,
+				"target": "(3.5, 9.9, -2.7)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person enters central archive aisle",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(0.098001, 9.900599, -2.703747)",
+				"frames": 51,
+				"target": "(0.0, 9.9, -2.7)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person explores dedicated archive interior",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(0.001823, 9.900838, 4.562282)",
+				"frames": 109,
+				"target": "(0.0, 9.9, 4.7)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person returns through archive central aisle",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(0.000032, 9.899542, -2.571052)",
+				"frames": 107,
+				"target": "(0.0, 9.9, -2.7)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person returns around rare shelves",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(3.397723, 9.900838, -2.696232)",
+				"frames": 51,
+				"target": "(3.5, 9.9, -2.7)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person returns to archive rear corridor",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(3.495276, 9.900833, -5.561244)",
+				"frames": 43,
+				"target": "(3.5, 9.9, -5.7)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person returns to secured doorway",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-4.503528, 9.900811, -5.698346)",
+				"frames": 120,
+				"target": "(-4.6, 9.9, -5.7)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person occupied doorway delays safe closing",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "First-person egress remains possible after permission revocation",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "First-person exits archive to controlled landing",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-4.593115, 9.900825, -4.167634)",
+				"frames": 23,
+				"target": "(-4.6, 9.9, -4.05)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person descends archive stair",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-4.599932, 5.350825, 4.513536)",
+				"frames": 130,
+				"target": "(-4.6, 5.35, 4.6)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person returns to ordinary front gallery",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(3.919801, 5.350833, 4.995463)",
+				"frames": 128,
+				"target": "(4.0, 5.35, 5.0)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person returns to east stair landing",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(3.998921, 5.350821, -4.470872)",
+				"frames": 142,
+				"target": "(4.0, 5.35, -4.6)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person aligns for original stair descent",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(6.198816, 5.350829, -3.925101)",
+				"frames": 34,
+				"target": "(6.3, 5.35, -3.9)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person descends original stair",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(6.299047, 1.086812, 4.618713)",
+				"frames": 128,
+				"target": "(6.3, 1.086, 4.7)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person returns to ground cross aisle",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(0.086248, 1.086834, 5.438618)",
+				"frames": 94,
+				"target": "(0.0, 1.086, 5.45)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person leaves through unchanged entrance",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(0.002785, 1.050838, 8.304361)",
+				"frames": 43,
+				"target": "(0.0, 1.05, 8.4)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person descends entrance steps",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(0.000044, -0.004157, 13.90907)",
+				"frames": 84,
+				"target": "(0.0, 0.0, 14.0)",
+				"third_person": false
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person permission sensor restores the original player collision mask",
+			"detail": 1,
+			"pass": true
+		},
+		{
+			"check": "Third-person climbs entrance",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(0.0, 1.050838, 8.477807)",
+				"frames": 91,
+				"target": "(0.0, 1.05, 8.4)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person enters ordinary library",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(0.0, 1.086834, 5.497315)",
+				"frames": 45,
+				"target": "(0.0, 1.086, 5.4)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person traverses ordinary ground aisle",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(0.0, 1.086838, -3.302682)",
+				"frames": 132,
+				"target": "(0.0, 1.086, -3.4)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person returns to front cross aisle",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(0.0, 1.086834, 5.363982)",
+				"frames": 130,
+				"target": "(0.0, 1.086, 5.45)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person reaches cleared east stair approach",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(7.899979, 1.086821, 6.090797)",
+				"frames": 119,
+				"target": "(8.0, 1.086, 6.1)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person follows formerly blocked approach",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(7.093283, 1.180964, 4.108612)",
+				"frames": 33,
+				"target": "(7.05, 1.086, 4.0)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person aligns on original stair",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(6.374527, 1.237237, 4.012844)",
+				"frames": 11,
+				"target": "(6.3, 1.2, 4.0)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person climbs original stair naturally",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(6.301168, 5.35082, -3.770578)",
+				"frames": 161,
+				"target": "(6.3, 5.35, -3.9)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person leaves original landing",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(4.106056, 5.350787, -4.561773)",
+				"frames": 35,
+				"target": "(4.0, 5.35, -4.6)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person crosses released ordinary rear reading aisle",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-6.493849, 5.350829, -4.599621)",
+				"frames": 159,
+				"target": "(-6.6, 5.35, -4.6)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person returns across ordinary rear aisle",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(3.906096, 5.350829, -4.599998)",
+				"frames": 156,
+				"target": "(4.0, 5.35, -4.6)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person traverses ordinary east gallery",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(3.998692, 5.350838, 4.866219)",
+				"frames": 142,
+				"target": "(4.0, 5.35, 5.0)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person crosses ordinary front gallery",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-6.46719, 5.350829, 4.998323)",
+				"frames": 157,
+				"target": "(-6.6, 5.35, 5.0)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person browses unchanged west scripture shelves",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-6.598127, 5.350829, -4.26742)",
+				"frames": 139,
+				"target": "(-6.6, 5.35, -4.4)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person returns along west browsing aisle",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-6.599972, 5.350829, 4.865917)",
+				"frames": 137,
+				"target": "(-6.6, 5.35, 5.0)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person approaches archive staircase",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-4.737479, 5.350829, 4.990783)",
+				"frames": 28,
+				"target": "(-4.6, 5.35, 5.0)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person enters archive stair",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-4.62329, 5.350829, 4.33397)",
+				"frames": 10,
+				"target": "(-4.6, 5.35, 4.2)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person climbs to dedicated archive landing",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-4.600218, 9.900816, -3.967245)",
+				"frames": 174,
+				"target": "(-4.6, 9.9, -4.05)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person no configured provider denies entry",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Third-person unauthorized request denied with feedback",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Third-person cannot walk through closed secured gate",
+			"detail": "(-4.600218, 9.899853, -4.508175)",
+			"pass": true
+		},
+		{
+			"check": "Third-person permission boundary handles an already-open gate",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Third-person revoked authorization cannot follow through open leaves",
+			"detail": "(-4.600137, 9.900154, -4.529863)",
+			"pass": true
+		},
+		{
+			"check": "Third-person authorized request opens fitted leaves",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Third-person gate collision stays enabled during opening",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Third-person enters authorized archive",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-4.600012, 9.900812, -5.596531)",
+				"frames": 16,
+				"target": "(-4.6, 9.9, -5.7)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person traverses archive rear corridor",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(3.399365, 9.900833, -5.698715)",
+				"frames": 120,
+				"target": "(3.5, 9.9, -5.7)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person reaches rare collection cross aisle",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(3.495514, 9.900838, -2.833665)",
+				"frames": 43,
+				"target": "(3.5, 9.9, -2.7)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person enters central archive aisle",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(0.098003, 9.900829, -2.703748)",
+				"frames": 51,
+				"target": "(0.0, 9.9, -2.7)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person explores dedicated archive interior",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(0.001823, 9.900838, 4.562281)",
+				"frames": 109,
+				"target": "(0.0, 9.9, 4.7)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person returns through archive central aisle",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(0.000032, 9.900838, -2.571052)",
+				"frames": 107,
+				"target": "(0.0, 9.9, -2.7)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person returns around rare shelves",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(3.397723, 9.900838, -2.696232)",
+				"frames": 51,
+				"target": "(3.5, 9.9, -2.7)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person returns to archive rear corridor",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(3.495276, 9.900833, -5.561244)",
+				"frames": 43,
+				"target": "(3.5, 9.9, -5.7)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person returns to secured doorway",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-4.503528, 9.900811, -5.698346)",
+				"frames": 120,
+				"target": "(-4.6, 9.9, -5.7)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person occupied doorway delays safe closing",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Third-person egress remains possible after permission revocation",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Third-person exits archive to controlled landing",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-4.593115, 9.900825, -4.167634)",
+				"frames": 23,
+				"target": "(-4.6, 9.9, -4.05)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person descends archive stair",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(-4.59993, 5.350825, 4.510978)",
+				"frames": 130,
+				"target": "(-4.6, 5.35, 4.6)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person returns to ordinary front gallery",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(3.919661, 5.350816, 4.995431)",
+				"frames": 128,
+				"target": "(4.0, 5.35, 5.0)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person returns to east stair landing",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(3.998919, 5.350795, -4.470905)",
+				"frames": 142,
+				"target": "(4.0, 5.35, -4.6)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person aligns for original stair descent",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(6.198873, 5.350829, -3.925089)",
+				"frames": 34,
+				"target": "(6.3, 5.35, -3.9)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person descends original stair",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(6.299067, 1.086816, 4.620467)",
+				"frames": 128,
+				"target": "(6.3, 1.086, 4.7)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person returns to ground cross aisle",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(0.086047, 1.086834, 5.438669)",
+				"frames": 94,
+				"target": "(0.0, 1.086, 5.45)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person leaves through unchanged entrance",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(0.002778, 1.050838, 8.304407)",
+				"frames": 43,
+				"target": "(0.0, 1.05, 8.4)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person descends entrance steps",
+			"detail": {
+				"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+				"end": "(0.000044, -0.004157, 13.90903)",
+				"frames": 84,
+				"target": "(0.0, 0.0, 14.0)",
+				"third_person": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person permission sensor restores the original player collision mask",
+			"detail": 1,
+			"pass": true
+		},
+		{
+			"check": "Stairwell wall prevents walking around gate (-1.0, 0.0, 0.0)",
+			"detail": "(-5.644067, 9.900001, -4.1)",
+			"pass": true
+		},
+		{
+			"check": "Stairwell wall prevents walking around gate (1.0, 0.0, 0.0)",
+			"detail": "(-3.555115, 9.900152, -4.1)",
+			"pass": true
+		},
+		{
+			"check": "Camera volumes stay outside solids on tested paths",
+			"detail": {
+				"failures": [],
+				"sample_count": 698
+			},
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"limitations": [
+		"Programmatically driven unchanged inspection controller; no human-input rehearsal",
+		"No production controller, full rank/key/quest system or multiplayer authority",
+		"World placement, exported executable and target hardware not tested"
+	],
+	"movement": [
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(0.0, 1.050838, 8.477807)",
+			"frames": 91,
+			"target": "(0.0, 1.05, 8.4)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(0.0, 1.086834, 5.497183)",
+			"frames": 45,
+			"target": "(0.0, 1.086, 5.4)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(0.0, 1.086838, -3.302814)",
+			"frames": 132,
+			"target": "(0.0, 1.086, -3.4)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(0.0, 1.086834, 5.36385)",
+			"frames": 130,
+			"target": "(0.0, 1.086, 5.45)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(7.89995, 1.086792, 6.090794)",
+			"frames": 119,
+			"target": "(8.0, 1.086, 6.1)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(7.093286, 1.180977, 4.108591)",
+			"frames": 33,
+			"target": "(7.05, 1.086, 4.0)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(6.374527, 1.237236, 4.012845)",
+			"frames": 11,
+			"target": "(6.3, 1.2, 4.0)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(6.301167, 5.350824, -3.770638)",
+			"frames": 161,
+			"target": "(6.3, 5.35, -3.9)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(4.106017, 5.349733, -4.561789)",
+			"frames": 35,
+			"target": "(4.0, 5.35, -4.6)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-6.493896, 5.350829, -4.599621)",
+			"frames": 159,
+			"target": "(-6.6, 5.35, -4.6)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(3.906046, 5.350801, -4.599998)",
+			"frames": 156,
+			"target": "(4.0, 5.35, -4.6)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(3.99869, 5.350833, 4.866217)",
+			"frames": 142,
+			"target": "(4.0, 5.35, 5.0)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-6.467201, 5.350829, 4.998323)",
+			"frames": 157,
+			"target": "(-6.6, 5.35, 5.0)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-6.598127, 5.350833, -4.267421)",
+			"frames": 139,
+			"target": "(-6.6, 5.35, -4.4)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-6.599972, 5.350829, 4.865914)",
+			"frames": 137,
+			"target": "(-6.6, 5.35, 5.0)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-4.737479, 5.350829, 4.990783)",
+			"frames": 28,
+			"target": "(-4.6, 5.35, 5.0)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-4.62329, 5.350829, 4.33397)",
+			"frames": 10,
+			"target": "(-4.6, 5.35, 4.2)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-4.600219, 9.900816, -3.966774)",
+			"frames": 174,
+			"target": "(-4.6, 9.9, -4.05)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-4.600013, 9.900816, -5.595731)",
+			"frames": 16,
+			"target": "(-4.6, 9.9, -5.7)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(3.399338, 9.900833, -5.698704)",
+			"frames": 120,
+			"target": "(3.5, 9.9, -5.7)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(3.495514, 9.900838, -2.833656)",
+			"frames": 43,
+			"target": "(3.5, 9.9, -2.7)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(0.098001, 9.900599, -2.703747)",
+			"frames": 51,
+			"target": "(0.0, 9.9, -2.7)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(0.001823, 9.900838, 4.562282)",
+			"frames": 109,
+			"target": "(0.0, 9.9, 4.7)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(0.000032, 9.899542, -2.571052)",
+			"frames": 107,
+			"target": "(0.0, 9.9, -2.7)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(3.397723, 9.900838, -2.696232)",
+			"frames": 51,
+			"target": "(3.5, 9.9, -2.7)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(3.495276, 9.900833, -5.561244)",
+			"frames": 43,
+			"target": "(3.5, 9.9, -5.7)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-4.503528, 9.900811, -5.698346)",
+			"frames": 120,
+			"target": "(-4.6, 9.9, -5.7)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-4.593115, 9.900825, -4.167634)",
+			"frames": 23,
+			"target": "(-4.6, 9.9, -4.05)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-4.599932, 5.350825, 4.513536)",
+			"frames": 130,
+			"target": "(-4.6, 5.35, 4.6)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(3.919801, 5.350833, 4.995463)",
+			"frames": 128,
+			"target": "(4.0, 5.35, 5.0)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(3.998921, 5.350821, -4.470872)",
+			"frames": 142,
+			"target": "(4.0, 5.35, -4.6)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(6.198816, 5.350829, -3.925101)",
+			"frames": 34,
+			"target": "(6.3, 5.35, -3.9)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(6.299047, 1.086812, 4.618713)",
+			"frames": 128,
+			"target": "(6.3, 1.086, 4.7)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(0.086248, 1.086834, 5.438618)",
+			"frames": 94,
+			"target": "(0.0, 1.086, 5.45)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(0.002785, 1.050838, 8.304361)",
+			"frames": 43,
+			"target": "(0.0, 1.05, 8.4)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(0.000044, -0.004157, 13.90907)",
+			"frames": 84,
+			"target": "(0.0, 0.0, 14.0)",
+			"third_person": false
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(0.0, 1.050838, 8.477807)",
+			"frames": 91,
+			"target": "(0.0, 1.05, 8.4)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(0.0, 1.086834, 5.497315)",
+			"frames": 45,
+			"target": "(0.0, 1.086, 5.4)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(0.0, 1.086838, -3.302682)",
+			"frames": 132,
+			"target": "(0.0, 1.086, -3.4)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(0.0, 1.086834, 5.363982)",
+			"frames": 130,
+			"target": "(0.0, 1.086, 5.45)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(7.899979, 1.086821, 6.090797)",
+			"frames": 119,
+			"target": "(8.0, 1.086, 6.1)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(7.093283, 1.180964, 4.108612)",
+			"frames": 33,
+			"target": "(7.05, 1.086, 4.0)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(6.374527, 1.237237, 4.012844)",
+			"frames": 11,
+			"target": "(6.3, 1.2, 4.0)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(6.301168, 5.35082, -3.770578)",
+			"frames": 161,
+			"target": "(6.3, 5.35, -3.9)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(4.106056, 5.350787, -4.561773)",
+			"frames": 35,
+			"target": "(4.0, 5.35, -4.6)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-6.493849, 5.350829, -4.599621)",
+			"frames": 159,
+			"target": "(-6.6, 5.35, -4.6)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(3.906096, 5.350829, -4.599998)",
+			"frames": 156,
+			"target": "(4.0, 5.35, -4.6)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(3.998692, 5.350838, 4.866219)",
+			"frames": 142,
+			"target": "(4.0, 5.35, 5.0)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-6.46719, 5.350829, 4.998323)",
+			"frames": 157,
+			"target": "(-6.6, 5.35, 5.0)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-6.598127, 5.350829, -4.26742)",
+			"frames": 139,
+			"target": "(-6.6, 5.35, -4.4)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-6.599972, 5.350829, 4.865917)",
+			"frames": 137,
+			"target": "(-6.6, 5.35, 5.0)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-4.737479, 5.350829, 4.990783)",
+			"frames": 28,
+			"target": "(-4.6, 5.35, 5.0)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-4.62329, 5.350829, 4.33397)",
+			"frames": 10,
+			"target": "(-4.6, 5.35, 4.2)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-4.600218, 9.900816, -3.967245)",
+			"frames": 174,
+			"target": "(-4.6, 9.9, -4.05)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-4.600012, 9.900812, -5.596531)",
+			"frames": 16,
+			"target": "(-4.6, 9.9, -5.7)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(3.399365, 9.900833, -5.698715)",
+			"frames": 120,
+			"target": "(3.5, 9.9, -5.7)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(3.495514, 9.900838, -2.833665)",
+			"frames": 43,
+			"target": "(3.5, 9.9, -2.7)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(0.098003, 9.900829, -2.703748)",
+			"frames": 51,
+			"target": "(0.0, 9.9, -2.7)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(0.001823, 9.900838, 4.562281)",
+			"frames": 109,
+			"target": "(0.0, 9.9, 4.7)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(0.000032, 9.900838, -2.571052)",
+			"frames": 107,
+			"target": "(0.0, 9.9, -2.7)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(3.397723, 9.900838, -2.696232)",
+			"frames": 51,
+			"target": "(3.5, 9.9, -2.7)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(3.495276, 9.900833, -5.561244)",
+			"frames": 43,
+			"target": "(3.5, 9.9, -5.7)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-4.503528, 9.900811, -5.698346)",
+			"frames": 120,
+			"target": "(-4.6, 9.9, -5.7)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-4.593115, 9.900825, -4.167634)",
+			"frames": 23,
+			"target": "(-4.6, 9.9, -4.05)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(-4.59993, 5.350825, 4.510978)",
+			"frames": 130,
+			"target": "(-4.6, 5.35, 4.6)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(3.919661, 5.350816, 4.995431)",
+			"frames": 128,
+			"target": "(4.0, 5.35, 5.0)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(3.998919, 5.350795, -4.470905)",
+			"frames": 142,
+			"target": "(4.0, 5.35, -4.6)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(6.198873, 5.350829, -3.925089)",
+			"frames": 34,
+			"target": "(6.3, 5.35, -3.9)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(6.299067, 1.086816, 4.620467)",
+			"frames": 128,
+			"target": "(6.3, 1.086, 4.7)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(0.086047, 1.086834, 5.438669)",
+			"frames": 94,
+			"target": "(0.0, 1.086, 5.45)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(0.002778, 1.050838, 8.304407)",
+			"frames": 43,
+			"target": "(0.0, 1.05, 8.4)",
+			"third_person": true
+		},
+		{
+			"actual_controller": "unchanged 1.8m/.28m, move_and_slide at 4m/s",
+			"end": "(0.000044, -0.004157, 13.90903)",
+			"frames": 84,
+			"target": "(0.0, 0.0, 14.0)",
+			"third_person": true
+		}
+	],
+	"passed": 102
+}

@@ -1,0 +1,11 @@
+{
+  "assets/architecture/tang_main_hall/grand_door_leaf.glb": "cf7ffdb1927661c68cbd596551224c1de7923b16635246575a6681e0bbea982a",
+  "assets/architecture/tang_main_hall/main_sect_hall.glb": "0c352e644e5239f2fceae59de74445298e84fa42c8e90aee1f48881afe7eec42",
+  "assets/architecture/tang_main_hall/main_sect_hall_lod.glb": "0c352e644e5239f2fceae59de74445298e84fa42c8e90aee1f48881afe7eec42",
+  "assets/architecture/tang_main_hall/room_door_leaf.glb": "8666fac57e601d3db5ffb6b909641664884bafec95fadda3433fd579ff14a521",
+  "source/split_cloud_hall.blend": "36fd34d29f1f0dff5fe7eaf8e1611e55a22358d844cd41b5961fcc69637dc0c4",
+  "scripts/tang_main_hall.gd": "dfeae612bb33d2b8b3f750000fec43ca412ec3c3ee4c511e1109461142910d15",
+  "scripts/hall_preview_door.gd": "a74d0cac6b8d73d71fe06a849ca26319a1512ddd4098e5cd6d5ebc79a61858d3",
+  "scripts/training_inspection_player.gd": "8a6abf1b69ef2c3d93a04fc6883b0c372b61234e94bbd92d702d67510bdcab55",
+  "project.godot": "ee0a962e1fe6ea524ebe9fda375aa0d35f58f8e14166c24f49f4edaeaa284844"
+}

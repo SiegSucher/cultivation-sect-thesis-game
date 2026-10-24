@@ -1,0 +1,132 @@
+{
+  "conflicts": [],
+  "destinations": [
+    "assets/architecture/mission_hall",
+    "scenes/buildings/mission_hall.tscn",
+    "source/claude_mission_hall_integrated.blend",
+    "scripts/mission_hall_review.gd",
+    "scenes/review/mission_hall_walkthrough.tscn"
+  ],
+  "previous_catalog": [
+    {
+      "id": "main_sect_hall",
+      "name": "Split-Cloud Main Sect Hall",
+      "group": "Buildings",
+      "status": "Approved Split-Cloud visual benchmark - preserved",
+      "resource": "res://scenes/buildings/tang_main_hall.tscn",
+      "model": "res://assets/architecture/tang_main_hall/main_sect_hall.glb",
+      "source": "res://source/split_cloud_hall.blend"
+    },
+    {
+      "id": "sect_gate",
+      "name": "Sect Gate and Gatehouse",
+      "group": "Buildings",
+      "status": "Stage 1 low-poly gate - visual review pending",
+      "resource": "res://scenes/buildings/sect_gate.tscn",
+      "model": "res://assets/architecture/sect_gate/sect_gate.glb",
+      "source": "res://source/sect_gate_low_poly.blend"
+    },
+    {
+      "id": "martial_training_ground",
+      "name": "Large Martial Training Ground",
+      "group": "Buildings",
+      "status": "Stage 2 low-poly Training Ground and seven equipment types",
+      "resource": "res://scenes/buildings/martial_training_ground.tscn",
+      "model": "res://assets/architecture/martial_training_ground/martial_training_ground.glb",
+      "source": "res://source/martial_training_ground_low_poly.blend"
+    },
+    {
+      "id": "scripture_pavilion",
+      "name": "Scripture Pavilion",
+      "group": "Buildings",
+      "status": "Stage 3 low-poly three-storey Pavilion with secured archive",
+      "resource": "res://scenes/buildings/scripture_pavilion.tscn",
+      "model": "res://assets/architecture/scripture_pavilion/scripture_pavilion.glb",
+      "source": "res://source/scripture_pavilion_low_poly.blend"
+    },
+    {
+      "id": "disciple_residence",
+      "name": "Disciples' Residence",
+      "group": "Buildings",
+      "status": "Codex tested \u2014 import, scale, materials, movement; visual review pending",
+      "resource": "res://scenes/buildings/disciple_residence.tscn",
+      "model": "res://assets/architecture/disciple_residence/disciple_residence.glb",
+      "source": "res://source/claude_buildings_integrated.blend",
+      "walkthrough": "res://scenes/review/disciple_residence_walkthrough.tscn",
+      "interior_camera": {
+        "target": [
+          2.2,
+          2.15,
+          -1.0
+        ],
+        "distance": 2.3,
+        "yaw": 0,
+        "pitch": 0,
+        "fov": 78
+      }
+    },
+    {
+      "id": "elder_residence",
+      "name": "Elder Residence",
+      "group": "Buildings",
+      "status": "Codex tested \u2014 import, scale, materials, movement; visual review pending",
+      "resource": "res://scenes/buildings/elder_residence.tscn",
+      "model": "res://assets/architecture/elder_residence/elder_residence.glb",
+      "source": "res://source/claude_buildings_integrated.blend",
+      "walkthrough": "res://scenes/review/elder_residence_walkthrough.tscn",
+      "interior_camera": {
+        "target": [
+          0,
+          2.65,
+          -5.2
+        ],
+        "distance": 2.3,
+        "yaw": 0,
+        "pitch": 0,
+        "fov": 78
+      }
+    },
+    {
+      "id": "dining_hall_kitchen",
+      "name": "Dining Hall and Kitchen",
+      "group": "Buildings",
+      "status": "Codex tested \u2014 import, scale, materials, movement; visual review pending",
+      "resource": "res://scenes/buildings/dining_hall_kitchen.tscn",
+      "model": "res://assets/architecture/dining_hall_kitchen/dining_hall_kitchen.glb",
+      "source": "res://source/claude_buildings_integrated.blend",
+      "walkthrough": "res://scenes/review/dining_hall_kitchen_walkthrough.tscn",
+      "interior_camera": {
+        "target": [
+          0,
+          2.25,
+          1.5
+        ],
+        "distance": 2.3,
+        "yaw": 0,
+        "pitch": 0,
+        "fov": 78
+      }
+    },
+    {
+      "id": "spirit_herb_garden",
+      "name": "Spirit Herb Garden",
+      "group": "Buildings",
+      "status": "Codex tested \u2014 import, scale, materials, movement; visual review pending",
+      "resource": "res://scenes/buildings/spirit_herb_garden.tscn",
+      "model": "res://assets/architecture/spirit_herb_garden/spirit_herb_garden.glb",
+      "source": "res://source/claude_buildings_integrated.blend",
+      "walkthrough": "res://scenes/review/spirit_herb_garden_walkthrough.tscn",
+      "interior_camera": {
+        "target": [
+          0,
+          2.15,
+          -8.5
+        ],
+        "distance": 2.3,
+        "yaw": 0,
+        "pitch": 0,
+        "fov": 78
+      }
+    }
+  ]
+}

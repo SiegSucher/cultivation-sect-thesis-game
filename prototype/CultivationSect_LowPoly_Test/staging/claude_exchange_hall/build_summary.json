@@ -1,0 +1,44 @@
+{
+  "exchange_hall": {
+    "name": "Contribution / Exchange Hall",
+    "scene": "res://staging/claude_exchange_hall/exchange_hall/exchange_hall.tscn",
+    "model": "res://staging/claude_exchange_hall/exchange_hall/exchange_hall.glb",
+    "triangles": 31346,
+    "vertices": 21019,
+    "surfaces": 13,
+    "materials": [
+      "Bronze",
+      "Cedar",
+      "Coping",
+      "Fabric",
+      "Floor",
+      "Jade",
+      "Lantern",
+      "Plaster",
+      "SpiritHerb",
+      "Stone",
+      "TileLight",
+      "Timber",
+      "Window"
+    ],
+    "bounds_min": [
+      -13.301,
+      0.0,
+      -6.556
+    ],
+    "bounds_max": [
+      13.301,
+      12.96,
+      9.82
+    ],
+    "size_xyz_m": [
+      26.6,
+      12.96,
+      16.38
+    ],
+    "collision_shapes": 69,
+    "plaques": [
+      "CONTRIBUTION HALL"
+    ]
+  }
+}

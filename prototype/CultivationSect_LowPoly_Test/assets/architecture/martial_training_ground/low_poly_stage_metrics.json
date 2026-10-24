@@ -1,0 +1,191 @@
+{
+  "stage": 2,
+  "assembled_near_triangles_including_instanced_props_and_archive_leaves": 107392,
+  "models": [
+    {
+      "file": "arm_dummy.glb",
+      "triangles": 544,
+      "surfaces": 3,
+      "images": 0,
+      "textures": 0,
+      "bytes": 32304,
+      "zero_area_triangles": 0,
+      "invalid_normals": 0,
+      "nonflat_triangles": 0,
+      "all_opaque": true,
+      "external_uris": [],
+      "nodes": [
+        "arm_dummy_Floor",
+        "arm_dummy_Stone",
+        "arm_dummy_Timber"
+      ]
+    },
+    {
+      "file": "martial_training_ground.glb",
+      "triangles": 88020,
+      "surfaces": 13,
+      "images": 0,
+      "textures": 0,
+      "bytes": 6004780,
+      "zero_area_triangles": 0,
+      "invalid_normals": 0,
+      "nonflat_triangles": 0,
+      "all_opaque": true,
+      "external_uris": [],
+      "nodes": [
+        "martial_training_ground_Bronze",
+        "martial_training_ground_Cedar",
+        "martial_training_ground_Coping",
+        "martial_training_ground_Fabric",
+        "martial_training_ground_Jade",
+        "martial_training_ground_Stone",
+        "martial_training_ground_TileLight",
+        "martial_training_ground_Timber",
+        "martial_training_ground_Window",
+        "Training_CourtPaving",
+        "Training_Joint",
+        "Training_PackedEarth",
+        "Training_Paving"
+      ]
+    },
+    {
+      "file": "martial_training_ground_lod.glb",
+      "triangles": 12913,
+      "surfaces": 13,
+      "images": 0,
+      "textures": 0,
+      "bytes": 951968,
+      "zero_area_triangles": 0,
+      "invalid_normals": 0,
+      "nonflat_triangles": 0,
+      "all_opaque": true,
+      "external_uris": [],
+      "nodes": [
+        "martial_training_ground_lod_Bronze",
+        "martial_training_ground_lod_Cedar",
+        "martial_training_ground_lod_Coping",
+        "martial_training_ground_lod_Fabric",
+        "martial_training_ground_lod_Jade",
+        "martial_training_ground_lod_Stone",
+        "martial_training_ground_lod_TileLight",
+        "martial_training_ground_lod_Timber",
+        "martial_training_ground_lod_Window",
+        "Training_CourtPaving.001",
+        "Training_Joint.001",
+        "Training_PackedEarth.001",
+        "Training_Paving.001"
+      ]
+    },
+    {
+      "file": "rest_bench.glb",
+      "triangles": 264,
+      "surfaces": 3,
+      "images": 0,
+      "textures": 0,
+      "bytes": 18332,
+      "zero_area_triangles": 0,
+      "invalid_normals": 0,
+      "nonflat_triangles": 0,
+      "all_opaque": true,
+      "external_uris": [],
+      "nodes": [
+        "rest_bench_Cedar",
+        "rest_bench_Floor",
+        "rest_bench_Timber"
+      ]
+    },
+    {
+      "file": "staff_rack.glb",
+      "triangles": 868,
+      "surfaces": 4,
+      "images": 0,
+      "textures": 0,
+      "bytes": 50564,
+      "zero_area_triangles": 0,
+      "invalid_normals": 0,
+      "nonflat_triangles": 0,
+      "all_opaque": true,
+      "external_uris": [],
+      "nodes": [
+        "staff_rack_Cedar",
+        "staff_rack_Floor",
+        "staff_rack_Plaster",
+        "staff_rack_Timber"
+      ]
+    },
+    {
+      "file": "stone_weight.glb",
+      "triangles": 100,
+      "surfaces": 2,
+      "images": 0,
+      "textures": 0,
+      "bytes": 6676,
+      "zero_area_triangles": 0,
+      "invalid_normals": 0,
+      "nonflat_triangles": 0,
+      "all_opaque": true,
+      "external_uris": [],
+      "nodes": [
+        "stone_weight_Floor",
+        "stone_weight_Stone"
+      ]
+    },
+    {
+      "file": "striking_post.glb",
+      "triangles": 2820,
+      "surfaces": 4,
+      "images": 0,
+      "textures": 0,
+      "bytes": 162528,
+      "zero_area_triangles": 0,
+      "invalid_normals": 0,
+      "nonflat_triangles": 0,
+      "all_opaque": true,
+      "external_uris": [],
+      "nodes": [
+        "striking_post_Floor",
+        "striking_post_Plaster",
+        "striking_post_Stone",
+        "striking_post_Timber"
+      ]
+    },
+    {
+      "file": "sword_rack.glb",
+      "triangles": 916,
+      "surfaces": 3,
+      "images": 0,
+      "textures": 0,
+      "bytes": 52772,
+      "zero_area_triangles": 0,
+      "invalid_normals": 0,
+      "nonflat_triangles": 0,
+      "all_opaque": true,
+      "external_uris": [],
+      "nodes": [
+        "sword_rack_Cedar",
+        "sword_rack_Floor",
+        "sword_rack_Timber"
+      ]
+    },
+    {
+      "file": "thrust_target.glb",
+      "triangles": 504,
+      "surfaces": 4,
+      "images": 0,
+      "textures": 0,
+      "bytes": 31156,
+      "zero_area_triangles": 0,
+      "invalid_normals": 0,
+      "nonflat_triangles": 0,
+      "all_opaque": true,
+      "external_uris": [],
+      "nodes": [
+        "thrust_target_Cedar",
+        "thrust_target_Floor",
+        "thrust_target_Plaster",
+        "thrust_target_Timber"
+      ]
+    }
+  ],
+  "note": "Physical specification stays byte-identical, including historical visual counts. Use current GLBs or this sidecar for budgets."
+}

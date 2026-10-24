@@ -1,0 +1,77 @@
+[
+  {
+    "view": "overview",
+    "old_mean_ms": 6.970228125000002,
+    "clean_mean_ms": 6.20635,
+    "old_range": [
+      6.390775,
+      8.69165
+    ],
+    "clean_range": [
+      5.791875,
+      6.40103333333333
+    ],
+    "clean_minus_old_paired_ms": [
+      -2.899774999999999,
+      -0.012662500000000243,
+      0.01025833333333015,
+      -0.15333333333334043
+    ],
+    "descriptive_t95_interval_ms": [
+      -3.0325909885411,
+      1.5048347385410952
+    ],
+    "draw_calls_identical": true,
+    "primitives_identical": true
+  },
+  {
+    "view": "court",
+    "old_mean_ms": 4.05327083333333,
+    "clean_mean_ms": 4.797870833333333,
+    "old_range": [
+      2.55285833333333,
+      6.73850416666666
+    ],
+    "clean_range": [
+      2.54934166666667,
+      7.5727375
+    ],
+    "clean_minus_old_paired_ms": [
+      -0.22199583333333006,
+      3.20410416666667,
+      -0.0037458333333302285,
+      3.74999999999126e-05
+    ],
+    "descriptive_t95_interval_ms": [
+      -1.8697012719133528,
+      3.3589012719133575
+    ],
+    "draw_calls_identical": true,
+    "primitives_identical": true
+  },
+  {
+    "view": "shelter",
+    "old_mean_ms": 4.60333125,
+    "clean_mean_ms": 4.466493750000002,
+    "old_range": [
+      2.6479875,
+      5.80940416666667
+    ],
+    "clean_range": [
+      2.69927916666667,
+      6.1495125
+    ],
+    "clean_minus_old_paired_ms": [
+      0.051291666666669844,
+      -0.9462083333333298,
+      0.007458333333340228,
+      0.34010833333333057
+    ],
+    "descriptive_t95_interval_ms": [
+      -1.026961608526851,
+      0.7532866085268564
+    ],
+    "draw_calls_identical": true,
+    "primitives_identical": true
+  }
+]

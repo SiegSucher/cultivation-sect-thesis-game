@@ -1,0 +1,112 @@
+[gd_scene format=3]
+
+[ext_resource type="PackedScene" path="res://mountain_valley_compact/compact_valley.tscn" id="base"]
+[ext_resource type="Script" path="res://phase4c/walkthrough.gd" id="script"]
+[ext_resource type="ArrayMesh" path="res://phase4c/resources/terrain_mesh.res" id="r11"]
+[ext_resource type="Shape3D" path="res://phase4c/resources/terrain_collision.res" id="r12"]
+[ext_resource type="ArrayMesh" path="res://phase4c/resources/paths_mesh.res" id="r13"]
+[ext_resource type="MultiMesh" path="res://phase4c/resources/Mountain_pine_tiered_00.res" id="r14"]
+[ext_resource type="MultiMesh" path="res://phase4c/resources/Mountain_pine_tiered_01.res" id="r15"]
+[ext_resource type="MultiMesh" path="res://phase4c/resources/Mountain_pine_tiered_02.res" id="r16"]
+[ext_resource type="MultiMesh" path="res://phase4c/resources/Mountain_pine_windswept_00.res" id="r17"]
+[ext_resource type="MultiMesh" path="res://phase4c/resources/Mountain_pine_windswept_01.res" id="r18"]
+[ext_resource type="MultiMesh" path="res://phase4c/resources/Mountain_pine_windswept_02.res" id="r19"]
+[ext_resource type="PackedScene" path="res://phase4c/resources/safety_assembly.tscn" id="r20"]
+
+[node name="Phase4C_CompactValley" instance=ExtResource("base")]
+script = ExtResource("script")
+
+[node name="ContinuousValleyTerrain" parent="." index=0]
+mesh = ExtResource("r11")
+
+[node name="@CollisionShape3D@2" parent="ValleyGroundCollision" index=0]
+shape = ExtResource("r12")
+
+[node name="RoadsCourtsAndVisibleStairs" parent="." index=2]
+mesh = ExtResource("r13")
+
+[node name="pine_windswept_002" parent="RetainedProvisionalDressing"]
+position = Vector3(-22.45912743,2.22574401,108.27488708)
+
+[node name="pine_windswept_013" parent="RetainedProvisionalDressing"]
+position = Vector3(11.19869423,0.95297539,109.52671051)
+
+[node name="pine_tiered_021" parent="RetainedProvisionalDressing"]
+position = Vector3(-28.38316154,3.28858018,104.43560028)
+
+[node name="pine_tiered_030" parent="RetainedProvisionalDressing"]
+position = Vector3(21.39492989,2.20185280,105.82937622)
+
+[node name="pine_windswept_032" parent="RetainedProvisionalDressing"]
+position = Vector3(-29.00000000,4.14775372,85.00000000)
+
+[node name="pine_tiered_036" parent="RetainedProvisionalDressing"]
+position = Vector3(-69.00000000,27.53024292,-140.00000000)
+
+[node name="pine_tiered_037" parent="RetainedProvisionalDressing"]
+position = Vector3(142.00000000,9.06957722,-60.00000000)
+
+[node name="stone_lantern_040" parent="RetainedProvisionalDressing"]
+position = Vector3(-8.00000000,6.25000000,58.00000000)
+
+[node name="stone_lantern_041" parent="RetainedProvisionalDressing"]
+position = Vector3(8.00000000,6.25000048,58.00000000)
+
+[node name="stone_lantern_042" parent="RetainedProvisionalDressing"]
+position = Vector3(-16.00000000,25.02931404,-65.00000000)
+
+[node name="stone_bench_046" parent="RetainedProvisionalDressing"]
+position = Vector3(139.00000000,9.98499966,-46.00000000)
+
+[node name="stone_bench_047" parent="RetainedProvisionalDressing"]
+position = Vector3(-18.00000000,24.76992226,-57.00000000)
+
+[node name="bamboo_cluster_050" parent="RetainedProvisionalDressing"]
+position = Vector3(138.00000000,8.16666698,-57.00000000)
+
+[node name="bamboo_cluster_051" parent="RetainedProvisionalDressing"]
+position = Vector3(141.00000000,8.02000046,-55.00000000)
+
+[node name="grass_tuft_055" parent="RetainedProvisionalDressing"]
+position = Vector3(-30.00000000,0.52444839,115.00000000)
+
+[node name="grass_tuft_058" parent="RetainedProvisionalDressing"]
+position = Vector3(-31.00000000,0.22983962,117.00000000)
+
+[node name="rock_cluster_060" parent="RetainedProvisionalDressing"]
+position = Vector3(-34.00000000,0.07249753,119.00000000)
+
+[node name="rock_cluster_061" parent="RetainedProvisionalDressing"]
+position = Vector3(31.00000000,0.30840969,111.00000000)
+
+[node name="rock_cluster_062" parent="RetainedProvisionalDressing"]
+position = Vector3(83.00000000,8.95648479,-34.00000000)
+
+[node name="rock_cluster_063" parent="RetainedProvisionalDressing"]
+position = Vector3(90.00000000,9.02087688,-45.00000000)
+
+[node name="rock_cluster_064" parent="RetainedProvisionalDressing"]
+position = Vector3(99.00000000,9.06486130,-42.00000000)
+
+[node name="rock_outcrop_066" parent="RetainedProvisionalDressing"]
+position = Vector3(148.00000000,6.58748817,-62.00000000)
+
+[node name="Mountain_pine_tiered_00" parent="RetainedProvisionalDressing"]
+multimesh = ExtResource("r14")
+
+[node name="Mountain_pine_tiered_01" parent="RetainedProvisionalDressing"]
+multimesh = ExtResource("r15")
+
+[node name="Mountain_pine_tiered_02" parent="RetainedProvisionalDressing"]
+multimesh = ExtResource("r16")
+
+[node name="Mountain_pine_windswept_00" parent="RetainedProvisionalDressing"]
+multimesh = ExtResource("r17")
+
+[node name="Mountain_pine_windswept_01" parent="RetainedProvisionalDressing"]
+multimesh = ExtResource("r18")
+
+[node name="Mountain_pine_windswept_02" parent="RetainedProvisionalDressing"]
+multimesh = ExtResource("r19")
+
+[node name="SelectiveTerrainSupports" parent="." instance=ExtResource("r20")]

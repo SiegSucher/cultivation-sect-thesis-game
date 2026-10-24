@@ -1,0 +1,14 @@
+{
+  "timestamp_utc": "2026-10-22T04:56:46.917204+00:00",
+  "visual_direction_approved_by_user": true,
+  "approved_checkpoint": "C:\\Users\\pasto\\OneDrive\\Documents\\ChatGPT\\Character Sprite Image for Thesis game\\prototype\\CultivationSect_LowPoly_Test\\checkpoints\\approved-split-cloud-2026-10-22.zip",
+  "clean_project": "C:\\Users\\pasto\\OneDrive\\Documents\\ChatGPT\\Character Sprite Image for Thesis game\\output\\split-cloud-approved-independent-verification",
+  "clean_copy_had_no_import_cache": true,
+  "clean_copy_has_no_symlinks": true,
+  "original_runtime_recovery": {
+    "entries": 778,
+    "all_archive_files_match_original": true,
+    "archive_sha256": "54a964f7270237b50b2c7608332275ec595bc8da101c5b532d1804b9c4eb584b"
+  },
+  "only_runtime_configuration_change": "Unique test application name; separate Godot user-data folder"
+}

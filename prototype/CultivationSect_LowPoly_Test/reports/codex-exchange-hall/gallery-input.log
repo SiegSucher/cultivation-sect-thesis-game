@@ -1,0 +1,33 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 566.07 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3050 Laptop GPU
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+PASS ten distinct explicit entries
+PASS gallery loads entry main_sect_hall
+PASS gallery loads entry sect_gate
+PASS gallery loads entry martial_training_ground
+PASS gallery loads entry scripture_pavilion
+PASS gallery loads entry disciple_residence
+PASS gallery loads entry elder_residence
+PASS gallery loads entry dining_hall_kitchen
+PASS gallery loads entry spirit_herb_garden
+PASS gallery loads entry mission_hall
+PASS gallery loads entry exchange_hall
+PASS Exchange last, canonical resource
+PASS source file exists
+PASS static leaves have no door toggle
+PASS capture gallery-exchange-exterior
+PASS interior preset camera clears collision
+PASS capture gallery-exchange-interior
+PASS canonical Walk route
+PASS unchanged inspection player script
+PASS 1 starts walking
+PASS W moves
+PASS Tab third person
+PASS capture input-third-person-approach
+PASS Tab first person
+PASS mouse look
+PASS 1 returns to review
+PASS Esc returns to gallery
+27 PASS / 0 FAIL

@@ -1,0 +1,319 @@
+{
+  "pine_windswept": {
+    "name": "Windswept Pine",
+    "scene": "res://staging/claude_environment_batch1/pine_windswept/pine_windswept.tscn",
+    "model": "res://staging/claude_environment_batch1/pine_windswept/pine_windswept.glb",
+    "triangles": 1306,
+    "surfaces": 3,
+    "materials": [
+      "Bark",
+      "PineLight",
+      "PineNeedle"
+    ],
+    "bounds_min": [
+      -2.984,
+      -0.143,
+      -2.4
+    ],
+    "bounds_max": [
+      4.51,
+      6.722,
+      1.563
+    ],
+    "size_xyz_m": [
+      7.49,
+      6.87,
+      3.96
+    ],
+    "collision_shapes": 2
+  },
+  "pine_tiered": {
+    "name": "Tiered Mountain Pine",
+    "scene": "res://staging/claude_environment_batch1/pine_tiered/pine_tiered.tscn",
+    "model": "res://staging/claude_environment_batch1/pine_tiered/pine_tiered.glb",
+    "triangles": 1500,
+    "surfaces": 3,
+    "materials": [
+      "Bark",
+      "PineLight",
+      "PineNeedle"
+    ],
+    "bounds_min": [
+      -2.482,
+      -0.115,
+      -2.097
+    ],
+    "bounds_max": [
+      2.733,
+      8.679,
+      2.394
+    ],
+    "size_xyz_m": [
+      5.21,
+      8.79,
+      4.49
+    ],
+    "collision_shapes": 1
+  },
+  "bamboo_cluster": {
+    "name": "Bamboo Cluster",
+    "scene": "res://staging/claude_environment_batch1/bamboo_cluster/bamboo_cluster.tscn",
+    "model": "res://staging/claude_environment_batch1/bamboo_cluster/bamboo_cluster.glb",
+    "triangles": 3446,
+    "surfaces": 5,
+    "materials": [
+      "Bamboo",
+      "BambooNode",
+      "Leaf",
+      "Moss",
+      "Soil"
+    ],
+    "bounds_min": [
+      -1.037,
+      -0.12,
+      -1.31
+    ],
+    "bounds_max": [
+      1.421,
+      6.689,
+      1.011
+    ],
+    "size_xyz_m": [
+      2.46,
+      6.81,
+      2.32
+    ],
+    "collision_shapes": 1
+  },
+  "flowering_shrub": {
+    "name": "Flowering Shrub",
+    "scene": "res://staging/claude_environment_batch1/flowering_shrub/flowering_shrub.tscn",
+    "model": "res://staging/claude_environment_batch1/flowering_shrub/flowering_shrub.glb",
+    "triangles": 330,
+    "surfaces": 3,
+    "materials": [
+      "Blossom",
+      "Leaf",
+      "PineNeedle"
+    ],
+    "bounds_min": [
+      -1.013,
+      -0.04,
+      -0.899
+    ],
+    "bounds_max": [
+      1.012,
+      0.987,
+      0.895
+    ],
+    "size_xyz_m": [
+      2.02,
+      1.03,
+      1.79
+    ],
+    "collision_shapes": 0
+  },
+  "grass_tuft": {
+    "name": "Grass Tuft",
+    "scene": "res://staging/claude_environment_batch1/grass_tuft/grass_tuft.tscn",
+    "model": "res://staging/claude_environment_batch1/grass_tuft/grass_tuft.glb",
+    "triangles": 72,
+    "surfaces": 2,
+    "materials": [
+      "Grass",
+      "GrassLight"
+    ],
+    "bounds_min": [
+      -0.574,
+      -0.03,
+      -0.582
+    ],
+    "bounds_max": [
+      0.635,
+      0.687,
+      0.639
+    ],
+    "size_xyz_m": [
+      1.21,
+      0.72,
+      1.22
+    ],
+    "collision_shapes": 0
+  },
+  "rock_cluster": {
+    "name": "Path and Pond Boulders",
+    "scene": "res://staging/claude_environment_batch1/rock_cluster/rock_cluster.tscn",
+    "model": "res://staging/claude_environment_batch1/rock_cluster/rock_cluster.glb",
+    "triangles": 108,
+    "surfaces": 3,
+    "materials": [
+      "Moss",
+      "Rock",
+      "RockLight"
+    ],
+    "bounds_min": [
+      -1.282,
+      -0.15,
+      -0.837
+    ],
+    "bounds_max": [
+      1.785,
+      1.268,
+      0.971
+    ],
+    "size_xyz_m": [
+      3.07,
+      1.42,
+      1.81
+    ],
+    "collision_shapes": 3
+  },
+  "rock_outcrop": {
+    "name": "Stratified Rock Outcrop",
+    "scene": "res://staging/claude_environment_batch1/rock_outcrop/rock_outcrop.tscn",
+    "model": "res://staging/claude_environment_batch1/rock_outcrop/rock_outcrop.glb",
+    "triangles": 164,
+    "surfaces": 3,
+    "materials": [
+      "Moss",
+      "Rock",
+      "RockLight"
+    ],
+    "bounds_min": [
+      -1.883,
+      -0.2,
+      -1.306
+    ],
+    "bounds_max": [
+      1.487,
+      3.4,
+      1.347
+    ],
+    "size_xyz_m": [
+      3.37,
+      3.6,
+      2.65
+    ],
+    "collision_shapes": 4
+  },
+  "stone_lantern": {
+    "name": "Stone Lantern",
+    "scene": "res://staging/claude_environment_batch1/stone_lantern/stone_lantern.tscn",
+    "model": "res://staging/claude_environment_batch1/stone_lantern/stone_lantern.glb",
+    "triangles": 200,
+    "surfaces": 3,
+    "materials": [
+      "Coping",
+      "Lantern",
+      "Stone"
+    ],
+    "bounds_min": [
+      -0.47,
+      0.0,
+      -0.47
+    ],
+    "bounds_max": [
+      0.47,
+      2.12,
+      0.47
+    ],
+    "size_xyz_m": [
+      0.94,
+      2.12,
+      0.94
+    ],
+    "collision_shapes": 2
+  },
+  "sect_banner": {
+    "name": "Sect Banner Standard",
+    "scene": "res://staging/claude_environment_batch1/sect_banner/sect_banner.tscn",
+    "model": "res://staging/claude_environment_batch1/sect_banner/sect_banner.glb",
+    "triangles": 608,
+    "surfaces": 6,
+    "materials": [
+      "Bronze",
+      "Cedar",
+      "Coping",
+      "Fabric",
+      "Stone",
+      "Timber"
+    ],
+    "bounds_min": [
+      -0.38,
+      0.0,
+      -0.38
+    ],
+    "bounds_max": [
+      1.24,
+      4.95,
+      0.38
+    ],
+    "size_xyz_m": [
+      1.62,
+      4.95,
+      0.76
+    ],
+    "collision_shapes": 2
+  },
+  "training_dummy_rack": {
+    "name": "Practice Dummy and Weapon Rack",
+    "scene": "res://staging/claude_environment_batch1/training_dummy_rack/training_dummy_rack.tscn",
+    "model": "res://staging/claude_environment_batch1/training_dummy_rack/training_dummy_rack.glb",
+    "triangles": 528,
+    "surfaces": 7,
+    "materials": [
+      "Bronze",
+      "Cedar",
+      "Coping",
+      "Fabric",
+      "Stone",
+      "Straw",
+      "Timber"
+    ],
+    "bounds_min": [
+      -1.095,
+      0.0,
+      -0.275
+    ],
+    "bounds_max": [
+      1.34,
+      2.38,
+      0.275
+    ],
+    "size_xyz_m": [
+      2.43,
+      2.38,
+      0.55
+    ],
+    "collision_shapes": 3
+  },
+  "stone_bench": {
+    "name": "Garden Bench",
+    "scene": "res://staging/claude_environment_batch1/stone_bench/stone_bench.tscn",
+    "model": "res://staging/claude_environment_batch1/stone_bench/stone_bench.glb",
+    "triangles": 108,
+    "surfaces": 4,
+    "materials": [
+      "Cedar",
+      "Coping",
+      "Stone",
+      "Timber"
+    ],
+    "bounds_min": [
+      -0.92,
+      0.0,
+      -0.223
+    ],
+    "bounds_max": [
+      0.92,
+      0.497,
+      0.223
+    ],
+    "size_xyz_m": [
+      1.84,
+      0.5,
+      0.45
+    ],
+    "collision_shapes": 1
+  }
+}

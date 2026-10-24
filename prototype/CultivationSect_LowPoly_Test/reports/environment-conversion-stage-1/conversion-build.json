@@ -1,0 +1,392 @@
+{
+  "models": [
+    {
+      "file": "sect_gate.glb",
+      "triangles_before": 87426,
+      "triangles_after": 78667,
+      "surfaces_after": 11,
+      "bounds_before_blender": [
+        [
+          -15.5,
+          -6.2779130935668945,
+          0.0
+        ],
+        [
+          15.5,
+          6.2779130935668945,
+          16.230730056762695
+        ]
+      ],
+      "bounds_after_blender": [
+        [
+          -15.5,
+          -6.2779130935668945,
+          0.0
+        ],
+        [
+          15.5,
+          6.2779130935668945,
+          16.230730056762695
+        ]
+      ],
+      "reductions": [
+        {
+          "original_role": "ArchStone",
+          "before": 3256,
+          "after": 3256,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "ArchStoneDark",
+          "before": 440,
+          "after": 440,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Ashlar",
+          "before": 1062,
+          "after": 1062,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Bronze",
+          "before": 208,
+          "after": 208,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "CarvedWood",
+          "before": 22376,
+          "after": 22028,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Coping",
+          "before": 2424,
+          "after": 2424,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Fabric",
+          "before": 272,
+          "after": 272,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Iron",
+          "before": 240,
+          "after": 240,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "JadeTile",
+          "before": 5968,
+          "after": 1764,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Lantern",
+          "before": 56,
+          "after": 56,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Paving",
+          "before": 12,
+          "after": 12,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Plaster",
+          "before": 168,
+          "after": 168,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "TileEdge",
+          "before": 40520,
+          "after": 40520,
+          "dissolve_angle_degrees": 10.0
+        },
+        {
+          "original_role": "Timber",
+          "before": 10160,
+          "after": 5953,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Window",
+          "before": 264,
+          "after": 264,
+          "dissolve_angle_degrees": 2.0
+        }
+      ]
+    },
+    {
+      "file": "sect_gate_lod.glb",
+      "triangles_before": 14902,
+      "triangles_after": 14666,
+      "surfaces_after": 11,
+      "bounds_before_blender": [
+        [
+          -15.5,
+          -6.271369457244873,
+          0.0
+        ],
+        [
+          15.5,
+          6.271369457244873,
+          16.18000030517578
+        ]
+      ],
+      "bounds_after_blender": [
+        [
+          -15.5,
+          -6.271369457244873,
+          0.0
+        ],
+        [
+          15.5,
+          6.271369457244873,
+          16.18000030517578
+        ]
+      ],
+      "reductions": [
+        {
+          "original_role": "ArchStone",
+          "before": 684,
+          "after": 684,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "ArchStoneDark",
+          "before": 92,
+          "after": 92,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Ashlar",
+          "before": 385,
+          "after": 385,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Bronze",
+          "before": 22,
+          "after": 22,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "CarvedWood",
+          "before": 776,
+          "after": 760,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Coping",
+          "before": 532,
+          "after": 532,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Fabric",
+          "before": 58,
+          "after": 48,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Iron",
+          "before": 50,
+          "after": 50,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "JadeTile",
+          "before": 1312,
+          "after": 1128,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Lantern",
+          "before": 10,
+          "after": 10,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Paving",
+          "before": 1,
+          "after": 1,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Plaster",
+          "before": 22,
+          "after": 22,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "TileEdge",
+          "before": 8872,
+          "after": 8868,
+          "dissolve_angle_degrees": 10.0
+        },
+        {
+          "original_role": "Timber",
+          "before": 2046,
+          "after": 2028,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Window",
+          "before": 40,
+          "after": 40,
+          "dissolve_angle_degrees": 2.0
+        }
+      ]
+    },
+    {
+      "file": "gate_leaf_left.glb",
+      "triangles_before": 2724,
+      "triangles_after": 2724,
+      "surfaces_after": 3,
+      "bounds_before_blender": [
+        [
+          0.029999999329447746,
+          -0.671999990940094,
+          0.03500000014901161
+        ],
+        [
+          4.175000190734863,
+          -0.00800000037997961,
+          6.610000133514404
+        ]
+      ],
+      "bounds_after_blender": [
+        [
+          0.029999999329447746,
+          -0.671999990940094,
+          0.03500000014901161
+        ],
+        [
+          4.175000190734863,
+          -0.00800000037997961,
+          6.610000133514404
+        ]
+      ],
+      "reductions": [
+        {
+          "original_role": "Bronze",
+          "before": 2368,
+          "after": 2368,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "CarvedWood",
+          "before": 192,
+          "after": 192,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Iron",
+          "before": 120,
+          "after": 120,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Timber",
+          "before": 44,
+          "after": 44,
+          "dissolve_angle_degrees": 2.0
+        }
+      ]
+    },
+    {
+      "file": "gate_leaf_right.glb",
+      "triangles_before": 2724,
+      "triangles_after": 2724,
+      "surfaces_after": 3,
+      "bounds_before_blender": [
+        [
+          -4.175000190734863,
+          -0.671999990940094,
+          0.03500000014901161
+        ],
+        [
+          -0.029999999329447746,
+          -0.00800000037997961,
+          6.610000133514404
+        ]
+      ],
+      "bounds_after_blender": [
+        [
+          -4.175000190734863,
+          -0.671999990940094,
+          0.03500000014901161
+        ],
+        [
+          -0.029999999329447746,
+          -0.00800000037997961,
+          6.610000133514404
+        ]
+      ],
+      "reductions": [
+        {
+          "original_role": "Bronze",
+          "before": 2368,
+          "after": 2368,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "CarvedWood",
+          "before": 192,
+          "after": 192,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Iron",
+          "before": 120,
+          "after": 120,
+          "dissolve_angle_degrees": 2.0
+        },
+        {
+          "original_role": "Timber",
+          "before": 44,
+          "after": 44,
+          "dissolve_angle_degrees": 2.0
+        }
+      ]
+    }
+  ],
+  "palette": {
+    "Stone": "667e88",
+    "Coping": "bcc6bd",
+    "Timber": "432d2d",
+    "Cedar": "896048",
+    "Jade": "22594f",
+    "TileLight": "46796b",
+    "Plaster": "e6d9b8",
+    "Window": "284c53",
+    "Bronze": "cda668",
+    "Fabric": "456e73",
+    "Lantern": "ffda91"
+  },
+  "material_map": {
+    "ArchStone": "Stone",
+    "ArchStoneDark": "Stone",
+    "Ashlar": "Stone",
+    "Coping": "Coping",
+    "Paving": "Coping",
+    "Timber": "Timber",
+    "Iron": "Timber",
+    "CarvedWood": "Cedar",
+    "JadeTile": "Jade",
+    "TileEdge": "TileLight",
+    "Plaster": "Plaster",
+    "Window": "Window",
+    "Bronze": "Bronze",
+    "Fabric": "Fabric",
+    "Lantern": "Lantern"
+  },
+  "visual_decisions": "Retain existing fortified gateway and tower silhouettes; match opaque flat hall palette; dissolve shallow redundant detail, no vertex-collapse decimation; no JSON/script/collider changes.",
+  "shared_resources": "Palette values and in-source material objects shared; each exported GLB embeds materials and does not promise cross-file GPU resource sharing."
+}

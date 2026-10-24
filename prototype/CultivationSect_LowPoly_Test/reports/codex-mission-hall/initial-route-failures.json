@@ -1,0 +1,560 @@
+{
+  "camera_hits": [],
+  "checks": [
+    {
+      "check": "identity root / metres",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "37 enabled authored collision shapes",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "collision layers match unchanged player",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "no asset lights/cameras/scripts",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "authored architectural feature MissionBoard_023",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "authored architectural feature MissionBoard_024",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "authored architectural feature ReportingCounter_025",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "authored architectural feature RankingBoard_031",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "authored architectural feature NoticeBoard_010",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "authored architectural feature NoticeBoard_011",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "FPP stair and forecourt",
+      "detail": {
+        "actual": "(0.0, 0.750838, 9.07833)",
+        "frames": 96,
+        "target": "(0.0, 0.75, 9.0)",
+        "third": false
+      },
+      "pass": true
+    },
+    {
+      "check": "FPP porch",
+      "detail": {
+        "actual": "(0.0, 0.750838, 5.078333)",
+        "frames": 60,
+        "target": "(0.0, 0.75, 5.0)",
+        "third": false
+      },
+      "pass": true
+    },
+    {
+      "check": "FPP door and aisle",
+      "detail": {
+        "actual": "(0.0, 0.750838, 1.078336)",
+        "frames": 60,
+        "target": "(0.0, 0.75, 1.0)",
+        "third": false
+      },
+      "pass": true
+    },
+    {
+      "check": "FPP counter approach",
+      "detail": {
+        "actual": "(0.0, 0.750838, -1.988331)",
+        "frames": 46,
+        "target": "(0.0, 0.75, -2.05)",
+        "third": false
+      },
+      "pass": true
+    },
+    {
+      "check": "FPP east side passage",
+      "detail": {
+        "actual": "(3.267413, 0.750108, -2.02431)",
+        "frames": 450,
+        "target": "(5.6, 0.75, -2.05)",
+        "third": false
+      },
+      "pass": false
+    },
+    {
+      "check": "FPP officials east",
+      "detail": {
+        "actual": "(3.267413, 0.750871, -2.202004)",
+        "frames": 450,
+        "target": "(5.6, 0.75, -6.6)",
+        "third": false
+      },
+      "pass": false
+    },
+    {
+      "check": "FPP behind officials desks",
+      "detail": {
+        "actual": "(-4.431763, 0.750838, -2.219059)",
+        "frames": 450,
+        "target": "(-5.6, 0.75, -6.6)",
+        "third": false
+      },
+      "pass": false
+    },
+    {
+      "check": "FPP west side passage",
+      "detail": {
+        "actual": "(-5.549789, 0.750838, -0.095375)",
+        "frames": 36,
+        "target": "(-5.6, 0.75, 0.0)",
+        "third": false
+      },
+      "pass": true
+    },
+    {
+      "check": "FPP return to central aisle",
+      "detail": {
+        "actual": "(-0.083924, 0.750834, -0.001442)",
+        "frames": 82,
+        "target": "(0.0, 0.75, 0.0)",
+        "third": false
+      },
+      "pass": true
+    },
+    {
+      "check": "FPP door and porch exit",
+      "detail": {
+        "actual": "(-0.000847, 0.750838, 6.731375)",
+        "frames": 101,
+        "target": "(0.0, 0.75, 6.8)",
+        "third": false
+      },
+      "pass": true
+    },
+    {
+      "check": "FPP west board approach",
+      "detail": {
+        "actual": "(-5.314453, 0.750838, 8.275145)",
+        "frames": 83,
+        "target": "(-5.4, 0.75, 8.3)",
+        "third": false
+      },
+      "pass": true
+    },
+    {
+      "check": "FPP between boards",
+      "detail": {
+        "actual": "(5.285516, 0.750838, 8.299735)",
+        "frames": 159,
+        "target": "(5.4, 0.75, 8.3)",
+        "third": false
+      },
+      "pass": true
+    },
+    {
+      "check": "FPP return to stair",
+      "detail": {
+        "actual": "(0.090728, 0.750838, 9.774248)",
+        "frames": 81,
+        "target": "(0.0, 0.75, 9.8)",
+        "third": false
+      },
+      "pass": true
+    },
+    {
+      "check": "FPP descend to ground",
+      "detail": {
+        "actual": "(0.001967, -0.011157, 13.90837)",
+        "frames": 62,
+        "target": "(0.0, 0.03, 14.0)",
+        "third": false
+      },
+      "pass": true
+    },
+    {
+      "check": "FPP counter blocks",
+      "detail": "(0.0, 0.750108, -2.215503)",
+      "pass": true
+    },
+    {
+      "check": "FPP front noticeboard/wall blocks",
+      "detail": "(2.6, 0.750089, 4.090936)",
+      "pass": true
+    },
+    {
+      "check": "FPP east board blocks",
+      "detail": "(5.866664, 0.749492, 8.3)",
+      "pass": true
+    },
+    {
+      "check": "FPP west board blocks",
+      "detail": "(-5.866664, 0.750088, 8.3)",
+      "pass": true
+    },
+    {
+      "check": "TPP stair and forecourt",
+      "detail": {
+        "actual": "(0.0, 0.750838, 9.078327)",
+        "frames": 96,
+        "target": "(0.0, 0.75, 9.0)",
+        "third": true
+      },
+      "pass": true
+    },
+    {
+      "check": "TPP porch",
+      "detail": {
+        "actual": "(0.0, 0.750838, 5.078331)",
+        "frames": 60,
+        "target": "(0.0, 0.75, 5.0)",
+        "third": true
+      },
+      "pass": true
+    },
+    {
+      "check": "TPP door and aisle",
+      "detail": {
+        "actual": "(0.0, 0.750838, 1.078334)",
+        "frames": 60,
+        "target": "(0.0, 0.75, 1.0)",
+        "third": true
+      },
+      "pass": true
+    },
+    {
+      "check": "TPP counter approach",
+      "detail": {
+        "actual": "(0.0, 0.750838, -1.988333)",
+        "frames": 46,
+        "target": "(0.0, 0.75, -2.05)",
+        "third": true
+      },
+      "pass": true
+    },
+    {
+      "check": "TPP east side passage",
+      "detail": {
+        "actual": "(3.266469, 0.750118, -2.0243)",
+        "frames": 450,
+        "target": "(5.6, 0.75, -2.05)",
+        "third": true
+      },
+      "pass": false
+    },
+    {
+      "check": "TPP officials east",
+      "detail": {
+        "actual": "(3.266469, 0.750842, -2.201979)",
+        "frames": 450,
+        "target": "(5.6, 0.75, -6.6)",
+        "third": true
+      },
+      "pass": false
+    },
+    {
+      "check": "TPP behind officials desks",
+      "detail": {
+        "actual": "(-4.432035, 0.750838, -2.219059)",
+        "frames": 450,
+        "target": "(-5.6, 0.75, -6.6)",
+        "third": true
+      },
+      "pass": false
+    },
+    {
+      "check": "TPP west side passage",
+      "detail": {
+        "actual": "(-5.549857, 0.750838, -0.095269)",
+        "frames": 36,
+        "target": "(-5.6, 0.75, 0.0)",
+        "third": true
+      },
+      "pass": true
+    },
+    {
+      "check": "TPP return to central aisle",
+      "detail": {
+        "actual": "(-0.083983, 0.749502, -0.001442)",
+        "frames": 82,
+        "target": "(0.0, 0.75, 0.0)",
+        "third": true
+      },
+      "pass": true
+    },
+    {
+      "check": "TPP door and porch exit",
+      "detail": {
+        "actual": "(-0.000847, 0.750838, 6.731376)",
+        "frames": 101,
+        "target": "(0.0, 0.75, 6.8)",
+        "third": true
+      },
+      "pass": true
+    },
+    {
+      "check": "TPP west board approach",
+      "detail": {
+        "actual": "(-5.314453, 0.750838, 8.275145)",
+        "frames": 83,
+        "target": "(-5.4, 0.75, 8.3)",
+        "third": true
+      },
+      "pass": true
+    },
+    {
+      "check": "TPP between boards",
+      "detail": {
+        "actual": "(5.285515, 0.750838, 8.299735)",
+        "frames": 159,
+        "target": "(5.4, 0.75, 8.3)",
+        "third": true
+      },
+      "pass": true
+    },
+    {
+      "check": "TPP return to stair",
+      "detail": {
+        "actual": "(0.090727, 0.750838, 9.774248)",
+        "frames": 81,
+        "target": "(0.0, 0.75, 9.8)",
+        "third": true
+      },
+      "pass": true
+    },
+    {
+      "check": "TPP descend to ground",
+      "detail": {
+        "actual": "(0.001967, -0.011157, 13.90837)",
+        "frames": 62,
+        "target": "(0.0, 0.03, 14.0)",
+        "third": true
+      },
+      "pass": true
+    },
+    {
+      "check": "TPP counter blocks",
+      "detail": "(0.0, 0.749705, -2.215503)",
+      "pass": true
+    },
+    {
+      "check": "TPP front noticeboard/wall blocks",
+      "detail": "(2.6, 0.750089, 4.090936)",
+      "pass": true
+    },
+    {
+      "check": "TPP east board blocks",
+      "detail": "(5.866664, 0.750081, 8.3)",
+      "pass": true
+    },
+    {
+      "check": "TPP west board blocks",
+      "detail": "(-5.866664, 0.750081, 8.3)",
+      "pass": true
+    },
+    {
+      "check": "sampled upper body clears visible geometry",
+      "detail": [],
+      "pass": true
+    },
+    {
+      "check": "sampled FPP/TPP camera clears solids and visible meshes",
+      "detail": [],
+      "pass": true
+    }
+  ],
+  "failed": 6,
+  "limits": "Automated fixed-fps routes; not human playtesting, performance or exhaustive collision testing",
+  "movement": [
+    {
+      "actual": "(0.0, 0.750838, 9.07833)",
+      "frames": 96,
+      "target": "(0.0, 0.75, 9.0)",
+      "third": false
+    },
+    {
+      "actual": "(0.0, 0.750838, 5.078333)",
+      "frames": 60,
+      "target": "(0.0, 0.75, 5.0)",
+      "third": false
+    },
+    {
+      "actual": "(0.0, 0.750838, 1.078336)",
+      "frames": 60,
+      "target": "(0.0, 0.75, 1.0)",
+      "third": false
+    },
+    {
+      "actual": "(0.0, 0.750838, -1.988331)",
+      "frames": 46,
+      "target": "(0.0, 0.75, -2.05)",
+      "third": false
+    },
+    {
+      "actual": "(3.267413, 0.750108, -2.02431)",
+      "frames": 450,
+      "target": "(5.6, 0.75, -2.05)",
+      "third": false
+    },
+    {
+      "actual": "(3.267413, 0.750871, -2.202004)",
+      "frames": 450,
+      "target": "(5.6, 0.75, -6.6)",
+      "third": false
+    },
+    {
+      "actual": "(-4.431763, 0.750838, -2.219059)",
+      "frames": 450,
+      "target": "(-5.6, 0.75, -6.6)",
+      "third": false
+    },
+    {
+      "actual": "(-5.549789, 0.750838, -0.095375)",
+      "frames": 36,
+      "target": "(-5.6, 0.75, 0.0)",
+      "third": false
+    },
+    {
+      "actual": "(-0.083924, 0.750834, -0.001442)",
+      "frames": 82,
+      "target": "(0.0, 0.75, 0.0)",
+      "third": false
+    },
+    {
+      "actual": "(-0.000847, 0.750838, 6.731375)",
+      "frames": 101,
+      "target": "(0.0, 0.75, 6.8)",
+      "third": false
+    },
+    {
+      "actual": "(-5.314453, 0.750838, 8.275145)",
+      "frames": 83,
+      "target": "(-5.4, 0.75, 8.3)",
+      "third": false
+    },
+    {
+      "actual": "(5.285516, 0.750838, 8.299735)",
+      "frames": 159,
+      "target": "(5.4, 0.75, 8.3)",
+      "third": false
+    },
+    {
+      "actual": "(0.090728, 0.750838, 9.774248)",
+      "frames": 81,
+      "target": "(0.0, 0.75, 9.8)",
+      "third": false
+    },
+    {
+      "actual": "(0.001967, -0.011157, 13.90837)",
+      "frames": 62,
+      "target": "(0.0, 0.03, 14.0)",
+      "third": false
+    },
+    {
+      "actual": "(0.0, 0.750838, 9.078327)",
+      "frames": 96,
+      "target": "(0.0, 0.75, 9.0)",
+      "third": true
+    },
+    {
+      "actual": "(0.0, 0.750838, 5.078331)",
+      "frames": 60,
+      "target": "(0.0, 0.75, 5.0)",
+      "third": true
+    },
+    {
+      "actual": "(0.0, 0.750838, 1.078334)",
+      "frames": 60,
+      "target": "(0.0, 0.75, 1.0)",
+      "third": true
+    },
+    {
+      "actual": "(0.0, 0.750838, -1.988333)",
+      "frames": 46,
+      "target": "(0.0, 0.75, -2.05)",
+      "third": true
+    },
+    {
+      "actual": "(3.266469, 0.750118, -2.0243)",
+      "frames": 450,
+      "target": "(5.6, 0.75, -2.05)",
+      "third": true
+    },
+    {
+      "actual": "(3.266469, 0.750842, -2.201979)",
+      "frames": 450,
+      "target": "(5.6, 0.75, -6.6)",
+      "third": true
+    },
+    {
+      "actual": "(-4.432035, 0.750838, -2.219059)",
+      "frames": 450,
+      "target": "(-5.6, 0.75, -6.6)",
+      "third": true
+    },
+    {
+      "actual": "(-5.549857, 0.750838, -0.095269)",
+      "frames": 36,
+      "target": "(-5.6, 0.75, 0.0)",
+      "third": true
+    },
+    {
+      "actual": "(-0.083983, 0.749502, -0.001442)",
+      "frames": 82,
+      "target": "(0.0, 0.75, 0.0)",
+      "third": true
+    },
+    {
+      "actual": "(-0.000847, 0.750838, 6.731376)",
+      "frames": 101,
+      "target": "(0.0, 0.75, 6.8)",
+      "third": true
+    },
+    {
+      "actual": "(-5.314453, 0.750838, 8.275145)",
+      "frames": 83,
+      "target": "(-5.4, 0.75, 8.3)",
+      "third": true
+    },
+    {
+      "actual": "(5.285515, 0.750838, 8.299735)",
+      "frames": 159,
+      "target": "(5.4, 0.75, 8.3)",
+      "third": true
+    },
+    {
+      "actual": "(0.090727, 0.750838, 9.774248)",
+      "frames": 81,
+      "target": "(0.0, 0.75, 9.8)",
+      "third": true
+    },
+    {
+      "actual": "(0.001967, -0.011157, 13.90837)",
+      "frames": 62,
+      "target": "(0.0, 0.03, 14.0)",
+      "third": true
+    }
+  ],
+  "passed": 42,
+  "sampled_volumes": 672,
+  "visual_hits": []
+}

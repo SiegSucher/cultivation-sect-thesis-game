@@ -1,0 +1,301 @@
+{
+	"checks": [
+		{
+			"check": "Current Phase 4C launches",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Arrival chain side -1.0",
+			"detail": {
+				"lengths": [
+					2,
+					2,
+					2,
+					2,
+					2,
+					1
+				],
+				"max_origin_error_m": 0.0,
+				"unit_scale_upright": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Reuse one existing upper landing leading post side -1.0",
+			"detail": {
+				"end_origin": "(-6.35, 4.06, 94.0)",
+				"landing_post_count": 1
+			},
+			"pass": true
+		},
+		{
+			"check": "Existing stone strips support flight and landing side -1.0",
+			"detail": [
+				0.000398172248493547,
+				0.000291949185458051,
+				0.00018236333673638,
+				0.000018699819391621,
+				0.00000288183038854584,
+				0.0000000381469726917771,
+				0.0000000381469726917771,
+				0.0000000381469726917771
+			],
+			"pass": true
+		},
+		{
+			"check": "Arrival chain side 1.0",
+			"detail": {
+				"lengths": [
+					2,
+					2,
+					2,
+					2,
+					2,
+					1
+				],
+				"max_origin_error_m": 0.0,
+				"unit_scale_upright": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Reuse one existing upper landing leading post side 1.0",
+			"detail": {
+				"end_origin": "(6.35, 4.06, 94.0)",
+				"landing_post_count": 1
+			},
+			"pass": true
+		},
+		{
+			"check": "Existing stone strips support flight and landing side 1.0",
+			"detail": [
+				0.000398172248493547,
+				0.000291949185458051,
+				0.00018236333673638,
+				0.000018699819391621,
+				0.00000288183038854584,
+				0.0000000381469726917771,
+				0.0000000381469726917771,
+				0.0000000381469726917771
+			],
+			"pass": true
+		},
+		{
+			"check": "Visible plinth and top-rail faces join side -1.0",
+			"detail": {
+				"misses": 0,
+				"rays": 66
+			},
+			"pass": true
+		},
+		{
+			"check": "Top rail stays 1.16 m above walking pitch side -1.0",
+			"detail": 0.0000366523049095679,
+			"pass": true
+		},
+		{
+			"check": "Visible plinth and top-rail faces join side 1.0",
+			"detail": {
+				"misses": 0,
+				"rays": 66
+			},
+			"pass": true
+		},
+		{
+			"check": "Top rail stays 1.16 m above walking pitch side 1.0",
+			"detail": 0.0000366523049095679,
+			"pass": true
+		},
+		{
+			"check": "Arrival TPP up x 0.00",
+			"detail": {
+				"end": "(0.0, 4.000824, 93.3251)",
+				"on_floor": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Arrival TPP down x 0.00",
+			"detail": {
+				"end": "(0.0, 0.000058, 105.6371)",
+				"on_floor": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Arrival TPP up x -5.65",
+			"detail": {
+				"end": "(-5.649955, 3.700467, 93.34191)",
+				"on_floor": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Arrival TPP down x -5.65",
+			"detail": {
+				"end": "(-5.649989, 3.631403, 93.71949)",
+				"on_floor": true
+			},
+			"pass": false
+		},
+		{
+			"check": "Arrival TPP up x 5.65",
+			"detail": {
+				"end": "(5.649921, 3.794931, 93.33173)",
+				"on_floor": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Arrival TPP down x 5.65",
+			"detail": {
+				"end": "(5.65, 3.750067, 93.72178)",
+				"on_floor": true
+			},
+			"pass": false
+		},
+		{
+			"check": "Arrival FPP up x 0.00",
+			"detail": {
+				"end": "(0.0, 4.000824, 93.3251)",
+				"on_floor": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Arrival FPP down x 0.00",
+			"detail": {
+				"end": "(0.0, 0.000058, 105.6371)",
+				"on_floor": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Arrival FPP up x -5.65",
+			"detail": {
+				"end": "(-5.649955, 3.700467, 93.34191)",
+				"on_floor": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Arrival FPP down x -5.65",
+			"detail": {
+				"end": "(-5.649989, 3.631403, 93.71949)",
+				"on_floor": true
+			},
+			"pass": false
+		},
+		{
+			"check": "Arrival FPP up x 5.65",
+			"detail": {
+				"end": "(5.649921, 3.794931, 93.33173)",
+				"on_floor": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Arrival FPP down x 5.65",
+			"detail": {
+				"end": "(5.65, 3.750067, 93.72178)",
+				"on_floor": true
+			},
+			"pass": false
+		},
+		{
+			"check": "Outer flight margin up x -5.93",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Outer flight margin down x -5.93",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Outer flight margin up x 5.93",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Outer flight margin down x 5.93",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Sideways blocked side -1.0 run 3.0",
+			"detail": {
+				"end": "(-5.946217, 1.143755, 102.0113)",
+				"movement_collider": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_stair_4in11_2m_002/Collision",
+				"waist_ray_hits_rail": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Sideways blocked side -1.0 run 6.0",
+			"detail": {
+				"end": "(-5.945985, 2.234653, 99.01231)",
+				"movement_collider": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_stair_4in11_2m_004/Collision",
+				"waist_ray_hits_rail": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Sideways blocked side -1.0 run 10.5",
+			"detail": {
+				"end": "(-5.946174, 3.872298, 94.51042)",
+				"movement_collider": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_stair_4in11_1m_001/Collision",
+				"waist_ray_hits_rail": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Sideways blocked side -1.0 run 12.0",
+			"detail": {
+				"end": "(-5.944943, 4.039635, 93.0)",
+				"movement_collider": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_section_2m_001/Collision",
+				"waist_ray_hits_rail": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Sideways blocked side 1.0 run 3.0",
+			"detail": {
+				"end": "(5.947541, 1.142526, 102.0118)",
+				"movement_collider": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_stair_4in11_2m_007/Collision",
+				"waist_ray_hits_rail": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Sideways blocked side 1.0 run 6.0",
+			"detail": {
+				"end": "(5.949067, 2.234886, 99.01357)",
+				"movement_collider": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_stair_4in11_2m_009/Collision",
+				"waist_ray_hits_rail": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Sideways blocked side 1.0 run 10.5",
+			"detail": {
+				"end": "(5.947483, 3.87221, 94.50977)",
+				"movement_collider": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_stair_4in11_1m_002/Collision",
+				"waist_ray_hits_rail": true
+			},
+			"pass": true
+		},
+		{
+			"check": "Sideways blocked side 1.0 run 12.0",
+			"detail": {
+				"end": "(5.944943, 4.039125, 93.0)",
+				"movement_collider": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_section_2m_002/Collision",
+				"waist_ray_hits_rail": true
+			},
+			"pass": true
+		}
+	],
+	"failures": 4,
+	"passes": 31
+}

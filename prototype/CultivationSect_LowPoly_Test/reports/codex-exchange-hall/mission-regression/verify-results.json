@@ -1,0 +1,153 @@
+{
+  "clearances_m": {
+    "collision": {
+      "door_headroom": 3.39999966621399,
+      "door_width_at_wall": 3.0,
+      "door_width_inside_leaves": 8.0,
+      "forecourt_width_between_boards": 12.2999992370605,
+      "interior_clear_height_at_aisle": 4.99999980926514,
+      "porch_central_bay_width": 2.42000007629395,
+      "porch_headroom_under_plaque": 8.05,
+      "side_passage_width": 2.25
+    },
+    "visible": {
+      "door_headroom": 3.39990000724792,
+      "door_width_at_wall": 2.99989974498749,
+      "door_width_inside_leaves": 2.83979988098145,
+      "forecourt_width_between_boards": 12.6400003433228,
+      "interior_clear_height_at_aisle": 8.41994552612305,
+      "porch_central_bay_width": 2.41998279094696,
+      "porch_headroom_under_plaque": 2.94990019798279,
+      "side_passage_width": 2.38010025024414
+    }
+  },
+  "failed": 0,
+  "passed": 25,
+  "results": [
+    {
+      "check": "imported triangles match build",
+      "detail": "[17790, 17790.0]",
+      "pass": true
+    },
+    {
+      "check": "imported size matches build (0.05 m)",
+      "detail": "[(19.06, 9.805352, 21.32061), [19.06, 9.81, 21.32]]",
+      "pass": true
+    },
+    {
+      "check": "sits on ground (min y ~ 0)",
+      "detail": "0.0",
+      "pass": true
+    },
+    {
+      "check": "every surface has an opaque untextured material",
+      "detail": "[0, 0]",
+      "pass": true
+    },
+    {
+      "check": "all palette materials present",
+      "detail": "[\"Bronze\", \"Cedar\", \"Coping\", \"Fabric\", \"Floor\", \"Jade\", \"Lantern\", \"Plaster\", \"Stone\", \"TileLight\", \"Timber\", \"Window\"]",
+      "pass": true
+    },
+    {
+      "check": "authored collision present",
+      "detail": "37",
+      "pass": true
+    },
+    {
+      "check": "plaque text present",
+      "detail": "[\"MISSION HALL\"]",
+      "pass": true
+    },
+    {
+      "check": "clearance door_width_at_wall >= 0.9 m (collision / visible)",
+      "detail": "3.00 / 3.00",
+      "pass": true
+    },
+    {
+      "check": "clearance door_width_inside_leaves >= 0.9 m (collision / visible)",
+      "detail": "8.00 / 2.84",
+      "pass": true
+    },
+    {
+      "check": "clearance door_headroom >= 2.1 m (collision / visible)",
+      "detail": "3.40 / 3.40",
+      "pass": true
+    },
+    {
+      "check": "clearance porch_central_bay_width >= 0.9 m (collision / visible)",
+      "detail": "2.42 / 2.42",
+      "pass": true
+    },
+    {
+      "check": "clearance porch_headroom_under_plaque >= 2.1 m (collision / visible)",
+      "detail": "8.05 / 2.95",
+      "pass": true
+    },
+    {
+      "check": "clearance forecourt_width_between_boards >= 0.9 m (collision / visible)",
+      "detail": "12.30 / 12.64",
+      "pass": true
+    },
+    {
+      "check": "clearance side_passage_width >= 0.9 m (collision / visible)",
+      "detail": "2.25 / 2.38",
+      "pass": true
+    },
+    {
+      "check": "clearance interior_clear_height_at_aisle >= 2.1 m (collision / visible)",
+      "detail": "5.00 / 8.42",
+      "pass": true
+    },
+    {
+      "check": "walk: stair, forecourt, porch, door, aisle to the reporting counter",
+      "detail": "(0.0, 0.749866, -2.217449)",
+      "pass": true
+    },
+    {
+      "check": "walk: no visible geometry inside the upper body along: stair, forecourt, porch, door, aisle to the reporting counter",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "walk: side passage past the counter into the officials' area",
+      "detail": "(5.6, 0.750268, -8.066662)",
+      "pass": true
+    },
+    {
+      "check": "walk: no visible geometry inside the upper body along: side passage past the counter into the officials' area",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "walk: front wall and notice board block beside the door",
+      "detail": "(2.6, 0.750089, 4.090936)",
+      "pass": true
+    },
+    {
+      "check": "walk: no visible geometry inside the upper body along: front wall and notice board block beside the door",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "walk: forecourt mission board blocks",
+      "detail": "(5.866664, 0.749304, 8.3)",
+      "pass": true
+    },
+    {
+      "check": "walk: no visible geometry inside the upper body along: forecourt mission board blocks",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "walk: walk back out through the door and down the stair",
+      "detail": "(0.0, 0.000843, 25.00237)",
+      "pass": true
+    },
+    {
+      "check": "walk: no visible geometry inside the upper body along: walk back out through the door and down the stair",
+      "detail": "[]",
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "test": {
+    "checked": 5965,
+    "changed_or_missing": [
+      "staging/claude_environment_safety_kit/review/verify_safety_kit.gd",
+      "staging/claude_environment_safety_kit/source/claude_environment_safety_kit.blend"
+    ],
+    "observed_unrelated_staging_drift": [
+      "staging/claude_environment_safety_kit/review/verify_safety_kit.gd",
+      "staging/claude_environment_safety_kit/source/claude_environment_safety_kit.blend"
+    ],
+    "unexpected_changes": []
+  },
+  "original": {
+    "checked": 1599,
+    "changed_or_missing": []
+  },
+  "old_map": {
+    "checked": 196,
+    "changed_or_missing": []
+  },
+  "large_map_and_resources_preserved": true,
+  "old_workspace_launchers_preserved": [
+    "View Mountain Valley Blockout.cmd"
+  ],
+  "large_map_recovery_archive": "large-map-recovery.zip",
+  "unrelated_drift_note": "Two unfinished safety-kit staging files changed during this run. Compact tools write only under mountain_valley_compact; the kit is not used, restored or altered by this task."
+}

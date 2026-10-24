@@ -1,0 +1,2930 @@
+{
+  "checks": [
+    {
+      "check": "permanent authored shape count",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "drum x=-18.00 both sides have measured surfaces",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "drum x=-18.00 offset confirmed",
+      "detail": 0.399800300598145,
+      "pass": true
+    },
+    {
+      "check": "column x=-18.00 both sides have measured surfaces",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "column x=-18.00 offset confirmed",
+      "detail": 0.469735145568848,
+      "pass": true
+    },
+    {
+      "check": "drum x=-14.40 both sides have measured surfaces",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "drum x=-14.40 offset confirmed",
+      "detail": 0.399800300598145,
+      "pass": true
+    },
+    {
+      "check": "column x=-14.40 both sides have measured surfaces",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "column x=-14.40 offset confirmed",
+      "detail": 0.469735145568848,
+      "pass": true
+    },
+    {
+      "check": "drum x=-10.80 both sides have measured surfaces",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "drum x=-10.80 offset confirmed",
+      "detail": 0.399800300598145,
+      "pass": true
+    },
+    {
+      "check": "column x=-10.80 both sides have measured surfaces",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "column x=-10.80 offset confirmed",
+      "detail": 0.469735145568848,
+      "pass": true
+    },
+    {
+      "check": "drum x=-7.20 both sides have measured surfaces",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "drum x=-7.20 offset confirmed",
+      "detail": 0.399800300598145,
+      "pass": true
+    },
+    {
+      "check": "column x=-7.20 both sides have measured surfaces",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "column x=-7.20 offset confirmed",
+      "detail": 0.469734191894531,
+      "pass": true
+    },
+    {
+      "check": "unmatched drum x=-3.65 has no visible counterpart",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "unmatched drum x=-3.65 confirmed ghost",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "unmatched column x=-3.65 has no visible counterpart",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "unmatched column x=-3.65 confirmed ghost",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "unmatched drum x=3.65 has no visible counterpart",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "unmatched drum x=3.65 confirmed ghost",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "unmatched column x=3.65 has no visible counterpart",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "unmatched column x=3.65 confirmed ghost",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "drum x=7.20 both sides have measured surfaces",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "drum x=7.20 offset confirmed",
+      "detail": 0.399800300598145,
+      "pass": true
+    },
+    {
+      "check": "column x=7.20 both sides have measured surfaces",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "column x=7.20 offset confirmed",
+      "detail": 0.469776153564453,
+      "pass": true
+    },
+    {
+      "check": "drum x=10.80 both sides have measured surfaces",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "drum x=10.80 offset confirmed",
+      "detail": 0.399800300598145,
+      "pass": true
+    },
+    {
+      "check": "column x=10.80 both sides have measured surfaces",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "column x=10.80 offset confirmed",
+      "detail": 0.469817161560059,
+      "pass": true
+    },
+    {
+      "check": "drum x=14.40 both sides have measured surfaces",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "drum x=14.40 offset confirmed",
+      "detail": 0.399800300598145,
+      "pass": true
+    },
+    {
+      "check": "column x=14.40 both sides have measured surfaces",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "column x=14.40 offset confirmed",
+      "detail": 0.469817161560059,
+      "pass": true
+    },
+    {
+      "check": "drum x=18.00 both sides have measured surfaces",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "drum x=18.00 offset confirmed",
+      "detail": 0.399800300598145,
+      "pass": true
+    },
+    {
+      "check": "column x=18.00 both sides have measured surfaces",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "column x=18.00 offset confirmed",
+      "detail": 0.469817161560059,
+      "pass": true
+    }
+  ],
+  "confirmed_columns_and_drums": true,
+  "contacts": [],
+  "failed": 0,
+  "limits": "Automated imported-mesh/physics/player tests, not human playtesting.",
+  "movements": [],
+  "passed": 41,
+  "probes": [
+    {
+      "action": "move",
+      "kind": "drum",
+      "new_position": [
+        -18.0,
+        1.82,
+        -9.6
+      ],
+      "old_index": 91.0,
+      "old_position": [
+        -18.2,
+        1.82,
+        -10.0
+      ],
+      "rays": [
+        {
+          "height": 1.68,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -18.0,
+              1.67999994754791,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_091"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              -18.0,
+              1.67999994754791,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.68,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -18.0,
+              1.67999994754791,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_091"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              -18.0,
+              1.67999994754791,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.82,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -18.0,
+              1.82000005245209,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_091"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              -18.0,
+              1.82000005245209,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.82,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -18.0,
+              1.82000005245209,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_091"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              -18.0,
+              1.82000005245209,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 2.0,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -18.0,
+              2.0,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_091"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              -18.0,
+              2.0,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 2.0,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -18.0,
+              2.0,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_091"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              -18.0,
+              2.0,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        }
+      ]
+    },
+    {
+      "action": "move",
+      "kind": "column",
+      "new_position": [
+        -18.0,
+        4.705,
+        -9.6
+      ],
+      "old_index": 92.0,
+      "old_position": [
+        -18.2,
+        4.705,
+        -10.0
+      ],
+      "rays": [
+        {
+          "height": 2.4,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -18.0,
+              2.40000009536743,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_092"
+          },
+          "surface_gap_m": 0.329765319824219,
+          "visible": {
+            "hit": true,
+            "position": [
+              -18.0,
+              2.40000009536743,
+              -9.92003440856934
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 2.4,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -18.0,
+              2.40000009536743,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_092"
+          },
+          "surface_gap_m": 0.469735145568848,
+          "visible": {
+            "hit": true,
+            "position": [
+              -18.0,
+              2.40000009536743,
+              -9.2804651260376
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 3.5,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -18.0,
+              3.5,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_092"
+          },
+          "surface_gap_m": 0.329765319824219,
+          "visible": {
+            "hit": true,
+            "position": [
+              -18.0,
+              3.5,
+              -9.92003440856934
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 3.5,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -18.0,
+              3.5,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_092"
+          },
+          "surface_gap_m": 0.469735145568848,
+          "visible": {
+            "hit": true,
+            "position": [
+              -18.0,
+              3.5,
+              -9.2804651260376
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 5.5,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -18.0,
+              5.5,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_092"
+          },
+          "surface_gap_m": 0.329765319824219,
+          "visible": {
+            "hit": true,
+            "position": [
+              -18.0,
+              5.5,
+              -9.92003440856934
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 5.5,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -18.0,
+              5.5,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_092"
+          },
+          "surface_gap_m": 0.469735145568848,
+          "visible": {
+            "hit": true,
+            "position": [
+              -18.0,
+              5.5,
+              -9.2804651260376
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        }
+      ]
+    },
+    {
+      "action": "move",
+      "kind": "drum",
+      "new_position": [
+        -14.4,
+        1.82,
+        -9.6
+      ],
+      "old_index": 95.0,
+      "old_position": [
+        -14.6,
+        1.82,
+        -10.0
+      ],
+      "rays": [
+        {
+          "height": 1.68,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              1.67999994754791,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_095"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              1.67999994754791,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.68,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              1.67999994754791,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_095"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              1.67999994754791,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.82,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              1.82000005245209,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_095"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              1.82000005245209,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.82,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              1.82000005245209,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_095"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              1.82000005245209,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 2.0,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              2.0,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_095"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              2.0,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 2.0,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              2.0,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_095"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              2.0,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        }
+      ]
+    },
+    {
+      "action": "move",
+      "kind": "column",
+      "new_position": [
+        -14.4,
+        4.705,
+        -9.6
+      ],
+      "old_index": 96.0,
+      "old_position": [
+        -14.6,
+        4.705,
+        -10.0
+      ],
+      "rays": [
+        {
+          "height": 2.4,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              2.40000009536743,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_096"
+          },
+          "surface_gap_m": 0.329765319824219,
+          "visible": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              2.40000009536743,
+              -9.92003440856934
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 2.4,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              2.40000009536743,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_096"
+          },
+          "surface_gap_m": 0.469735145568848,
+          "visible": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              2.40000009536743,
+              -9.2804651260376
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 3.5,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              3.5,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_096"
+          },
+          "surface_gap_m": 0.329765319824219,
+          "visible": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              3.5,
+              -9.92003440856934
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 3.5,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              3.5,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_096"
+          },
+          "surface_gap_m": 0.469735145568848,
+          "visible": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              3.5,
+              -9.2804651260376
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 5.5,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              5.5,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_096"
+          },
+          "surface_gap_m": 0.329765319824219,
+          "visible": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              5.5,
+              -9.92003440856934
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 5.5,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              5.5,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_096"
+          },
+          "surface_gap_m": 0.469735145568848,
+          "visible": {
+            "hit": true,
+            "position": [
+              -14.3999996185303,
+              5.5,
+              -9.2804651260376
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        }
+      ]
+    },
+    {
+      "action": "move",
+      "kind": "drum",
+      "new_position": [
+        -10.8,
+        1.82,
+        -9.6
+      ],
+      "old_index": 99.0,
+      "old_position": [
+        -11.0,
+        1.82,
+        -10.0
+      ],
+      "rays": [
+        {
+          "height": 1.68,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              1.67999994754791,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_099"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              1.67999994754791,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.68,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              1.67999994754791,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_099"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              1.67999994754791,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.82,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              1.82000005245209,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_099"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              1.82000005245209,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.82,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              1.82000005245209,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_099"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              1.82000005245209,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 2.0,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              2.0,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_099"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              2.0,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 2.0,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              2.0,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_099"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              2.0,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        }
+      ]
+    },
+    {
+      "action": "move",
+      "kind": "column",
+      "new_position": [
+        -10.8,
+        4.705,
+        -9.6
+      ],
+      "old_index": 100.0,
+      "old_position": [
+        -11.0,
+        4.705,
+        -10.0
+      ],
+      "rays": [
+        {
+          "height": 2.4,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              2.40000009536743,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_100"
+          },
+          "surface_gap_m": 0.329765319824219,
+          "visible": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              2.40000009536743,
+              -9.92003440856934
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 2.4,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              2.40000009536743,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_100"
+          },
+          "surface_gap_m": 0.469735145568848,
+          "visible": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              2.40000009536743,
+              -9.2804651260376
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 3.5,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              3.5,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_100"
+          },
+          "surface_gap_m": 0.329765319824219,
+          "visible": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              3.5,
+              -9.92003440856934
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 3.5,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              3.5,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_100"
+          },
+          "surface_gap_m": 0.469735145568848,
+          "visible": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              3.5,
+              -9.2804651260376
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 5.5,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              5.5,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_100"
+          },
+          "surface_gap_m": 0.329765319824219,
+          "visible": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              5.5,
+              -9.92003440856934
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 5.5,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              5.5,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_100"
+          },
+          "surface_gap_m": 0.469735145568848,
+          "visible": {
+            "hit": true,
+            "position": [
+              -10.8000001907349,
+              5.5,
+              -9.2804651260376
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        }
+      ]
+    },
+    {
+      "action": "move",
+      "kind": "drum",
+      "new_position": [
+        -7.2,
+        1.82,
+        -9.6
+      ],
+      "old_index": 103.0,
+      "old_position": [
+        -7.4,
+        1.82,
+        -10.0
+      ],
+      "rays": [
+        {
+          "height": 1.68,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              1.67999994754791,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_103"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              1.67999994754791,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.68,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              1.67999994754791,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_103"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              1.67999994754791,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.82,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              1.82000005245209,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_103"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              1.82000005245209,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.82,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              1.82000005245209,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_103"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              1.82000005245209,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 2.0,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              2.0,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_103"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              2.0,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 2.0,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              2.0,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_103"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              2.0,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        }
+      ]
+    },
+    {
+      "action": "move",
+      "kind": "column",
+      "new_position": [
+        -7.2,
+        4.705,
+        -9.6
+      ],
+      "old_index": 104.0,
+      "old_position": [
+        -7.4,
+        4.705,
+        -10.0
+      ],
+      "rays": [
+        {
+          "height": 2.4,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              2.40000009536743,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_104"
+          },
+          "surface_gap_m": 0.329766273498535,
+          "visible": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              2.40000009536743,
+              -9.92003345489502
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 2.4,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              2.40000009536743,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_104"
+          },
+          "surface_gap_m": 0.469734191894531,
+          "visible": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              2.40000009536743,
+              -9.28046607971191
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 3.5,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              3.5,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_104"
+          },
+          "surface_gap_m": 0.329766273498535,
+          "visible": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              3.5,
+              -9.92003345489502
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 3.5,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              3.5,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_104"
+          },
+          "surface_gap_m": 0.469734191894531,
+          "visible": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              3.5,
+              -9.28046607971191
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 5.5,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              5.5,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_104"
+          },
+          "surface_gap_m": 0.329766273498535,
+          "visible": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              5.5,
+              -9.92003345489502
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 5.5,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              5.5,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_104"
+          },
+          "surface_gap_m": 0.469734191894531,
+          "visible": {
+            "hit": true,
+            "position": [
+              -7.19999980926514,
+              5.5,
+              -9.28046607971191
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        }
+      ]
+    },
+    {
+      "action": "remove_unmatched",
+      "kind": "drum",
+      "new_position": null,
+      "old_index": 107.0,
+      "old_position": [
+        -3.65,
+        1.82,
+        -10.0
+      ],
+      "rays": [
+        {
+          "height": 1.68,
+          "solid": {
+            "hit": true,
+            "position": [
+              -3.65000009536743,
+              1.67999994754791,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_107"
+          },
+          "visible": {
+            "hit": false
+          }
+        },
+        {
+          "height": 1.82,
+          "solid": {
+            "hit": true,
+            "position": [
+              -3.65000009536743,
+              1.82000005245209,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_107"
+          },
+          "visible": {
+            "hit": false
+          }
+        },
+        {
+          "height": 2.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              -3.65000009536743,
+              2.0,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_107"
+          },
+          "visible": {
+            "hit": false
+          }
+        }
+      ]
+    },
+    {
+      "action": "remove_unmatched",
+      "kind": "column",
+      "new_position": null,
+      "old_index": 108.0,
+      "old_position": [
+        -3.65,
+        4.705,
+        -10.0
+      ],
+      "rays": [
+        {
+          "height": 2.4,
+          "solid": {
+            "hit": true,
+            "position": [
+              -3.65000009536743,
+              2.40000009536743,
+              -10.3199996948242
+            ],
+            "shape": "Substantial veranda column_108"
+          },
+          "visible": {
+            "hit": false
+          }
+        },
+        {
+          "height": 3.5,
+          "solid": {
+            "hit": true,
+            "position": [
+              -3.65000009536743,
+              3.5,
+              -10.3199996948242
+            ],
+            "shape": "Substantial veranda column_108"
+          },
+          "visible": {
+            "hit": false
+          }
+        },
+        {
+          "height": 5.5,
+          "solid": {
+            "hit": true,
+            "position": [
+              -3.65000009536743,
+              5.5,
+              -10.3199996948242
+            ],
+            "shape": "Substantial veranda column_108"
+          },
+          "visible": {
+            "hit": false
+          }
+        }
+      ]
+    },
+    {
+      "action": "remove_unmatched",
+      "kind": "drum",
+      "new_position": null,
+      "old_index": 111.0,
+      "old_position": [
+        3.65,
+        1.82,
+        -10.0
+      ],
+      "rays": [
+        {
+          "height": 1.68,
+          "solid": {
+            "hit": true,
+            "position": [
+              3.65000009536743,
+              1.67999994754791,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_111"
+          },
+          "visible": {
+            "hit": false
+          }
+        },
+        {
+          "height": 1.82,
+          "solid": {
+            "hit": true,
+            "position": [
+              3.65000009536743,
+              1.82000005245209,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_111"
+          },
+          "visible": {
+            "hit": false
+          }
+        },
+        {
+          "height": 2.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              3.65000009536743,
+              2.0,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_111"
+          },
+          "visible": {
+            "hit": false
+          }
+        }
+      ]
+    },
+    {
+      "action": "remove_unmatched",
+      "kind": "column",
+      "new_position": null,
+      "old_index": 112.0,
+      "old_position": [
+        3.65,
+        4.705,
+        -10.0
+      ],
+      "rays": [
+        {
+          "height": 2.4,
+          "solid": {
+            "hit": true,
+            "position": [
+              3.65000009536743,
+              2.40000009536743,
+              -10.3199996948242
+            ],
+            "shape": "Substantial veranda column_112"
+          },
+          "visible": {
+            "hit": false
+          }
+        },
+        {
+          "height": 3.5,
+          "solid": {
+            "hit": true,
+            "position": [
+              3.65000009536743,
+              3.5,
+              -10.3199996948242
+            ],
+            "shape": "Substantial veranda column_112"
+          },
+          "visible": {
+            "hit": false
+          }
+        },
+        {
+          "height": 5.5,
+          "solid": {
+            "hit": true,
+            "position": [
+              3.65000009536743,
+              5.5,
+              -10.3199996948242
+            ],
+            "shape": "Substantial veranda column_112"
+          },
+          "visible": {
+            "hit": false
+          }
+        }
+      ]
+    },
+    {
+      "action": "move",
+      "kind": "drum",
+      "new_position": [
+        7.2,
+        1.82,
+        -9.6
+      ],
+      "old_index": 115.0,
+      "old_position": [
+        7.4,
+        1.82,
+        -10.0
+      ],
+      "rays": [
+        {
+          "height": 1.68,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              1.67999994754791,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_115"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              1.67999994754791,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.68,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              1.67999994754791,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_115"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              1.67999994754791,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.82,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              1.82000005245209,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_115"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              1.82000005245209,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.82,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              1.82000005245209,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_115"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              1.82000005245209,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 2.0,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              2.0,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_115"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              2.0,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 2.0,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              2.0,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_115"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              2.0,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        }
+      ]
+    },
+    {
+      "action": "move",
+      "kind": "column",
+      "new_position": [
+        7.2,
+        4.705,
+        -9.6
+      ],
+      "old_index": 116.0,
+      "old_position": [
+        7.4,
+        4.705,
+        -10.0
+      ],
+      "rays": [
+        {
+          "height": 2.4,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              2.40000009536743,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_116"
+          },
+          "surface_gap_m": 0.329724311828613,
+          "visible": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              2.40000009536743,
+              -9.92007541656494
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 2.4,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              2.40000009536743,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_116"
+          },
+          "surface_gap_m": 0.469776153564453,
+          "visible": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              2.40000009536743,
+              -9.28042411804199
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 3.5,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              3.5,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_116"
+          },
+          "surface_gap_m": 0.329724311828613,
+          "visible": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              3.5,
+              -9.92007541656494
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 3.5,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              3.5,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_116"
+          },
+          "surface_gap_m": 0.469776153564453,
+          "visible": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              3.5,
+              -9.28042411804199
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 5.5,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              5.5,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_116"
+          },
+          "surface_gap_m": 0.329724311828613,
+          "visible": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              5.5,
+              -9.92007541656494
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 5.5,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              5.5,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_116"
+          },
+          "surface_gap_m": 0.469776153564453,
+          "visible": {
+            "hit": true,
+            "position": [
+              7.19999980926514,
+              5.5,
+              -9.28042411804199
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        }
+      ]
+    },
+    {
+      "action": "move",
+      "kind": "drum",
+      "new_position": [
+        10.8,
+        1.82,
+        -9.6
+      ],
+      "old_index": 119.0,
+      "old_position": [
+        11.0,
+        1.82,
+        -10.0
+      ],
+      "rays": [
+        {
+          "height": 1.68,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              1.67999994754791,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_119"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              1.67999994754791,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.68,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              1.67999994754791,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_119"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              1.67999994754791,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.82,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              1.82000005245209,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_119"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              1.82000005245209,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.82,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              1.82000005245209,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_119"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              1.82000005245209,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 2.0,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              2.0,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_119"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              2.0,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 2.0,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              2.0,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_119"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              2.0,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        }
+      ]
+    },
+    {
+      "action": "move",
+      "kind": "column",
+      "new_position": [
+        10.8,
+        4.705,
+        -9.6
+      ],
+      "old_index": 120.0,
+      "old_position": [
+        11.0,
+        4.705,
+        -10.0
+      ],
+      "rays": [
+        {
+          "height": 2.4,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              2.40000009536743,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_120"
+          },
+          "surface_gap_m": 0.329683303833008,
+          "visible": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              2.40000009536743,
+              -9.92011642456055
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 2.4,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              2.40000009536743,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_120"
+          },
+          "surface_gap_m": 0.469817161560059,
+          "visible": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              2.40000009536743,
+              -9.28038311004639
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 3.5,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              3.5,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_120"
+          },
+          "surface_gap_m": 0.329683303833008,
+          "visible": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              3.5,
+              -9.92011642456055
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 3.5,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              3.5,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_120"
+          },
+          "surface_gap_m": 0.469817161560059,
+          "visible": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              3.5,
+              -9.28038311004639
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 5.5,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              5.5,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_120"
+          },
+          "surface_gap_m": 0.329683303833008,
+          "visible": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              5.5,
+              -9.92011642456055
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 5.5,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              5.5,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_120"
+          },
+          "surface_gap_m": 0.469817161560059,
+          "visible": {
+            "hit": true,
+            "position": [
+              10.8000001907349,
+              5.5,
+              -9.28038311004639
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        }
+      ]
+    },
+    {
+      "action": "move",
+      "kind": "drum",
+      "new_position": [
+        14.4,
+        1.82,
+        -9.6
+      ],
+      "old_index": 123.0,
+      "old_position": [
+        14.6,
+        1.82,
+        -10.0
+      ],
+      "rays": [
+        {
+          "height": 1.68,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              1.67999994754791,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_123"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              1.67999994754791,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.68,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              1.67999994754791,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_123"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              1.67999994754791,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.82,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              1.82000005245209,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_123"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              1.82000005245209,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.82,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              1.82000005245209,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_123"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              1.82000005245209,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 2.0,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              2.0,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_123"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              2.0,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 2.0,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              2.0,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_123"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              2.0,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        }
+      ]
+    },
+    {
+      "action": "move",
+      "kind": "column",
+      "new_position": [
+        14.4,
+        4.705,
+        -9.6
+      ],
+      "old_index": 124.0,
+      "old_position": [
+        14.6,
+        4.705,
+        -10.0
+      ],
+      "rays": [
+        {
+          "height": 2.4,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              2.40000009536743,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_124"
+          },
+          "surface_gap_m": 0.329683303833008,
+          "visible": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              2.40000009536743,
+              -9.92011642456055
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 2.4,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              2.40000009536743,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_124"
+          },
+          "surface_gap_m": 0.469817161560059,
+          "visible": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              2.40000009536743,
+              -9.28038311004639
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 3.5,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              3.5,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_124"
+          },
+          "surface_gap_m": 0.329683303833008,
+          "visible": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              3.5,
+              -9.92011642456055
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 3.5,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              3.5,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_124"
+          },
+          "surface_gap_m": 0.469817161560059,
+          "visible": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              3.5,
+              -9.28038311004639
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 5.5,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              5.5,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_124"
+          },
+          "surface_gap_m": 0.329683303833008,
+          "visible": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              5.5,
+              -9.92011642456055
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 5.5,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              5.5,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_124"
+          },
+          "surface_gap_m": 0.469817161560059,
+          "visible": {
+            "hit": true,
+            "position": [
+              14.3999996185303,
+              5.5,
+              -9.28038311004639
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        }
+      ]
+    },
+    {
+      "action": "move",
+      "kind": "drum",
+      "new_position": [
+        18.0,
+        1.82,
+        -9.6
+      ],
+      "old_index": 127.0,
+      "old_position": [
+        18.2,
+        1.82,
+        -10.0
+      ],
+      "rays": [
+        {
+          "height": 1.68,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              18.0,
+              1.67999994754791,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_127"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              18.0,
+              1.67999994754791,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.68,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              18.0,
+              1.67999994754791,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_127"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              18.0,
+              1.67999994754791,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.82,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              18.0,
+              1.82000005245209,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_127"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              18.0,
+              1.82000005245209,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 1.82,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              18.0,
+              1.82000005245209,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_127"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              18.0,
+              1.82000005245209,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 2.0,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              18.0,
+              2.0,
+              -10.4250001907349
+            ],
+            "shape": "Veranda column stone drum_127"
+          },
+          "surface_gap_m": 0.399700164794922,
+          "visible": {
+            "hit": true,
+            "position": [
+              18.0,
+              2.0,
+              -10.0253000259399
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        },
+        {
+          "height": 2.0,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              18.0,
+              2.0,
+              -9.57499980926514
+            ],
+            "shape": "Veranda column stone drum_127"
+          },
+          "surface_gap_m": 0.399800300598145,
+          "visible": {
+            "hit": true,
+            "position": [
+              18.0,
+              2.0,
+              -9.17519950866699
+            ],
+            "shape": "@CollisionShape3D@39"
+          }
+        }
+      ]
+    },
+    {
+      "action": "move",
+      "kind": "column",
+      "new_position": [
+        18.0,
+        4.705,
+        -9.6
+      ],
+      "old_index": 128.0,
+      "old_position": [
+        18.2,
+        4.705,
+        -10.0
+      ],
+      "rays": [
+        {
+          "height": 2.4,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              18.0,
+              2.40000009536743,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_128"
+          },
+          "surface_gap_m": 0.329683303833008,
+          "visible": {
+            "hit": true,
+            "position": [
+              18.0,
+              2.40000009536743,
+              -9.92011642456055
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 2.4,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              18.0,
+              2.40000009536743,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_128"
+          },
+          "surface_gap_m": 0.469817161560059,
+          "visible": {
+            "hit": true,
+            "position": [
+              18.0,
+              2.40000009536743,
+              -9.28038311004639
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 3.5,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              18.0,
+              3.5,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_128"
+          },
+          "surface_gap_m": 0.329683303833008,
+          "visible": {
+            "hit": true,
+            "position": [
+              18.0,
+              3.5,
+              -9.92011642456055
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 3.5,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              18.0,
+              3.5,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_128"
+          },
+          "surface_gap_m": 0.469817161560059,
+          "visible": {
+            "hit": true,
+            "position": [
+              18.0,
+              3.5,
+              -9.28038311004639
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 5.5,
+          "side": -1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              18.0,
+              5.5,
+              -10.2497997283936
+            ],
+            "shape": "Substantial veranda column_128"
+          },
+          "surface_gap_m": 0.329683303833008,
+          "visible": {
+            "hit": true,
+            "position": [
+              18.0,
+              5.5,
+              -9.92011642456055
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        },
+        {
+          "height": 5.5,
+          "side": 1.0,
+          "solid": {
+            "hit": true,
+            "position": [
+              18.0,
+              5.5,
+              -9.75020027160645
+            ],
+            "shape": "Substantial veranda column_128"
+          },
+          "surface_gap_m": 0.469817161560059,
+          "visible": {
+            "hit": true,
+            "position": [
+              18.0,
+              5.5,
+              -9.28038311004639
+            ],
+            "shape": "@CollisionShape3D@47"
+          }
+        }
+      ]
+    }
+  ],
+  "sampled_camera_body_pairs": 0
+}

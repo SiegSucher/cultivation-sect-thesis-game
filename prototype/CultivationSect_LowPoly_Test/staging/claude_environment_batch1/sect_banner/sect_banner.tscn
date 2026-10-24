@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" path="res://staging/claude_environment_batch1/sect_banner/sect_banner.glb" id="1_model"]
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_000"]
+points = PackedVector3Array(0.075, 0.4, 0, 0.05303, 0.4, 0.05303, 4.592e-18, 0.4, 0.075, -0.05303, 0.4, 0.05303, -0.075, 0.4, 9.185e-18, -0.05303, 0.4, -0.05303, -1.378e-17, 0.4, -0.075, 0.05303, 0.4, -0.05303, 0.075, 4.6, 0, 0.05303, 4.6, 0.05303, 4.592e-18, 4.6, 0.075, -0.05303, 4.6, 0.05303, -0.075, 4.6, 9.185e-18, -0.05303, 4.6, -0.05303, -1.378e-17, 4.6, -0.075, 0.05303, 4.6, -0.05303)
+
+[sub_resource type="BoxShape3D" id="Shape_001"]
+size = Vector3(0.76, 0.4, 0.76)
+
+[node name="SectBanner" type="Node3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="Collision" type="StaticBody3D" parent="." groups=["solid_world"]]
+collision_mask = 2
+
+[node name="BannerPole_000" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_000")
+
+[node name="BannerSocket_001" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.2, 0)
+shape = SubResource("Shape_001")

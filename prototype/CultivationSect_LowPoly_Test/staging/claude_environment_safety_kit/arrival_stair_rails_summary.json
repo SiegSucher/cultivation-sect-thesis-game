@@ -1,0 +1,66 @@
+{
+  "slope_rise_over_run": "4/11",
+  "degrees": 19.98310652189998,
+  "rail_stair_4in11_1m": {
+    "name": "Stair guardrail 4/11 pitch (19.98 deg), 1 m run",
+    "scene": "res://staging/claude_environment_safety_kit/railings/rail_stair_4in11_1m.tscn",
+    "model": "res://staging/claude_environment_safety_kit/railings/rail_stair_4in11_1m.glb",
+    "run_m": 1,
+    "next_post_origin": [
+      1,
+      0.36363636363636365,
+      0
+    ],
+    "top_rail_end": [
+      0.88,
+      1.4200000000000002
+    ],
+    "triangles": 78,
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "bounds_min": [
+      -0.15,
+      -0.05,
+      -0.15
+    ],
+    "bounds_max": [
+      0.88,
+      1.42,
+      0.15
+    ],
+    "collision_shapes": 2
+  },
+  "rail_stair_4in11_2m": {
+    "name": "Stair guardrail 4/11 pitch (19.98 deg), 2 m run",
+    "scene": "res://staging/claude_environment_safety_kit/railings/rail_stair_4in11_2m.tscn",
+    "model": "res://staging/claude_environment_safety_kit/railings/rail_stair_4in11_2m.glb",
+    "run_m": 2,
+    "next_post_origin": [
+      2,
+      0.7272727272727273,
+      0
+    ],
+    "top_rail_end": [
+      1.88,
+      1.7836363636363637
+    ],
+    "triangles": 102,
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "bounds_min": [
+      -0.15,
+      -0.05,
+      -0.15
+    ],
+    "bounds_max": [
+      1.88,
+      1.7836,
+      0.15
+    ],
+    "collision_shapes": 2
+  }
+}

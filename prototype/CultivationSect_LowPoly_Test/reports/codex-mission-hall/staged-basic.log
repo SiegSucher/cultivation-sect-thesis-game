@@ -1,0 +1,30 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+PASS imported triangles match build  [17790, 17790.0]
+PASS imported size matches build (0.05 m)  [(19.06, 9.805352, 21.32061), [19.06, 9.81, 21.32]]
+PASS sits on ground (min y ~ 0)  0.0
+PASS every surface has an opaque untextured material  [0, 0]
+PASS all palette materials present  ["Bronze", "Cedar", "Coping", "Fabric", "Floor", "Jade", "Lantern", "Plaster", "Stone", "TileLight", "Timber", "Window"]
+PASS authored collision present  37
+PASS plaque text present  ["MISSION HALL"]
+PASS clearance door_width_at_wall >= 0.9 m (collision / visible)  3.00 / 3.00
+PASS clearance door_width_inside_leaves >= 0.9 m (collision / visible)  8.00 / 2.84
+PASS clearance door_headroom >= 2.1 m (collision / visible)  3.40 / 3.40
+PASS clearance porch_central_bay_width >= 0.9 m (collision / visible)  2.42 / 2.42
+PASS clearance porch_headroom_under_plaque >= 2.1 m (collision / visible)  8.05 / 2.95
+PASS clearance forecourt_width_between_boards >= 0.9 m (collision / visible)  12.30 / 12.64
+PASS clearance side_passage_width >= 0.9 m (collision / visible)  2.25 / 2.38
+PASS clearance interior_clear_height_at_aisle >= 2.1 m (collision / visible)  5.00 / 8.42
+PASS walk: stair, forecourt, porch, door, aisle to the reporting counter  (0.0, 0.749866, -2.217449)
+PASS walk: no visible geometry inside the upper body along: stair, forecourt, porch, door, aisle to the reporting counter  []
+PASS walk: side passage past the counter into the officials' area  (5.6, 0.750268, -8.066662)
+PASS walk: no visible geometry inside the upper body along: side passage past the counter into the officials' area  []
+PASS walk: front wall and notice board block beside the door  (2.6, 0.750089, 4.090936)
+PASS walk: no visible geometry inside the upper body along: front wall and notice board block beside the door  []
+PASS walk: forecourt mission board blocks  (5.866664, 0.749304, 8.3)
+PASS walk: no visible geometry inside the upper body along: forecourt mission board blocks  []
+PASS walk: walk back out through the door and down the stair  (0.0, 0.000843, 25.00237)
+PASS walk: no visible geometry inside the upper body along: walk back out through the door and down the stair  []
+25 PASS / 0 FAIL

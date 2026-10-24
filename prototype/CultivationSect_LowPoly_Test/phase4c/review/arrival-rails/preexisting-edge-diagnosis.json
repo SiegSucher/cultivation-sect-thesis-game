@@ -1,0 +1,45 @@
+{
+	"new_arrival_rails_removed_in_fixture_only": true,
+	"results": [
+		{
+			"end": "(-5.926614, 4.039854, 93.32937)",
+			"uphill_without_new_rails": true,
+			"x": -5.93
+		},
+		{
+			"end": "(-5.649955, 3.700467, 93.34191)",
+			"uphill_without_new_rails": true,
+			"x": -5.65
+		},
+		{
+			"end": "(-5.299957, 3.697425, 93.34191)",
+			"uphill_without_new_rails": true,
+			"x": -5.3
+		},
+		{
+			"end": "(5.299559, 3.790215, 93.33961)",
+			"uphill_without_new_rails": true,
+			"x": 5.3
+		},
+		{
+			"end": "(5.649915, 3.794907, 93.33194)",
+			"uphill_without_new_rails": true,
+			"x": 5.65
+		},
+		{
+			"end": "(5.93, -0.07487, 105.2258)",
+			"uphill_without_new_rails": false,
+			"x": 5.93
+		},
+		{
+			"downhill_without_new_rails": false,
+			"end": "(-5.649989, 3.631403, 93.71949)",
+			"x": -5.65
+		},
+		{
+			"downhill_without_new_rails": false,
+			"end": "(5.65, 3.750067, 93.72178)",
+			"x": 5.65
+		}
+	]
+}

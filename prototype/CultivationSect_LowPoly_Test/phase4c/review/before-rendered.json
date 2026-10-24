@@ -1,0 +1,72 @@
+{
+	"checks": [
+		{
+			"check": "Compact scene launches",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walking speed remains 4 m/s",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "All twelve full-size building instances",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Medicine camera exception retained",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Tab first person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Tab third person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Screenshot gate-approach",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Screenshot living-terrace",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Screenshot inner-stairs",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Screenshot hall-approach",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Screenshot valley-overview",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Map opens",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Map resumes walking",
+			"detail": null,
+			"pass": true
+		}
+	],
+	"failures": 0,
+	"main_route_runs": [],
+	"passes": 13
+}

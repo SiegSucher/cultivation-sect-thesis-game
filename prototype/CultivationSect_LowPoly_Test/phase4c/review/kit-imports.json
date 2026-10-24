@@ -1,0 +1,57 @@
+[
+	{
+		"module": "railings/rail_stair_22deg_2m",
+		"scene_change": "model resource path only; staged collision unchanged",
+		"unchanged_glb_sha256": "47164995d5d5483a28941803ef22b6e5e2eb85572ef689030e7be8918007a51a"
+	},
+	{
+		"module": "railings/rail_stair_22deg_1m",
+		"scene_change": "model resource path only; staged collision unchanged",
+		"unchanged_glb_sha256": "d12402dfe251c875665b1c1d2c8cc12f979c1245df821f827f2f8a8a530b2b82"
+	},
+	{
+		"module": "railings/rail_stair_24deg_2m",
+		"scene_change": "model resource path only; staged collision unchanged",
+		"unchanged_glb_sha256": "1e93fbd8afd20a1fdf30dde05863d5e5d4f36f4af3a004fdebc53ddcffa58a68"
+	},
+	{
+		"module": "railings/rail_section_2m",
+		"scene_change": "model resource path only; staged collision unchanged",
+		"unchanged_glb_sha256": "ec3dfd9aa328b10bfadb8f3acfe877861fe28c47d1698c1f05dc0c43ad9b0d83"
+	},
+	{
+		"module": "railings/rail_section_1m",
+		"scene_change": "model resource path only; staged collision unchanged",
+		"unchanged_glb_sha256": "0e1662733c0e8a7e98406e02d159649b40396f8a255b459bd2a985e398a32592"
+	},
+	{
+		"module": "railings/rail_post",
+		"scene_change": "model resource path only; staged collision unchanged",
+		"unchanged_glb_sha256": "55234e6b26a103cd3c36564d3b3801d01ed1123c97e0695ef9900f420b65d6c5"
+	},
+	{
+		"module": "retaining/retaining_wall_4x4",
+		"scene_change": "model resource path only; staged collision unchanged",
+		"unchanged_glb_sha256": "778b3ac265528eb488a63a018d04f4bdbbfdafda31ec06fa2d014d0bc402ceab"
+	},
+	{
+		"module": "retaining/retaining_end_4",
+		"scene_change": "model resource path only; staged collision unchanged",
+		"unchanged_glb_sha256": "e9344198b8dbf6214cddd5a38315bd6dc1457acb9e80e4d7eca139791ee8695b"
+	},
+	{
+		"module": "retaining/retaining_wall_4x2",
+		"scene_change": "model resource path only; staged collision unchanged",
+		"unchanged_glb_sha256": "42115c98900212c54f35f59f953537cbea038d32f11de0309d1bf12dd9ed7b9f"
+	},
+	{
+		"module": "retaining/retaining_end_2",
+		"scene_change": "model resource path only; staged collision unchanged",
+		"unchanged_glb_sha256": "b3363819e8696594a04e7935b109165bc1d3c83dd44391cccde112a45b404a38"
+	},
+	{
+		"module": "retaining/retaining_corner_2",
+		"scene_change": "model resource path only; staged collision unchanged",
+		"unchanged_glb_sha256": "a303877fe92c745a373e850cc51bfdf54eaeb946c2e628b1606ff7a39a0783ce"
+	}
+]

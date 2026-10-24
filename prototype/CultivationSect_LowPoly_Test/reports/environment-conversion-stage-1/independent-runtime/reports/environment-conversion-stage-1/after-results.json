@@ -1,0 +1,218 @@
+{
+	"adapter": "NVIDIA GeForce RTX 3050 Laptop GPU",
+	"camera_poses": [
+		{
+			"fov": 58.0,
+			"name": "front",
+			"position": "(0.0, 10.0, 32.0)",
+			"target": "(0.0, 7.0, 0.0)"
+		},
+		{
+			"fov": 58.0,
+			"name": "three-quarter",
+			"position": "(26.0, 17.0, 27.0)",
+			"target": "(0.0, 7.0, 0.0)"
+		},
+		{
+			"fov": 56.0,
+			"name": "roof",
+			"position": "(15.0, 18.0, 19.0)",
+			"target": "(0.0, 10.0, 0.0)"
+		},
+		{
+			"fov": 80.0,
+			"name": "passage",
+			"position": "(0.0, 2.25, 5.0)",
+			"target": "(0.0, 3.0, -5.0)"
+		}
+	],
+	"checks": [
+		{
+			"check": "Original local position orientation scale",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Complete collision and scale specification unchanged",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Two original moving leaves",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture front",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture three-quarter",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture roof",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture passage",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Front stair and gateway crossing",
+			"detail": {
+				"frames": 288,
+				"position": "(0.0, -0.011157, -8.912928)"
+			},
+			"pass": true
+		},
+		{
+			"check": "Rear stair return",
+			"detail": {
+				"frames": 138,
+				"position": "(0.0, 0.600828, -0.090843)"
+			},
+			"pass": true
+		},
+		{
+			"check": "Retained platform elevation",
+			"detail": 0.600827753543854,
+			"pass": true
+		},
+		{
+			"check": "First-person image",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "First-person compatibility",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Third-person image",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Third-person compatibility",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Closed gate blocks player",
+			"detail": 3.32448983192444,
+			"pass": true
+		},
+		{
+			"check": "Existing interaction animates open",
+			"detail": null,
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"godot": "4.7.2-stable (official)",
+	"lighting": "Same hall-matched environment, one 100m shadowed sun and unchanged two unshadowed gate lanterns",
+	"limits": "Automated unchanged inspection fixture, not human playtest or integrated town/target hardware.",
+	"msaa": 2,
+	"passed": 16,
+	"project_root": "C:/Users/pasto/OneDrive/Documents/ChatGPT/Character Sprite Image for Thesis game/prototype/CultivationSect_LowPoly_Test/reports/environment-conversion-stage-1/independent-runtime/",
+	"renderer": "gl_compatibility",
+	"resolution": [
+		1280,
+		720
+	],
+	"samples": [
+		{
+			"fps": 490.193074797336,
+			"frames": 240,
+			"max_ms": 2.643,
+			"mean_draw_calls": 60.0,
+			"mean_ms": 2.0400125,
+			"mean_objects": 171.0,
+			"mean_primitives": 252681.0,
+			"p50_ms": 2.1,
+			"p95_ms": 2.453,
+			"static_memory_bytes": 55612032.0,
+			"video_memory_bytes": 53135081.0,
+			"view": "front"
+		},
+		{
+			"fps": 498.56144250444,
+			"frames": 240,
+			"max_ms": 4.904,
+			"mean_draw_calls": 60.0,
+			"mean_ms": 2.00577083333334,
+			"mean_objects": 171.0,
+			"mean_primitives": 243273.0,
+			"p50_ms": 2.017,
+			"p95_ms": 2.462,
+			"static_memory_bytes": 55613548.0,
+			"video_memory_bytes": 53135081.0,
+			"view": "three-quarter"
+		},
+		{
+			"fps": 481.807742650424,
+			"frames": 240,
+			"max_ms": 2.815,
+			"mean_draw_calls": 57.3291666666667,
+			"mean_ms": 2.07551666666667,
+			"mean_objects": 168.329166666667,
+			"mean_primitives": 276381.420833333,
+			"p50_ms": 2.128,
+			"p95_ms": 2.496,
+			"static_memory_bytes": 55614720.0,
+			"video_memory_bytes": 53135081.0,
+			"view": "360 sweep"
+		},
+		{
+			"fps": 429.1507821273,
+			"frames": 240,
+			"max_ms": 3.985,
+			"mean_draw_calls": 71.0,
+			"mean_ms": 2.33018333333333,
+			"mean_objects": 182.0,
+			"mean_primitives": 335956.0,
+			"p50_ms": 2.192,
+			"p95_ms": 3.047,
+			"static_memory_bytes": 55620564.0,
+			"video_memory_bytes": 53135081.0,
+			"view": "passage"
+		},
+		{
+			"fps": 621.478289691747,
+			"frames": 240,
+			"max_ms": 2.329,
+			"mean_draw_calls": 71.0,
+			"mean_ms": 1.60906666666667,
+			"mean_objects": 182.0,
+			"mean_primitives": 344855.0,
+			"p50_ms": 1.647,
+			"p95_ms": 2.002,
+			"static_memory_bytes": 49331032.0,
+			"video_memory_bytes": 53135081.0,
+			"view": "first-person"
+		},
+		{
+			"fps": 523.752160477662,
+			"frames": 240,
+			"max_ms": 2.655,
+			"mean_draw_calls": 95.0,
+			"mean_ms": 1.9093,
+			"mean_objects": 206.0,
+			"mean_primitives": 408819.0,
+			"p50_ms": 1.996,
+			"p95_ms": 2.324,
+			"static_memory_bytes": 49334940.0,
+			"video_memory_bytes": 53135081.0,
+			"view": "third-person"
+		}
+	],
+	"utc": "2026-10-22T11:18:37",
+	"variant": "after",
+	"vsync": false
+}

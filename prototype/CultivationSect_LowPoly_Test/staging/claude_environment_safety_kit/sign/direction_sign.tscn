@@ -1,0 +1,95 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="PackedScene" path="res://staging/claude_environment_safety_kit/sign/direction_sign_post.glb" id="1_post"]
+[ext_resource type="PackedScene" path="res://staging/claude_environment_safety_kit/sign/direction_sign_board.glb" id="2_board"]
+
+[sub_resource type="BoxShape3D" id="Shape_000"]
+size = Vector3(0.5, 0.34, 0.5)
+
+[sub_resource type="CylinderShape3D" id="Shape_001"]
+height = 2.6
+radius = 0.085
+
+[node name="DirectionSign" type="Node3D"]
+
+[node name="Post" parent="." instance=ExtResource("1_post")]
+
+[node name="Board1" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, -0, 0, 1, 0, 2.55, 0)
+
+[node name="Model" parent="Board1" instance=ExtResource("2_board")]
+
+[node name="LabelFront" type="Label3D" parent="Board1"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.62, 0, 0.028)
+double_sided = false
+modulate = Color(0.718, 0.631, 0.427, 1)
+outline_size = 0
+pixel_size = 0.0024
+font_size = 40
+text = "MAIN HALL"
+
+[node name="LabelBack" type="Label3D" parent="Board1"]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 0.62, 0, -0.028)
+double_sided = false
+modulate = Color(0.718, 0.631, 0.427, 1)
+outline_size = 0
+pixel_size = 0.0024
+font_size = 40
+text = "MAIN HALL"
+
+[node name="Board2" type="Node3D" parent="."]
+transform = Transform3D(-0.866, 0, 0.5, 0, 1, 0, -0.5, 0, -0.866, 0, 2.25, 0)
+
+[node name="Model" parent="Board2" instance=ExtResource("2_board")]
+
+[node name="LabelFront" type="Label3D" parent="Board2"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.62, 0, 0.028)
+double_sided = false
+modulate = Color(0.718, 0.631, 0.427, 1)
+outline_size = 0
+pixel_size = 0.0024
+font_size = 40
+text = "TRAINING GROUND"
+
+[node name="LabelBack" type="Label3D" parent="Board2"]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 0.62, 0, -0.028)
+double_sided = false
+modulate = Color(0.718, 0.631, 0.427, 1)
+outline_size = 0
+pixel_size = 0.0024
+font_size = 40
+text = "TRAINING GROUND"
+
+[node name="Board3" type="Node3D" parent="."]
+transform = Transform3D(0.4226, 0, -0.9063, 0, 1, 0, 0.9063, 0, 0.4226, 0, 1.95, 0)
+
+[node name="Model" parent="Board3" instance=ExtResource("2_board")]
+
+[node name="LabelFront" type="Label3D" parent="Board3"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.62, 0, 0.028)
+double_sided = false
+modulate = Color(0.718, 0.631, 0.427, 1)
+outline_size = 0
+pixel_size = 0.0024
+font_size = 40
+text = "LIVING DISTRICT"
+
+[node name="LabelBack" type="Label3D" parent="Board3"]
+transform = Transform3D(-1, 0, 0, 0, 1, 0, 0, 0, -1, 0.62, 0, -0.028)
+double_sided = false
+modulate = Color(0.718, 0.631, 0.427, 1)
+outline_size = 0
+pixel_size = 0.0024
+font_size = 40
+text = "LIVING DISTRICT"
+
+[node name="Collision" type="StaticBody3D" parent="." groups=["solid_world"]]
+collision_mask = 2
+
+[node name="SignBase_000" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.17, 0)
+shape = SubResource("Shape_000")
+
+[node name="SignPost_001" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6, 0)
+shape = SubResource("Shape_001")

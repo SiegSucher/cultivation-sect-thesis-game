@@ -1,0 +1,10 @@
+{
+  "requires_player_exception": "camera_only_obstruction group: body ignores, unchanged camera query still sees collision layer 1",
+  "saved": true,
+  "source": "Actual unchanged Medicine Hall model; stair detail and hanging-herb regions only",
+  "triangles": 698,
+  "triangles_by_region": [
+    538,
+    160
+  ]
+}

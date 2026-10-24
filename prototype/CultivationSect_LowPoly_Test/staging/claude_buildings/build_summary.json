@@ -1,0 +1,166 @@
+{
+  "disciple_residence": {
+    "name": "Disciples' Residence",
+    "scene": "res://staging/claude_buildings/disciple_residence/disciple_residence.tscn",
+    "model": "res://staging/claude_buildings/disciple_residence/disciple_residence.glb",
+    "triangles": 9518,
+    "vertices": 6418,
+    "surfaces": 12,
+    "materials": [
+      "Bronze",
+      "Cedar",
+      "Coping",
+      "Fabric",
+      "Floor",
+      "Jade",
+      "Lantern",
+      "Plaster",
+      "Stone",
+      "TileLight",
+      "Timber",
+      "Window"
+    ],
+    "bounds_min": [
+      -10.701,
+      0.0,
+      -5.113
+    ],
+    "bounds_max": [
+      10.701,
+      6.955,
+      5.778
+    ],
+    "size_xyz_m": [
+      21.4,
+      6.96,
+      10.89
+    ],
+    "collision_shapes": 36,
+    "plaques": []
+  },
+  "elder_residence": {
+    "name": "Elder Residence",
+    "scene": "res://staging/claude_buildings/elder_residence/elder_residence.tscn",
+    "model": "res://staging/claude_buildings/elder_residence/elder_residence.glb",
+    "triangles": 16338,
+    "vertices": 11108,
+    "surfaces": 13,
+    "materials": [
+      "Bronze",
+      "Cedar",
+      "Coping",
+      "Fabric",
+      "Floor",
+      "Jade",
+      "Lantern",
+      "Leaf",
+      "Plaster",
+      "Stone",
+      "TileLight",
+      "Timber",
+      "Window"
+    ],
+    "bounds_min": [
+      -11.32,
+      0.0,
+      -10.72
+    ],
+    "bounds_max": [
+      11.32,
+      8.05,
+      11.585
+    ],
+    "size_xyz_m": [
+      22.64,
+      8.05,
+      22.3
+    ],
+    "collision_shapes": 49,
+    "plaques": [
+      "ELDER RESIDENCE"
+    ]
+  },
+  "dining_hall_kitchen": {
+    "name": "Dining Hall and Kitchen",
+    "scene": "res://staging/claude_buildings/dining_hall_kitchen/dining_hall_kitchen.tscn",
+    "model": "res://staging/claude_buildings/dining_hall_kitchen/dining_hall_kitchen.glb",
+    "triangles": 23328,
+    "vertices": 15872,
+    "surfaces": 12,
+    "materials": [
+      "Bronze",
+      "Cedar",
+      "Coping",
+      "Floor",
+      "Jade",
+      "Lantern",
+      "Plaster",
+      "Stone",
+      "TileLight",
+      "Timber",
+      "Water",
+      "Window"
+    ],
+    "bounds_min": [
+      -11.574,
+      0.0,
+      -13.001
+    ],
+    "bounds_max": [
+      11.574,
+      9.255,
+      8.12
+    ],
+    "size_xyz_m": [
+      23.15,
+      9.26,
+      21.12
+    ],
+    "collision_shapes": 53,
+    "plaques": [
+      "DINING HALL"
+    ]
+  },
+  "spirit_herb_garden": {
+    "name": "Spirit Herb Garden",
+    "scene": "res://staging/claude_buildings/spirit_herb_garden/spirit_herb_garden.tscn",
+    "model": "res://staging/claude_buildings/spirit_herb_garden/spirit_herb_garden.glb",
+    "triangles": 12474,
+    "vertices": 8696,
+    "surfaces": 13,
+    "materials": [
+      "Bronze",
+      "Cedar",
+      "Coping",
+      "Jade",
+      "Lantern",
+      "Leaf",
+      "Plaster",
+      "Soil",
+      "SpiritHerb",
+      "Stone",
+      "TileLight",
+      "Timber",
+      "Water"
+    ],
+    "bounds_min": [
+      -12.23,
+      -0.006,
+      -12.23
+    ],
+    "bounds_max": [
+      12.23,
+      6.5,
+      12.914
+    ],
+    "size_xyz_m": [
+      24.46,
+      6.51,
+      25.14
+    ],
+    "collision_shapes": 37,
+    "plaques": [
+      "SPIRIT HERB GARDEN"
+    ]
+  }
+}

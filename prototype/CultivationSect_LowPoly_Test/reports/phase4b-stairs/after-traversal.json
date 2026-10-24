@@ -1,0 +1,363 @@
+{
+	"checks": [
+		{
+			"check": "Current scene launches with unchanged player",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "arrival has no overhanging endpoint-cap surface",
+			"detail": {
+				"max_above_expected_tread_m": 0.000000328487820056012
+			},
+			"pass": true
+		},
+		{
+			"check": "living has no overhanging endpoint-cap surface",
+			"detail": {
+				"max_above_expected_tread_m": 0.000000871117435963242
+			},
+			"pass": true
+		},
+		{
+			"check": "arrival FPP up lane -4.5",
+			"detail": {
+				"camera_mode": "first",
+				"end": [
+					-4.4999737739563,
+					8.00082015991211,
+					141.123291015625
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "arrival FPP down lane -4.5",
+			"detail": {
+				"camera_mode": "first",
+				"end": [
+					-4.49877214431763,
+					-0.00185784173663706,
+					167.870483398438
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "arrival FPP up lane 0.0",
+			"detail": {
+				"camera_mode": "first",
+				"end": [
+					0.000000143113183526111,
+					8.0008020401001,
+					141.152725219727
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "arrival FPP down lane 0.0",
+			"detail": {
+				"camera_mode": "first",
+				"end": [
+					0.0,
+					0.000802931899670511,
+					167.849761962891
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "arrival FPP up lane 4.5",
+			"detail": {
+				"camera_mode": "first",
+				"end": [
+					4.49995565414429,
+					8.00079917907715,
+					141.148956298828
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "arrival FPP down lane 4.5",
+			"detail": {
+				"camera_mode": "first",
+				"end": [
+					4.49744176864624,
+					0.112814620137215,
+					167.873672485352
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "arrival TPP up lane -4.5",
+			"detail": {
+				"camera_mode": "third",
+				"end": [
+					-4.4999737739563,
+					8.00082015991211,
+					141.123291015625
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "arrival TPP down lane -4.5",
+			"detail": {
+				"camera_mode": "third",
+				"end": [
+					-4.49877214431763,
+					-0.00185784173663706,
+					167.870483398438
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "arrival TPP up lane 0.0",
+			"detail": {
+				"camera_mode": "third",
+				"end": [
+					0.000000143113183526111,
+					8.0008020401001,
+					141.152725219727
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "arrival TPP down lane 0.0",
+			"detail": {
+				"camera_mode": "third",
+				"end": [
+					0.0,
+					0.000802931899670511,
+					167.849761962891
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "arrival TPP up lane 4.5",
+			"detail": {
+				"camera_mode": "third",
+				"end": [
+					4.49995565414429,
+					8.00079917907715,
+					141.148956298828
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "arrival TPP down lane 4.5",
+			"detail": {
+				"camera_mode": "third",
+				"end": [
+					4.49744176864624,
+					0.112814620137215,
+					167.873672485352
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "living FPP up lane -4.5",
+			"detail": {
+				"camera_mode": "first",
+				"end": [
+					-4.50000333786011,
+					20.0008296966553,
+					67.1163864135742
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "living FPP down lane -4.5",
+			"detail": {
+				"camera_mode": "first",
+				"end": [
+					-4.50000095367432,
+					8.00081634521484,
+					104.832748413086
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "living FPP up lane 0.0",
+			"detail": {
+				"camera_mode": "first",
+				"end": [
+					-0.000000195498898847291,
+					20.0008335113525,
+					67.1176376342773
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "living FPP down lane 0.0",
+			"detail": {
+				"camera_mode": "first",
+				"end": [
+					0.0,
+					7.99909162521362,
+					104.868743896484
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "living FPP up lane 4.5",
+			"detail": {
+				"camera_mode": "first",
+				"end": [
+					4.50000047683716,
+					20.0008277893066,
+					67.1171340942383
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "living FPP down lane 4.5",
+			"detail": {
+				"camera_mode": "first",
+				"end": [
+					4.50000095367432,
+					8.00082492828369,
+					104.837501525879
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "living TPP up lane -4.5",
+			"detail": {
+				"camera_mode": "third",
+				"end": [
+					-4.50000333786011,
+					20.0008296966553,
+					67.1163864135742
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "living TPP down lane -4.5",
+			"detail": {
+				"camera_mode": "third",
+				"end": [
+					-4.50000095367432,
+					8.00081634521484,
+					104.832748413086
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "living TPP up lane 0.0",
+			"detail": {
+				"camera_mode": "third",
+				"end": [
+					-0.000000195498898847291,
+					20.0008335113525,
+					67.1176376342773
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "living TPP down lane 0.0",
+			"detail": {
+				"camera_mode": "third",
+				"end": [
+					0.0,
+					7.99909162521362,
+					104.868743896484
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "living TPP up lane 4.5",
+			"detail": {
+				"camera_mode": "third",
+				"end": [
+					4.50000047683716,
+					20.0008277893066,
+					67.1171340942383
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "living TPP down lane 4.5",
+			"detail": {
+				"camera_mode": "third",
+				"end": [
+					4.50000095367432,
+					8.00082492828369,
+					104.837501525879
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		}
+	],
+	"failures": 0,
+	"normal_physics_hz": 60,
+	"pass": true,
+	"passes": 27
+}

@@ -1,0 +1,157 @@
+{
+  "mode": "diagnose",
+  "roof_parts": [
+    {
+      "source_line": 187,
+      "arguments": [
+        -14,
+        0,
+        13.5,
+        22.2,
+        7.85,
+        2.35
+      ],
+      "triangles": 480,
+      "exactly_zero_area": 16,
+      "zero_area_indices": [
+        225,
+        227,
+        229,
+        231,
+        233,
+        235,
+        237,
+        239,
+        465,
+        467,
+        469,
+        471,
+        473,
+        475,
+        477,
+        479
+      ],
+      "all_degenerate_faces_have_repeated_corner": true
+    },
+    {
+      "source_line": 188,
+      "arguments": [
+        14,
+        0,
+        13.5,
+        22.2,
+        7.85,
+        2.35
+      ],
+      "triangles": 480,
+      "exactly_zero_area": 16,
+      "zero_area_indices": [
+        225,
+        227,
+        229,
+        231,
+        233,
+        235,
+        237,
+        239,
+        465,
+        467,
+        469,
+        471,
+        473,
+        475,
+        477,
+        479
+      ],
+      "all_degenerate_faces_have_repeated_corner": true
+    },
+    {
+      "source_line": 189,
+      "arguments": [
+        0,
+        0,
+        29.2,
+        23.4,
+        8.15,
+        3.35,
+        0.36,
+        18.6,
+        12.8
+      ],
+      "triangles": 480,
+      "exactly_zero_area": 0,
+      "zero_area_indices": [],
+      "all_degenerate_faces_have_repeated_corner": true
+    },
+    {
+      "source_line": 190,
+      "arguments": [
+        0,
+        0,
+        26,
+        20,
+        13.35,
+        4.2,
+        0.36
+      ],
+      "triangles": 480,
+      "exactly_zero_area": 16,
+      "zero_area_indices": [
+        225,
+        227,
+        229,
+        231,
+        233,
+        235,
+        237,
+        239,
+        465,
+        467,
+        469,
+        471,
+        473,
+        475,
+        477,
+        479
+      ],
+      "all_degenerate_faces_have_repeated_corner": true
+    },
+    {
+      "source_line": 191,
+      "arguments": [
+        0,
+        10.3,
+        13.4,
+        9.8,
+        7.65,
+        2.2,
+        0.35
+      ],
+      "triangles": 480,
+      "exactly_zero_area": 16,
+      "zero_area_indices": [
+        225,
+        227,
+        229,
+        231,
+        233,
+        235,
+        237,
+        239,
+        465,
+        467,
+        469,
+        471,
+        473,
+        475,
+        477,
+        479
+      ],
+      "all_degenerate_faces_have_repeated_corner": true
+    }
+  ],
+  "matched_authoring_prefix_vertices": 7200,
+  "gable_suffix_triangles": 32,
+  "total_degenerate": 64,
+  "root_cause": "Closed hip end strips have two coincident ridge vertices. A valid quad normal passes the face check, then fan triangulation emits a valid triangle and an exactly collapsed triangle. Four closed roofs x two hip ends x eight strips = 64. The annular belt and folded gable do not collapse."
+}

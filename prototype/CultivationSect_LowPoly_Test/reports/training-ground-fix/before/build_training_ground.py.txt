@@ -1,0 +1,308 @@
+"""Original Martial Training Ground construction, original geometry.
+
+Run Blender 5.2 --background --python this_file -- --render for a studio render.
+Generic mesh utilities share the new collection's construction conventions;
+the building below is newly dimensioned and does not import previous meshes.
+Godot design axes: X across facade, Y up, +Z entrance. Metres throughout.
+"""
+from pathlib import Path
+import json
+import math
+import hashlib
+import bpy
+import bmesh
+import numpy as np
+from mathutils import Vector
+
+WORK = Path(__file__).resolve().parents[5]
+SOURCE = Path(__file__).resolve().parent
+TEX = SOURCE.parent / "textures"
+OUT = WORK / "prototype/asset-workshop/assets/architecture/martial_training_ground"
+REPORT = WORK / "prototype/asset-workshop/verification/martial-training-ground"
+for directory in (SOURCE, TEX, OUT, REPORT):
+    directory.mkdir(parents=True, exist_ok=True)
+bpy.ops.object.select_all(action="SELECT")
+bpy.ops.object.delete(use_global=False)
+scene = bpy.context.scene
+scene.unit_settings.system = "METRIC"
+scene.unit_settings.scale_length = 1.0
+collections = {}
+for name in ("01_Foundation", "02_Enclosure", "03_MainFrame", "04_RoofStructure",
+             "05_RoofTiles", "06_EquipmentSource", "07_Paving", "08_Detail",
+             "09_Furniture", "90_Studio"):
+    col = bpy.data.collections.new(name)
+    scene.collection.children.link(col)
+    collections[name] = col
+materials = {}
+batches = {}
+solids = []
+roof_faces = []
+objects = []
+FLOOR = 1.50
+HALF_OPEN = 4.20
+SPRING = 7.30
+CROWN = 8.30
+DOOR_Z = 2.55
+rng = np.random.default_rng(18102026)
+
+
+def B(p):
+    return (float(p[0]), -float(p[2]), float(p[1]))
+
+
+def texture(name, rgb, noncolor=False):
+    rgb = np.asarray(rgb)
+    if rgb.ndim == 2:
+        rgb = np.repeat(rgb[:, :, None], 3, axis=2)
+    h, w = rgb.shape[:2]
+    pixels = np.ones((h, w, 4), dtype=np.float32)
+    pixels[:, :, :3] = np.clip(rgb, 0, 1)
+    img = bpy.data.images.new(name, width=w, height=h, alpha=False)
+    img.colorspace_settings.name = "Non-Color" if noncolor else "sRGB"
+    img.pixels.foreach_set(pixels.ravel())
+    img.file_format = "PNG"
+    img.filepath_raw = str(TEX / (name + ".png"))
+    img.save()
+    path = img.filepath_raw
+    bpy.data.images.remove(img)
+    img = bpy.data.images.load(path, check_existing=True)
+    img.colorspace_settings.name = "Non-Color" if noncolor else "sRGB"
+    return img
+
+
+def normal_texture(name, heights, strength):
+    dx = (np.roll(heights, -1, axis=1) - np.roll(heights, 1, axis=1)) * strength
+    dy = (np.roll(heights, -1, axis=0) - np.roll(heights, 1, axis=0)) * strength
+    vec = np.stack((-dx, -dy, np.ones_like(dx)), axis=-1)
+    vec /= np.linalg.norm(vec, axis=-1, keepdims=True)
+    return texture(name, vec * .5 + .5, True)
+
+
+yy, xx = np.mgrid[0:512, 0:512].astype(float)
+noise = rng.normal(0, 1, (512, 512))
+grain = np.sin(xx * .15 + np.sin(yy * .012) * 1.8) * .025
+wood = np.clip(.96 + grain + .012 * np.sin(xx * .83) + noise * .006, .82, 1.06)
+stone = np.ones((512, 512))
+for row in range(8):
+    for column in range(-1, 5):
+        left = column * 128 + (64 if row % 2 else 0)
+        lo, hi = max(0, left), min(512, left + 128)
+        if hi > lo:
+            stone[row*64:(row+1)*64, lo:hi] = rng.uniform(.88, 1.08)
+            stone[row*64:row*64+3, lo:hi] = .63
+            if left >= 0:
+                stone[row*64:(row+1)*64, left:left+3] = .66
+stone = np.clip(stone + noise * .017, .56, 1.12)
+tile = np.clip(.95 + .025*np.sin(xx*.38) + .009*noise, .82, 1.02)
+tile[(yy % 64) < 2] *= .68
+stone_normal = normal_texture("Training_Stone_Normal", stone, 2.1)
+wood_normal = normal_texture("Training_Wood_Normal", wood, 2.0)
+tile_normal = normal_texture("Training_Tile_Normal", tile, 1.6)
+paving = np.ones((512,512))
+for row in range(4):
+    for column in range(4):
+        paving[row*128:(row+1)*128,column*128:(column+1)*128] = rng.uniform(.91,1.04)
+paving[(yy%128)<2] *= .65
+paving[(xx%128)<2] *= .65
+paving += noise*.008
+paving_normal = normal_texture("Training_Paving_Normal",paving,1.8)
+
+
+def mat(name, hexcolor, rough=.82, metal=0, pattern=None, normal=None, emission=0):
+    m = bpy.data.materials.new("Training_" + name)
+    m.use_nodes = True
+    p = m.node_tree.nodes.get("Principled BSDF")
+    rgb = np.array([int(hexcolor[i:i+2],16)/255 for i in (0,2,4)])
+    linear = [v/12.92 if v <= .04045 else ((v+.055)/1.055)**2.4 for v in rgb]
+    m.diffuse_color = (*linear, 1)
+    p.inputs["Base Color"].default_value = (*linear,1)
+    p.inputs["Roughness"].default_value = rough
+    p.inputs["Metallic"].default_value = metal
+    if pattern is not None:
+        tex = m.node_tree.nodes.new("ShaderNodeTexImage")
+        tex.image = texture("Training_"+name+"_Albedo", pattern[:, :, None]*rgb[None,None,:])
+        m.node_tree.links.new(tex.outputs["Color"],p.inputs["Base Color"])
+        # Small baked roughness differences accompany the colour variation.
+        # These are ordinary glTF textures, not Blender-only procedural nodes.
+        roughtex = m.node_tree.nodes.new("ShaderNodeTexImage")
+        roughtex.image = texture("Training_"+name+"_Roughness",np.clip(rough+(.97-pattern)*.08+noise*.012,.05,.99),True)
+        m.node_tree.links.new(roughtex.outputs["Color"],p.inputs["Roughness"])
+    if normal:
+        tex = m.node_tree.nodes.new("ShaderNodeTexImage")
+        tex.image = normal
+        bump = m.node_tree.nodes.new("ShaderNodeNormalMap")
+        bump.inputs["Strength"].default_value = .45
+        m.node_tree.links.new(tex.outputs["Color"],bump.inputs["Color"])
+        m.node_tree.links.new(bump.outputs["Normal"],p.inputs["Normal"])
+    if emission:
+        p.inputs["Emission Color"].default_value = (*linear,1)
+        p.inputs["Emission Strength"].default_value = emission
+    materials[name] = m
+
+
+mat("Ashlar", "81877f", .94, pattern=stone, normal=stone_normal)
+mat("Coping", "a0a391", .92, pattern=.98+noise*.009)
+mat("ArchStone", "92988a", .91, pattern=.97+noise*.013)
+mat("ArchStoneDark", "7c857b", .93, pattern=.97+noise*.013)
+mat("Timber", "453126", .83, pattern=wood, normal=wood_normal)
+mat("CarvedWood", "76553b", .80, pattern=wood, normal=wood_normal)
+mat("JadeTile", "374f48", .82, pattern=tile, normal=tile_normal)
+mat("TileEdge", "53665b", .79)
+mat("Iron", "303531", .52, .65)
+mat("Bronze", "a28d59", .48, .6)
+mat("Plaster", "aea996", .96, pattern=.98+noise*.006)
+mat("Window", "556056", .91)
+mat("Fabric", "435d50", .98, pattern=.95+.015*np.sin(xx*2)+.015*np.sin(yy*2))
+mat("Lantern", "c8b586", .9, emission=.3)
+mat("Paving", "858e83", .94, pattern=paving, normal=paving_normal)
+
+
+def geometry(name, vertices, faces, material, collection, smooth=False):
+    # Accumulate dense repeated details as editable meshes per logical part.
+    key = (collection, name, material, smooth)
+    v, f = batches.setdefault(key, ([], []))
+    offset = len(v)
+    v.extend([tuple(float(n) for n in p) for p in vertices])
+    f.extend([tuple(offset+i for i in face) for face in faces])
+
+
+def box(name, at, size, material, collection, collision=False):
+    at, half = np.array(at), np.array(size)*.5
+    vertices = [at+half*s for s in [(-1,-1,-1),(1,-1,-1),(1,1,-1),(-1,1,-1),
+                                      (-1,-1,1),(1,-1,1),(1,1,1),(-1,1,1)]]
+    faces = [(0,3,2,1),(4,5,6,7),(0,1,5,4),(1,2,6,5),(2,3,7,6),(3,0,4,7)]
+    geometry(name, vertices, faces, material, collection)
+    if collision:
+        solids.append(dict(name=name, type="box",position=at.tolist(),size=list(size)))
+
+
+def beam(name, a, b, width, depth, material, collection):
+    a, b = np.array(a), np.array(b)
+    axis = (b-a)/np.linalg.norm(b-a)
+    u = np.cross(axis,(0,1,0) if abs(axis[1]) < .9 else (1,0,0))
+    u /= np.linalg.norm(u)
+    v = np.cross(axis,u)
+    vertices = [p+x*u*width/2+y*v*depth/2 for p in (a,b) for x,y in [(-1,-1),(1,-1),(1,1),(-1,1)]]
+    geometry(name,vertices,[(0,3,2,1),(4,5,6,7),(0,1,5,4),(1,2,6,5),(2,3,7,6),(3,0,4,7)],material,collection)
+
+
+def rod(name,a,b,r,material,collection,sides=8,collision=False,caps=True):
+    a,b=np.array(a),np.array(b)
+    axis=(b-a)/np.linalg.norm(b-a)
+    u=np.cross(axis,(0,1,0) if abs(axis[1])<.9 else (1,0,0));u/=np.linalg.norm(u)
+    v=np.cross(axis,u)
+    vertices=[p+r*(u*math.cos(i*math.tau/sides)+v*math.sin(i*math.tau/sides)) for p in (a,b) for i in range(sides)]
+    faces=[(i,(i+1)%sides,(i+1)%sides+sides,i+sides) for i in range(sides)]
+    if caps: faces += [tuple(reversed(range(sides))),tuple(range(sides,2*sides))]
+    geometry(name,vertices,faces,material,collection,True)
+    if collision:
+        solids.append(dict(name=name,type="cylinder",position=((a+b)/2).tolist(),radius=r,height=float(np.linalg.norm(b-a))))
+
+
+def prism(name, profile, z0, z1, material, collection, collision=False):
+    # Extruded X/Y polygon; used for masonry above the arched passage.
+    n=len(profile)
+    vertices=[(x,y,z) for z in (z0,z1) for x,y in profile]
+    faces=[tuple(reversed(range(n))),tuple(range(n,2*n))]
+    faces += [(i,(i+1)%n,(i+1)%n+n,i+n) for i in range(n)]
+    geometry(name,vertices,faces,material,collection)
+    if collision:
+        solids.append(dict(name=name,type="convex",points=vertices))
+
+
+def brackets(x,z,y,col="03_MainFrame",small=False):
+    f=.7 if small else 1
+    for level in range(3):
+        w=(.64+level*.34)*f
+        box("Interlocked bracket arms",(x,y+level*.16*f,z),(w,.13*f,.23*f),"CarvedWood",col)
+        box("Cross bracket arms",(x,y+(level+.48)*.16*f,z),(.22*f,.13*f,w),"Timber",col)
+        for sign in (-1,1):
+            box("Bracket bearing blocks",(x+sign*w*.40,y+level*.16*f+.09*f,z),(.18*f,.18*f,.24*f),"CarvedWood",col)
+
+
+def roof(name,cx,cz,width,depth,eave,rise,lift=.28,inner_width=None,inner_depth=0):
+    """Closed swept hip roof with true shell thickness, tile caps and rafters."""
+    ridge_width=width*.56 if inner_width is None else inner_width
+    def point(side,s,t):
+        hw=width/2+(ridge_width-width)*t/2
+        hd=depth/2+(inner_depth-depth)*t/2
+        if side==0: x,z=(2*s-1)*hw,hd
+        elif side==1: x,z=hw,(1-2*s)*hd
+        elif side==2: x,z=(1-2*s)*hw,-hd
+        else: x,z=-hw,(2*s-1)*hd
+        y=eave+rise*t**1.55+lift*(1-t)**7+.32*abs(2*s-1)**6*(1-t)**2
+        return np.array((cx+x,y,cz+z))
+    for side in range(4):
+        across=24 if side%2==0 else 14
+        steps=10
+        vertices=[point(side,i/across,j/steps) for j in range(steps+1) for i in range(across+1)]
+        faces=[]
+        for j in range(steps):
+            for i in range(across):
+                a=j*(across+1)+i
+                f=[a,a+1,a+across+2,a+across+1]
+                if np.linalg.norm(np.cross(vertices[f[1]]-vertices[f[0]],vertices[f[2]]-vertices[f[0]])) > 1e-8:
+                    if np.cross(vertices[f[1]]-vertices[f[0]],vertices[f[2]]-vertices[f[0]])[1]<0:f.reverse()
+                    faces.append(tuple(f))
+                elif j==steps-1:
+                    f=[a,a+1,a+across+1]
+                    if np.linalg.norm(np.cross(vertices[f[1]]-vertices[f[0]],vertices[f[2]]-vertices[f[0]]))>1e-8:
+                        if np.cross(vertices[f[1]]-vertices[f[0]],vertices[f[2]]-vertices[f[0]])[1]<0:f.reverse()
+                        faces.append(tuple(f))
+        geometry(name+" tile field",vertices,faces,"JadeTile","05_RoofTiles",True)
+        bottom=[p-(0,.22,0) for p in vertices]
+        geometry(name+" sealed soffit",bottom,[tuple(reversed(f)) for f in faces],"Timber","04_RoofStructure",True)
+        for face in faces:
+            for k in range(1,len(face)-1):
+                roof_faces.extend([bottom[face[0]].tolist(),bottom[face[k]].tolist(),bottom[face[k+1]].tolist()])
+        for i in range(across):
+            a,b=i,i+1
+            geometry(name+" eave thickness",[vertices[a],vertices[b],bottom[b],bottom[a]],[(0,1,2,3)],"CarvedWood","04_RoofStructure")
+        if inner_depth > 0:
+            for i in range(across):
+                a,b=steps*(across+1)+i,steps*(across+1)+i+1
+                geometry(name+" inner thickness",[vertices[a],bottom[a],bottom[b],vertices[b]],[(0,1,2,3)],"Timber","04_RoofStructure")
+        rows=round((width if side%2==0 else depth)/.30)
+        for i in range(1,rows):
+            s=i/rows
+            pts=[point(side,s,j/6)+(0,.008,0) for j in range(7)]
+            for a,b in zip(pts,pts[1:]):
+                axis=(b-a)/np.linalg.norm(b-a)
+                u=np.cross(axis,(0,1,0));u/=np.linalg.norm(u)
+                n=np.cross(u,axis)
+                if n[1]<0:n=-n
+                v=[p+.037*(u*math.cos(t)+n*math.sin(t)) for p in (a,b) for t in (0,math.pi/3,2*math.pi/3,math.pi)]
+                f=[(i,i+1,i+5,i+4) for i in range(3)]
+                if np.cross(v[1]-v[0],v[5]-v[0])[1]<0:f=[tuple(reversed(q)) for q in f]
+                geometry(name+" barrel tile ribs",v,f,"TileEdge","05_RoofTiles",True)
+        for j in range(steps):
+            a,b=point(side,0,j/steps),point(side,0,(j+1)/steps)
+            rod(name+" diagonal hip caps",a+(0,.07,0),b+(0,.07,0),.095,"TileEdge","05_RoofTiles",8)
+        for i in range(1,round((width if side%2==0 else depth)/.62)):
+            s=i/round((width if side%2==0 else depth)/.62)
+            for j in range(4):
+                beam(name+" exposed rafter tails",point(side,s,j/12)-(0,.29,0),point(side,s,(j+1)/12)-(0,.29,0),.09,.12,"CarvedWood","04_RoofStructure")
+    # Low, strong ridge, with original restrained swept tips rather than dragons.
+    ridge_y=eave+rise+.09
+    rod(name+" central ridge",(cx-ridge_width/2,ridge_y,cz),(cx+ridge_width/2,ridge_y,cz),.14,"TileEdge","05_RoofTiles",10)
+    for sign in (-1,1):
+        points=[(cx+sign*(ridge_width/2-.1+q*.42),ridge_y+q*q*.38,cz) for q in (0,.25,.5,.75,1)]
+        for a,b in zip(points,points[1:]):rod(name+" swept ridge terminal",a,b,.095,"TileEdge","05_RoofTiles",8)
+    return point
+
+
+def lattice(cx,cy,z,w,h,col):
+    out=1 if z>=0 else -1
+    box("Recessed window",(cx,cy,z),(w,h,.09),"Window",col)
+    for x in (cx-w/2,cx+w/2):box("Window stiles",(x,cy,z+out*.06),(.10,h+.14,.15),"CarvedWood",col)
+    for y in (cy-h/2,cy+h/2):box("Window rails",(cx,y,z+out*.065),(w+.12,.10,.15),"CarvedWood",col)
+    n=max(2,round(w/.28))
+    for i in range(1,n):box("Window lattice",(cx-w/2+i*w/n,cy,z+out*.12),(.026,h,.035),"CarvedWood",col)
+    for y in (-h*.25,0,h*.25):box("Window lattice",(cx,cy+y,z+out*.12),(w,.026,.035),"CarvedWood",col)
+
+
+# The complete original courtyard design lives beside this file so that its
+# activity layout remains readable separately from the generic mesh utilities.
+exec(compile((SOURCE / "training_design.py").read_text(encoding="utf-8"), str(SOURCE / "training_design.py"), "exec"))
+
+

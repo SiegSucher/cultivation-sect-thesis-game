@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://staging/claude_environment_safety_kit/retaining/retaining_wall_4x2.glb" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="Shape_000"]
+size = Vector3(4, 2, 0.65)
+
+[node name="RetainingWall4X2" type="Node3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="Collision" type="StaticBody3D" parent="." groups=["solid_world"]]
+collision_mask = 2
+
+[node name="RetainingWall_000" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 1, -0.275)
+shape = SubResource("Shape_000")

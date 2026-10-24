@@ -1,0 +1,17 @@
+{
+  "staging/claude_mission_hall/review/mission_hall_review.gd.uid": {
+    "exists": false,
+    "after_import_exists": true,
+    "uid": "uid://bkmpjk4vpsfub"
+  },
+  "tools/test_mission_gallery.gd.uid": {
+    "exists": false,
+    "after_import_exists": true,
+    "uid": "uid://ddnfu3h52332u"
+  },
+  "tools/verify_mission_integration.gd.uid": {
+    "exists": false,
+    "after_import_exists": true,
+    "uid": "uid://b4sj3soie52qs"
+  }
+}

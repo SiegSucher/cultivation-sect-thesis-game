@@ -1,0 +1,175 @@
+{
+	"checks": [
+		{
+			"check": "Current scene launches with unchanged player",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "arrival FPP up lane 0.0",
+			"detail": {
+				"camera_mode": "first",
+				"end": [
+					0.000000143113183526111,
+					8.0008020401001,
+					141.152725219727
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "arrival FPP down lane 0.0",
+			"detail": {
+				"camera_mode": "first",
+				"end": [
+					0.0,
+					0.000802931899670511,
+					167.849761962891
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "arrival TPP up lane 0.0",
+			"detail": {
+				"camera_mode": "third",
+				"end": [
+					0.000000143113183526111,
+					8.0008020401001,
+					141.152725219727
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "arrival TPP down lane 0.0",
+			"detail": {
+				"camera_mode": "third",
+				"end": [
+					0.0,
+					0.000802931899670511,
+					167.849761962891
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "living FPP up lane 0.0",
+			"detail": {
+				"camera_mode": "first",
+				"end": [
+					-0.000000195498898847291,
+					20.0008335113525,
+					67.1176376342773
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "living FPP down lane 0.0",
+			"detail": {
+				"camera_mode": "first",
+				"end": [
+					0.0,
+					7.99909162521362,
+					104.868743896484
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "living TPP up lane 0.0",
+			"detail": {
+				"camera_mode": "third",
+				"end": [
+					-0.000000195498898847291,
+					20.0008335113525,
+					67.1176376342773
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "living TPP down lane 0.0",
+			"detail": {
+				"camera_mode": "third",
+				"end": [
+					0.0,
+					7.99909162521362,
+					104.868743896484
+				],
+				"pass": true,
+				"side_contacts": []
+			},
+			"pass": true
+		},
+		{
+			"check": "Capture arrival-flight-fpp",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture arrival-upper-fpp",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture living-flight-fpp",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture living-upper-fpp",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture arrival-flight-tpp",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture arrival-upper-tpp",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture living-flight-tpp",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture living-upper-tpp",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture arrival-edge",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture living-edge",
+			"detail": null,
+			"pass": true
+		}
+	],
+	"failures": 0,
+	"normal_physics_hz": 60,
+	"pass": true,
+	"passes": 19
+}

@@ -1,0 +1,45 @@
+{
+  "original_files_unchanged": 1599,
+  "original_baseline_matches": true,
+  "frozen_test_files": 4903,
+  "existing_file_changes": [
+    "HANDOFF.md",
+    "reports/CODEX_REPORT.md",
+    "reports/LOW_POLY_CONVERSION_INVENTORY.md",
+    "assets/gallery/catalog.json"
+  ],
+  "all_staging_files_unchanged": 61,
+  "batch2_staging_files_unchanged": 15,
+  "staging_file_set_unchanged": true,
+  "prior_ten_catalog_entries_unchanged": true,
+  "prior_assets_player_gallery_settings_unchanged": true,
+  "explicit_prior_payload_hashes_checked": [
+    "project.godot",
+    "scripts/asset_gallery.gd",
+    "scripts/training_inspection_player.gd",
+    "assets/architecture/exchange_hall/exchange_hall.glb",
+    "assets/architecture/exchange_hall/exchange_hall.glb.import",
+    "assets/architecture/mission_hall/mission_hall.glb",
+    "assets/architecture/mission_hall/mission_hall.glb.import",
+    "scenes/buildings/exchange_hall.tscn",
+    "scenes/buildings/mission_hall.tscn"
+  ],
+  "source_copy_identical": true,
+  "assets": [
+    {
+      "asset": "alchemy_pavilion",
+      "model_identical": true,
+      "staged_uid": "uid://bvmy7h7uj3sko",
+      "canonical_uid": "uid://dpypgjvi85867",
+      "scene_change": "GLB path and two static open-leaf boxes"
+    },
+    {
+      "asset": "medicine_hall",
+      "model_identical": true,
+      "staged_uid": "uid://51mgkx5i776o",
+      "canonical_uid": "uid://csbbp4heosxm0",
+      "scene_change": "GLB path, four counter boxes/poses, camera-only detail resource/body"
+    }
+  ],
+  "camera_detail_triangles": 698
+}

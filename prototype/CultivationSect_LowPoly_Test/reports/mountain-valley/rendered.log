@@ -1,0 +1,23 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 566.07 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3050 Laptop GPU
+
+[godot_ai game_helper] registered mcp capture (debugger active=false, logger=true)
+PASS Separate scene opens in third-person walking 
+PASS All twelve canonical buildings instanced 
+PASS All building root scales remain one 
+PASS Medicine camera-only exception retained 
+PASS W moves the existing controller 
+PASS Tab enters first person 
+PASS Tab restores visible third person 
+PASS Screenshot 01-forest-third-person 
+PASS Screenshot 02-top-down-layout 
+PASS Screenshot 03-valley-composition 
+PASS Screenshot 04-main-hall-third-person 
+PASS Screenshot 05-main-hall-first-person 
+PASS Screenshot 06-living-third-person 
+PASS Screenshot 07-garden-overlook 
+PASS Screenshot 08-gate-third-person 
+PASS Map overview opens 
+PASS Walking resumes with original camera 
+PASS R returns to forest start 
+VALLEY 18 PASS / 0 FAIL; walked 0.0 m

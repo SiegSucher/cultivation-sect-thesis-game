@@ -1,0 +1,36 @@
+{
+	"checks": [
+		{
+			"check": "Current Phase 4C launches",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Tab first person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Tab third person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture complete-arrival-approach",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture arrival-side",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture upper-landing-connection",
+			"detail": null,
+			"pass": true
+		}
+	],
+	"failures": 0,
+	"passes": 6
+}

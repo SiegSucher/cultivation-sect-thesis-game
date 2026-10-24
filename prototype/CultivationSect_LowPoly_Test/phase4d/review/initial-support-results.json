@@ -1,0 +1,301 @@
+{
+	"checks": [
+		{
+			"check": "Phase 4D launch and original walking speed",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Tab first person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Tab third person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Medicine camera-only walking exception preserved",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection forest",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection entry_stairs",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection arrival",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection middle_stairs",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection living",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection cloud",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection grand",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection hall",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Continuous forest-to-Hall route TPP",
+			"detail": {
+				"active_walking_seconds": 62.7833333333333,
+				"camera": "TPP",
+				"pass": true,
+				"test_elapsed_seconds": 64.7833333333333,
+				"walked_metres": 242.802241984755
+			},
+			"pass": true
+		},
+		{
+			"check": "Connection scholar",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection elder",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection elder reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection library",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection library reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection scholar reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection grand reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection alchemy",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection alchemy reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection cloud reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection training_link",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection training_entry",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection training_entry reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection training_link reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection garden",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Existing ground supports local surface mission_hall",
+			"detail": {
+				"ground_relative_to_terrace_m": [
+					-0.0439796447753906,
+					-0.0150003433227539
+				],
+				"samples": 5
+			},
+			"pass": true
+		},
+		{
+			"check": "Existing ground supports local surface exchange_hall",
+			"detail": {
+				"ground_relative_to_terrace_m": [
+					-0.0443401336669922,
+					-0.0150003433227539
+				],
+				"samples": 5
+			},
+			"pass": true
+		},
+		{
+			"check": "Existing ground supports local surface disciple_residence",
+			"detail": {
+				"ground_relative_to_terrace_m": [
+					-0.0293283462524414,
+					-0.0150003433227539
+				],
+				"samples": 5
+			},
+			"pass": true
+		},
+		{
+			"check": "Existing ground supports local surface dining_hall_kitchen",
+			"detail": {
+				"ground_relative_to_terrace_m": [
+					-0.0150003433227539,
+					-0.0150003433227539
+				],
+				"samples": 5
+			},
+			"pass": true
+		},
+		{
+			"check": "Existing ground supports local surface martial_training_ground",
+			"detail": {
+				"ground_relative_to_terrace_m": [
+					-0.0150003433227539,
+					-0.0150003433227539
+				],
+				"samples": 5
+			},
+			"pass": true
+		},
+		{
+			"check": "Existing ground supports local surface scripture_pavilion",
+			"detail": {
+				"ground_relative_to_terrace_m": [
+					-0.0149993896484375,
+					-0.0149993896484375
+				],
+				"samples": 5
+			},
+			"pass": true
+		},
+		{
+			"check": "Existing ground supports local surface elder_residence",
+			"detail": {
+				"ground_relative_to_terrace_m": [
+					-0.0589752197265625,
+					-0.0149993896484375
+				],
+				"samples": 5
+			},
+			"pass": true
+		},
+		{
+			"check": "Existing ground supports local surface alchemy_pavilion",
+			"detail": {
+				"ground_relative_to_terrace_m": [
+					-0.431751251220703,
+					0.000474929809570313
+				],
+				"samples": 5
+			},
+			"pass": false
+		},
+		{
+			"check": "Existing ground supports local surface medicine_hall",
+			"detail": {
+				"ground_relative_to_terrace_m": [
+					-0.0150003433227539,
+					-0.0150003433227539
+				],
+				"samples": 5
+			},
+			"pass": true
+		},
+		{
+			"check": "Existing ground supports local surface spirit_herb_garden",
+			"detail": {
+				"ground_relative_to_terrace_m": [
+					-0.0545730590820313,
+					-0.0150003433227539
+				],
+				"samples": 5
+			},
+			"pass": true
+		},
+		{
+			"check": "All twelve approved building transforms preserved",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Approved resource inherited: ContinuousValleyTerrain",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Approved resource inherited: RoadsCourtsAndVisibleStairs",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Approved collision inherited: ValleyGroundCollision",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Approved collision inherited: SmoothPathRampCollision",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "No additional collision shapes",
+			"detail": null,
+			"pass": true
+		}
+	],
+	"failures": 1,
+	"main_route_runs": [
+		{
+			"active_walking_seconds": 62.7833333333333,
+			"camera": "TPP",
+			"pass": true,
+			"test_elapsed_seconds": 64.7833333333333,
+			"walked_metres": 242.802241984755
+		}
+	],
+	"passes": 43
+}

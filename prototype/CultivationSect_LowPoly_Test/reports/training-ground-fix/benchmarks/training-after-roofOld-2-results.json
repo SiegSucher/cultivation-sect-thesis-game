@@ -1,0 +1,204 @@
+{
+	"adapter": "NVIDIA GeForce RTX 3050 Laptop GPU",
+	"camera_poses": [
+		{
+			"fov": 52.0,
+			"position": "(48.0, 38.0, 50.0)",
+			"target": "(0.0, 1.0, -1.0)",
+			"view": "overview"
+		},
+		{
+			"fov": 78.0,
+			"position": "(0.0, 2.1, 25.0)",
+			"target": "(0.0, 2.3, -20.0)",
+			"view": "court"
+		},
+		{
+			"fov": 68.0,
+			"position": "(12.0, 5.3, -8.5)",
+			"target": "(0.0, 2.8, -22.0)",
+			"view": "shelter"
+		},
+		{
+			"fov": 65.0,
+			"position": "(-18.6, 2.3, 14.2)",
+			"target": "(-23.9, 1.2, 8.0)",
+			"view": "equipment"
+		},
+		{
+			"fov": 68.0,
+			"position": "(20.6, 2.4, 23.2)",
+			"target": "(25.3, 1.5, 17.5)",
+			"view": "racks"
+		},
+		{
+			"fov": 75.0,
+			"pitch": -0.08,
+			"player": "(0.0, 0.909664, -21.4)",
+			"view": "first-person",
+			"yaw": 3.14159265358979
+		},
+		{
+			"fov": 75.0,
+			"pitch": -0.08,
+			"player": "(0.0, 0.909664, -21.4)",
+			"view": "third-person",
+			"yaw": 3.14159265358979
+		}
+	],
+	"captures": [
+		{
+			"file": "res://reports/training-ground-fix/benchmarks/training-after-roofOld-2-overview.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/training-ground-fix/benchmarks/training-after-roofOld-2-court.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/training-ground-fix/benchmarks/training-after-roofOld-2-shelter.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/training-ground-fix/benchmarks/training-after-roofOld-2-equipment.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/training-ground-fix/benchmarks/training-after-roofOld-2-racks.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/training-ground-fix/benchmarks/training-after-roofOld-2-first-person.png",
+			"pass": true
+		},
+		{
+			"file": "res://reports/training-ground-fix/benchmarks/training-after-roofOld-2-third-person.png",
+			"pass": true
+		}
+	],
+	"conditions": "Existing per-facility walkthrough rig: ambient .55, shadowed sun 180m Training / 100m Pavilion; Pavilion retains six unshadowed lights. 45-frame warmups, 240 measured frames, uncapped. No fixed-fps used for benchmark.",
+	"facility": "training",
+	"failed": 0,
+	"godot": "4.7.2-stable (official)",
+	"legacy_camera_policy": true,
+	"limits": "Short local rendered observations. No human, populated town, representative low-end hardware or sustained thermal test.",
+	"msaa": 2,
+	"physics_off": false,
+	"project_root": "C:/Users/pasto/OneDrive/Documents/ChatGPT/Character Sprite Image for Thesis game/prototype/CultivationSect_LowPoly_Test/",
+	"renderer": "gl_compatibility",
+	"resolution": [
+		1280,
+		720
+	],
+	"run": "roofOld-2",
+	"samples": [
+		{
+			"fps": 201.181437994623,
+			"frames": 240,
+			"max_ms": 8.582,
+			"mean_draw_calls": 108.0,
+			"mean_ms": 4.9706375,
+			"mean_objects": 215.0,
+			"mean_primitives": 283952.0,
+			"p50_ms": 5.344,
+			"p95_ms": 6.678,
+			"physics_ms": 0.828912500000001,
+			"process_ms": 70.9543958333336,
+			"video_memory_bytes": 56425361.0,
+			"view": "overview",
+			"viewport_gpu_ms": 4.48679998020331,
+			"viewport_render_cpu_ms": 1.48789999634027
+		},
+		{
+			"fps": 307.051436233093,
+			"frames": 240,
+			"max_ms": 9.357,
+			"mean_draw_calls": 146.0,
+			"mean_ms": 3.25678333333333,
+			"mean_objects": 253.0,
+			"mean_primitives": 426362.0,
+			"p50_ms": 2.698,
+			"p95_ms": 7.544,
+			"physics_ms": 0.628749999999997,
+			"process_ms": 25.40925,
+			"video_memory_bytes": 56425361.0,
+			"view": "court",
+			"viewport_gpu_ms": 2.98750000397364,
+			"viewport_render_cpu_ms": 1.22732083573937
+		},
+		{
+			"fps": 247.6846643976,
+			"frames": 240,
+			"max_ms": 10.023,
+			"mean_draw_calls": 77.0,
+			"mean_ms": 4.03739166666667,
+			"mean_objects": 184.0,
+			"mean_primitives": 361862.0,
+			"p50_ms": 2.923,
+			"p95_ms": 8.685,
+			"physics_ms": 0.585833333333337,
+			"process_ms": 80.5475333333333,
+			"video_memory_bytes": 56425361.0,
+			"view": "shelter",
+			"viewport_gpu_ms": 3.69739166299502,
+			"viewport_render_cpu_ms": 1.20047083521883
+		},
+		{
+			"fps": 284.981476204047,
+			"frames": 240,
+			"max_ms": 8.143,
+			"mean_draw_calls": 105.9125,
+			"mean_ms": 3.509,
+			"mean_objects": 212.9125,
+			"mean_primitives": 343279.891666667,
+			"p50_ms": 2.839,
+			"p95_ms": 7.069,
+			"physics_ms": 0.717999999999999,
+			"process_ms": 95.2299999999996,
+			"video_memory_bytes": 56425361.0,
+			"view": "360 sweep",
+			"viewport_gpu_ms": 2.73141666253408,
+			"viewport_render_cpu_ms": 1.23430833294988
+		},
+		{
+			"fps": 197.19052795299,
+			"frames": 240,
+			"max_ms": 19.506,
+			"mean_draw_calls": 103.0,
+			"mean_ms": 5.0712375,
+			"mean_objects": 210.0,
+			"mean_primitives": 330232.0,
+			"p50_ms": 3.108,
+			"p95_ms": 11.237,
+			"physics_ms": 0.572274999999999,
+			"process_ms": 33.4909624999999,
+			"video_memory_bytes": 56425361.0,
+			"view": "first-person",
+			"viewport_gpu_ms": 4.38321249634028,
+			"viewport_render_cpu_ms": 1.29624166637659
+		},
+		{
+			"fps": 123.164970240264,
+			"frames": 240,
+			"max_ms": 23.683,
+			"mean_draw_calls": 107.0,
+			"mean_ms": 8.11919166666667,
+			"mean_objects": 214.0,
+			"mean_primitives": 344426.0,
+			"p50_ms": 7.204,
+			"p95_ms": 14.236,
+			"physics_ms": 0.713849999999999,
+			"process_ms": 46.5234500000002,
+			"video_memory_bytes": 56425361.0,
+			"view": "third-person",
+			"viewport_gpu_ms": 7.8928666661183,
+			"viewport_render_cpu_ms": 1.22949166918794
+		}
+	],
+	"shadows_off": false,
+	"static_only": false,
+	"utc": "2026-10-23T09:26:47",
+	"variant": "after",
+	"viewport_timer_enabled": true,
+	"vsync": false
+}

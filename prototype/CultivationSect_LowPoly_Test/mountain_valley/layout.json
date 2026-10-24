@@ -1,0 +1,1317 @@
+{
+  "title": "SPLIT-CLOUD VALLEY / NEW MAP BLOCKOUT",
+  "dimensions": {
+    "playable": [
+      520,
+      640
+    ],
+    "playable_bounds": [
+      -260,
+      -280,
+      260,
+      360
+    ],
+    "scenery": [
+      1120,
+      1120
+    ],
+    "terrain_bounds": [
+      -560,
+      -560,
+      560,
+      560
+    ],
+    "grid": 4
+  },
+  "player": {
+    "eye": 1.65,
+    "height": 1.79999995231628,
+    "max_slope_degrees": 50.0000002530119,
+    "speed": 4.0,
+    "width": 0.560000002384186
+  },
+  "pads": [
+    {
+      "id": "forest",
+      "name": "Outer mountain approach",
+      "y": 0,
+      "color": "#758262",
+      "polygon": [
+        [
+          -105,
+          345
+        ],
+        [
+          70,
+          350
+        ],
+        [
+          98,
+          275
+        ],
+        [
+          63,
+          218
+        ],
+        [
+          36,
+          165
+        ],
+        [
+          -28,
+          166
+        ],
+        [
+          -94,
+          205
+        ],
+        [
+          -117,
+          283
+        ]
+      ]
+    },
+    {
+      "id": "arrival",
+      "name": "Lower entrance terrace",
+      "y": 8,
+      "color": "#a19b78",
+      "polygon": [
+        [
+          -56,
+          156
+        ],
+        [
+          56,
+          156
+        ],
+        [
+          61,
+          117
+        ],
+        [
+          46,
+          91
+        ],
+        [
+          -48,
+          91
+        ],
+        [
+          -63,
+          119
+        ]
+      ]
+    },
+    {
+      "id": "living",
+      "name": "Middle living terrace",
+      "y": 20,
+      "color": "#9c9f79",
+      "polygon": [
+        [
+          -91,
+          87
+        ],
+        [
+          83,
+          87
+        ],
+        [
+          98,
+          60
+        ],
+        [
+          90,
+          -19
+        ],
+        [
+          61,
+          -32
+        ],
+        [
+          -83,
+          -29
+        ],
+        [
+          -108,
+          -4
+        ],
+        [
+          -106,
+          60
+        ]
+      ]
+    },
+    {
+      "id": "training",
+      "name": "Martial training terrace",
+      "y": 28,
+      "color": "#ae9b76",
+      "polygon": [
+        [
+          -209,
+          10
+        ],
+        [
+          -108,
+          12
+        ],
+        [
+          -101,
+          -19
+        ],
+        [
+          -107,
+          -104
+        ],
+        [
+          -196,
+          -111
+        ],
+        [
+          -219,
+          -73
+        ]
+      ]
+    },
+    {
+      "id": "landing",
+      "name": "Cloud-stair landing",
+      "y": 32,
+      "color": "#929e82",
+      "polygon": [
+        [
+          -22,
+          -71
+        ],
+        [
+          47,
+          -54
+        ],
+        [
+          50,
+          -81
+        ],
+        [
+          26,
+          -99
+        ],
+        [
+          -22,
+          -96
+        ]
+      ]
+    },
+    {
+      "id": "alchemy",
+      "name": "Alchemy ridge",
+      "y": 40,
+      "color": "#a59b86",
+      "polygon": [
+        [
+          71,
+          -78
+        ],
+        [
+          127,
+          -77
+        ],
+        [
+          136,
+          -105
+        ],
+        [
+          127,
+          -150
+        ],
+        [
+          77,
+          -151
+        ],
+        [
+          66,
+          -117
+        ]
+      ]
+    },
+    {
+      "id": "inner",
+      "name": "Upper inner sect",
+      "y": 48,
+      "color": "#bac0a0",
+      "polygon": [
+        [
+          -67,
+          -107
+        ],
+        [
+          64,
+          -107
+        ],
+        [
+          78,
+          -133
+        ],
+        [
+          70,
+          -218
+        ],
+        [
+          37,
+          -237
+        ],
+        [
+          -49,
+          -231
+        ],
+        [
+          -77,
+          -191
+        ]
+      ]
+    },
+    {
+      "id": "scholar",
+      "name": "Scholarly and elder ledge",
+      "y": 56,
+      "color": "#b6baa2",
+      "polygon": [
+        [
+          -168,
+          -128
+        ],
+        [
+          -81,
+          -130
+        ],
+        [
+          -67,
+          -166
+        ],
+        [
+          -75,
+          -229
+        ],
+        [
+          -121,
+          -246
+        ],
+        [
+          -165,
+          -221
+        ],
+        [
+          -178,
+          -166
+        ]
+      ]
+    },
+    {
+      "id": "garden",
+      "name": "Healing garden and cliff",
+      "y": 20,
+      "color": "#759a81",
+      "polygon": [
+        [
+          96,
+          37
+        ],
+        [
+          182,
+          34
+        ],
+        [
+          215,
+          0
+        ],
+        [
+          224,
+          -65
+        ],
+        [
+          200,
+          -107
+        ],
+        [
+          146,
+          -110
+        ],
+        [
+          109,
+          -86
+        ],
+        [
+          94,
+          -35
+        ]
+      ]
+    }
+  ],
+  "buildings": [
+    {
+      "id": "sect_gate",
+      "position": [
+        0,
+        8,
+        130
+      ],
+      "yaw": 0,
+      "district": "arrival",
+      "label": "01 Sect Gate",
+      "resource": "res://scenes/buildings/sect_gate.tscn",
+      "bounds": {
+        "max": [
+          15.5,
+          16.2307300567627,
+          6.27791309356689
+        ],
+        "min": [
+          -15.5,
+          0.0,
+          -6.27791309356689
+        ],
+        "resource": "res://scenes/buildings/sect_gate.tscn",
+        "size": [
+          31.0,
+          16.2307300567627,
+          12.5558261871338
+        ]
+      }
+    },
+    {
+      "id": "mission_hall",
+      "position": [
+        -52,
+        20,
+        8
+      ],
+      "yaw": 0,
+      "district": "living",
+      "label": "02 Mission Hall",
+      "resource": "res://scenes/buildings/mission_hall.tscn",
+      "bounds": {
+        "max": [
+          9.52999973297119,
+          9.80535221099854,
+          11.6199998855591
+        ],
+        "min": [
+          -9.52999973297119,
+          0.0,
+          -9.700608253479
+        ],
+        "resource": "res://scenes/buildings/mission_hall.tscn",
+        "size": [
+          19.0599994659424,
+          9.80535221099854,
+          21.3206081390381
+        ]
+      }
+    },
+    {
+      "id": "exchange_hall",
+      "position": [
+        30,
+        20,
+        5
+      ],
+      "yaw": 0,
+      "district": "living",
+      "label": "03 Exchange Hall",
+      "resource": "res://scenes/buildings/exchange_hall.tscn",
+      "bounds": {
+        "max": [
+          13.3006076812744,
+          12.960000038147,
+          9.81999969482422
+        ],
+        "min": [
+          -13.3006076812744,
+          0.0,
+          -6.55553817749023
+        ],
+        "resource": "res://scenes/buildings/exchange_hall.tscn",
+        "size": [
+          26.6012153625488,
+          12.960000038147,
+          16.3755378723145
+        ]
+      }
+    },
+    {
+      "id": "disciple_residence",
+      "position": [
+        -64,
+        20,
+        63
+      ],
+      "yaw": 180,
+      "district": "living",
+      "label": "04 Disciples' Residence",
+      "resource": "res://scenes/buildings/disciple_residence.tscn",
+      "bounds": {
+        "max": [
+          10.700608253479,
+          6.95535278320313,
+          5.77799892425537
+        ],
+        "min": [
+          -10.700608253479,
+          0.0,
+          -5.11271572113037
+        ],
+        "resource": "res://scenes/buildings/disciple_residence.tscn",
+        "size": [
+          21.401216506958,
+          6.95535278320313,
+          10.8907146453857
+        ]
+      }
+    },
+    {
+      "id": "dining_hall_kitchen",
+      "position": [
+        48,
+        20,
+        62
+      ],
+      "yaw": 180,
+      "district": "living",
+      "label": "05 Dining / Kitchen",
+      "resource": "res://scenes/buildings/dining_hall_kitchen.tscn",
+      "bounds": {
+        "max": [
+          11.5737190246582,
+          9.25535202026367,
+          8.1200008392334
+        ],
+        "min": [
+          -11.5737190246582,
+          0.0,
+          -13.0006084442139
+        ],
+        "resource": "res://scenes/buildings/dining_hall_kitchen.tscn",
+        "size": [
+          23.1474380493164,
+          9.25535202026367,
+          21.1206092834473
+        ]
+      }
+    },
+    {
+      "id": "martial_training_ground",
+      "position": [
+        -155,
+        28,
+        -53
+      ],
+      "yaw": 0,
+      "district": "training",
+      "label": "06 Martial Training",
+      "resource": "res://scenes/buildings/martial_training_ground.tscn",
+      "bounds": {
+        "max": [
+          34.0,
+          6.73072910308838,
+          29.2000007629395
+        ],
+        "min": [
+          -34.0,
+          0.0,
+          -28.0
+        ],
+        "resource": "res://scenes/buildings/martial_training_ground.tscn",
+        "size": [
+          68.0,
+          6.73072910308838,
+          57.2000007629395
+        ]
+      }
+    },
+    {
+      "id": "main_sect_hall",
+      "position": [
+        0,
+        48,
+        -192
+      ],
+      "yaw": 0,
+      "district": "inner",
+      "label": "07 Main Sect Hall",
+      "resource": "res://scenes/buildings/tang_main_hall.tscn",
+      "bounds": {
+        "max": [
+          20.8292617797852,
+          18.2206439971924,
+          18.1800003051758
+        ],
+        "min": [
+          -20.8292617797852,
+          0.0,
+          -12.0
+        ],
+        "resource": "res://scenes/buildings/tang_main_hall.tscn",
+        "size": [
+          41.6585235595703,
+          18.2206439971924,
+          30.1800003051758
+        ]
+      }
+    },
+    {
+      "id": "scripture_pavilion",
+      "position": [
+        -110,
+        56,
+        -210
+      ],
+      "yaw": 0,
+      "district": "scholar",
+      "label": "08 Scripture Pavilion",
+      "resource": "res://scenes/buildings/scripture_pavilion.tscn",
+      "bounds": {
+        "max": [
+          11.9676780700684,
+          18.0207290649414,
+          12.5000009536743
+        ],
+        "min": [
+          -11.9676780700684,
+          0.0,
+          -10.1166677474976
+        ],
+        "resource": "res://scenes/buildings/scripture_pavilion.tscn",
+        "size": [
+          23.9353561401367,
+          18.0207290649414,
+          22.6166687011719
+        ]
+      }
+    },
+    {
+      "id": "elder_residence",
+      "position": [
+        -140,
+        56,
+        -164
+      ],
+      "yaw": 0,
+      "district": "scholar",
+      "label": "09 Elder Residence",
+      "resource": "res://scenes/buildings/elder_residence.tscn",
+      "bounds": {
+        "max": [
+          11.3199996948242,
+          8.05010414123535,
+          11.5846300125122
+        ],
+        "min": [
+          -11.3199996948242,
+          0.0,
+          -10.7200002670288
+        ],
+        "resource": "res://scenes/buildings/elder_residence.tscn",
+        "size": [
+          22.6399993896484,
+          8.05010414123535,
+          22.304630279541
+        ]
+      }
+    },
+    {
+      "id": "alchemy_pavilion",
+      "position": [
+        101,
+        40,
+        -124
+      ],
+      "yaw": 0,
+      "district": "alchemy",
+      "label": "10 Alchemy Pavilion",
+      "resource": "res://scenes/buildings/alchemy_pavilion.tscn",
+      "bounds": {
+        "max": [
+          8.54915142059326,
+          12.5699996948242,
+          9.4347620010376
+        ],
+        "min": [
+          -8.54915142059326,
+          0.0,
+          -8.54915142059326
+        ],
+        "resource": "res://scenes/buildings/alchemy_pavilion.tscn",
+        "size": [
+          17.0983028411865,
+          12.5699996948242,
+          17.9839134216309
+        ]
+      }
+    },
+    {
+      "id": "medicine_hall",
+      "position": [
+        123,
+        20,
+        -17
+      ],
+      "yaw": 0,
+      "district": "garden",
+      "label": "11 Medicine Hall",
+      "resource": "res://scenes/buildings/medicine_hall.tscn",
+      "bounds": {
+        "max": [
+          8.89999961853027,
+          11.0031471252441,
+          7.96140193939209
+        ],
+        "min": [
+          -8.89999961853027,
+          0.0,
+          -6.59555530548096
+        ],
+        "resource": "res://scenes/buildings/medicine_hall.tscn",
+        "size": [
+          17.7999992370605,
+          11.0031471252441,
+          14.556957244873
+        ]
+      }
+    },
+    {
+      "id": "spirit_herb_garden",
+      "position": [
+        175,
+        20,
+        -74
+      ],
+      "yaw": 0,
+      "district": "garden",
+      "label": "12 Spirit Herb Garden",
+      "resource": "res://scenes/buildings/spirit_herb_garden.tscn",
+      "bounds": {
+        "max": [
+          12.2299995422363,
+          6.5,
+          12.9139156341553
+        ],
+        "min": [
+          -12.2299995422363,
+          -0.00627437653020024,
+          -12.2299995422363
+        ],
+        "resource": "res://scenes/buildings/spirit_herb_garden.tscn",
+        "size": [
+          24.4599990844727,
+          6.50627422332764,
+          25.1439151763916
+        ]
+      }
+    }
+  ],
+  "paths": [
+    {
+      "id": "forest",
+      "name": "Winding forest trail",
+      "width": 7,
+      "points": [
+        [
+          12,
+          0,
+          320
+        ],
+        [
+          -24,
+          0,
+          285
+        ],
+        [
+          -58,
+          0,
+          248
+        ],
+        [
+          -50,
+          0,
+          211
+        ],
+        [
+          -17,
+          0,
+          184
+        ],
+        [
+          0,
+          0,
+          164
+        ]
+      ],
+      "kind": "earth"
+    },
+    {
+      "id": "entry_stairs",
+      "name": "Arrival stair",
+      "width": 12,
+      "points": [
+        [
+          0,
+          0,
+          164
+        ],
+        [
+          0,
+          8,
+          145
+        ]
+      ],
+      "kind": "stairs"
+    },
+    {
+      "id": "arrival",
+      "name": "Arrival axis",
+      "width": 10,
+      "points": [
+        [
+          0,
+          8,
+          145
+        ],
+        [
+          0,
+          8,
+          130
+        ],
+        [
+          0,
+          8,
+          101
+        ]
+      ],
+      "kind": "stone"
+    },
+    {
+      "id": "middle_stairs",
+      "name": "Living stair",
+      "width": 12,
+      "points": [
+        [
+          0,
+          8,
+          101
+        ],
+        [
+          0,
+          20,
+          71
+        ]
+      ],
+      "kind": "stairs"
+    },
+    {
+      "id": "living",
+      "name": "Living spine",
+      "width": 10,
+      "points": [
+        [
+          0,
+          20,
+          71
+        ],
+        [
+          0,
+          20,
+          30
+        ],
+        [
+          0,
+          20,
+          -16
+        ]
+      ],
+      "kind": "stone"
+    },
+    {
+      "id": "street",
+      "name": "Market and mission street",
+      "width": 8,
+      "points": [
+        [
+          -84,
+          20,
+          31
+        ],
+        [
+          -52,
+          20,
+          31
+        ],
+        [
+          0,
+          20,
+          31
+        ],
+        [
+          31,
+          20,
+          31
+        ],
+        [
+          76,
+          20,
+          31
+        ]
+      ],
+      "kind": "stone"
+    },
+    {
+      "id": "mission",
+      "name": "Mission threshold",
+      "width": 6,
+      "points": [
+        [
+          -52,
+          20,
+          31
+        ],
+        [
+          -52,
+          20,
+          24
+        ]
+      ],
+      "kind": "stone"
+    },
+    {
+      "id": "exchange",
+      "name": "Exchange threshold",
+      "width": 6,
+      "points": [
+        [
+          30,
+          20,
+          31
+        ],
+        [
+          30,
+          20,
+          17
+        ]
+      ],
+      "kind": "stone"
+    },
+    {
+      "id": "residence",
+      "name": "Residence lane",
+      "width": 6,
+      "points": [
+        [
+          -64,
+          20,
+          31
+        ],
+        [
+          -64,
+          20,
+          49
+        ]
+      ],
+      "kind": "stone"
+    },
+    {
+      "id": "dining",
+      "name": "Dining lane",
+      "width": 6,
+      "points": [
+        [
+          48,
+          20,
+          31
+        ],
+        [
+          48,
+          20,
+          45
+        ]
+      ],
+      "kind": "stone"
+    },
+    {
+      "id": "training_link",
+      "name": "Training ridge stair",
+      "width": 10,
+      "points": [
+        [
+          0,
+          20,
+          -5
+        ],
+        [
+          -87,
+          20,
+          -5
+        ],
+        [
+          -113,
+          28,
+          -5
+        ],
+        [
+          -155,
+          28,
+          -5
+        ]
+      ],
+      "kind": "stairs"
+    },
+    {
+      "id": "training_entry",
+      "name": "Training approach",
+      "width": 12,
+      "points": [
+        [
+          -155,
+          28,
+          -5
+        ],
+        [
+          -155,
+          28,
+          -19
+        ]
+      ],
+      "kind": "stone"
+    },
+    {
+      "id": "cloud",
+      "name": "Winding cloud stair",
+      "width": 12,
+      "points": [
+        [
+          0,
+          20,
+          -16
+        ],
+        [
+          28,
+          20,
+          -33
+        ],
+        [
+          28,
+          32,
+          -65
+        ],
+        [
+          0,
+          32,
+          -80
+        ]
+      ],
+      "kind": "stairs"
+    },
+    {
+      "id": "grand",
+      "name": "Upper ceremonial stair",
+      "width": 16,
+      "points": [
+        [
+          0,
+          32,
+          -80
+        ],
+        [
+          0,
+          48,
+          -116
+        ]
+      ],
+      "kind": "stairs"
+    },
+    {
+      "id": "hall",
+      "name": "Hall forecourt axis",
+      "width": 14,
+      "points": [
+        [
+          0,
+          48,
+          -116
+        ],
+        [
+          0,
+          48,
+          -145
+        ],
+        [
+          0,
+          48,
+          -173
+        ]
+      ],
+      "kind": "stone"
+    },
+    {
+      "id": "scholar",
+      "name": "Scholarly stair",
+      "width": 9,
+      "points": [
+        [
+          0,
+          48,
+          -139
+        ],
+        [
+          -48,
+          48,
+          -139
+        ],
+        [
+          -86,
+          56,
+          -143
+        ],
+        [
+          -110,
+          56,
+          -157
+        ]
+      ],
+      "kind": "stairs"
+    },
+    {
+      "id": "library",
+      "name": "Library approach",
+      "width": 7,
+      "points": [
+        [
+          -110,
+          56,
+          -157
+        ],
+        [
+          -110,
+          56,
+          -192
+        ]
+      ],
+      "kind": "stone"
+    },
+    {
+      "id": "elder",
+      "name": "Elder lane",
+      "width": 6,
+      "points": [
+        [
+          -110,
+          56,
+          -145
+        ],
+        [
+          -140,
+          56,
+          -145
+        ]
+      ],
+      "kind": "stone"
+    },
+    {
+      "id": "alchemy",
+      "name": "Alchemy ridge path",
+      "width": 8,
+      "points": [
+        [
+          28,
+          32,
+          -75
+        ],
+        [
+          64,
+          32,
+          -75
+        ],
+        [
+          92,
+          40,
+          -86
+        ],
+        [
+          101,
+          40,
+          -105
+        ]
+      ],
+      "kind": "stairs"
+    },
+    {
+      "id": "garden",
+      "name": "Healing garden lane",
+      "width": 7,
+      "points": [
+        [
+          76,
+          20,
+          31
+        ],
+        [
+          104,
+          20,
+          21
+        ],
+        [
+          123,
+          20,
+          3
+        ],
+        [
+          154,
+          20,
+          -33
+        ],
+        [
+          175,
+          20,
+          -48
+        ],
+        [
+          175,
+          20,
+          -57
+        ]
+      ],
+      "kind": "earth"
+    },
+    {
+      "id": "overlook",
+      "name": "Pond and cliff walk",
+      "width": 5,
+      "points": [
+        [
+          154,
+          20,
+          -33
+        ],
+        [
+          180,
+          20,
+          -29
+        ],
+        [
+          204,
+          20,
+          -47
+        ],
+        [
+          207,
+          20,
+          -78
+        ]
+      ],
+      "kind": "earth"
+    }
+  ],
+  "forecourts": [
+    {
+      "name": "Arrival court",
+      "position": [
+        0,
+        8,
+        109
+      ],
+      "size": [
+        44,
+        22
+      ]
+    },
+    {
+      "name": "Living commons",
+      "position": [
+        -4,
+        20,
+        31
+      ],
+      "size": [
+        27,
+        24
+      ]
+    },
+    {
+      "name": "Hall forecourt",
+      "position": [
+        0,
+        48,
+        -142
+      ],
+      "size": [
+        58,
+        48
+      ]
+    },
+    {
+      "name": "Training apron",
+      "position": [
+        -155,
+        28,
+        -10
+      ],
+      "size": [
+        46,
+        15
+      ]
+    },
+    {
+      "name": "Library court",
+      "position": [
+        -110,
+        56,
+        -181
+      ],
+      "size": [
+        32,
+        17
+      ]
+    },
+    {
+      "name": "Healing court",
+      "position": [
+        123,
+        20,
+        3
+      ],
+      "size": [
+        26,
+        17
+      ]
+    },
+    {
+      "name": "Cliff overlook",
+      "position": [
+        207,
+        20,
+        -78
+      ],
+      "size": [
+        17,
+        15
+      ]
+    }
+  ],
+  "pond": {
+    "center": [
+      146,
+      -71
+    ],
+    "radius": [
+      12,
+      12
+    ],
+    "water_y": 19.35
+  },
+  "spawn": [
+    12,
+    0.12,
+    320
+  ],
+  "main_route_metres": 586.2,
+  "walk_time_seconds": 147
+}

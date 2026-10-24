@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" path="res://staging/claude_environment_batch1/pine_windswept/pine_windswept.glb" id="1_model"]
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_000"]
+points = PackedVector3Array(0.3378, -0.1386, 0, 0.2128, -0.1054, -0.2652, -0.0725, -0.0681, -0.3306, -0.3032, -0.05484, -0.1472, -0.3055, -0.07559, 0.1472, -0.07783, -0.1147, 0.3306, 0.2085, -0.1428, 0.2652, 0.3749, 0.5448, 0.04868, 0.2655, 0.5799, -0.1849, 0.01643, 0.6301, -0.2416, -0.1848, 0.6577, -0.07873, -0.1866, 0.6418, 0.1811, 0.01234, 0.5944, 0.3422, 0.2622, 0.5513, 0.2833, 0.5516, 1.434, 0.09886, 0.456, 1.459, -0.104, 0.2429, 1.515, -0.1532, 0.07287, 1.559, -0.01178, 0.07383, 1.559, 0.2138, 0.2451, 1.514, 0.3537, 0.4577, 1.459, 0.3026)
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_001"]
+points = PackedVector3Array(0.5516, 1.434, 0.09886, 0.456, 1.459, -0.104, 0.2429, 1.515, -0.1532, 0.07287, 1.559, -0.01178, 0.07383, 1.559, 0.2138, 0.2451, 1.514, 0.3537, 0.4577, 1.459, 0.3026, 0.779, 2.38, 0.04356, 0.6857, 2.363, -0.1321, 0.4902, 2.374, -0.1706, 0.3397, 2.405, -0.04301, 0.3476, 2.431, 0.1546, 0.5079, 2.435, 0.2735, 0.6999, 2.412, 0.224)
+
+[node name="PineWindswept" type="Node3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="Collision" type="StaticBody3D" parent="." groups=["solid_world"]]
+collision_mask = 2
+
+[node name="Trunk_000" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_000")
+
+[node name="Trunk_001" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_001")

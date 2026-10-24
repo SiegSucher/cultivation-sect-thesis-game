@@ -1,0 +1,304 @@
+{
+	"checks": [
+		{
+			"check": "Separate scene opens in third-person walking",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "All twelve canonical buildings instanced",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "All building root scales remain one",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Medicine camera-only exception retained",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "W moves the existing controller",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Tab enters first person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Tab restores visible third person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: forest",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: entry_stairs",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: arrival",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: middle_stairs",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: living",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: cloud",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: grand",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: hall",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Reach Main Hall forecourt",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: scholar",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: library",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Reach Scripture Pavilion",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: library reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: elder",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Reach Elder Residence",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: elder reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: scholar reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: grand reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: alchemy",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Reach Alchemy Pavilion",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: alchemy reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: cloud reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: mission",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Reach Mission Hall",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: mission reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: residence",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Reach Disciples Residence",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: residence reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: exchange",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Reach Exchange Hall",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: exchange reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: dining",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Reach Dining Hall",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: dining reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: garden",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Reach Spirit Herb Garden",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: garden reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Reach Medicine Hall",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: overlook",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Reach cliff overlook",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: overlook reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: training_link",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: training_entry",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Reach Training Ground",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: training_entry reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: training_link reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: middle_stairs reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk route: arrival reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Return through Sect Gate",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Map overview opens",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walking resumes with original camera",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "R returns to forest start",
+			"detail": null,
+			"pass": true
+		}
+	],
+	"failures": 0,
+	"headless": true,
+	"passes": 59,
+	"walk_samples": 45269,
+	"walked_metres": 3007.37263458967
+}

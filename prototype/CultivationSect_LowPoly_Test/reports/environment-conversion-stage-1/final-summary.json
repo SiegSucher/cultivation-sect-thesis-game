@@ -1,0 +1,108 @@
+{
+  "stage": 1,
+  "scope": "Sect Gate near/distant and two leaves only",
+  "original_files_verified": 1599,
+  "original_changed": [],
+  "allowed_preexisting_files_changed": [
+    "assets/gallery/catalog.json",
+    "assets/architecture/sect_gate/gate_leaf_left.glb",
+    "assets/architecture/sect_gate/gate_leaf_right.glb",
+    "assets/architecture/sect_gate/sect_gate.glb",
+    "assets/architecture/sect_gate/sect_gate_lod.glb",
+    "scripts/asset_gallery.gd"
+  ],
+  "all_other_preexisting_assets_scripts_scenes_sources_unchanged": true,
+  "approved_hall_unchanged_and_roof_issue_remains_fixed": true,
+  "gate_collision_scale_json_identical": true,
+  "gate_runtime_mechanics_and_inspection_controller_identical": true,
+  "geometry": [
+    {
+      "file": "sect_gate.glb",
+      "triangles": 78667,
+      "surfaces": 11,
+      "images": 0,
+      "textures": 0,
+      "zero_area_triangles": 0,
+      "invalid_normals": 0,
+      "finite_positions": true,
+      "opaque": true
+    },
+    {
+      "file": "sect_gate_lod.glb",
+      "triangles": 14666,
+      "surfaces": 11,
+      "images": 0,
+      "textures": 0,
+      "zero_area_triangles": 0,
+      "invalid_normals": 0,
+      "finite_positions": true,
+      "opaque": true
+    },
+    {
+      "file": "gate_leaf_left.glb",
+      "triangles": 2724,
+      "surfaces": 3,
+      "images": 0,
+      "textures": 0,
+      "zero_area_triangles": 0,
+      "invalid_normals": 0,
+      "finite_positions": true,
+      "opaque": true
+    },
+    {
+      "file": "gate_leaf_right.glb",
+      "triangles": 2724,
+      "surfaces": 3,
+      "images": 0,
+      "textures": 0,
+      "zero_area_triangles": 0,
+      "invalid_normals": 0,
+      "finite_positions": true,
+      "opaque": true
+    }
+  ],
+  "gate_before_checks": 16,
+  "gate_after_checks": 16,
+  "gate_input_checks": 7,
+  "gate_envelope_checks": 4,
+  "native_source_checks": 5,
+  "hall_dimension_camera_checks": 18,
+  "hall_input_checks": 7,
+  "independent_run_checks": 16,
+  "independent_runtime": "C:\\Users\\pasto\\OneDrive\\Documents\\ChatGPT\\Character Sprite Image for Thesis game\\prototype\\CultivationSect_LowPoly_Test\\reports\\environment-conversion-stage-1\\independent-runtime",
+  "diagnostics": {
+    "reports\\environment-conversion-stage-1\\before-rendered.log": [],
+    "reports\\environment-conversion-stage-1\\after-rendered.log": [],
+    "reports\\environment-conversion-stage-1\\envelope.log": [],
+    "reports\\environment-conversion-stage-1\\controls.log": [],
+    "reports\\environment-conversion-stage-1\\context-capture.log": [],
+    "reports\\environment-conversion-stage-1\\hall-regression.log": [],
+    "reports\\environment-conversion-stage-1\\hall-controls.log": [],
+    "reports\\environment-conversion-stage-1\\restart-clean.log": [],
+    "reports\\environment-conversion-stage-1\\independent-runtime\\reports\\import.log": [],
+    "reports\\environment-conversion-stage-1\\independent-runtime\\reports\\run.log": []
+  },
+  "remaining_facilities": [
+    "Training Ground and seven prop types",
+    "Scripture Pavilion, six furnishing types and archive gate"
+  ],
+  "absent_world_categories": [
+    "Assembled town",
+    "Residences/shops",
+    "Terrain/cliffs",
+    "Road network/bridges",
+    "Vegetation/scenery library",
+    "Production navigation/player/NPC systems"
+  ],
+  "unperformed": [
+    "Human playtest and user visual acceptance of stage 1",
+    "Representative low-end hardware",
+    "Sustained thermals and long-run stutter",
+    "Exported executable",
+    "Whole-town composition/performance/navigation",
+    "Exhaustive geometry intersection and pixel-level distance-transition analysis",
+    "Training/Pavilion manual gameplay regression in this stage"
+  ],
+  "gate_rollback_baseline_and_checkpoint_integrity": true,
+  "original_runtime_recovery_zip_unchanged": true
+}

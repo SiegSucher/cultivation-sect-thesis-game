@@ -1,0 +1,24 @@
+{
+  "pass": true,
+  "checked_preexisting_files": 6176,
+  "modified": [
+    "phase4c/prepare_sources.py",
+    "phase4c/README.md",
+    "phase4c/terrain_builder.gd",
+    "phase4c/resources/Mountain_pine_tiered_00.res",
+    "phase4c/resources/Mountain_pine_tiered_01.res",
+    "phase4c/resources/Mountain_pine_tiered_02.res",
+    "phase4c/resources/Mountain_pine_windswept_00.res",
+    "phase4c/resources/Mountain_pine_windswept_01.res",
+    "phase4c/resources/Mountain_pine_windswept_02.res",
+    "phase4c/resources/terrain_collision.res",
+    "phase4c/resources/terrain_mesh.res",
+    "phase4c/review/REVIEW.md"
+  ],
+  "added": [
+    "phase4c/mountain_profile.gd",
+    "phase4c/rebuild_mountain_profile.gd"
+  ],
+  "missing": [],
+  "changes_outside_phase4c": []
+}

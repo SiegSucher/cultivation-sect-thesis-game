@@ -1,0 +1,55 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+PASS identity root / metres <null>
+PASS 37 enabled authored collision shapes <null>
+PASS collision layers match unchanged player <null>
+PASS no asset lights/cameras/scripts <null>
+PASS authored architectural feature MissionBoard_023 <null>
+PASS authored architectural feature MissionBoard_024 <null>
+PASS authored architectural feature ReportingCounter_025 <null>
+PASS authored architectural feature RankingBoard_031 <null>
+PASS authored architectural feature NoticeBoard_010 <null>
+PASS authored architectural feature NoticeBoard_011 <null>
+PASS FPP stair and forecourt { "third": false, "target": "(0.0, 0.75, 9.0)", "actual": "(0.0, 0.750838, 9.07833)", "frames": 96 }
+PASS FPP porch { "third": false, "target": "(0.0, 0.75, 5.0)", "actual": "(0.0, 0.750838, 5.078333)", "frames": 60 }
+PASS FPP door and aisle { "third": false, "target": "(0.0, 0.75, 1.0)", "actual": "(0.0, 0.750838, 1.078336)", "frames": 60 }
+PASS FPP counter approach { "third": false, "target": "(0.0, 0.75, -2.05)", "actual": "(0.0, 0.750838, -1.988331)", "frames": 46 }
+PASS FPP step back from counter and chest { "third": false, "target": "(0.0, 0.75, 0.0)", "actual": "(0.0, 0.747329, -0.054997)", "frames": 29 }
+PASS FPP east side passage approach { "third": false, "target": "(5.6, 0.75, 0.0)", "actual": "(5.53307, 0.750838, -0.000657)", "frames": 83 }
+PASS FPP officials east { "third": false, "target": "(5.6, 0.75, -6.6)", "actual": "(5.599328, 0.750838, -6.533657)", "frames": 98 }
+PASS FPP behind officials desks { "third": false, "target": "(-5.6, 0.75, -6.6)", "actual": "(-5.533824, 0.750838, -6.599608)", "frames": 167 }
+PASS FPP west side passage { "third": false, "target": "(-5.6, 0.75, 0.0)", "actual": "(-5.599332, 0.750838, -0.066606)", "frames": 98 }
+PASS FPP return to central aisle { "third": false, "target": "(0.0, 0.75, 0.0)", "actual": "(-0.066389, 0.750842, -0.00079)", "frames": 83 }
+PASS FPP door and porch exit { "third": false, "target": "(0.0, 0.75, 6.8)", "actual": "(-0.000662, 0.750838, 6.73222)", "frames": 101 }
+PASS FPP west board approach { "third": false, "target": "(-5.4, 0.75, 8.3)", "actual": "(-5.314528, 0.750838, 8.275184)", "frames": 83 }
+PASS FPP between boards { "third": false, "target": "(5.4, 0.75, 8.3)", "actual": "(5.285441, 0.750838, 8.299735)", "frames": 159 }
+PASS FPP return to stair { "third": false, "target": "(0.0, 0.75, 9.8)", "actual": "(0.090653, 0.750838, 9.774269)", "frames": 81 }
+PASS FPP descend to ground { "third": false, "target": "(0.0, 0.03, 14.0)", "actual": "(0.001961, -0.011157, 13.90858)", "frames": 62 }
+PASS FPP counter blocks (0.0, 0.750093, -2.215503)
+PASS FPP front noticeboard/wall blocks (2.6, 0.750089, 4.090936)
+PASS FPP east board blocks (5.866664, 0.750081, 8.3)
+PASS FPP west board blocks (-5.866664, 0.750081, 8.3)
+PASS TPP stair and forecourt { "third": true, "target": "(0.0, 0.75, 9.0)", "actual": "(0.0, 0.750838, 9.078327)", "frames": 96 }
+PASS TPP porch { "third": true, "target": "(0.0, 0.75, 5.0)", "actual": "(0.0, 0.750838, 5.078331)", "frames": 60 }
+PASS TPP door and aisle { "third": true, "target": "(0.0, 0.75, 1.0)", "actual": "(0.0, 0.750838, 1.078334)", "frames": 60 }
+PASS TPP counter approach { "third": true, "target": "(0.0, 0.75, -2.05)", "actual": "(0.0, 0.750838, -1.988333)", "frames": 46 }
+PASS TPP step back from counter and chest { "third": true, "target": "(0.0, 0.75, 0.0)", "actual": "(0.0, 0.750818, -0.054999)", "frames": 29 }
+PASS TPP east side passage approach { "third": true, "target": "(5.6, 0.75, 0.0)", "actual": "(5.53307, 0.750838, -0.000657)", "frames": 83 }
+PASS TPP officials east { "third": true, "target": "(5.6, 0.75, -6.6)", "actual": "(5.599328, 0.750838, -6.533657)", "frames": 98 }
+PASS TPP behind officials desks { "third": true, "target": "(-5.6, 0.75, -6.6)", "actual": "(-5.533824, 0.750838, -6.599608)", "frames": 167 }
+PASS TPP west side passage { "third": true, "target": "(-5.6, 0.75, 0.0)", "actual": "(-5.599332, 0.750838, -0.066606)", "frames": 98 }
+PASS TPP return to central aisle { "third": true, "target": "(0.0, 0.75, 0.0)", "actual": "(-0.066389, 0.750842, -0.00079)", "frames": 83 }
+PASS TPP door and porch exit { "third": true, "target": "(0.0, 0.75, 6.8)", "actual": "(-0.000662, 0.750838, 6.73222)", "frames": 101 }
+PASS TPP west board approach { "third": true, "target": "(-5.4, 0.75, 8.3)", "actual": "(-5.314528, 0.750838, 8.275184)", "frames": 83 }
+PASS TPP between boards { "third": true, "target": "(5.4, 0.75, 8.3)", "actual": "(5.285441, 0.750838, 8.299735)", "frames": 159 }
+PASS TPP return to stair { "third": true, "target": "(0.0, 0.75, 9.8)", "actual": "(0.090653, 0.750838, 9.774269)", "frames": 81 }
+PASS TPP descend to ground { "third": true, "target": "(0.0, 0.03, 14.0)", "actual": "(0.001961, -0.011157, 13.90858)", "frames": 62 }
+PASS TPP counter blocks (0.0, 0.750085, -2.215503)
+PASS TPP front noticeboard/wall blocks (2.6, 0.750089, 4.090936)
+PASS TPP east board blocks (5.866664, 0.750081, 8.3)
+PASS TPP west board blocks (-5.866664, 0.750296, 8.3)
+PASS sampled upper body clears visible geometry []
+PASS sampled FPP/TPP camera clears solids and visible meshes []
+50 PASS / 0 FAIL; sampled 444

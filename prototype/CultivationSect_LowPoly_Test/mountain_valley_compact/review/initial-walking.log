@@ -1,0 +1,83 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+[godot_ai game_helper] registered mcp capture (debugger active=false, logger=true)
+PASS Compact scene launches 
+PASS Walking speed remains 4 m/s 
+PASS All twelve full-size building instances 
+PASS Medicine camera exception retained 
+PASS Tab first person 
+PASS Tab third person 
+FAIL Ground supports measured envelope: sect_gate [-0.00645780563354, -0.00645780563354]
+PASS Ground supports measured envelope: mission_hall [-0.01500034332275, -0.01301288604736, -0.01698780059814, -0.01500034332275]
+PASS Ground supports measured envelope: exchange_hall [-0.00637245178223, -0.01178932189941, -0.01387310028076, -0.00637245178223]
+PASS Ground supports measured envelope: disciple_residence [-0.01500034332275, -0.01500034332275, -0.01457786560059, -0.01457786560059]
+PASS Ground supports measured envelope: dining_hall_kitchen [-0.01635074615479, -0.01635074615479, -0.0400447845459, -0.05637550354004]
+FAIL Ground supports measured envelope: martial_training_ground [-0.01125049591064, 0.70255851745605, -0.01354026794434, -0.01424980163574]
+FAIL Ground supports measured envelope: main_sect_hall [0.30517768859863, -0.00439071655273, -0.01189041137695, 0.20648956298828]
+PASS Ground supports measured envelope: scripture_pavilion [-0.0070629119873, -0.0070629119873, -0.0206241607666, -0.01312446594238]
+PASS Ground supports measured envelope: elder_residence [-0.0137996673584, -0.00629997253418, -0.03116035461426, -0.0137996673584]
+FAIL Ground supports measured envelope: alchemy_pavilion [-0.01499938964844, -0.00918960571289, -1.06365585327148, -0.01499938964844]
+PASS Ground supports measured envelope: medicine_hall [-0.01500034332275, -0.01500034332275, -0.01500034332275, -0.01500034332275]
+PASS Ground supports measured envelope: spirit_herb_garden [-0.01500034332275, -0.01102256774902, -0.01364517211914, -0.00782299041748]
+PASS Connection forest 
+PASS Connection entry_stairs 
+PASS Connection arrival 
+PASS Connection middle_stairs 
+PASS Connection living 
+PASS Connection cloud 
+PASS Connection grand 
+PASS Connection hall 
+PASS Continuous forest-to-Hall route FPP { "camera": "FPP", "walked_metres": 242.805956603959, "simulation_seconds": 64.7833333333333, "pass": true }
+PASS Connection forest 
+PASS Connection entry_stairs 
+PASS Connection arrival 
+PASS Connection middle_stairs 
+PASS Connection living 
+PASS Connection cloud 
+PASS Connection grand 
+PASS Connection hall 
+PASS Continuous forest-to-Hall route TPP { "camera": "TPP", "walked_metres": 242.806076360866, "simulation_seconds": 64.8, "pass": true }
+PASS Connection scholar 
+PASS Connection library 
+PASS Connection library reverse 
+PASS Connection elder 
+PASS Connection elder reverse 
+PASS Connection scholar reverse 
+PASS Connection grand reverse 
+PASS Connection alchemy 
+PASS Connection alchemy reverse 
+PASS Connection cloud reverse 
+PASS Connection mission 
+PASS Connection mission reverse 
+PASS Connection residence 
+PASS Connection residence reverse 
+PASS Connection exchange 
+PASS Connection exchange reverse 
+PASS Connection dining 
+PASS Connection dining reverse 
+BLOCKED (121.0, 10.0, -12.0) at (109.4623, 9.999863, 10.38234) contacts ["/root/CompactSplitCloudValley/SmoothPathRampCollision"]
+FAIL Connection garden 
+BLOCKED (121.0, 10.0, -21.0) at (109.4623, 9.999862, 10.38234) contacts ["/root/CompactSplitCloudValley/SmoothPathRampCollision"]
+FAIL Connection garden reverse 
+PASS Medicine exterior reached 
+BLOCKED (121.0, 10.0, -12.0) at (109.4678, 10.00052, 10.38094) contacts ["/root/CompactSplitCloudValley/SmoothPathRampCollision"]
+BLOCKED (121.0, 10.0, -12.0) at (109.4678, 9.999743, 10.38094) contacts ["/root/CompactSplitCloudValley/SmoothPathRampCollision"]
+FAIL Connection overlook 
+BLOCKED (143.0, 10.0, -46.0) at (109.4678, 10.00049, 10.38094) contacts ["/root/CompactSplitCloudValley/SmoothPathRampCollision"]
+FAIL Connection overlook reverse 
+BLOCKED (102.0, 10.0, 16.0) at (108.5339, 9.999379, 11.08367) contacts ["/root/CompactSplitCloudValley/SmoothPathRampCollision"]
+PASS Connection training_link 
+PASS Connection training_entry 
+PASS Connection training_entry reverse 
+PASS Connection training_link reverse 
+PASS Stair downhill entry_stairs side -3.84 
+PASS Stair downhill entry_stairs side 3.84 
+PASS Stair downhill middle_stairs side -3.84 
+PASS Stair downhill middle_stairs side 3.84 
+PASS Stair downhill grand side -5.12 
+PASS Stair downhill grand side 5.12 
+PASS Map opens 
+PASS Map resumes walking 
+COMPACT 63 PASS / 8 FAIL

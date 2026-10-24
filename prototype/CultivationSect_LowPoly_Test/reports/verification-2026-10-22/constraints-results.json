@@ -1,0 +1,100 @@
+{
+	"checks": [
+		{
+			"check": "Preserved gameplay contract: solid_shapes",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Preserved gameplay contract: door",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Preserved gameplay contract: room_doors",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Preserved gameplay contract: floor_y",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Preserved gameplay contract: terrace_y",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Preserved gameplay contract: foundation_m",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Preserved gameplay contract: main_wall_shell_m",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Preserved gameplay contract: stairs",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Preserved gameplay contract: lights",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Preserved gameplay contract: plaque",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Follow camera normal range",
+			"detail": 4.2508659362793,
+			"pass": true
+		},
+		{
+			"check": "Follow camera retracts before rear screen",
+			"detail": {
+				"free": 4.2508659362793,
+				"near_screen": 0.929876923561096
+			},
+			"pass": true
+		},
+		{
+			"check": "Retracted camera clears solid geometry",
+			"detail": [],
+			"pass": true
+		},
+		{
+			"check": "Wall blocks actual controller",
+			"detail": 10.5971775054932,
+			"pass": true
+		},
+		{
+			"check": "No fall during wall contact",
+			"detail": 1.52820205688477,
+			"pass": true
+		},
+		{
+			"check": "Distance resource loads at 94.0",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Distance resource loads at 96.0",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Distance resource loads at 140.0",
+			"detail": null,
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"limits": "Distance checks confirm loaded resources only; no exhaustive camera orientation or LOD pixel analysis.",
+	"passed": 18
+}

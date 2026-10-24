@@ -1,0 +1,924 @@
+{
+  "checks": 166,
+  "display": "headless",
+  "failures": 0,
+  "results": [
+    {
+      "check": "demo scene opens on the inherited Phase 4D sect with Guide, Mentor and basin placeholders",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "starts at the spawn in third person: inactive basin, dormant Qi, nothing accepted",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "first objective and marker point to the Guide (with the Mentor as an alternative)",
+      "detail": "Talk to the Guide on the forest path, or head straight for the Mentor.",
+      "pass": true
+    },
+    {
+      "check": "Guide clear of the 7 m forest path; Guide and Mentor outside the door-toggle radii",
+      "detail": {
+        "guide_from_path_centre_m": 4.11,
+        "guide_to_gate_m": 49.3,
+        "mentor_to_gate_m": 37.7
+      },
+      "pass": true
+    },
+    {
+      "check": "before step 2 the basin offers no interaction (only the nearest relevant prompt shows)",
+      "detail": {
+        "prompt": "",
+        "visible": false
+      },
+      "pass": true
+    },
+    {
+      "check": "prompt beside the Guide reads 'Talk to the Guide'",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "E opens the Guide's introduction (page 1 of 4) and pauses controls",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "Guide dialogue: movement, Tab, map and E do nothing to the world while the panel is open",
+      "detail": {
+        "mode": "dialogue",
+        "moved_m": 0.0
+      },
+      "pass": true
+    },
+    {
+      "check": "Skip closes the introduction; objective and marker move to the Mentor",
+      "detail": "Find the Mentor beside the basin in the living court.",
+      "pass": true
+    },
+    {
+      "check": "after the Guide: movement works again after closing",
+      "detail": {
+        "moved_m": 1.33
+      },
+      "pass": true
+    },
+    {
+      "check": "revisiting the Guide gives the short direction",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "'Hear the introduction again' restarts at page 1",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "the full introduction pages through and closes (64 words, about 26 s read aloud at 150 wpm)",
+      "detail": {
+        "words": 64
+      },
+      "pass": true
+    },
+    {
+      "check": "after reset the marker is back on the Guide",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "going straight to the Mentor works without the Guide",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "Mentor greets; objective and marker switch to the Mentor",
+      "detail": {
+        "marker": "(5.8, 12.98129, 43.2)",
+        "met": true,
+        "text": "Welcome, apprentice. I supervise every n",
+        "visible": true
+      },
+      "pass": true
+    },
+    {
+      "check": "Not yet: polite decline, quest unaccepted",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "objective after declining invites a return",
+      "detail": "Speak to the Mentor when you are ready.",
+      "pass": true
+    },
+    {
+      "check": "reopening goes straight to the offer",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "Accept opens the language choice; objective asks for a language",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: choosing the language opens the Mentor's lesson at card 1 of 5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: lesson covers variables, initialization, calls, order, punctuation/declaration and the game command",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: no C/Java declaration syntax in any Python example",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: a runnable lesson example is labelled EXAMPLE",
+      "detail": "EXAMPLE  ·  a short program you can try in this step",
+      "pass": true
+    },
+    {
+      "check": "python: Back returns to the previous card",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: the game-command card shows a signature labelled as a reference, not a solution",
+      "detail": {
+        "code": "awaken(amount)          # amount: a whole number of Qi",
+        "head": "REFERENCE  ·  a command signature, not a complete program: amount is a placeholder for your own value"
+      },
+      "pass": true
+    },
+    {
+      "check": "python: the last card opens the code editor",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: the worked solution starts hidden and is not offered before the hints; the Lesson tab labels the signature",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: the program structure is supplied and the game command is labelled as the game's",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: Lesson, Commands and Hints tabs available beside the editor",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python code editor: movement, Tab, map and E do nothing to the world while the panel is open",
+      "detail": {
+        "mode": "code",
+        "moved_m": 0.0
+      },
+      "pass": true
+    },
+    {
+      "check": "python: the console names the sect's learning interpreter and shows no python/gcc/javac command",
+      "detail": "[sect runner] running awakening.py  ·  learning interpreter, Python subset\nYour line 1:  for step in range(3):\nNot suppo",
+      "pass": true
+    },
+    {
+      "check": "python: real syntax outside the subset is reported as not supported, not as an error; world unchanged",
+      "detail": "d by this learning interpreter: loops such as for and while.\nMentor: The learning interpreter understands only part of the language. Use what the Lesson and Commands tabs show: assignments, calls, whole numbers and text.",
+      "pass": true
+    },
+    {
+      "check": "python: a bare number passed to the awakening is a lesson rule on valid code, not an error; world unchanged",
+      "detail": "cise asks you to prepare the Qi first: store the amount in a variable, then pass that variable.\nMentor: Prepare the Qi first: store the value in a variable on one line, then pass that variable to the command on the next.",
+      "pass": true
+    },
+    {
+      "check": "python: an oversized paste is refused with a readable message at once; world unchanged",
+      "detail": {
+        "chars": 2800,
+        "console": " learning interpreter accepts up to 2000.\nMentor: The learning interpreter runs only short programs, and this exercise needs just two lines.",
+        "run_ms": 0.58
+      },
+      "pass": true
+    },
+    {
+      "check": "python: deeply nested brackets are refused with a readable message at once; world unchanged",
+      "detail": {
+        "console": "is learning interpreter accepts up to 12.\nMentor: The learning interpreter runs only short programs, and this exercise needs just two lines.",
+        "run_ms": 3.19
+      },
+      "pass": true
+    },
+    {
+      "check": "python: typed text reaches the editor",
+      "detail": "awaken(qi)\nqi = 3",
+      "pass": true
+    },
+    {
+      "check": "python: Ctrl+Enter runs; the mistake gives a realistic error and a Mentor note; nothing awakens",
+      "detail": "e 'qi' is not defined\nMentor: This name is used before any line gives it a value. Statements run top to bottom, so assign it on an earlier line.  (Your line 1.)",
+      "pass": true
+    },
+    {
+      "check": "python: two optional hints, then no more",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: after the stronger hint the worked solution is offered, still hidden",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: Show worked solution reveals this language's complete step-1 program",
+      "detail": "qi = 3\nawaken(qi)",
+      "pass": true
+    },
+    {
+      "check": "python: revealing it types, runs and changes nothing (editor, console, runs, Qi, basin, step)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: closing mid-step restores controls",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: the lesson can be reviewed from the Mentor at any time",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: reopening keeps the draft, output, hints and the revealed solution",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: the fixed code runs cleanly and completes step 1",
+      "detail": "ned. Reserve: 3\nRan without errors, top to bottom.\nMentor: Good. qi held its value before the awakening command used it.",
+      "pass": true
+    },
+    {
+      "check": "python: awakening plays: aura on the player, Qi indicator rises to 3, controls held",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: the Mentor introduces the basin step (not the basin itself)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: channelling lesson explains reading the reserve and the basin command",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: the basin command card shows a labelled reference signature, not a solution",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: finishing the lesson does not start the basin; objective and marker move to the basin",
+      "detail": "Channel your Qi into the basin: walk to the basin and press E.",
+      "pass": true
+    },
+    {
+      "check": "python: beside the basin the prompt offers to channel Qi",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: E opens step 2 in the editor (language fixed now)",
+      "detail": {
+        "lang_button": false,
+        "mode": "code",
+        "text": "# Channel your Qi into the basin\n",
+        "title": "Step 2 of 2  ·  Channel Qi into the basin  ·  Python  ·  basin.py"
+      },
+      "pass": true
+    },
+    {
+      "check": "python: channelling a bare 3 is a lesson rule on valid code; reserve kept; basin inactive",
+      "detail": "lue read from qi_reserve().\nMentor: Read your reserve with the reserve command, store it, and pass that value, so the inscription uses the Qi you actually hold.",
+      "pass": true
+    },
+    {
+      "check": "python: channelling too much is refused; reserve kept; basin inactive",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: step 2 starts with its solution hidden (step 1's stays revealed)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: step 2 reveals this language's basin program; nothing typed, run or changed (reserve kept, basin dry)",
+      "detail": "reserve = qi_reserve()\nchannel_basin(reserve)",
+      "pass": true
+    },
+    {
+      "check": "python: step 2 draft, revealed solution and completed step 1 survive closing",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: the fixed code runs cleanly and completes step 2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: channelling plays; the basin starts only now",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: basin flowing; recognition shown once; the Mentor says the reserve is replenished as it refills",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: objective complete, marker hidden",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: repeat talk acknowledges completion without granting it again",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: the flowing basin no longer offers an interaction",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "Esc in exploration opens the demo menu",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "Reset Demo after success (Esc menu): spawn, Guide state, objective/marker, teaching, awakening, Qi, basin, drafts, recognition all cleared",
+      "detail": {
+        "objective": "Talk to the Guide on the forest path, or head straight for the Mentor.",
+        "player": "(8.0, 0.000833, 134.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "c: Skip lesson goes straight to the editor",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: failed attempt recorded before reset",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: worked solution revealed before this reset",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "Esc in exploration opens the demo menu",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "Reset Demo after a failed attempt: spawn, Guide state, objective/marker, teaching, awakening, Qi, basin, drafts, recognition all cleared",
+      "detail": {
+        "objective": "Talk to the Guide on the forest path, or head straight for the Mentor.",
+        "player": "(8.0, 0.000833, 134.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "c: choosing the language opens the Mentor's lesson at card 1 of 5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: lesson covers variables, initialization, calls, order, punctuation/declaration and the game command",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: a runnable lesson example is labelled EXAMPLE",
+      "detail": "EXAMPLE  ·  a short program you can try in this step",
+      "pass": true
+    },
+    {
+      "check": "c: Back returns to the previous card",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: the game-command card shows a signature labelled as a reference, not a solution",
+      "detail": {
+        "code": "void awaken(int amount);   /* declared in sect.h */",
+        "head": "REFERENCE  ·  a command signature, not a complete program: amount is a placeholder for your own value"
+      },
+      "pass": true
+    },
+    {
+      "check": "c: the last card opens the code editor",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: the worked solution starts hidden and is not offered before the hints; the Lesson tab labels the signature",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: the program structure is supplied and the game command is labelled as the game's",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: Lesson, Commands and Hints tabs available beside the editor",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c code editor: movement, Tab, map and E do nothing to the world while the panel is open",
+      "detail": {
+        "mode": "code",
+        "moved_m": 0.0
+      },
+      "pass": true
+    },
+    {
+      "check": "c: the console names the sect's learning interpreter and shows no python/gcc/javac command",
+      "detail": "[sect runner] checking awakening.c  ·  learning interpreter, C subset\nYour line 2:  if (qi == 3) awaken(qi);\nNot support",
+      "pass": true
+    },
+    {
+      "check": "c: real syntax outside the subset is reported as not supported, not as an error; world unchanged",
+      "detail": "by this learning interpreter: decisions such as if and else.\nMentor: The learning interpreter understands only part of the language. Use what the Lesson and Commands tabs show: assignments, calls, whole numbers and text.",
+      "pass": true
+    },
+    {
+      "check": "c: a bare number passed to the awakening is a lesson rule on valid code, not an error; world unchanged",
+      "detail": "cise asks you to prepare the Qi first: store the amount in a variable, then pass that variable.\nMentor: Prepare the Qi first: store the value in a variable on one line, then pass that variable to the command on the next.",
+      "pass": true
+    },
+    {
+      "check": "c: an oversized paste is refused with a readable message at once; world unchanged",
+      "detail": {
+        "chars": 4800,
+        "console": " learning interpreter accepts up to 2000.\nMentor: The learning interpreter runs only short programs, and this exercise needs just two lines.",
+        "run_ms": 0.49
+      },
+      "pass": true
+    },
+    {
+      "check": "c: deeply nested brackets are refused with a readable message at once; world unchanged",
+      "detail": {
+        "console": "is learning interpreter accepts up to 12.\nMentor: The learning interpreter runs only short programs, and this exercise needs just two lines.",
+        "run_ms": 2.78
+      },
+      "pass": true
+    },
+    {
+      "check": "c: typed text reaches the editor",
+      "detail": "int qi = 3\nawaken(qi);",
+      "pass": true
+    },
+    {
+      "check": "c: Ctrl+Enter runs; the mistake gives a realistic error and a Mentor note; nothing awakens",
+      "detail": "r, C subset\nawakening.c:5: error: expected ';' before 'awaken'\nMentor: Every statement must end with a semicolon. Add ; at the end of this line.  (Your line 1.)",
+      "pass": true
+    },
+    {
+      "check": "c: two optional hints, then no more",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: after the stronger hint the worked solution is offered, still hidden",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: Show worked solution reveals this language's complete step-1 program",
+      "detail": "int qi = 3;\nawaken(qi);",
+      "pass": true
+    },
+    {
+      "check": "c: revealing it types, runs and changes nothing (editor, console, runs, Qi, basin, step)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: closing mid-step restores controls",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: the lesson can be reviewed from the Mentor at any time",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: reopening keeps the draft, output, hints and the revealed solution",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: the fixed code runs cleanly and completes step 1",
+      "detail": "ned. Reserve: 3\nRan without errors, top to bottom.\nMentor: Good. qi held its value before the awakening command used it.",
+      "pass": true
+    },
+    {
+      "check": "c: awakening plays: aura on the player, Qi indicator rises to 3, controls held",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: the Mentor introduces the basin step (not the basin itself)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: channelling lesson explains reading the reserve and the basin command",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: the basin command card shows a labelled reference signature, not a solution",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: finishing the lesson does not start the basin; objective and marker move to the basin",
+      "detail": "Channel your Qi into the basin: walk to the basin and press E.",
+      "pass": true
+    },
+    {
+      "check": "c: beside the basin the prompt offers to channel Qi",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: E opens step 2 in the editor (language fixed now)",
+      "detail": {
+        "lang_button": false,
+        "mode": "code",
+        "text": "/* Channel your Qi into the basin */\n",
+        "title": "Step 2 of 2  ·  Channel Qi into the basin  ·  C  ·  basin.c"
+      },
+      "pass": true
+    },
+    {
+      "check": "c: channelling a bare 3 is a lesson rule on valid code; reserve kept; basin inactive",
+      "detail": "lue read from qi_reserve().\nMentor: Read your reserve with the reserve command, store it, and pass that value, so the inscription uses the Qi you actually hold.",
+      "pass": true
+    },
+    {
+      "check": "c: channelling too much is refused; reserve kept; basin inactive",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: step 2 starts with its solution hidden (step 1's stays revealed)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: step 2 reveals this language's basin program; nothing typed, run or changed (reserve kept, basin dry)",
+      "detail": "int reserve = qi_reserve();\nchannel_basin(reserve);",
+      "pass": true
+    },
+    {
+      "check": "c: step 2 draft, revealed solution and completed step 1 survive closing",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: the fixed code runs cleanly and completes step 2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: channelling plays; the basin starts only now",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: basin flowing; recognition shown once; the Mentor says the reserve is replenished as it refills",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: objective complete, marker hidden",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: repeat talk acknowledges completion without granting it again",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: the flowing basin no longer offers an interaction",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "Esc in exploration opens the demo menu",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "Reset Demo after success (Esc menu): spawn, Guide state, objective/marker, teaching, awakening, Qi, basin, drafts, recognition all cleared",
+      "detail": {
+        "objective": "Talk to the Guide on the forest path, or head straight for the Mentor.",
+        "player": "(8.0, 0.000833, 134.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "java: choosing the language opens the Mentor's lesson at card 1 of 5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: lesson covers variables, initialization, calls, order, punctuation/declaration and the game command",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: a runnable lesson example is labelled EXAMPLE",
+      "detail": "EXAMPLE  ·  a short program you can try in this step",
+      "pass": true
+    },
+    {
+      "check": "java: Back returns to the previous card",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: the game-command card shows a signature labelled as a reference, not a solution",
+      "detail": {
+        "code": "Sect.awaken(int amount)   // in the game's Sect class",
+        "head": "REFERENCE  ·  a command signature, not a complete program: amount is a placeholder for your own value"
+      },
+      "pass": true
+    },
+    {
+      "check": "java: the last card opens the code editor",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: the worked solution starts hidden and is not offered before the hints; the Lesson tab labels the signature",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: the program structure is supplied and the game command is labelled as the game's",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: Lesson, Commands and Hints tabs available beside the editor",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java code editor: movement, Tab, map and E do nothing to the world while the panel is open",
+      "detail": {
+        "mode": "code",
+        "moved_m": 0.0
+      },
+      "pass": true
+    },
+    {
+      "check": "java: the console names the sect's learning interpreter and shows no python/gcc/javac command",
+      "detail": "[sect runner] checking Awakening.java  ·  learning interpreter, Java subset\nYour line 1:  int size = \"qi\".length();\nNot ",
+      "pass": true
+    },
+    {
+      "check": "java: real syntax outside the subset is reported as not supported, not as an error; world unchanged",
+      "detail": "r: calling methods on values, such as .length() or .upper().\nMentor: The learning interpreter understands only part of the language. Use what the Lesson and Commands tabs show: assignments, calls, whole numbers and text.",
+      "pass": true
+    },
+    {
+      "check": "java: a bare number passed to the awakening is a lesson rule on valid code, not an error; world unchanged",
+      "detail": "cise asks you to prepare the Qi first: store the amount in a variable, then pass that variable.\nMentor: Prepare the Qi first: store the value in a variable on one line, then pass that variable to the command on the next.",
+      "pass": true
+    },
+    {
+      "check": "java: an oversized paste is refused with a readable message at once; world unchanged",
+      "detail": {
+        "chars": 4800,
+        "console": " learning interpreter accepts up to 2000.\nMentor: The learning interpreter runs only short programs, and this exercise needs just two lines.",
+        "run_ms": 0.46
+      },
+      "pass": true
+    },
+    {
+      "check": "java: deeply nested brackets are refused with a readable message at once; world unchanged",
+      "detail": {
+        "console": "is learning interpreter accepts up to 12.\nMentor: The learning interpreter runs only short programs, and this exercise needs just two lines.",
+        "run_ms": 2.85
+      },
+      "pass": true
+    },
+    {
+      "check": "java: typed text reaches the editor",
+      "detail": "int qi;\nSect.awaken(qi);",
+      "pass": true
+    },
+    {
+      "check": "java: Ctrl+Enter runs; the mistake gives a realistic error and a Mentor note; nothing awakens",
+      "detail": ".awaken(qi);\n1 error\nMentor: This variable was declared but never given a value, so it cannot be read safely. Initialize it when you declare it.  (Your line 2.)",
+      "pass": true
+    },
+    {
+      "check": "java: two optional hints, then no more",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: after the stronger hint the worked solution is offered, still hidden",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: Show worked solution reveals this language's complete step-1 program",
+      "detail": "int qi = 3;\nSect.awaken(qi);",
+      "pass": true
+    },
+    {
+      "check": "java: revealing it types, runs and changes nothing (editor, console, runs, Qi, basin, step)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: closing mid-step restores controls",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: the lesson can be reviewed from the Mentor at any time",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: reopening keeps the draft, output, hints and the revealed solution",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: the fixed code runs cleanly and completes step 1",
+      "detail": "ned. Reserve: 3\nRan without errors, top to bottom.\nMentor: Good. qi held its value before the awakening command used it.",
+      "pass": true
+    },
+    {
+      "check": "java: awakening plays: aura on the player, Qi indicator rises to 3, controls held",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: the Mentor introduces the basin step (not the basin itself)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: channelling lesson explains reading the reserve and the basin command",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: the basin command card shows a labelled reference signature, not a solution",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: finishing the lesson does not start the basin; objective and marker move to the basin",
+      "detail": "Channel your Qi into the basin: walk to the basin and press E.",
+      "pass": true
+    },
+    {
+      "check": "java: beside the basin the prompt offers to channel Qi",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: E opens step 2 in the editor (language fixed now)",
+      "detail": {
+        "lang_button": false,
+        "mode": "code",
+        "text": "// Channel your Qi into the basin\n",
+        "title": "Step 2 of 2  ·  Channel Qi into the basin  ·  Java  ·  Basin.java"
+      },
+      "pass": true
+    },
+    {
+      "check": "java: channelling a bare 3 is a lesson rule on valid code; reserve kept; basin inactive",
+      "detail": "read from Sect.qiReserve().\nMentor: Read your reserve with the reserve command, store it, and pass that value, so the inscription uses the Qi you actually hold.",
+      "pass": true
+    },
+    {
+      "check": "java: channelling too much is refused; reserve kept; basin inactive",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: step 2 starts with its solution hidden (step 1's stays revealed)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: step 2 reveals this language's basin program; nothing typed, run or changed (reserve kept, basin dry)",
+      "detail": "int reserve = Sect.qiReserve();\nSect.channelBasin(reserve);",
+      "pass": true
+    },
+    {
+      "check": "java: step 2 draft, revealed solution and completed step 1 survive closing",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: the fixed code runs cleanly and completes step 2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: channelling plays; the basin starts only now",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: basin flowing; recognition shown once; the Mentor says the reserve is replenished as it refills",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: objective complete, marker hidden",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "Reset Demo after success (recognition panel): spawn, Guide state, objective/marker, teaching, awakening, Qi, basin, drafts, recognition all cleared",
+      "detail": {
+        "objective": "Talk to the Guide on the forest path, or head straight for the Mentor.",
+        "player": "(8.0, 0.000833, 134.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "first person: E opens the Mentor and pauses controls",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "first person: typing W into the editor types text and does not move the player",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "first person: closing the editor restores first person and controls",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "first person: movement works again after closing",
+      "detail": {
+        "moved_m": 1.33
+      },
+      "pass": true
+    },
+    {
+      "check": "Esc opens the menu instead of leaving to the gallery",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "Resume returns to exploration",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "no interaction from the map overview",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "away from the Guide and Mentor, E still toggles the Sect Gate (inherited)",
+      "detail": null,
+      "pass": true
+    }
+  ]
+}

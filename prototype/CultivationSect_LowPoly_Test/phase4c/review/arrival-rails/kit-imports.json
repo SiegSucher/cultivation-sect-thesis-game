@@ -1,0 +1,12 @@
+[
+	{
+		"module": "railings/rail_stair_4in11_1m",
+		"scene_change": "model resource path only; staged collision unchanged",
+		"unchanged_glb_sha256": "90eae66dd1ea10805f938441eae813a6ed1c852510f5f71f901bdf5b8990465f"
+	},
+	{
+		"module": "railings/rail_stair_4in11_2m",
+		"scene_change": "model resource path only; staged collision unchanged",
+		"unchanged_glb_sha256": "167d533df31118bcbab326de1e70a8cadc9153dd8f96b07e1ff144c29933da14"
+	}
+]

@@ -1,0 +1,47 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+[godot_ai game_helper] registered mcp capture (debugger active=false, logger=true)
+PASS Exterior route-to-foot sect_gate { "end": (0.000002, 3.999735, 86.86665) }
+PASS Existing building entrance/stairs sect_gate { "end": (0.0, 4.600833, 82.15079) }
+PASS Exterior route-to-foot mission_hall { "end": (-25.0, 9.985825, 27.33623) }
+PASS Existing building entrance/stairs mission_hall { "end": (-25.0, 10.75084, 24.5498) }
+PASS Representative supported interior mission_hall { "end": (-25.0, 10.75084, 17.94972) }
+PASS Representative first-person exit mission_hall { "end": (-25.0, 9.958552, 29.8208) }
+PASS Exterior route-to-foot exchange_hall { "end": (35.0, 9.977818, 24.53531) }
+PASS Existing building entrance/stairs exchange_hall { "end": (35.0, 10.60084, 21.92178) }
+PASS Representative supported interior exchange_hall { "end": (35.0, 10.60084, 16.12171) }
+PASS Representative first-person exit exchange_hall { "end": (35.0, 9.960455, 25.85681) }
+PASS Exterior route-to-foot disciple_residence { "end": (-27.99999, 9.985936, 44.46534) }
+PASS Existing building entrance/stairs disciple_residence { "end": (-28.0, 10.50083, 46.66298) }
+PASS Representative supported interior disciple_residence { "end": (-30.16027, 10.50009, 50.71907) }
+BLOCKED (-28.0, 10.5, 46.8) at (-29.76868, 10.50007, 50.00865) contacts ["/root/Phase4D_CompactValley/Buildings/disciple_residence/Collision"]
+BLOCKED (-28.0, 10.0, 44.6) at (-29.76868, 10.50013, 50.00865) contacts ["/root/Phase4D_CompactValley/Buildings/disciple_residence/Collision"]
+BLOCKED (-28.0, 10.0, 43.0) at (-29.76868, 10.49968, 50.00865) contacts ["/root/Phase4D_CompactValley/Buildings/disciple_residence/Collision"]
+FAIL Representative first-person exit disciple_residence { "end": (-29.76868, 10.49968, 50.00865) }
+PASS Exterior route-to-foot dining_hall_kitchen { "end": (40.0, 9.985934, 43.13339) }
+PASS Existing building entrance/stairs dining_hall_kitchen { "end": (40.0, 10.60083, 45.87889) }
+PASS Representative supported interior dining_hall_kitchen { "end": (40.0, 10.60084, 50.34549) }
+PASS Representative first-person exit dining_hall_kitchen { "end": (40.0, 9.985935, 41.1432) }
+PASS Exterior route-to-foot martial_training_ground { "end": (-96.99999, 13.98584, 8.933252) }
+PASS Existing building entrance/stairs martial_training_ground { "end": (-96.99999, 14.31084, 5.125968) }
+PASS Exterior route-to-foot main_sect_hall { "end": (12.0, 23.98558, -79.13409) }
+PASS Existing building entrance/stairs main_sect_hall { "end": (12.0, 25.52081, -84.83566) }
+PASS Representative supported interior main_sect_hall { "end": (12.0, 25.53084, -93.36463) }
+PASS Representative first-person exit main_sect_hall { "end": (12.0, 24.00076, -74.1661) }
+PASS Exterior route-to-foot scripture_pavilion { "end": (-48.0, 27.98593, -114.7333) }
+PASS Existing building entrance/stairs scripture_pavilion { "end": (-48.0, 29.05084, -118.8484) }
+PASS Exterior route-to-foot elder_residence { "end": (-49.0, 27.9808, -75.66305) }
+PASS Existing building entrance/stairs elder_residence { "end": (-49.0, 27.98584, -78.3292) }
+PASS Exterior route-to-foot alchemy_pavilion { "end": (77.00001, 19.98584, -72.46256) }
+PASS Existing building entrance/stairs alchemy_pavilion { "end": (77.00001, 20.89966, -75.35594) }
+PASS Representative supported interior alchemy_pavilion { "end": (77.00001, 20.90082, -77.62257) }
+PASS Representative first-person exit alchemy_pavilion { "end": (77.00002, 19.95146, -69.15755) }
+PASS Exterior route-to-foot medicine_hall { "end": (102.0, 9.985816, 11.73336) }
+PASS Existing building entrance/stairs medicine_hall { "end": (102.0, 10.45083, 9.423852) }
+PASS Representative supported interior medicine_hall { "end": (101.0705, 10.45083, 7.728595) }
+PASS Representative first-person exit medicine_hall { "end": (101.9998, 10.00084, 15.82232) }
+PASS Exterior route-to-foot spirit_herb_garden { "end": (121.0, 9.985838, -25.32929) }
+PASS Existing building entrance/stairs spirit_herb_garden { "end": (121.0, 9.985861, -28.06262) }
+PHASE4D ENTRIES 37 PASS / 1 FAIL

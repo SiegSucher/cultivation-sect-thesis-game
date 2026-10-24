@@ -1,0 +1,31 @@
+{
+  "passed": 5,
+  "failed": 0,
+  "checks": {
+    "12 editable material batches": true,
+    "17790 source triangles": true,
+    "metric metres": true,
+    "flat polygons": true,
+    "no source image textures": true
+  },
+  "collections": [
+    "Collection",
+    "MissionHall"
+  ],
+  "mesh_objects": [
+    "MissionHall / Bronze",
+    "MissionHall / Cedar",
+    "MissionHall / Coping",
+    "MissionHall / Fabric",
+    "MissionHall / Floor",
+    "MissionHall / Jade",
+    "MissionHall / Lantern",
+    "MissionHall / Plaster",
+    "MissionHall / Stone",
+    "MissionHall / TileLight",
+    "MissionHall / Timber",
+    "MissionHall / Window"
+  ],
+  "triangles": 17790,
+  "source_saved": false
+}

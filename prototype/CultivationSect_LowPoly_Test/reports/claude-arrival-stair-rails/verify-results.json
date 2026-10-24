@@ -1,0 +1,419 @@
+{
+  "checks": 34,
+  "failures": 0,
+  "results": [
+    {
+      "check": "rail_stair_4in11_1m: bounds match the leading-post convention, rail ends at the next post face",
+      "detail": {
+        "expected_max": "(0.88, 1.42, 0.15)",
+        "max": "(0.88, 1.42, 0.15)",
+        "max_error_m": 0.0,
+        "min": "(-0.15, -0.05, -0.15)"
+      },
+      "pass": true
+    },
+    {
+      "check": "rail_stair_4in11_1m: top rail pitch is 4/11 and the next post origin rises 0.363636364 m",
+      "detail": {
+        "expected_slope": "0.3636364",
+        "implied_endpoint_rise_m": "0.3636432",
+        "measured_degrees": "19.983454",
+        "measured_slope": "0.3636432",
+        "top_rail_at_far_post_face_m": "1.42000",
+        "top_rail_at_leading_post_face_m": "1.14363"
+      },
+      "pass": true
+    },
+    {
+      "check": "rail_stair_4in11_1m: profile, thickness and materials identical to rail_stair_22deg_1m (measured from the pitch line)",
+      "detail": {
+        "materials": [
+          "Coping",
+          "Stone"
+        ],
+        "post_vertices": 13,
+        "reference_triangles": 78,
+        "span_vertices": 24,
+        "triangles": 78
+      },
+      "pass": true
+    },
+    {
+      "check": "rail_stair_4in11_1m: posts and balusters vertical (only the plinth and top rail follow the pitch)",
+      "detail": {
+        "pitch_faces": 8,
+        "tilted_faces": 0
+      },
+      "pass": true
+    },
+    {
+      "check": "rail_stair_4in11_1m: collision matches the kit (post box + pitched convex rail slab, solid_world body)",
+      "detail": {
+        "layer": 1,
+        "mask": 2,
+        "post_box": "(0.24, 1.29, 0.24)",
+        "slab_max_error_vs_exact_m": 0.00036,
+        "slab_points": 8
+      },
+      "pass": true
+    },
+    {
+      "check": "rail_stair_4in11_2m: bounds match the leading-post convention, rail ends at the next post face",
+      "detail": {
+        "expected_max": "(1.88, 1.783636, 0.15)",
+        "max": "(1.88, 1.783636, 0.15)",
+        "max_error_m": 0.0,
+        "min": "(-0.15, -0.05, -0.15)"
+      },
+      "pass": true
+    },
+    {
+      "check": "rail_stair_4in11_2m: top rail pitch is 4/11 and the next post origin rises 0.727272727 m",
+      "detail": {
+        "expected_slope": "0.3636364",
+        "implied_endpoint_rise_m": "0.7272810",
+        "measured_degrees": "19.983315",
+        "measured_slope": "0.3636405",
+        "top_rail_at_far_post_face_m": "1.78364",
+        "top_rail_at_leading_post_face_m": "1.14363"
+      },
+      "pass": true
+    },
+    {
+      "check": "rail_stair_4in11_2m: profile, thickness and materials identical to rail_stair_22deg_2m (measured from the pitch line)",
+      "detail": {
+        "materials": [
+          "Coping",
+          "Stone"
+        ],
+        "post_vertices": 13,
+        "reference_triangles": 102,
+        "span_vertices": 40,
+        "triangles": 102
+      },
+      "pass": true
+    },
+    {
+      "check": "rail_stair_4in11_2m: posts and balusters vertical (only the plinth and top rail follow the pitch)",
+      "detail": {
+        "pitch_faces": 8,
+        "tilted_faces": 0
+      },
+      "pass": true
+    },
+    {
+      "check": "rail_stair_4in11_2m: collision matches the kit (post box + pitched convex rail slab, solid_world body)",
+      "detail": {
+        "layer": 1,
+        "mask": 2,
+        "post_box": "(0.24, 1.29, 0.24)",
+        "slab_max_error_vs_exact_m": 0.00036,
+        "slab_points": 8
+      },
+      "pass": true
+    },
+    {
+      "check": "left side: five 2 m + one 1 m section chained at (+L run, +L*4/11 rise), unit scale, yaw only",
+      "detail": {
+        "max_origin_error_m": 0.0,
+        "sections_m": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "upright_unit_scale": true
+      },
+      "pass": true
+    },
+    {
+      "check": "left side: flight ends at y = 4.000 on the landing rail's leading post, closed by a rail_post",
+      "detail": {
+        "closing_post_found": true,
+        "landing_section_found": true,
+        "landing_surface_y": 4.0,
+        "post_base_embed_m": 0.05,
+        "top_post_origin": "(-6.35, 4.0, -11.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "right side: five 2 m + one 1 m section chained at (+L run, +L*4/11 rise), unit scale, yaw only",
+      "detail": {
+        "max_origin_error_m": 0.0,
+        "sections_m": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          1
+        ],
+        "upright_unit_scale": true
+      },
+      "pass": true
+    },
+    {
+      "check": "right side: flight ends at y = 4.000 on the landing rail's leading post, closed by a rail_post",
+      "detail": {
+        "closing_post_found": true,
+        "landing_section_found": true,
+        "landing_surface_y": 4.0,
+        "post_base_embed_m": 0.05,
+        "top_post_origin": "(6.35, 4.0, -11.0)"
+      },
+      "pass": true
+    },
+    {
+      "check": "continuous run (no gaps, faces aligned across joints): left plinth face, foot post to landing rail_post (7 stair posts)",
+      "detail": {
+        "depth_min_m": 0.25,
+        "depth_range_m": 0.0,
+        "misses": 0,
+        "off_depth_samples_run_m_depth_m": [],
+        "samples": 1328
+      },
+      "pass": true
+    },
+    {
+      "check": "continuous run (no gaps, faces aligned across joints): left top rail face across every post (posts stand 3 cm proud of the rail)",
+      "detail": {
+        "depth_min_m": 0.25,
+        "depth_range_m": 0.03,
+        "misses": 0,
+        "off_depth_samples_run_m_depth_m": [],
+        "samples": 1328
+      },
+      "pass": true
+    },
+    {
+      "check": "continuous run (no gaps, faces aligned across joints): left top rail upper surface between posts, 6 stair spans + landing",
+      "detail": {
+        "depth_min_m": 0.5,
+        "depth_range_m": 0.0,
+        "misses": 0,
+        "off_depth_samples_run_m_depth_m": [],
+        "samples": 1062
+      },
+      "pass": true
+    },
+    {
+      "check": "continuous run (no gaps, faces aligned across joints): right plinth face, foot post to landing rail_post (7 stair posts)",
+      "detail": {
+        "depth_min_m": 0.25,
+        "depth_range_m": 0.0,
+        "misses": 0,
+        "off_depth_samples_run_m_depth_m": [],
+        "samples": 1328
+      },
+      "pass": true
+    },
+    {
+      "check": "continuous run (no gaps, faces aligned across joints): right top rail face across every post (posts stand 3 cm proud of the rail)",
+      "detail": {
+        "depth_min_m": 0.25,
+        "depth_range_m": 0.03,
+        "misses": 0,
+        "off_depth_samples_run_m_depth_m": [],
+        "samples": 1328
+      },
+      "pass": true
+    },
+    {
+      "check": "continuous run (no gaps, faces aligned across joints): right top rail upper surface between posts, 6 stair spans + landing",
+      "detail": {
+        "depth_min_m": 0.5,
+        "depth_range_m": 0.0,
+        "misses": 0,
+        "off_depth_samples_run_m_depth_m": [],
+        "samples": 1062
+      },
+      "pass": true
+    },
+    {
+      "check": "walking lane clear of all collision between the rail faces (12.46 m wide, 2.2 m high)",
+      "detail": {
+        "blocking": [],
+        "lane_width_m": 12.46
+      },
+      "pass": true
+    },
+    {
+      "check": "waist-height rays hit rail collision at both faces (sections, joints, top post, landing)",
+      "detail": [
+        {
+          "hit_shapes": [
+            "Rail_001",
+            "Rail_001"
+          ],
+          "run_m": 1.0
+        },
+        {
+          "hit_shapes": [
+            "Rail_001",
+            "Rail_001"
+          ],
+          "run_m": 3.0
+        },
+        {
+          "hit_shapes": [
+            "RailPost_000",
+            "RailPost_000"
+          ],
+          "run_m": 6.0
+        },
+        {
+          "hit_shapes": [
+            "Rail_001",
+            "Rail_001"
+          ],
+          "run_m": 9.0
+        },
+        {
+          "hit_shapes": [
+            "Rail_001",
+            "Rail_001"
+          ],
+          "run_m": 10.5
+        },
+        {
+          "hit_shapes": [
+            "RailPost_000",
+            "RailPost_000"
+          ],
+          "run_m": 11.0
+        },
+        {
+          "hit_shapes": [
+            "Rail_001",
+            "Rail_001"
+          ],
+          "run_m": 12.0
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "climbs the lane centre from the foot onto the landing",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(0.0, 4.000838, -12.57055)",
+        "lowest_y": -0.011,
+        "travel": 14.0705461502075
+      },
+      "pass": true
+    },
+    {
+      "check": "climbs along the left lane edge 0.30 m from the rail face without snagging or clipping",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(-5.93, 4.000838, -11.87029)",
+        "lowest_y": -0.015,
+        "travel": 12.8702936172485
+      },
+      "pass": true
+    },
+    {
+      "check": "climbs along the right lane edge 0.30 m from the rail face without snagging or clipping",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(5.93, 4.000838, -11.86975)",
+        "lowest_y": -0.014,
+        "travel": 12.8697500228882
+      },
+      "pass": true
+    },
+    {
+      "check": "descends the lane centre from the landing to the foot",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(0.0, -0.011157, 4.126923)",
+        "lowest_y": -0.012,
+        "travel": 17.6269226074219
+      },
+      "pass": true
+    },
+    {
+      "check": "left rail stops a sideways exit at run 3.0 m",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(-5.948197, 1.100829, -2.979968)",
+        "lowest_y": 1.096,
+        "travel": 0.948408961296082
+      },
+      "pass": true
+    },
+    {
+      "check": "left rail stops a sideways exit at run 6.0 m",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(-5.947738, 2.193647, -5.984578)",
+        "lowest_y": 2.193,
+        "travel": 0.947863638401031
+      },
+      "pass": true
+    },
+    {
+      "check": "left rail stops a sideways exit at run 10.5 m",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(-5.943253, 3.830869, -10.49166)",
+        "lowest_y": 3.831,
+        "travel": 0.943289458751678
+      },
+      "pass": true
+    },
+    {
+      "check": "left rail stops a sideways exit at run 12.0 m",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(-5.948157, 3.99844, -12.0)",
+        "lowest_y": 3.998,
+        "travel": 0.948156833648682
+      },
+      "pass": true
+    },
+    {
+      "check": "right rail stops a sideways exit at run 3.0 m",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(5.947186, 1.101659, -2.980019)",
+        "lowest_y": 1.096,
+        "travel": 0.947396695613861
+      },
+      "pass": true
+    },
+    {
+      "check": "right rail stops a sideways exit at run 6.0 m",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(5.947682, 2.193392, -5.984972)",
+        "lowest_y": 2.192,
+        "travel": 0.947801530361176
+      },
+      "pass": true
+    },
+    {
+      "check": "right rail stops a sideways exit at run 10.5 m",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(5.948609, 3.831408, -10.49181)",
+        "lowest_y": 3.831,
+        "travel": 0.94864422082901
+      },
+      "pass": true
+    },
+    {
+      "check": "right rail stops a sideways exit at run 12.0 m",
+      "detail": {
+        "clip_frames": 0,
+        "end": "(5.948157, 3.998495, -12.0)",
+        "lowest_y": 3.998,
+        "travel": 0.948156833648682
+      },
+      "pass": true
+    }
+  ]
+}

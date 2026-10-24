@@ -1,0 +1,50 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+[godot_ai game_helper] registered mcp capture (debugger active=false, logger=true)
+PASS Phase 4D launch and original walking speed 
+PASS Tab first person 
+PASS Tab third person 
+PASS Medicine camera-only walking exception preserved 
+PASS Connection forest 
+PASS Connection entry_stairs 
+PASS Connection arrival 
+PASS Connection middle_stairs 
+PASS Connection living 
+PASS Connection cloud 
+PASS Connection grand 
+PASS Connection hall 
+PASS Continuous forest-to-Hall route TPP { "camera": "TPP", "walked_metres": 242.802241984755, "test_elapsed_seconds": 64.7833333333333, "active_walking_seconds": 62.7833333333333, "pass": true }
+PASS Connection scholar 
+PASS Connection elder 
+PASS Connection elder reverse 
+PASS Connection library 
+PASS Connection library reverse 
+PASS Connection scholar reverse 
+PASS Connection grand reverse 
+PASS Connection alchemy 
+PASS Connection alchemy reverse 
+PASS Connection cloud reverse 
+PASS Connection training_link 
+PASS Connection training_entry 
+PASS Connection training_entry reverse 
+PASS Connection training_link reverse 
+PASS Connection garden 
+PASS Existing ground supports local surface mission_hall { "samples": 5, "ground_relative_to_terrace_m": [-0.04397964477539, -0.01500034332275] }
+PASS Existing ground supports local surface exchange_hall { "samples": 5, "ground_relative_to_terrace_m": [-0.04434013366699, -0.01500034332275] }
+PASS Existing ground supports local surface disciple_residence { "samples": 5, "ground_relative_to_terrace_m": [-0.02932834625244, -0.01500034332275] }
+PASS Existing ground supports local surface dining_hall_kitchen { "samples": 5, "ground_relative_to_terrace_m": [-0.01500034332275, -0.01500034332275] }
+PASS Existing ground supports local surface martial_training_ground { "samples": 5, "ground_relative_to_terrace_m": [-0.01500034332275, -0.01500034332275] }
+PASS Existing ground supports local surface scripture_pavilion { "samples": 5, "ground_relative_to_terrace_m": [-0.01499938964844, -0.01499938964844] }
+PASS Existing ground supports local surface elder_residence { "samples": 5, "ground_relative_to_terrace_m": [-0.05897521972656, -0.01499938964844] }
+FAIL Existing ground supports local surface alchemy_pavilion { "samples": 5, "ground_relative_to_terrace_m": [-0.4317512512207, 0.00047492980957] }
+PASS Existing ground supports local surface medicine_hall { "samples": 5, "ground_relative_to_terrace_m": [-0.01500034332275, -0.01500034332275] }
+PASS Existing ground supports local surface spirit_herb_garden { "samples": 5, "ground_relative_to_terrace_m": [-0.05457305908203, -0.01500034332275] }
+PASS All twelve approved building transforms preserved 
+PASS Approved resource inherited: ContinuousValleyTerrain 
+PASS Approved resource inherited: RoadsCourtsAndVisibleStairs 
+PASS Approved collision inherited: ValleyGroundCollision 
+PASS Approved collision inherited: SmoothPathRampCollision 
+PASS No additional collision shapes 
+PHASE4D ROUTES 43 PASS / 1 FAIL

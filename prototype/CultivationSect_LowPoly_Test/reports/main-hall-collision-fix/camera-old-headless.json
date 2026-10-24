@@ -1,0 +1,2877 @@
+{
+  "checks": [
+    {
+      "check": "permanent authored shape count",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "sampled authored-camera clearance",
+      "detail": [
+        {
+          "camera": [
+            -17.6725292205811,
+            3.51683020591736,
+            -9.67253017425537
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -17.7052745819092,
+            3.46941065788269,
+            -8.75054454803467
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.23598775598299
+        },
+        {
+          "camera": [
+            -17.4263668060303,
+            3.36779737472534,
+            -8.77363395690918
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.49778714378214
+        },
+        {
+          "camera": [
+            -17.2793483734131,
+            3.32376503944397,
+            -8.78936100006104
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.75958653158129
+        },
+        {
+          "camera": [
+            -17.6671733856201,
+            3.21395945549011,
+            -9.6671724319458
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.0,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -17.6725044250488,
+            2.92373561859131,
+            -9.67250442504883
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.35,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -14.0725297927856,
+            3.51683020591736,
+            -9.67253017425537
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -14.1052751541138,
+            3.46941065788269,
+            -8.75054454803467
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.23598775598299
+        },
+        {
+          "camera": [
+            -13.8263664245605,
+            3.36779737472534,
+            -8.77363395690918
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.49778714378214
+        },
+        {
+          "camera": [
+            -13.6793479919434,
+            3.32376503944397,
+            -8.78936100006104
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.75958653158129
+        },
+        {
+          "camera": [
+            -14.0671720504761,
+            3.21395945549011,
+            -9.6671724319458
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.0,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -14.0666818618774,
+            2.92624187469482,
+            -9.66668224334717
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.35,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -10.4725294113159,
+            3.51683020591736,
+            -9.67253017425537
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -10.505274772644,
+            3.46941065788269,
+            -8.75054454803467
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.23598775598299
+        },
+        {
+          "camera": [
+            -10.2263660430908,
+            3.36779737472534,
+            -8.77363395690918
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.49778714378214
+        },
+        {
+          "camera": [
+            -10.0793476104736,
+            3.32376503944397,
+            -8.78936100006104
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.75958653158129
+        },
+        {
+          "camera": [
+            -10.4671716690063,
+            3.21395945549011,
+            -9.6671724319458
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.0,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -10.4666814804077,
+            2.92624187469482,
+            -9.66668224334717
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.35,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -6.87252998352051,
+            3.51683020591736,
+            -9.67253017425537
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -6.30000019073486,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -6.90527534484863,
+            3.46941065788269,
+            -8.75054454803467
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -6.30000019073486,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.23598775598299
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "sampled visible player-body clearance",
+      "detail": [
+        {
+          "camera": [
+            -17.6725292205811,
+            3.51683020591736,
+            -9.67253017425537
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -17.7052745819092,
+            3.46941065788269,
+            -8.75054454803467
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.23598775598299
+        },
+        {
+          "camera": [
+            -17.4263668060303,
+            3.36779737472534,
+            -8.77363395690918
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.49778714378214
+        },
+        {
+          "camera": [
+            -17.2793483734131,
+            3.32376503944397,
+            -8.78936100006104
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.75958653158129
+        },
+        {
+          "camera": [
+            -17.6671733856201,
+            3.21395945549011,
+            -9.6671724319458
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.0,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -17.6725044250488,
+            2.92373561859131,
+            -9.67250442504883
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.35,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -14.0725297927856,
+            3.51683020591736,
+            -9.67253017425537
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -14.1052751541138,
+            3.46941065788269,
+            -8.75054454803467
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.23598775598299
+        },
+        {
+          "camera": [
+            -13.8263664245605,
+            3.36779737472534,
+            -8.77363395690918
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.49778714378214
+        },
+        {
+          "camera": [
+            -13.6793479919434,
+            3.32376503944397,
+            -8.78936100006104
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.75958653158129
+        },
+        {
+          "camera": [
+            -14.0671720504761,
+            3.21395945549011,
+            -9.6671724319458
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.0,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -14.0666818618774,
+            2.92624187469482,
+            -9.66668224334717
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.35,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -10.4725294113159,
+            3.51683020591736,
+            -9.67253017425537
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -10.505274772644,
+            3.46941065788269,
+            -8.75054454803467
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.23598775598299
+        },
+        {
+          "camera": [
+            -10.2263660430908,
+            3.36779737472534,
+            -8.77363395690918
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.49778714378214
+        },
+        {
+          "camera": [
+            -10.0793476104736,
+            3.32376503944397,
+            -8.78936100006104
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.75958653158129
+        },
+        {
+          "camera": [
+            -10.4671716690063,
+            3.21395945549011,
+            -9.6671724319458
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.0,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -10.4666814804077,
+            2.92624187469482,
+            -9.66668224334717
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.35,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -6.87252998352051,
+            3.51683020591736,
+            -9.67253017425537
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -6.30000019073486,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -6.90527534484863,
+            3.46941065788269,
+            -8.75054454803467
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -6.30000019073486,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.23598775598299
+        }
+      ],
+      "pass": true
+    },
+    {
+      "check": "sampled visible column/drum camera clearance",
+      "detail": [
+        {
+          "camera": [
+            -17.6725292205811,
+            3.51683020591736,
+            -9.67253017425537
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -17.6671733856201,
+            3.21395945549011,
+            -9.6671724319458
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.0,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -17.6725044250488,
+            2.92373561859131,
+            -9.67250442504883
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.35,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -14.0725297927856,
+            3.51683020591736,
+            -9.67253017425537
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -14.0671720504761,
+            3.21395945549011,
+            -9.6671724319458
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.0,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -14.0666818618774,
+            2.92624187469482,
+            -9.66668224334717
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.35,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -10.4725294113159,
+            3.51683020591736,
+            -9.67253017425537
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -10.4671716690063,
+            3.21395945549011,
+            -9.6671724319458
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.0,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -10.4666814804077,
+            2.92624187469482,
+            -9.66668224334717
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.35,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -6.87252998352051,
+            3.51683020591736,
+            -9.67253017425537
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -6.30000019073486,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -6.86717224121094,
+            3.21395945549011,
+            -9.6671724319458
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.0,
+          "player": [
+            -6.30000019073486,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -6.8666820526123,
+            2.92624187469482,
+            -9.66668224334717
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.35,
+          "player": [
+            -6.30000019073486,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            7.47532320022583,
+            3.4470648765564,
+            -9.26738166809082
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            8.10000038146973,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 4.45058959258554
+        },
+        {
+          "camera": [
+            7.46854162216187,
+            3.20586657524109,
+            -9.26919937133789
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.0,
+          "player": [
+            8.10000038146973,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 4.45058959258554
+        },
+        {
+          "camera": [
+            7.47247886657715,
+            2.9724383354187,
+            -9.26814460754395
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.35,
+          "player": [
+            8.10000038146973,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 4.45058959258554
+        },
+        {
+          "camera": [
+            11.0753221511841,
+            3.4470648765564,
+            -9.26738166809082
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            11.6999998092651,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 4.45058959258554
+        },
+        {
+          "camera": [
+            11.0685405731201,
+            3.20586657524109,
+            -9.26919937133789
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.0,
+          "player": [
+            11.6999998092651,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 4.45058959258554
+        },
+        {
+          "camera": [
+            11.0724782943726,
+            2.9724383354187,
+            -9.26814460754395
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.35,
+          "player": [
+            11.6999998092651,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 4.45058959258554
+        },
+        {
+          "camera": [
+            14.6753225326538,
+            3.4470648765564,
+            -9.26738166809082
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            15.3000001907349,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 4.45058959258554
+        },
+        {
+          "camera": [
+            14.6685409545898,
+            3.20586657524109,
+            -9.26919937133789
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.0,
+          "player": [
+            15.3000001907349,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 4.45058959258554
+        }
+      ],
+      "pass": false
+    },
+    {
+      "check": "all visible camera samples clear",
+      "detail": [
+        {
+          "camera": [
+            -17.6725292205811,
+            3.51683020591736,
+            -9.67253017425537
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -17.7052745819092,
+            3.46941065788269,
+            -8.75054454803467
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.23598775598299
+        },
+        {
+          "camera": [
+            -17.4263668060303,
+            3.36779737472534,
+            -8.77363395690918
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.49778714378214
+        },
+        {
+          "camera": [
+            -17.2793483734131,
+            3.32376503944397,
+            -8.78936100006104
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.75958653158129
+        },
+        {
+          "camera": [
+            -17.6671733856201,
+            3.21395945549011,
+            -9.6671724319458
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.0,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -17.6725044250488,
+            2.92373561859131,
+            -9.67250442504883
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.35,
+          "player": [
+            -17.1000003814697,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -14.0725297927856,
+            3.51683020591736,
+            -9.67253017425537
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -14.1052751541138,
+            3.46941065788269,
+            -8.75054454803467
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.23598775598299
+        },
+        {
+          "camera": [
+            -13.8263664245605,
+            3.36779737472534,
+            -8.77363395690918
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.49778714378214
+        },
+        {
+          "camera": [
+            -13.6793479919434,
+            3.32376503944397,
+            -8.78936100006104
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.75958653158129
+        },
+        {
+          "camera": [
+            -14.0671720504761,
+            3.21395945549011,
+            -9.6671724319458
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.0,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -14.0666818618774,
+            2.92624187469482,
+            -9.66668224334717
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.35,
+          "player": [
+            -13.5,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -10.4725294113159,
+            3.51683020591736,
+            -9.67253017425537
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -10.505274772644,
+            3.46941065788269,
+            -8.75054454803467
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.23598775598299
+        },
+        {
+          "camera": [
+            -10.2263660430908,
+            3.36779737472534,
+            -8.77363395690918
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.49778714378214
+        },
+        {
+          "camera": [
+            -10.0793476104736,
+            3.32376503944397,
+            -8.78936100006104
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.75958653158129
+        },
+        {
+          "camera": [
+            -10.4671716690063,
+            3.21395945549011,
+            -9.6671724319458
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.0,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -10.4666814804077,
+            2.92624187469482,
+            -9.66668224334717
+          ],
+          "label": "veranda sweep",
+          "pitch": 0.35,
+          "player": [
+            -9.89999961853027,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -6.87252998352051,
+            3.51683020591736,
+            -9.67253017425537
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -6.30000019073486,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Timber"
+          ],
+          "yaw": 3.92699081698724
+        },
+        {
+          "camera": [
+            -6.90527534484863,
+            3.46941065788269,
+            -8.75054454803467
+          ],
+          "label": "veranda sweep",
+          "pitch": -0.35,
+          "player": [
+            -6.30000019073486,
+            1.52020835876465,
+            -9.10000038146973
+          ],
+          "solid_camera": [],
+          "third": true,
+          "visible_body": [],
+          "visible_camera": [
+            "Hall _ Cedar"
+          ],
+          "yaw": 5.23598775598299
+        }
+      ],
+      "pass": false
+    }
+  ],
+  "confirmed_columns_and_drums": false,
+  "contacts": [
+    {
+      "camera": [
+        -17.6725292205811,
+        3.51683020591736,
+        -9.67253017425537
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        -17.1000003814697,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 3.92699081698724
+    },
+    {
+      "camera": [
+        -17.7052745819092,
+        3.46941065788269,
+        -8.75054454803467
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        -17.1000003814697,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.23598775598299
+    },
+    {
+      "camera": [
+        -17.4263668060303,
+        3.36779737472534,
+        -8.77363395690918
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        -17.1000003814697,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.49778714378214
+    },
+    {
+      "camera": [
+        -17.2793483734131,
+        3.32376503944397,
+        -8.78936100006104
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        -17.1000003814697,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.75958653158129
+    },
+    {
+      "camera": [
+        -17.6671733856201,
+        3.21395945549011,
+        -9.6671724319458
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.0,
+      "player": [
+        -17.1000003814697,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 3.92699081698724
+    },
+    {
+      "camera": [
+        -17.6725044250488,
+        2.92373561859131,
+        -9.67250442504883
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.35,
+      "player": [
+        -17.1000003814697,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 3.92699081698724
+    },
+    {
+      "camera": [
+        -14.0725297927856,
+        3.51683020591736,
+        -9.67253017425537
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        -13.5,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 3.92699081698724
+    },
+    {
+      "camera": [
+        -14.1052751541138,
+        3.46941065788269,
+        -8.75054454803467
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        -13.5,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.23598775598299
+    },
+    {
+      "camera": [
+        -13.8263664245605,
+        3.36779737472534,
+        -8.77363395690918
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        -13.5,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.49778714378214
+    },
+    {
+      "camera": [
+        -13.6793479919434,
+        3.32376503944397,
+        -8.78936100006104
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        -13.5,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.75958653158129
+    },
+    {
+      "camera": [
+        -14.0671720504761,
+        3.21395945549011,
+        -9.6671724319458
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.0,
+      "player": [
+        -13.5,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 3.92699081698724
+    },
+    {
+      "camera": [
+        -14.0666818618774,
+        2.92624187469482,
+        -9.66668224334717
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.35,
+      "player": [
+        -13.5,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 3.92699081698724
+    },
+    {
+      "camera": [
+        -10.4725294113159,
+        3.51683020591736,
+        -9.67253017425537
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        -9.89999961853027,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 3.92699081698724
+    },
+    {
+      "camera": [
+        -10.505274772644,
+        3.46941065788269,
+        -8.75054454803467
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        -9.89999961853027,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.23598775598299
+    },
+    {
+      "camera": [
+        -10.2263660430908,
+        3.36779737472534,
+        -8.77363395690918
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        -9.89999961853027,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.49778714378214
+    },
+    {
+      "camera": [
+        -10.0793476104736,
+        3.32376503944397,
+        -8.78936100006104
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        -9.89999961853027,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.75958653158129
+    },
+    {
+      "camera": [
+        -10.4671716690063,
+        3.21395945549011,
+        -9.6671724319458
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.0,
+      "player": [
+        -9.89999961853027,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 3.92699081698724
+    },
+    {
+      "camera": [
+        -10.4666814804077,
+        2.92624187469482,
+        -9.66668224334717
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.35,
+      "player": [
+        -9.89999961853027,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 3.92699081698724
+    },
+    {
+      "camera": [
+        -6.87252998352051,
+        3.51683020591736,
+        -9.67253017425537
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        -6.30000019073486,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 3.92699081698724
+    },
+    {
+      "camera": [
+        -6.90527534484863,
+        3.46941065788269,
+        -8.75054454803467
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        -6.30000019073486,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.23598775598299
+    },
+    {
+      "camera": [
+        -6.62636613845825,
+        3.36779737472534,
+        -8.77363395690918
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        -6.30000019073486,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.49778714378214
+    },
+    {
+      "camera": [
+        -6.47934770584106,
+        3.32376503944397,
+        -8.78936100006104
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        -6.30000019073486,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.75958653158129
+    },
+    {
+      "camera": [
+        -6.86717224121094,
+        3.21395945549011,
+        -9.6671724319458
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.0,
+      "player": [
+        -6.30000019073486,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 3.92699081698724
+    },
+    {
+      "camera": [
+        -6.8666820526123,
+        2.92624187469482,
+        -9.66668224334717
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.35,
+      "player": [
+        -6.30000019073486,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 3.92699081698724
+    },
+    {
+      "camera": [
+        0.0,
+        2.66055870056152,
+        -8.82584285736084
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.35,
+      "player": [
+        0.0,
+        1.52020835876465,
+        -10.5
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 0.0
+    },
+    {
+      "camera": [
+        -0.449285686016083,
+        2.64176034927368,
+        -8.82324123382568
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.35,
+      "player": [
+        0.0,
+        1.52020835876465,
+        -10.5
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 6.02138591938044
+    },
+    {
+      "camera": [
+        0.294725000858307,
+        3.46941065788269,
+        -8.75054454803467
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        0.899999976158142,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.23598775598299
+    },
+    {
+      "camera": [
+        0.573633909225464,
+        3.36779737472534,
+        -8.77363395690918
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        0.899999976158142,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.49778714378214
+    },
+    {
+      "camera": [
+        0.720652282238007,
+        3.32376503944397,
+        -8.78936100006104
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        0.899999976158142,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.75958653158129
+    },
+    {
+      "camera": [
+        -0.48904013633728,
+        3.2486469745636,
+        -8.72780799865723
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.0,
+      "player": [
+        0.899999976158142,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 4.97418836818384
+    },
+    {
+      "camera": [
+        -0.49442982673645,
+        2.7307391166687,
+        -8.72636413574219
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.35,
+      "player": [
+        0.899999976158142,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 4.97418836818384
+    },
+    {
+      "camera": [
+        7.47532320022583,
+        3.4470648765564,
+        -9.26738166809082
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        8.10000038146973,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 4.45058959258554
+    },
+    {
+      "camera": [
+        7.79041814804077,
+        3.35763621330261,
+        -8.79041862487793
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        8.10000038146973,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.49778714378214
+    },
+    {
+      "camera": [
+        7.92065286636353,
+        3.32376503944397,
+        -8.78936100006104
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        8.10000038146973,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.75958653158129
+    },
+    {
+      "camera": [
+        7.46854162216187,
+        3.20586657524109,
+        -9.26919937133789
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.0,
+      "player": [
+        8.10000038146973,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 4.45058959258554
+    },
+    {
+      "camera": [
+        7.79716444015503,
+        3.19356894493103,
+        -8.79716491699219
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.0,
+      "player": [
+        8.10000038146973,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.49778714378214
+    },
+    {
+      "camera": [
+        7.47247886657715,
+        2.9724383354187,
+        -9.26814460754395
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.35,
+      "player": [
+        8.10000038146973,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 4.45058959258554
+    },
+    {
+      "camera": [
+        7.79530572891235,
+        3.03903198242188,
+        -8.7953052520752
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.35,
+      "player": [
+        8.10000038146973,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.49778714378214
+    },
+    {
+      "camera": [
+        11.0753221511841,
+        3.4470648765564,
+        -9.26738166809082
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        11.6999998092651,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 4.45058959258554
+    },
+    {
+      "camera": [
+        11.3904180526733,
+        3.35763621330261,
+        -8.79041862487793
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        11.6999998092651,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.49778714378214
+    },
+    {
+      "camera": [
+        11.5206518173218,
+        3.32376503944397,
+        -8.78936100006104
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        11.6999998092651,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.75958653158129
+    },
+    {
+      "camera": [
+        11.0685405731201,
+        3.20586657524109,
+        -9.26919937133789
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.0,
+      "player": [
+        11.6999998092651,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 4.45058959258554
+    },
+    {
+      "camera": [
+        11.3971643447876,
+        3.19356894493103,
+        -8.79716491699219
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.0,
+      "player": [
+        11.6999998092651,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.49778714378214
+    },
+    {
+      "camera": [
+        11.0724782943726,
+        2.9724383354187,
+        -9.26814460754395
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.35,
+      "player": [
+        11.6999998092651,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 4.45058959258554
+    },
+    {
+      "camera": [
+        11.3953046798706,
+        3.03903198242188,
+        -8.7953052520752
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.35,
+      "player": [
+        11.6999998092651,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.49778714378214
+    },
+    {
+      "camera": [
+        14.6753225326538,
+        3.4470648765564,
+        -9.26738166809082
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        15.3000001907349,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 4.45058959258554
+    },
+    {
+      "camera": [
+        14.9904184341431,
+        3.35763621330261,
+        -8.79041862487793
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        15.3000001907349,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.49778714378214
+    },
+    {
+      "camera": [
+        15.1206521987915,
+        3.32376503944397,
+        -8.78936100006104
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        15.3000001907349,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.75958653158129
+    },
+    {
+      "camera": [
+        14.6685409545898,
+        3.20586657524109,
+        -9.26919937133789
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.0,
+      "player": [
+        15.3000001907349,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 4.45058959258554
+    },
+    {
+      "camera": [
+        14.9971647262573,
+        3.19356894493103,
+        -8.79716491699219
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.0,
+      "player": [
+        15.3000001907349,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.49778714378214
+    },
+    {
+      "camera": [
+        14.6724786758423,
+        2.9724383354187,
+        -9.26814460754395
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.35,
+      "player": [
+        15.3000001907349,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 4.45058959258554
+    },
+    {
+      "camera": [
+        14.9953050613403,
+        3.03903198242188,
+        -8.7953052520752
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.35,
+      "player": [
+        15.3000001907349,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Cedar"
+      ],
+      "yaw": 5.49778714378214
+    },
+    {
+      "camera": [
+        18.2753219604492,
+        3.4470648765564,
+        -9.26738166809082
+      ],
+      "label": "veranda sweep",
+      "pitch": -0.35,
+      "player": [
+        18.8999996185303,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 4.45058959258554
+    },
+    {
+      "camera": [
+        18.2685413360596,
+        3.20586657524109,
+        -9.26919937133789
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.0,
+      "player": [
+        18.8999996185303,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 4.45058959258554
+    },
+    {
+      "camera": [
+        18.2724781036377,
+        2.9724383354187,
+        -9.26814460754395
+      ],
+      "label": "veranda sweep",
+      "pitch": 0.35,
+      "player": [
+        18.8999996185303,
+        1.52020835876465,
+        -9.10000038146973
+      ],
+      "solid_camera": [],
+      "third": true,
+      "visible_body": [],
+      "visible_camera": [
+        "Hall _ Timber"
+      ],
+      "yaw": 4.45058959258554
+    }
+  ],
+  "failed": 2,
+  "limits": "Automated imported-mesh/physics/player tests, not human playtesting.",
+  "movements": [],
+  "passed": 3,
+  "probes": [],
+  "sampled_camera_body_pairs": 1296
+}

@@ -1,0 +1,161 @@
+{
+	"checks": [
+		{
+			"check": "Rendered Phase 4D launch",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Rendered Tab first person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Rendered Tab third person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture sect_gate-gameplay",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture sect_gate-context",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture mission_hall-gameplay",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture mission_hall-context",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Rendered entry mission_hall TPP",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Rendered entry mission_hall FPP",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture exchange_hall-gameplay",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture exchange_hall-context",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture disciple_residence-gameplay",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture disciple_residence-context",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture dining_hall_kitchen-gameplay",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture dining_hall_kitchen-context",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture martial_training_ground-gameplay",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture martial_training_ground-context",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture main_sect_hall-gameplay",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture main_sect_hall-context",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture scripture_pavilion-gameplay",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture scripture_pavilion-context",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture elder_residence-gameplay",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture elder_residence-context",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture alchemy_pavilion-gameplay",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture alchemy_pavilion-context",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture medicine_hall-gameplay",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture medicine_hall-context",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Rendered entry medicine_hall TPP",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Rendered entry medicine_hall FPP",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture spirit_herb_garden-gameplay",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture spirit_herb_garden-context",
+			"detail": null,
+			"pass": true
+		}
+	],
+	"failures": 0,
+	"passes": 31
+}

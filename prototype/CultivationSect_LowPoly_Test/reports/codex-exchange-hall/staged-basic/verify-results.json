@@ -1,0 +1,251 @@
+{
+  "clearances_m": {
+    "collision": {
+      "aisle_width_between_plinths": 9.68000030517578,
+      "counter_end_lane_width": 1.34000015258789,
+      "door_canopy_headroom": 8.05,
+      "main_door_headroom": 3.5999997138977,
+      "main_door_width_at_wall": 3.19999980926514,
+      "main_door_width_inside_leaves": 4.03999996185303,
+      "pavilion_clear_height": 6.91999988555908,
+      "storeroom_door_headroom": 2.60000019073486,
+      "storeroom_door_width": 1.59999990463257,
+      "storeroom_door_width_inside_leaves": 4.04999971389771,
+      "storeroom_lane_width": 4.97999954223633,
+      "wing_veranda_headroom": 8.05
+    },
+    "visible": {
+      "aisle_width_between_plinths": 3.52795898914337,
+      "counter_end_lane_width": 1.36999988555908,
+      "door_canopy_headroom": 3.41853456497192,
+      "main_door_headroom": 3.59989957809448,
+      "main_door_width_at_wall": 3.19980001449585,
+      "main_door_width_inside_leaves": 3.03999996185303,
+      "pavilion_clear_height": 6.91989879608154,
+      "storeroom_door_headroom": 2.59989957809448,
+      "storeroom_door_width": 1.59999990463257,
+      "storeroom_door_width_inside_leaves": 1.43989992141724,
+      "storeroom_lane_width": 5.09010219573975,
+      "wing_veranda_headroom": 4.33973865509033
+    }
+  },
+  "failed": 0,
+  "passed": 43,
+  "results": [
+    {
+      "check": "imported triangles match build",
+      "detail": "[31346, 31346.0]",
+      "pass": true
+    },
+    {
+      "check": "imported size matches build (0.05 m)",
+      "detail": "[(26.60122, 12.96, 16.37554), [26.6, 12.96, 16.38]]",
+      "pass": true
+    },
+    {
+      "check": "sits on ground (min y ~ 0)",
+      "detail": "0.0",
+      "pass": true
+    },
+    {
+      "check": "every surface has an opaque untextured material",
+      "detail": "[0, 0]",
+      "pass": true
+    },
+    {
+      "check": "all palette materials present",
+      "detail": "[\"Bronze\", \"Cedar\", \"Coping\", \"Fabric\", \"Floor\", \"Jade\", \"Lantern\", \"Plaster\", \"SpiritHerb\", \"Stone\", \"TileLight\", \"Timber\", \"Window\"]",
+      "pass": true
+    },
+    {
+      "check": "authored collision present",
+      "detail": "69",
+      "pass": true
+    },
+    {
+      "check": "plaque text present",
+      "detail": "[\"CONTRIBUTION HALL\"]",
+      "pass": true
+    },
+    {
+      "check": "clearance main_door_width_at_wall >= 0.9 m (collision / visible)",
+      "detail": "3.20 / 3.20",
+      "pass": true
+    },
+    {
+      "check": "clearance main_door_width_inside_leaves >= 0.9 m (collision / visible)",
+      "detail": "4.04 / 3.04",
+      "pass": true
+    },
+    {
+      "check": "clearance main_door_headroom >= 2.1 m (collision / visible)",
+      "detail": "3.60 / 3.60",
+      "pass": true
+    },
+    {
+      "check": "clearance door_canopy_headroom >= 2.1 m (collision / visible)",
+      "detail": "8.05 / 3.42",
+      "pass": true
+    },
+    {
+      "check": "clearance aisle_width_between_plinths >= 0.9 m (collision / visible)",
+      "detail": "9.68 / 3.53",
+      "pass": true
+    },
+    {
+      "check": "clearance counter_end_lane_width >= 0.9 m (collision / visible)",
+      "detail": "1.34 / 1.37",
+      "pass": true
+    },
+    {
+      "check": "clearance storeroom_door_width >= 0.9 m (collision / visible)",
+      "detail": "1.60 / 1.60",
+      "pass": true
+    },
+    {
+      "check": "clearance storeroom_door_width_inside_leaves >= 0.9 m (collision / visible)",
+      "detail": "4.05 / 1.44",
+      "pass": true
+    },
+    {
+      "check": "clearance storeroom_door_headroom >= 2.1 m (collision / visible)",
+      "detail": "2.60 / 2.60",
+      "pass": true
+    },
+    {
+      "check": "clearance storeroom_lane_width >= 0.9 m (collision / visible)",
+      "detail": "4.98 / 5.09",
+      "pass": true
+    },
+    {
+      "check": "clearance wing_veranda_headroom >= 2.1 m (collision / visible)",
+      "detail": "8.05 / 4.34",
+      "pass": true
+    },
+    {
+      "check": "clearance pavilion_clear_height >= 2.1 m (collision / visible)",
+      "detail": "6.92 / 6.92",
+      "pass": true
+    },
+    {
+      "check": "walk: stair, terrace, door, aisle to the exchange counter",
+      "detail": "(0.0, 0.600089, -0.419064)",
+      "pass": true
+    },
+    {
+      "check": "walk: no visible geometry inside the upper body (84 samples): stair, terrace, door, aisle to the exchange counter",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "walk: third-person camera never inside visible geometry (84 samples): stair, terrace, door, aisle to the exchange counter",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "walk: staff lane past the counter end to the reward racks",
+      "detail": "(4.15, 0.599804, -4.088042)",
+      "pass": true
+    },
+    {
+      "check": "walk: no visible geometry inside the upper body (72 samples): staff lane past the counter end to the reward racks",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "walk: third-person camera never inside visible geometry (72 samples): staff lane past the counter end to the reward racks",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "walk: east storeroom (supplies) through its side door",
+      "detail": "(11.56666, 0.599281, -2.4)",
+      "pass": true
+    },
+    {
+      "check": "walk: no visible geometry inside the upper body (60 samples): east storeroom (supplies) through its side door",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "walk: third-person camera never inside visible geometry (60 samples): east storeroom (supplies) through its side door",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "walk: west storeroom (manuals and treasures) through its side door",
+      "detail": "(-11.56667, 0.599303, -2.4)",
+      "pass": true
+    },
+    {
+      "check": "walk: no visible geometry inside the upper body (60 samples): west storeroom (manuals and treasures) through its side door",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "walk: third-person camera never inside visible geometry (60 samples): west storeroom (manuals and treasures) through its side door",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "walk: front wall reward board blocks",
+      "detail": "(3.85, 0.600609, 5.591547)",
+      "pass": true
+    },
+    {
+      "check": "walk: no visible geometry inside the upper body (32 samples): front wall reward board blocks",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "walk: third-person camera never inside visible geometry (32 samples): front wall reward board blocks",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "walk: east wing veranda walkable up to the storeroom wall",
+      "detail": "(8.6, 0.600089, 3.430937)",
+      "pass": true
+    },
+    {
+      "check": "walk: no visible geometry inside the upper body (40 samples): east wing veranda walkable up to the storeroom wall",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "walk: third-person camera never inside visible geometry (40 samples): east wing veranda walkable up to the storeroom wall",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "walk: west wing veranda walkable up to the storeroom wall",
+      "detail": "(-8.6, 0.600089, 3.430934)",
+      "pass": true
+    },
+    {
+      "check": "walk: no visible geometry inside the upper body (40 samples): west wing veranda walkable up to the storeroom wall",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "walk: third-person camera never inside visible geometry (40 samples): west wing veranda walkable up to the storeroom wall",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "walk: back out through the door and down the stair",
+      "detail": "(0.0, 0.000843, 26.50197)",
+      "pass": true
+    },
+    {
+      "check": "walk: no visible geometry inside the upper body (72 samples): back out through the door and down the stair",
+      "detail": "[]",
+      "pass": true
+    },
+    {
+      "check": "walk: third-person camera never inside visible geometry (72 samples): back out through the door and down the stair",
+      "detail": "[]",
+      "pass": true
+    }
+  ]
+}

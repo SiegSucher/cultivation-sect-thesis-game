@@ -1,0 +1,95 @@
+[
+  {
+    "asset": "mission_hall",
+    "existing_blocks_preserved": 79,
+    "old_collision_shapes": 37,
+    "new_collision_shapes": 39,
+    "added_blocks": [
+      "[sub_resource type=\"BoxShape3D\" id=\"DoorLeaf_MainEntrance\"]",
+      "[node name=\"DoorLeaf_MainEntrance_Left\" type=\"CollisionShape3D\" parent=\"Collision\"]",
+      "[node name=\"DoorLeaf_MainEntrance_Right\" type=\"CollisionShape3D\" parent=\"Collision\"]"
+    ],
+    "existing_changes": []
+  },
+  {
+    "asset": "exchange_hall",
+    "existing_blocks_preserved": 148,
+    "old_collision_shapes": 73,
+    "new_collision_shapes": 75,
+    "added_blocks": [
+      "[sub_resource type=\"BoxShape3D\" id=\"DoorLeaf_MainEntrance\"]",
+      "[node name=\"DoorLeaf_MainEntrance_Left\" type=\"CollisionShape3D\" parent=\"Collision\"]",
+      "[node name=\"DoorLeaf_MainEntrance_Right\" type=\"CollisionShape3D\" parent=\"Collision\"]"
+    ],
+    "existing_changes": []
+  },
+  {
+    "asset": "dining_hall_kitchen",
+    "existing_blocks_preserved": 111,
+    "old_collision_shapes": 53,
+    "new_collision_shapes": 61,
+    "added_blocks": [
+      "[sub_resource type=\"BoxShape3D\" id=\"DoorLeaf_MainEntrance\"]",
+      "[sub_resource type=\"BoxShape3D\" id=\"DoorLeaf_WestEntrance\"]",
+      "[sub_resource type=\"BoxShape3D\" id=\"DoorLeaf_EastEntrance\"]",
+      "[sub_resource type=\"BoxShape3D\" id=\"DoorLeaf_KitchenService\"]",
+      "[node name=\"DoorLeaf_MainEntrance_Left\" type=\"CollisionShape3D\" parent=\"Collision\"]",
+      "[node name=\"DoorLeaf_MainEntrance_Right\" type=\"CollisionShape3D\" parent=\"Collision\"]",
+      "[node name=\"DoorLeaf_WestEntrance_Left\" type=\"CollisionShape3D\" parent=\"Collision\"]",
+      "[node name=\"DoorLeaf_WestEntrance_Right\" type=\"CollisionShape3D\" parent=\"Collision\"]",
+      "[node name=\"DoorLeaf_EastEntrance_Left\" type=\"CollisionShape3D\" parent=\"Collision\"]",
+      "[node name=\"DoorLeaf_EastEntrance_Right\" type=\"CollisionShape3D\" parent=\"Collision\"]",
+      "[node name=\"DoorLeaf_KitchenService_Left\" type=\"CollisionShape3D\" parent=\"Collision\"]",
+      "[node name=\"DoorLeaf_KitchenService_Right\" type=\"CollisionShape3D\" parent=\"Collision\"]"
+    ],
+    "existing_changes": []
+  },
+  {
+    "asset": "disciple_residence",
+    "existing_blocks_preserved": 76,
+    "old_collision_shapes": 36,
+    "new_collision_shapes": 44,
+    "added_blocks": [
+      "[sub_resource type=\"BoxShape3D\" id=\"DoorLeaf_Room1\"]",
+      "[sub_resource type=\"BoxShape3D\" id=\"DoorLeaf_Room2\"]",
+      "[sub_resource type=\"BoxShape3D\" id=\"DoorLeaf_Room3\"]",
+      "[sub_resource type=\"BoxShape3D\" id=\"DoorLeaf_Room4\"]",
+      "[node name=\"DoorLeaf_Room1_Left\" type=\"CollisionShape3D\" parent=\"Collision\"]",
+      "[node name=\"DoorLeaf_Room1_Right\" type=\"CollisionShape3D\" parent=\"Collision\"]",
+      "[node name=\"DoorLeaf_Room2_Left\" type=\"CollisionShape3D\" parent=\"Collision\"]",
+      "[node name=\"DoorLeaf_Room2_Right\" type=\"CollisionShape3D\" parent=\"Collision\"]",
+      "[node name=\"DoorLeaf_Room3_Left\" type=\"CollisionShape3D\" parent=\"Collision\"]",
+      "[node name=\"DoorLeaf_Room3_Right\" type=\"CollisionShape3D\" parent=\"Collision\"]",
+      "[node name=\"DoorLeaf_Room4_Left\" type=\"CollisionShape3D\" parent=\"Collision\"]",
+      "[node name=\"DoorLeaf_Room4_Right\" type=\"CollisionShape3D\" parent=\"Collision\"]"
+    ],
+    "existing_changes": []
+  },
+  {
+    "asset": "elder_residence",
+    "existing_blocks_preserved": 103,
+    "old_collision_shapes": 49,
+    "new_collision_shapes": 53,
+    "added_blocks": [
+      "[sub_resource type=\"BoxShape3D\" id=\"DoorLeaf_MainEntrance\"]",
+      "[sub_resource type=\"BoxShape3D\" id=\"DoorLeaf_AttendantWing\"]",
+      "[node name=\"DoorLeaf_MainEntrance_Left\" type=\"CollisionShape3D\" parent=\"Collision\"]",
+      "[node name=\"DoorLeaf_MainEntrance_Right\" type=\"CollisionShape3D\" parent=\"Collision\"]",
+      "[node name=\"DoorLeaf_AttendantWing_Left\" type=\"CollisionShape3D\" parent=\"Collision\"]",
+      "[node name=\"DoorLeaf_AttendantWing_Right\" type=\"CollisionShape3D\" parent=\"Collision\"]"
+    ],
+    "existing_changes": []
+  },
+  {
+    "asset": "medicine_hall",
+    "existing_blocks_preserved": 114,
+    "old_collision_shapes": 54,
+    "new_collision_shapes": 56,
+    "added_blocks": [
+      "[sub_resource type=\"BoxShape3D\" id=\"DoorLeaf_BalconyEntrance\"]",
+      "[node name=\"DoorLeaf_BalconyEntrance_Left\" type=\"CollisionShape3D\" parent=\"Collision\"]",
+      "[node name=\"DoorLeaf_BalconyEntrance_Right\" type=\"CollisionShape3D\" parent=\"Collision\"]"
+    ],
+    "existing_changes": []
+  }
+]

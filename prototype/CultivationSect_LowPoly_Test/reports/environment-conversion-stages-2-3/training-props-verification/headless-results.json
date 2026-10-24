@@ -1,0 +1,666 @@
+{
+	"camera_poses": [],
+	"captures": [],
+	"checks": [
+		{
+			"check": "New facility, shared metre scale and adult reference",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Ground-centered identity transform",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Full envelope measured including entrance steps",
+			"detail": "(68.0, 6.730729, 57.2)",
+			"pass": true
+		},
+		{
+			"check": "One complete training catalog entry",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Organized repeated equipment and seven reusable kinds",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Near and distant complexity budgets",
+			"detail": {
+				"distant_static": 13998.0,
+				"near": 114148.0
+			},
+			"pass": true
+		},
+		{
+			"check": "Repeated equipment uses shared instanced mesh batches",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Central 34x30m court has support and clear adult volume",
+			"detail": {
+				"failures": [],
+				"samples": 255
+			},
+			"pass": true
+		},
+		{
+			"check": "Front approach and instructor dais access",
+			"detail": {
+				"failures": [],
+				"samples": 205
+			},
+			"pass": true
+		},
+		{
+			"check": "Main side circulation -1.0",
+			"detail": {
+				"failures": [],
+				"samples": 169
+			},
+			"pass": true
+		},
+		{
+			"check": "Side entrance threshold -1.0",
+			"detail": {
+				"failures": [],
+				"samples": 62
+			},
+			"pass": true
+		},
+		{
+			"check": "Rear shelter entrance -1.0",
+			"detail": {
+				"failures": [],
+				"samples": 23
+			},
+			"pass": true
+		},
+		{
+			"check": "Main side circulation 1.0",
+			"detail": {
+				"failures": [],
+				"samples": 169
+			},
+			"pass": true
+		},
+		{
+			"check": "Side entrance threshold 1.0",
+			"detail": {
+				"failures": [],
+				"samples": 62
+			},
+			"pass": true
+		},
+		{
+			"check": "Rear shelter entrance 1.0",
+			"detail": {
+				"failures": [],
+				"samples": 23
+			},
+			"pass": true
+		},
+		{
+			"check": "Sword station cross aisle -12.0",
+			"detail": {
+				"failures": [],
+				"samples": 47
+			},
+			"pass": true
+		},
+		{
+			"check": "Sword station cross aisle -6.0",
+			"detail": {
+				"failures": [],
+				"samples": 47
+			},
+			"pass": true
+		},
+		{
+			"check": "Sword station cross aisle 0.0",
+			"detail": {
+				"failures": [],
+				"samples": 47
+			},
+			"pass": true
+		},
+		{
+			"check": "Sword station cross aisle 6.0",
+			"detail": {
+				"failures": [],
+				"samples": 47
+			},
+			"pass": true
+		},
+		{
+			"check": "Sword station cross aisle 12.0",
+			"detail": {
+				"failures": [],
+				"samples": 47
+			},
+			"pass": true
+		},
+		{
+			"check": "Sword rows circulation",
+			"detail": {
+				"failures": [],
+				"samples": 105
+			},
+			"pass": true
+		},
+		{
+			"check": "Staff lane circulation",
+			"detail": {
+				"failures": [],
+				"samples": 81
+			},
+			"pass": true
+		},
+		{
+			"check": "Staff lane outside posts",
+			"detail": {
+				"failures": [],
+				"samples": 81
+			},
+			"pass": true
+		},
+		{
+			"check": "Solid equipment/boundary blocks at (-24.0, 9.0)",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Solid equipment/boundary blocks at (25.6, -1.5)",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Solid equipment/boundary blocks at (-25.3, 18.2)",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Solid equipment/boundary blocks at (25.3, 18.2)",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Solid equipment/boundary blocks at (12.0, 27.4)",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Solid equipment/boundary blocks at (32.4, 10.0)",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Shelter roof has standing clearance (0.0, 0.91, -22.0)",
+			"detail": "(0.0, 5.99, -22.0)",
+			"pass": true
+		},
+		{
+			"check": "Shelter roof has standing clearance (-24.6, 0.61, -22.0)",
+			"detail": "(-24.6, 4.931517, -22.0)",
+			"pass": true
+		},
+		{
+			"check": "Shelter roof has standing clearance (24.6, 0.61, -22.0)",
+			"detail": "(24.6, 4.931517, -22.0)",
+			"pass": true
+		},
+		{
+			"check": "54 camera-volume clearance samples on main routes",
+			"detail": [],
+			"pass": true
+		},
+		{
+			"check": "Reusable standalone prop loads: arm_dummy",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Reusable standalone prop loads: striking_post",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Reusable standalone prop loads: sword_rack",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Reusable standalone prop loads: staff_rack",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Reusable standalone prop loads: rest_bench",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Reusable standalone prop loads: stone_weight",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Reusable standalone prop loads: thrust_target",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "No discarded project dependency res://scripts/martial_training_ground.gd",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "No discarded project dependency res://scripts/training_prop.gd",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "No discarded project dependency res://scripts/training_collision.gd",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "No discarded project dependency res://assets/gallery/catalog.json",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk asset action available, no door controls for yard",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "First-person fixture climbs front threshold",
+			"detail": {
+				"camera": "first",
+				"end": "(0.0, 0.310843, 25.15578)",
+				"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+				"frames": 83,
+				"remaining_m": 0.155782699584961,
+				"target": "(0.0, 0.31, 25.0)"
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person fixture traverses full court",
+			"detail": {
+				"camera": "first",
+				"end": "(0.0, 0.310843, -16.37759)",
+				"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+				"frames": 624,
+				"remaining_m": 0.122407913208008,
+				"target": "(0.0, 0.31, -16.5)"
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person fixture climbs instructor dais",
+			"detail": {
+				"camera": "first",
+				"end": "(0.0, 0.910832, -21.26607)",
+				"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+				"frames": 79,
+				"remaining_m": 0.133932113647461,
+				"target": "(0.0, 0.91, -21.4)"
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person fixture leaves instructor dais",
+			"detail": {
+				"camera": "first",
+				"end": "(0.0, 0.310843, -15.59747)",
+				"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+				"frames": 86,
+				"remaining_m": 0.0974655151367188,
+				"target": "(0.0, 0.31, -15.5)"
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person fixture reaches west lane",
+			"detail": {
+				"camera": "first",
+				"end": "(-19.06641, 0.309265, -15.50068)",
+				"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+				"frames": 287,
+				"remaining_m": 0.133592411875725,
+				"target": "(-19.2, 0.31, -15.5)"
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person fixture approaches sword stations",
+			"detail": {
+				"camera": "first",
+				"end": "(-19.19937, 0.310838, 5.898876)",
+				"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+				"frames": 322,
+				"remaining_m": 0.10112576931715,
+				"target": "(-19.2, 0.31, 6.0)"
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person fixture crosses between dummy rows",
+			"detail": {
+				"camera": "first",
+				"end": "(-26.4653, 0.310843, 5.998158)",
+				"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+				"frames": 110,
+				"remaining_m": 0.134709566831589,
+				"target": "(-26.6, 0.31, 6.0)"
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person fixture reaches staff lane",
+			"detail": {
+				"camera": "first",
+				"end": "(21.93269, 0.310843, 10.08078)",
+				"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+				"frames": 58,
+				"remaining_m": 0.105144299566746,
+				"target": "(22.0, 0.31, 10.0)"
+			},
+			"pass": true
+		},
+		{
+			"check": "First-person fixture traverses staff lane",
+			"detail": {
+				"camera": "first",
+				"end": "(21.9995, 0.310843, -9.852429)",
+				"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+				"frames": 300,
+				"remaining_m": 0.147571444511414,
+				"target": "(22.0, 0.31, -10.0)"
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person fixture climbs front threshold",
+			"detail": {
+				"camera": "third",
+				"end": "(0.0, 0.310843, 25.09377)",
+				"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+				"frames": 84,
+				"remaining_m": 0.0937690734863281,
+				"target": "(0.0, 0.31, 25.0)"
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person fixture traverses full court",
+			"detail": {
+				"camera": "third",
+				"end": "(0.0, 0.310843, -16.37294)",
+				"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+				"frames": 623,
+				"remaining_m": 0.127058029174805,
+				"target": "(0.0, 0.31, -16.5)"
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person fixture climbs instructor dais",
+			"detail": {
+				"camera": "third",
+				"end": "(0.0, 0.910838, -21.26351)",
+				"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+				"frames": 79,
+				"remaining_m": 0.136489868164063,
+				"target": "(0.0, 0.91, -21.4)"
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person fixture leaves instructor dais",
+			"detail": {
+				"camera": "third",
+				"end": "(0.0, 0.310838, -15.59399)",
+				"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+				"frames": 86,
+				"remaining_m": 0.0939884185791016,
+				"target": "(0.0, 0.31, -15.5)"
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person fixture reaches west lane",
+			"detail": {
+				"camera": "third",
+				"end": "(-19.06641, 0.309269, -15.50065)",
+				"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+				"frames": 287,
+				"remaining_m": 0.133588492870331,
+				"target": "(-19.2, 0.31, -15.5)"
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person fixture approaches sword stations",
+			"detail": {
+				"camera": "third",
+				"end": "(-19.19937, 0.310838, 5.89891)",
+				"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+				"frames": 322,
+				"remaining_m": 0.101091906428337,
+				"target": "(-19.2, 0.31, 6.0)"
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person fixture crosses between dummy rows",
+			"detail": {
+				"camera": "third",
+				"end": "(-26.46531, 0.310843, 5.99816)",
+				"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+				"frames": 110,
+				"remaining_m": 0.134707629680634,
+				"target": "(-26.6, 0.31, 6.0)"
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person fixture reaches staff lane",
+			"detail": {
+				"camera": "third",
+				"end": "(21.93269, 0.310843, 10.08078)",
+				"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+				"frames": 58,
+				"remaining_m": 0.105144299566746,
+				"target": "(22.0, 0.31, 10.0)"
+			},
+			"pass": true
+		},
+		{
+			"check": "Third-person fixture traverses staff lane",
+			"detail": {
+				"camera": "third",
+				"end": "(21.9995, 0.310843, -9.852429)",
+				"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+				"frames": 300,
+				"remaining_m": 0.147571444511414,
+				"target": "(22.0, 0.31, -10.0)"
+			},
+			"pass": true
+		},
+		{
+			"check": "Inspection movement stops at wooden dummy",
+			"detail": "(-23.11551, 0.308157, 9.0)",
+			"pass": true
+		},
+		{
+			"check": "Third-person inspection boom retracts at timber column",
+			"detail": 0.62332409620285,
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"movement_samples": [
+		{
+			"camera": "first",
+			"end": "(0.0, 0.310843, 25.15578)",
+			"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+			"frames": 83,
+			"remaining_m": 0.155782699584961,
+			"target": "(0.0, 0.31, 25.0)"
+		},
+		{
+			"camera": "first",
+			"end": "(0.0, 0.310843, -16.37759)",
+			"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+			"frames": 624,
+			"remaining_m": 0.122407913208008,
+			"target": "(0.0, 0.31, -16.5)"
+		},
+		{
+			"camera": "first",
+			"end": "(0.0, 0.910832, -21.26607)",
+			"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+			"frames": 79,
+			"remaining_m": 0.133932113647461,
+			"target": "(0.0, 0.91, -21.4)"
+		},
+		{
+			"camera": "first",
+			"end": "(0.0, 0.310843, -15.59747)",
+			"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+			"frames": 86,
+			"remaining_m": 0.0974655151367188,
+			"target": "(0.0, 0.31, -15.5)"
+		},
+		{
+			"camera": "first",
+			"end": "(-19.06641, 0.309265, -15.50068)",
+			"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+			"frames": 287,
+			"remaining_m": 0.133592411875725,
+			"target": "(-19.2, 0.31, -15.5)"
+		},
+		{
+			"camera": "first",
+			"end": "(-19.19937, 0.310838, 5.898876)",
+			"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+			"frames": 322,
+			"remaining_m": 0.10112576931715,
+			"target": "(-19.2, 0.31, 6.0)"
+		},
+		{
+			"camera": "first",
+			"end": "(-26.4653, 0.310843, 5.998158)",
+			"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+			"frames": 110,
+			"remaining_m": 0.134709566831589,
+			"target": "(-26.6, 0.31, 6.0)"
+		},
+		{
+			"camera": "first",
+			"end": "(21.93269, 0.310843, 10.08078)",
+			"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+			"frames": 58,
+			"remaining_m": 0.105144299566746,
+			"target": "(22.0, 0.31, 10.0)"
+		},
+		{
+			"camera": "first",
+			"end": "(21.9995, 0.310843, -9.852429)",
+			"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+			"frames": 300,
+			"remaining_m": 0.147571444511414,
+			"target": "(22.0, 0.31, -10.0)"
+		},
+		{
+			"camera": "third",
+			"end": "(0.0, 0.310843, 25.09377)",
+			"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+			"frames": 84,
+			"remaining_m": 0.0937690734863281,
+			"target": "(0.0, 0.31, 25.0)"
+		},
+		{
+			"camera": "third",
+			"end": "(0.0, 0.310843, -16.37294)",
+			"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+			"frames": 623,
+			"remaining_m": 0.127058029174805,
+			"target": "(0.0, 0.31, -16.5)"
+		},
+		{
+			"camera": "third",
+			"end": "(0.0, 0.910838, -21.26351)",
+			"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+			"frames": 79,
+			"remaining_m": 0.136489868164063,
+			"target": "(0.0, 0.91, -21.4)"
+		},
+		{
+			"camera": "third",
+			"end": "(0.0, 0.310838, -15.59399)",
+			"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+			"frames": 86,
+			"remaining_m": 0.0939884185791016,
+			"target": "(0.0, 0.31, -15.5)"
+		},
+		{
+			"camera": "third",
+			"end": "(-19.06641, 0.309269, -15.50065)",
+			"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+			"frames": 287,
+			"remaining_m": 0.133588492870331,
+			"target": "(-19.2, 0.31, -15.5)"
+		},
+		{
+			"camera": "third",
+			"end": "(-19.19937, 0.310838, 5.89891)",
+			"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+			"frames": 322,
+			"remaining_m": 0.101091906428337,
+			"target": "(-19.2, 0.31, 6.0)"
+		},
+		{
+			"camera": "third",
+			"end": "(-26.46531, 0.310843, 5.99816)",
+			"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+			"frames": 110,
+			"remaining_m": 0.134707629680634,
+			"target": "(-26.6, 0.31, 6.0)"
+		},
+		{
+			"camera": "third",
+			"end": "(21.93269, 0.310843, 10.08078)",
+			"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+			"frames": 58,
+			"remaining_m": 0.105144299566746,
+			"target": "(22.0, 0.31, 10.0)"
+		},
+		{
+			"camera": "third",
+			"end": "(21.9995, 0.310843, -9.852429)",
+			"fixture": "1.8m/.28m capsule, move_and_slide at 4m/s",
+			"frames": 300,
+			"remaining_m": 0.147571444511414,
+			"target": "(22.0, 0.31, -10.0)"
+		}
+	],
+	"not_tested": [
+		"Future production character/controller and its cameras",
+		"Human keyboard/mouse rehearsal",
+		"Reserved plot/map fit and world connection",
+		"Populated-world/target-device performance",
+		"Exported executable",
+		"NPC navigation mesh/pathfinding",
+		"Open source button"
+	],
+	"passed": 65,
+	"performance_note": "This fixed-fps functional test is not a performance benchmark; use benchmark_facility_stages.gd results."
+}

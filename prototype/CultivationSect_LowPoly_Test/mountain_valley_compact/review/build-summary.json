@@ -1,0 +1,613 @@
+{
+	"all_building_and_prop_scales": 1,
+	"main_route_metres": 242.967350861833,
+	"mountain_pines_repositioned": 480,
+	"retained_prop_count": 67,
+	"retained_props": [
+		{
+			"asset": "pine_windswept",
+			"position": [
+				27.1793518066406,
+				0.0,
+				141.823837280273
+			],
+			"source_node": "LightEnvironmentalFraming/pine_windswept_001"
+		},
+		{
+			"asset": "pine_windswept",
+			"position": [
+				12.0478219985962,
+				0.0,
+				161.828964233398
+			],
+			"source_node": "LightEnvironmentalFraming/pine_windswept_002"
+		},
+		{
+			"asset": "pine_windswept",
+			"position": [
+				-22.4591274261475,
+				1.97444343566895,
+				108.274887084961
+			],
+			"source_node": "LightEnvironmentalFraming/pine_windswept_003"
+		},
+		{
+			"asset": "pine_windswept",
+			"position": [
+				12.1684684753418,
+				0.0,
+				146.860977172852
+			],
+			"source_node": "LightEnvironmentalFraming/pine_windswept_004"
+		},
+		{
+			"asset": "pine_windswept",
+			"position": [
+				22.3622856140137,
+				0.0,
+				126.649925231934
+			],
+			"source_node": "LightEnvironmentalFraming/pine_windswept_005"
+		},
+		{
+			"asset": "pine_windswept",
+			"position": [
+				28.724479675293,
+				0.0,
+				157.857315063477
+			],
+			"source_node": "LightEnvironmentalFraming/pine_windswept_007"
+		},
+		{
+			"asset": "pine_windswept",
+			"position": [
+				-36.4681282043457,
+				0.0,
+				161.746490478516
+			],
+			"source_node": "LightEnvironmentalFraming/pine_windswept_008"
+		},
+		{
+			"asset": "pine_windswept",
+			"position": [
+				10.0141096115112,
+				0.0,
+				155.222229003906
+			],
+			"source_node": "LightEnvironmentalFraming/pine_windswept_009"
+		},
+		{
+			"asset": "pine_windswept",
+			"position": [
+				19.6234493255615,
+				0.0,
+				158.456558227539
+			],
+			"source_node": "LightEnvironmentalFraming/pine_windswept_013"
+		},
+		{
+			"asset": "pine_windswept",
+			"position": [
+				1.46693849563599,
+				-0.00702991941943765,
+				124.119606018066
+			],
+			"source_node": "LightEnvironmentalFraming/pine_windswept_014"
+		},
+		{
+			"asset": "pine_windswept",
+			"position": [
+				-1.92544186115265,
+				0.0,
+				157.262084960938
+			],
+			"source_node": "LightEnvironmentalFraming/pine_windswept_016"
+		},
+		{
+			"asset": "pine_windswept",
+			"position": [
+				25.3569183349609,
+				0.0,
+				120.474685668945
+			],
+			"source_node": "LightEnvironmentalFraming/pine_windswept_017"
+		},
+		{
+			"asset": "pine_windswept",
+			"position": [
+				-11.1426057815552,
+				0.0,
+				156.784744262695
+			],
+			"source_node": "LightEnvironmentalFraming/pine_windswept_018"
+		},
+		{
+			"asset": "pine_windswept",
+			"position": [
+				11.198694229126,
+				1.6164356470108,
+				109.526710510254
+			],
+			"source_node": "LightEnvironmentalFraming/pine_windswept_019"
+		},
+		{
+			"asset": "pine_windswept",
+			"position": [
+				30.8221492767334,
+				0.0,
+				122.544082641602
+			],
+			"source_node": "LightEnvironmentalFraming/pine_windswept_023"
+		},
+		{
+			"asset": "pine_windswept",
+			"position": [
+				23.2430381774902,
+				0.0,
+				134.794525146484
+			],
+			"source_node": "LightEnvironmentalFraming/pine_windswept_025"
+		},
+		{
+			"asset": "pine_tiered",
+			"position": [
+				-32.9345817565918,
+				0.0,
+				132.900344848633
+			],
+			"source_node": "LightEnvironmentalFraming/pine_tiered_001"
+		},
+		{
+			"asset": "pine_tiered",
+			"position": [
+				-37.7119789123535,
+				0.0,
+				128.670120239258
+			],
+			"source_node": "LightEnvironmentalFraming/pine_tiered_002"
+		},
+		{
+			"asset": "pine_tiered",
+			"position": [
+				-36.0186653137207,
+				0.0,
+				139.109909057617
+			],
+			"source_node": "LightEnvironmentalFraming/pine_tiered_005"
+		},
+		{
+			"asset": "pine_tiered",
+			"position": [
+				5.38853025436401,
+				0.0,
+				116.589851379395
+			],
+			"source_node": "LightEnvironmentalFraming/pine_tiered_015"
+		},
+		{
+			"asset": "pine_tiered",
+			"position": [
+				-35.7946701049805,
+				0.0,
+				153.850189208984
+			],
+			"source_node": "LightEnvironmentalFraming/pine_tiered_017"
+		},
+		{
+			"asset": "pine_tiered",
+			"position": [
+				-28.3831615447998,
+				2.90622854232788,
+				104.435600280762
+			],
+			"source_node": "LightEnvironmentalFraming/pine_tiered_020"
+		},
+		{
+			"asset": "pine_tiered",
+			"position": [
+				-1.15976345539093,
+				0.0,
+				144.912963867188
+			],
+			"source_node": "LightEnvironmentalFraming/pine_tiered_023"
+		},
+		{
+			"asset": "pine_tiered",
+			"position": [
+				-22.719409942627,
+				0.0,
+				119.940101623535
+			],
+			"source_node": "LightEnvironmentalFraming/pine_tiered_027"
+		},
+		{
+			"asset": "pine_tiered",
+			"position": [
+				-26.4741802215576,
+				0.0,
+				147.113632202148
+			],
+			"source_node": "LightEnvironmentalFraming/pine_tiered_028"
+		},
+		{
+			"asset": "pine_tiered",
+			"position": [
+				-29.4299831390381,
+				0.0,
+				128.191619873047
+			],
+			"source_node": "LightEnvironmentalFraming/pine_tiered_029"
+		},
+		{
+			"asset": "pine_tiered",
+			"position": [
+				18.1032485961914,
+				0.0,
+				121.365715026855
+			],
+			"source_node": "LightEnvironmentalFraming/pine_tiered_038"
+		},
+		{
+			"asset": "pine_tiered",
+			"position": [
+				-30.4170913696289,
+				0.0,
+				156.627349853516
+			],
+			"source_node": "LightEnvironmentalFraming/pine_tiered_043"
+		},
+		{
+			"asset": "pine_tiered",
+			"position": [
+				-35.9569396972656,
+				0.0,
+				122.466430664063
+			],
+			"source_node": "LightEnvironmentalFraming/pine_tiered_046"
+		},
+		{
+			"asset": "pine_tiered",
+			"position": [
+				33.5641479492188,
+				0.0,
+				139.536743164063
+			],
+			"source_node": "LightEnvironmentalFraming/pine_tiered_047"
+		},
+		{
+			"asset": "pine_tiered",
+			"position": [
+				21.3949298858643,
+				2.5893383026123,
+				105.829376220703
+			],
+			"source_node": "LightEnvironmentalFraming/pine_tiered_048"
+		},
+		{
+			"asset": "pine_tiered",
+			"position": [
+				-21.3375377655029,
+				0.0,
+				154.622375488281
+			],
+			"source_node": "LightEnvironmentalFraming/pine_tiered_056"
+		},
+		{
+			"asset": "pine_windswept",
+			"position": [
+				-29.0,
+				4.0,
+				85.0
+			],
+			"source_node": "LightEnvironmentalFraming/pine_windswept_006"
+		},
+		{
+			"asset": "pine_windswept",
+			"position": [
+				30.0,
+				4.0,
+				87.0
+			],
+			"source_node": "LightEnvironmentalFraming/pine_windswept_010"
+		},
+		{
+			"asset": "pine_tiered",
+			"position": [
+				-138.0,
+				14.0,
+				-49.0
+			],
+			"source_node": "LightEnvironmentalFraming/pine_tiered_003"
+		},
+		{
+			"asset": "pine_windswept",
+			"position": [
+				46.0,
+				24.0,
+				-111.0
+			],
+			"source_node": "LightEnvironmentalFraming/pine_windswept_011"
+		},
+		{
+			"asset": "pine_tiered",
+			"position": [
+				-69.0,
+				27.6400089263916,
+				-140.0
+			],
+			"source_node": "LightEnvironmentalFraming/pine_tiered_004"
+		},
+		{
+			"asset": "pine_tiered",
+			"position": [
+				142.0,
+				9.4930248260498,
+				-60.0
+			],
+			"source_node": "LightEnvironmentalFraming/pine_tiered_006"
+		},
+		{
+			"asset": "stone_lantern",
+			"position": [
+				-8.0,
+				3.30045461654663,
+				97.0
+			],
+			"source_node": "LightEnvironmentalFraming/stone_lantern_001"
+		},
+		{
+			"asset": "stone_lantern",
+			"position": [
+				8.0,
+				3.30045461654663,
+				97.0
+			],
+			"source_node": "LightEnvironmentalFraming/stone_lantern_002"
+		},
+		{
+			"asset": "stone_lantern",
+			"position": [
+				-8.0,
+				8.03499984741211,
+				58.0
+			],
+			"source_node": "LightEnvironmentalFraming/stone_lantern_003"
+		},
+		{
+			"asset": "stone_lantern",
+			"position": [
+				8.0,
+				8.03499984741211,
+				58.0
+			],
+			"source_node": "LightEnvironmentalFraming/stone_lantern_004"
+		},
+		{
+			"asset": "stone_lantern",
+			"position": [
+				-16.0,
+				25.1417427062988,
+				-65.0
+			],
+			"source_node": "ValleyPolish/StoneLantern"
+		},
+		{
+			"asset": "stone_lantern",
+			"position": [
+				40.0,
+				24.0,
+				-65.0
+			],
+			"source_node": "ValleyPolish/@Node3D@4"
+		},
+		{
+			"asset": "sect_banner",
+			"position": [
+				-18.0,
+				4.0,
+				94.0
+			],
+			"source_node": "LightEnvironmentalFraming/sect_banner_001"
+		},
+		{
+			"asset": "sect_banner",
+			"position": [
+				18.0,
+				4.0,
+				94.0
+			],
+			"source_node": "LightEnvironmentalFraming/sect_banner_002"
+		},
+		{
+			"asset": "stone_bench",
+			"position": [
+				139.0,
+				9.94746398925781,
+				-46.0
+			],
+			"source_node": "LightEnvironmentalFraming/stone_bench_001"
+		},
+		{
+			"asset": "stone_bench",
+			"position": [
+				-18.0,
+				24.8049983978271,
+				-57.0
+			],
+			"source_node": "LightEnvironmentalFraming/stone_bench_002"
+		},
+		{
+			"asset": "training_dummy_rack",
+			"position": [
+				-126.0,
+				14.0,
+				17.0
+			],
+			"source_node": "LightEnvironmentalFraming/training_dummy_rack_001"
+		},
+		{
+			"asset": "bamboo_cluster",
+			"position": [
+				134.0,
+				10.0,
+				-59.0
+			],
+			"source_node": "LightEnvironmentalFraming/bamboo_cluster_001"
+		},
+		{
+			"asset": "bamboo_cluster",
+			"position": [
+				138.0,
+				10.0,
+				-57.0
+			],
+			"source_node": "LightEnvironmentalFraming/bamboo_cluster_002"
+		},
+		{
+			"asset": "bamboo_cluster",
+			"position": [
+				141.0,
+				10.0,
+				-55.0
+			],
+			"source_node": "LightEnvironmentalFraming/bamboo_cluster_003"
+		},
+		{
+			"asset": "flowering_shrub",
+			"position": [
+				68.0,
+				10.0,
+				23.0
+			],
+			"source_node": "LightEnvironmentalFraming/flowering_shrub_001"
+		},
+		{
+			"asset": "flowering_shrub",
+			"position": [
+				73.0,
+				9.99779605865479,
+				21.0
+			],
+			"source_node": "LightEnvironmentalFraming/flowering_shrub_002"
+		},
+		{
+			"asset": "flowering_shrub",
+			"position": [
+				-42.0,
+				9.98499965667725,
+				55.0
+			],
+			"source_node": "LightEnvironmentalFraming/flowering_shrub_003"
+		},
+		{
+			"asset": "grass_tuft",
+			"position": [
+				-30.0,
+				0.0,
+				115.0
+			],
+			"source_node": "LightEnvironmentalFraming/grass_tuft_001"
+		},
+		{
+			"asset": "grass_tuft",
+			"position": [
+				28.0,
+				0.0,
+				128.0
+			],
+			"source_node": "LightEnvironmentalFraming/grass_tuft_002"
+		},
+		{
+			"asset": "grass_tuft",
+			"position": [
+				24.0,
+				0.0,
+				125.0
+			],
+			"source_node": "LightEnvironmentalFraming/grass_tuft_003"
+		},
+		{
+			"asset": "grass_tuft",
+			"position": [
+				-31.0,
+				0.0,
+				117.0
+			],
+			"source_node": "LightEnvironmentalFraming/grass_tuft_004"
+		},
+		{
+			"asset": "grass_tuft",
+			"position": [
+				26.0,
+				0.0,
+				127.0
+			],
+			"source_node": "LightEnvironmentalFraming/grass_tuft_005"
+		},
+		{
+			"asset": "rock_cluster",
+			"position": [
+				-34.0,
+				0.0,
+				119.0
+			],
+			"source_node": "LightEnvironmentalFraming/rock_cluster_001"
+		},
+		{
+			"asset": "rock_cluster",
+			"position": [
+				31.0,
+				1.12913608551025,
+				111.0
+			],
+			"source_node": "LightEnvironmentalFraming/rock_cluster_002"
+		},
+		{
+			"asset": "rock_cluster",
+			"position": [
+				83.0,
+				8.70676803588867,
+				-34.0
+			],
+			"source_node": "LightEnvironmentalFraming/rock_cluster_003"
+		},
+		{
+			"asset": "rock_cluster",
+			"position": [
+				90.0,
+				9.24486255645752,
+				-45.0
+			],
+			"source_node": "LightEnvironmentalFraming/rock_cluster_004"
+		},
+		{
+			"asset": "rock_cluster",
+			"position": [
+				99.0,
+				8.93666648864746,
+				-42.0
+			],
+			"source_node": "LightEnvironmentalFraming/rock_cluster_005"
+		},
+		{
+			"asset": "rock_outcrop",
+			"position": [
+				-43.0,
+				0.0,
+				127.0
+			],
+			"source_node": "LightEnvironmentalFraming/rock_outcrop_001"
+		},
+		{
+			"asset": "rock_outcrop",
+			"position": [
+				148.0,
+				8.76450443267822,
+				-62.0
+			],
+			"source_node": "LightEnvironmentalFraming/rock_outcrop_002"
+		}
+	],
+	"save_error": 0,
+	"terrain_triangles": 73920
+}

@@ -1,0 +1,54 @@
+{
+  "checks": [
+    {
+      "check": "Metric scale",
+      "pass": true
+    },
+    {
+      "check": "All GLB representation/prop collections present",
+      "pass": true
+    },
+    {
+      "check": "No texture nodes on used materials",
+      "pass": true
+    },
+    {
+      "check": "Editable polygon meshes, all flat shaded",
+      "pass": true
+    },
+    {
+      "check": "No modifiers/cameras/lights in source",
+      "pass": true
+    }
+  ],
+  "passed": 5,
+  "failed": 0,
+  "mesh_batches": 49,
+  "used_materials": [
+    "SplitCloud_Bronze",
+    "SplitCloud_Cedar",
+    "SplitCloud_Coping",
+    "SplitCloud_CourtStone",
+    "SplitCloud_Earth",
+    "SplitCloud_Fabric",
+    "SplitCloud_Floor",
+    "SplitCloud_Jade",
+    "SplitCloud_Plaster",
+    "SplitCloud_Stone",
+    "SplitCloud_TileLight",
+    "SplitCloud_Timber",
+    "SplitCloud_Window"
+  ],
+  "collections": [
+    "arm_dummy",
+    "martial_training_ground",
+    "martial_training_ground_lod",
+    "rest_bench",
+    "staff_rack",
+    "stone_weight",
+    "striking_post",
+    "sword_rack",
+    "thrust_target"
+  ],
+  "mutated": false
+}

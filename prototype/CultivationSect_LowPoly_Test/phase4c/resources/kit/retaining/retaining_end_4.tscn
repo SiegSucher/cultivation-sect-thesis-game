@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://phase4c/resources/kit/retaining/retaining_end_4_model.scn" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="Shape_000"]
+size = Vector3(0.72, 4, 0.72)
+
+[node name="RetainingEnd4" type="Node3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="Collision" type="StaticBody3D" parent="." groups=["solid_world"]]
+collision_mask = 2
+
+[node name="RetainingEnd_000" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2, -0.3)
+shape = SubResource("Shape_000")

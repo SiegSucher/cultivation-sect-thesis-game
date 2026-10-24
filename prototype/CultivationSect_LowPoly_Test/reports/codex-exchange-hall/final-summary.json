@@ -1,0 +1,141 @@
+{
+  "asset": "exchange_hall",
+  "created": true,
+  "imported": true,
+  "independently_reviewed": true,
+  "integrated": true,
+  "catalog_entries": 10,
+  "collision_shapes": 73,
+  "tests": {
+    "Staged Exchange: fresh rerun of Claude verifier": {
+      "passed": 43,
+      "failed": 0
+    },
+    "Canonical Exchange: rerun after documented collision correction": {
+      "passed": 43,
+      "failed": 0
+    },
+    "Independent first/third-person routes, collision and camera": {
+      "passed": 70,
+      "failed": 0
+    },
+    "Independent rendered routes and screenshots": {
+      "passed": 78,
+      "failed": 0
+    },
+    "Ten-entry gallery and actual programmatic inputs": {
+      "passed": 27,
+      "failed": 0
+    },
+    "Read-only Exchange Blender source reopening": {
+      "passed": 5,
+      "failed": 0
+    },
+    "Existing batch 2: fresh basic checks on staged assets": {
+      "passed": 21,
+      "failed": 0
+    }
+  },
+  "preservation": {
+    "original_files_unchanged": 1599,
+    "recorded_original_baseline_matches": true,
+    "preexisting_test_files": 4808,
+    "existing_changes": [
+      "HANDOFF.md",
+      "reports/CODEX_REPORT.md",
+      "reports/LOW_POLY_CONVERSION_INVENTORY.md",
+      "assets/gallery/catalog.json"
+    ],
+    "all_staging_files_unchanged": 61,
+    "exchange_staging_files_unchanged": 13,
+    "staging_file_set_unchanged": true,
+    "mission_payload_unchanged": [
+      "assets/architecture/mission_hall/mission_hall.glb",
+      "assets/architecture/mission_hall/mission_hall.glb.import",
+      "scenes/buildings/mission_hall.tscn",
+      "scenes/review/mission_hall_walkthrough.tscn",
+      "scripts/mission_hall_review.gd",
+      "source/claude_mission_hall_integrated.blend"
+    ],
+    "model_and_source_byte_identical": true,
+    "all_69_original_shapes_preserved": true,
+    "canonical_correction": "4 static storeroom leaf boxes; 73 total shapes",
+    "previous_nine_catalog_entries_unchanged": true,
+    "stage_uid": "uid://cmp565x80dyrx",
+    "canonical_uid": "uid://b63r6b8lbhi4e",
+    "alchemy_and_medicine_staged_only_no_duplicates": true
+  },
+  "uid_investigation": {
+    "staging/claude_mission_hall/review/mission_hall_review.gd.uid": {
+      "exists": false,
+      "after_import_exists": true,
+      "uid": "uid://bkmpjk4vpsfub",
+      "script_sha256_unchanged": true,
+      "serialized_source_references_to_uid": [],
+      "final_action": "Remove newly generated staging-only metadata to restore frozen delivery file set",
+      "final_exists": false
+    },
+    "tools/test_mission_gallery.gd.uid": {
+      "exists": false,
+      "after_import_exists": true,
+      "uid": "uid://ddnfu3h52332u",
+      "script_sha256_unchanged": true,
+      "serialized_source_references_to_uid": [],
+      "final_action": "Retain normal generated test-script ID sidecar",
+      "final_exists": true
+    },
+    "tools/verify_mission_integration.gd.uid": {
+      "exists": false,
+      "after_import_exists": true,
+      "uid": "uid://b4sj3soie52qs",
+      "script_sha256_unchanged": true,
+      "serialized_source_references_to_uid": [],
+      "final_action": "Retain normal generated test-script ID sidecar",
+      "final_exists": true
+    }
+  },
+  "screenshots": [
+    "fpp-aisle-and-counter.png",
+    "fpp-east-storeroom.png",
+    "fpp-reward-racks-staff-lane.png",
+    "fpp-west-storeroom.png",
+    "gallery-exchange-exterior.png",
+    "gallery-exchange-interior.png",
+    "input-third-person-approach.png",
+    "integrated-captures/exchange_hall-caisson-ceiling.png",
+    "integrated-captures/exchange_hall-counter-abacus.png",
+    "integrated-captures/exchange_hall-east-storeroom.png",
+    "integrated-captures/exchange_hall-east-veranda.png",
+    "integrated-captures/exchange_hall-first-person-interior.png",
+    "integrated-captures/exchange_hall-front.png",
+    "integrated-captures/exchange_hall-rear.png",
+    "integrated-captures/exchange_hall-reward-racks-and-list.png",
+    "integrated-captures/exchange_hall-side.png",
+    "integrated-captures/exchange_hall-third-person-approach.png",
+    "integrated-captures/exchange_hall-third-person-interior.png",
+    "integrated-captures/exchange_hall-three-quarter.png",
+    "integrated-captures/exchange_hall-west-storeroom.png",
+    "staged-captures/exchange_hall-caisson-ceiling.png",
+    "staged-captures/exchange_hall-counter-abacus.png",
+    "staged-captures/exchange_hall-east-storeroom.png",
+    "staged-captures/exchange_hall-east-veranda.png",
+    "staged-captures/exchange_hall-first-person-interior.png",
+    "staged-captures/exchange_hall-front.png",
+    "staged-captures/exchange_hall-rear.png",
+    "staged-captures/exchange_hall-reward-racks-and-list.png",
+    "staged-captures/exchange_hall-side.png",
+    "staged-captures/exchange_hall-third-person-approach.png",
+    "staged-captures/exchange_hall-third-person-interior.png",
+    "staged-captures/exchange_hall-three-quarter.png",
+    "staged-captures/exchange_hall-west-storeroom.png",
+    "tpp-aisle-and-counter.png",
+    "tpp-east-storeroom.png",
+    "tpp-reward-racks-staff-lane.png",
+    "tpp-west-storeroom.png"
+  ],
+  "human_playtested": false,
+  "performance_tested": false,
+  "town_placement_verified": false,
+  "remaining_assets": "Existing Alchemy/Medicine staging; basic checks only, no duplicates or integration",
+  "next_action": "Manual Exchange review/acceptance; then authorized broader review of existing batch 2; no final layout"
+}

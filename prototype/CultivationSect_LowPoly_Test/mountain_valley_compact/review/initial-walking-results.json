@@ -1,0 +1,443 @@
+{
+	"checks": [
+		{
+			"check": "Compact scene launches",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walking speed remains 4 m/s",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "All twelve full-size building instances",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Medicine camera exception retained",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Tab first person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Tab third person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Ground supports measured envelope: sect_gate",
+			"detail": [
+				-0.00645780563354492,
+				-0.00645780563354492
+			],
+			"pass": false
+		},
+		{
+			"check": "Ground supports measured envelope: mission_hall",
+			"detail": [
+				-0.0150003433227539,
+				-0.0130128860473633,
+				-0.0169878005981445,
+				-0.0150003433227539
+			],
+			"pass": true
+		},
+		{
+			"check": "Ground supports measured envelope: exchange_hall",
+			"detail": [
+				-0.00637245178222656,
+				-0.0117893218994141,
+				-0.0138731002807617,
+				-0.00637245178222656
+			],
+			"pass": true
+		},
+		{
+			"check": "Ground supports measured envelope: disciple_residence",
+			"detail": [
+				-0.0150003433227539,
+				-0.0150003433227539,
+				-0.0145778656005859,
+				-0.0145778656005859
+			],
+			"pass": true
+		},
+		{
+			"check": "Ground supports measured envelope: dining_hall_kitchen",
+			"detail": [
+				-0.0163507461547852,
+				-0.0163507461547852,
+				-0.0400447845458984,
+				-0.0563755035400391
+			],
+			"pass": true
+		},
+		{
+			"check": "Ground supports measured envelope: martial_training_ground",
+			"detail": [
+				-0.0112504959106445,
+				0.702558517456055,
+				-0.0135402679443359,
+				-0.0142498016357422
+			],
+			"pass": false
+		},
+		{
+			"check": "Ground supports measured envelope: main_sect_hall",
+			"detail": [
+				0.305177688598633,
+				-0.00439071655273438,
+				-0.0118904113769531,
+				0.206489562988281
+			],
+			"pass": false
+		},
+		{
+			"check": "Ground supports measured envelope: scripture_pavilion",
+			"detail": [
+				-0.00706291198730469,
+				-0.00706291198730469,
+				-0.0206241607666016,
+				-0.0131244659423828
+			],
+			"pass": true
+		},
+		{
+			"check": "Ground supports measured envelope: elder_residence",
+			"detail": [
+				-0.0137996673583984,
+				-0.00629997253417969,
+				-0.0311603546142578,
+				-0.0137996673583984
+			],
+			"pass": true
+		},
+		{
+			"check": "Ground supports measured envelope: alchemy_pavilion",
+			"detail": [
+				-0.0149993896484375,
+				-0.00918960571289063,
+				-1.06365585327148,
+				-0.0149993896484375
+			],
+			"pass": false
+		},
+		{
+			"check": "Ground supports measured envelope: medicine_hall",
+			"detail": [
+				-0.0150003433227539,
+				-0.0150003433227539,
+				-0.0150003433227539,
+				-0.0150003433227539
+			],
+			"pass": true
+		},
+		{
+			"check": "Ground supports measured envelope: spirit_herb_garden",
+			"detail": [
+				-0.0150003433227539,
+				-0.0110225677490234,
+				-0.0136451721191406,
+				-0.00782299041748047
+			],
+			"pass": true
+		},
+		{
+			"check": "Connection forest",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection entry_stairs",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection arrival",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection middle_stairs",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection living",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection cloud",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection grand",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection hall",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Continuous forest-to-Hall route FPP",
+			"detail": {
+				"camera": "FPP",
+				"pass": true,
+				"simulation_seconds": 64.7833333333333,
+				"walked_metres": 242.805956603959
+			},
+			"pass": true
+		},
+		{
+			"check": "Connection forest",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection entry_stairs",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection arrival",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection middle_stairs",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection living",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection cloud",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection grand",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection hall",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Continuous forest-to-Hall route TPP",
+			"detail": {
+				"camera": "TPP",
+				"pass": true,
+				"simulation_seconds": 64.8,
+				"walked_metres": 242.806076360866
+			},
+			"pass": true
+		},
+		{
+			"check": "Connection scholar",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection library",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection library reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection elder",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection elder reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection scholar reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection grand reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection alchemy",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection alchemy reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection cloud reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection mission",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection mission reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection residence",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection residence reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection exchange",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection exchange reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection dining",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection dining reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection garden",
+			"detail": null,
+			"pass": false
+		},
+		{
+			"check": "Connection garden reverse",
+			"detail": null,
+			"pass": false
+		},
+		{
+			"check": "Medicine exterior reached",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection overlook",
+			"detail": null,
+			"pass": false
+		},
+		{
+			"check": "Connection overlook reverse",
+			"detail": null,
+			"pass": false
+		},
+		{
+			"check": "Connection training_link",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection training_entry",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection training_entry reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Connection training_link reverse",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Stair downhill entry_stairs side -3.84",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Stair downhill entry_stairs side 3.84",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Stair downhill middle_stairs side -3.84",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Stair downhill middle_stairs side 3.84",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Stair downhill grand side -5.12",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Stair downhill grand side 5.12",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Map opens",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Map resumes walking",
+			"detail": null,
+			"pass": true
+		}
+	],
+	"failures": 8,
+	"main_route_runs": [
+		{
+			"camera": "FPP",
+			"pass": true,
+			"simulation_seconds": 64.7833333333333,
+			"walked_metres": 242.805956603959
+		},
+		{
+			"camera": "TPP",
+			"pass": true,
+			"simulation_seconds": 64.8,
+			"walked_metres": 242.806076360866
+		}
+	],
+	"passes": 63
+}

@@ -1,0 +1,14 @@
+[
+  {"id":"sect_gate","anchor":[0,0,14],"foot":[0,0,6.7],"porch":[0,0.6,2],"apron":null},
+  {"id":"mission_hall","anchor":[0,0,15],"foot":[0,0,12.2],"porch":[0,0.75,9.4],"inside":[0,0.75,2.8],"apron":{"outer":15,"inner":11.6,"width_outer":6,"width_inner":6,"style":"stone"}},
+  {"id":"exchange_hall","anchor":[0,0,12],"foot":[0,0,10.4],"porch":[0,0.6,7.8],"inside":[0,0.6,2],"apron":{"outer":12,"inner":9.8,"width_outer":6,"width_inner":6,"style":"stone"}},
+  {"id":"disciple_residence","anchor":[0,0,8],"foot":[0,0,6.4],"porch":[0,0.5,4.2],"doorway":[2.2,0.5,3.0],"inside":[2.2,0.5,0],"apron":{"outer":8,"inner":5.76,"width_outer":6,"width_inner":5.8,"style":"stone"}},
+  {"id":"dining_hall_kitchen","anchor":[0,0,11],"foot":[0,0,8.7],"porch":[0,0.6,6],"inside":[0,0.6,1.5],"apron":{"outer":11,"inner":8.1,"width_outer":6,"width_inner":6,"style":"stone"}},
+  {"id":"martial_training_ground","anchor":[0,0,34],"foot":[0,0,29.8],"porch":[0,0.31,26],"apron":{"outer":32,"inner":29.2,"width_outer":12,"width_inner":12,"style":"stone"}},
+  {"id":"main_sect_hall","anchor":[0,0,24],"foot":[0,0,18.7],"porch":[0,1.52,13],"inside":[0,1.53,4.5],"apron":null},
+  {"id":"scripture_pavilion","anchor":[0,0,16],"foot":[0,0,13.1],"porch":[0,1.05,9],"apron":{"outer":15,"inner":12.3,"width_outer":5,"width_inner":4.8,"style":"stone"}},
+  {"id":"elder_residence","anchor":[0,0,15],"foot":[0,0,12.2],"porch":[0,0.2,9.5],"apron":{"outer":15,"inner":11.58,"width_outer":6,"width_inner":3,"style":"stone"}},
+  {"id":"alchemy_pavilion","anchor":[0,0,13],"foot":[0,0,9.4],"porch":[0,0.9,6.5],"inside":[0,0.9,4.2],"apron":{"outer":13,"inner":8.76,"width_outer":4.8,"width_inner":3.4,"style":"stone"}},
+  {"id":"medicine_hall","anchor":[0,0,12],"foot":[0,0,7.6],"porch":[0,0.45,5.3],"inside":[-1,0.45,3.6],"apron":{"outer":8,"inner":7,"width_outer":6,"width_inner":6,"style":"stone"}},
+  {"id":"spirit_herb_garden","anchor":[0,0,18],"foot":[0,0,13.5],"porch":[0,0.08,10.8],"apron":{"outer":18,"inner":12.3,"width_outer":7,"width_inner":2.6,"style":"earth"}}
+]

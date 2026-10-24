@@ -1,0 +1,285 @@
+{
+	"adapter": "NVIDIA GeForce RTX 3050 Laptop GPU",
+	"application_name": "Split-Cloud Hall - Low-Poly Test",
+	"captures": [
+		{
+			"file": "res://reports/screenshots/baseline-front.png",
+			"fov": 58.0,
+			"position": "(0.0, 13.0, 45.0)",
+			"target": "(0.0, 8.0, 2.0)"
+		},
+		{
+			"file": "res://reports/screenshots/baseline-three-quarter.png",
+			"fov": 58.0,
+			"position": "(33.0, 23.0, 41.0)",
+			"target": "(0.0, 8.0, 2.0)"
+		},
+		{
+			"file": "res://reports/screenshots/baseline-roof-detail.png",
+			"fov": 56.0,
+			"position": "(18.0, 19.0, 24.0)",
+			"target": "(0.0, 11.0, 4.0)"
+		},
+		{
+			"file": "res://reports/screenshots/baseline-interior.png",
+			"fov": 82.0,
+			"position": "(0.0, 3.22, 5.9)",
+			"target": "(0.0, 4.8, -7.0)"
+		}
+	],
+	"checks": [
+		{
+			"check": "Identity transform and origin",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "All three doors loaded",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Inside existing envelope",
+			"detail": {
+				"bounds": "[P: (-20.84177, 0.0, -12.0), S: (41.68354, 18.31, 30.18)]",
+				"bounds_max": [
+					20.8417720794678,
+					18.3099994659424,
+					18.1800003051758
+				],
+				"bounds_min": [
+					-20.8417720794678,
+					0.0,
+					-12.0
+				],
+				"near_static_surfaces": 15,
+				"near_static_triangles": 203064
+			},
+			"pass": true
+		},
+		{
+			"check": "Screenshot front",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Screenshot three-quarter",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Screenshot roof-detail",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Screenshot interior",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Main stair, door and central aisle",
+			"detail": {
+				"actual": "(0.0, 1.530838, -2.163718)",
+				"floor": true,
+				"physics_frames": 404,
+				"target": "(0.0, 1.55, -2.3)"
+			},
+			"pass": true
+		},
+		{
+			"check": "Main stair, door and central aisle stable floor",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Dais stair climb",
+			"detail": {
+				"actual": "(0.0, 2.150829, -4.450355)",
+				"floor": true,
+				"physics_frames": 37,
+				"target": "(0.0, 2.15, -4.6)"
+			},
+			"pass": true
+		},
+		{
+			"check": "Dais stair climb stable floor",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Dais elevation",
+			"detail": 2.15082931518555,
+			"pass": true
+		},
+		{
+			"check": "West administration room",
+			"detail": {
+				"actual": "(-12.86667, 1.530838, -0.8)",
+				"floor": true,
+				"physics_frames": 193,
+				"target": "(-13.0, 1.56, -0.8)"
+			},
+			"pass": true
+		},
+		{
+			"check": "West administration room stable floor",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "East administration room",
+			"detail": {
+				"actual": "(12.86667, 1.530838, -0.8)",
+				"floor": true,
+				"physics_frames": 193,
+				"target": "(13.0, 1.56, -0.8)"
+			},
+			"pass": true
+		},
+		{
+			"check": "East administration room stable floor",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "First-person capture",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "First-person camera",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Third-person camera",
+			"detail": 4.25086641311646,
+			"pass": true
+		},
+		{
+			"check": "Third-person capture",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Closed entrance blocks movement",
+			"detail": 8.00000095367432,
+			"pass": true
+		}
+	],
+	"geometry": {
+		"bounds": "[P: (-20.84177, 0.0, -12.0), S: (41.68354, 18.31, 30.18)]",
+		"bounds_max": [
+			20.8417720794678,
+			18.3099994659424,
+			18.1800003051758
+		],
+		"bounds_min": [
+			-20.8417720794678,
+			0.0,
+			-12.0
+		],
+		"near_static_surfaces": 15,
+		"near_static_triangles": 203064
+	},
+	"godot": "4.7.2-stable (official)",
+	"limits": "Automated real inspection controller; no human playtest, production player, populated world, exported game or target low-end hardware.",
+	"measured_utc": "2026-10-22T05:54:16",
+	"msaa_setting": 2,
+	"project_root": "C:/Users/pasto/OneDrive/Documents/ChatGPT/Character Sprite Image for Thesis game/prototype/CultivationSect_LowPoly_Test/",
+	"renderer": "gl_compatibility",
+	"resolution": [
+		1280,
+		720
+	],
+	"samples": [
+		{
+			"average_fps": 293.396380955641,
+			"frames": 240,
+			"frames_over_33ms": 0,
+			"max_ms": 4.635,
+			"mean_draw_calls": 125.0,
+			"mean_ms": 3.40835833333333,
+			"mean_rendered_primitives": 605074.0,
+			"p50_ms": 3.554,
+			"p95_ms": 4.027,
+			"static_memory_bytes": 48829801.0,
+			"video_memory_bytes": 120096137.0,
+			"view": "front"
+		},
+		{
+			"average_fps": 297.051393604236,
+			"frames": 240,
+			"frames_over_33ms": 0,
+			"max_ms": 4.458,
+			"mean_draw_calls": 116.0,
+			"mean_ms": 3.36642083333333,
+			"mean_rendered_primitives": 603994.0,
+			"p50_ms": 3.528,
+			"p95_ms": 3.968,
+			"static_memory_bytes": 48834273.0,
+			"video_memory_bytes": 120096137.0,
+			"view": "three-quarter"
+		},
+		{
+			"average_fps": 291.616747549812,
+			"frames": 240,
+			"frames_over_33ms": 0,
+			"max_ms": 4.561,
+			"mean_draw_calls": 114.433333333333,
+			"mean_ms": 3.42915833333333,
+			"mean_rendered_primitives": 635044.116666667,
+			"p50_ms": 3.572,
+			"p95_ms": 3.981,
+			"static_memory_bytes": 48835445.0,
+			"video_memory_bytes": 120096137.0,
+			"view": "360-degree exterior sweep"
+		},
+		{
+			"average_fps": 188.839877946492,
+			"frames": 240,
+			"frames_over_33ms": 0,
+			"max_ms": 6.681,
+			"mean_draw_calls": 123.0,
+			"mean_ms": 5.29549166666667,
+			"mean_rendered_primitives": 991590.0,
+			"p50_ms": 5.446,
+			"p95_ms": 6.129,
+			"static_memory_bytes": 48839793.0,
+			"video_memory_bytes": 120096137.0,
+			"view": "interior"
+		},
+		{
+			"average_fps": 258.663614436016,
+			"frames": 240,
+			"frames_over_33ms": 0,
+			"max_ms": 5.194,
+			"mean_draw_calls": 104.0,
+			"mean_ms": 3.866025,
+			"mean_rendered_primitives": 988558.0,
+			"p50_ms": 3.727,
+			"p95_ms": 4.964,
+			"static_memory_bytes": 48856629.0,
+			"video_memory_bytes": 120096137.0,
+			"view": "first-person interior"
+		},
+		{
+			"average_fps": 256.124852328015,
+			"frames": 240,
+			"frames_over_33ms": 0,
+			"max_ms": 6.603,
+			"mean_draw_calls": 164.0,
+			"mean_ms": 3.90434583333334,
+			"mean_rendered_primitives": 1027146.0,
+			"p50_ms": 3.86,
+			"p95_ms": 5.052,
+			"static_memory_bytes": 48861649.0,
+			"video_memory_bytes": 120096137.0,
+			"view": "third-person interior"
+		}
+	],
+	"user_data_dir": "C:/Users/pasto/AppData/Roaming/Godot/app_userdata/Split-Cloud Hall - Low-Poly Test/",
+	"variant": "baseline",
+	"vsync": false
+}

@@ -1,0 +1,84 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 566.07 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3050 Laptop GPU
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+PASS identity root / metres <null>
+PASS 69 original plus 4 static-leaf collision shapes <null>
+PASS static leaf camera/body coverage EastStaticLeaf0 <null>
+PASS static leaf camera/body coverage EastStaticLeaf1 <null>
+PASS static leaf camera/body coverage WestStaticLeaf0 <null>
+PASS static leaf camera/body coverage WestStaticLeaf1 <null>
+PASS collision layers match unchanged player <null>
+PASS no asset lights/cameras/scripts <null>
+PASS authored architectural feature ExchangeCounter_022 <null>
+PASS authored architectural feature Shelving_025 <null>
+PASS authored architectural feature TreasurePlinth_031 <null>
+PASS authored architectural feature RewardList_009 <null>
+PASS authored architectural feature WindowFrame_008 <null>
+PASS authored architectural feature WingCeiling_040 <null>
+PASS FPP stair and terrace { "third": false, "target": "(0.0, 0.6, 7.0)", "actual": "(0.0, 0.600838, 7.117117)", "frames": 94 }
+PASS FPP main doorway { "third": false, "target": "(0.0, 0.6, 4.0)", "actual": "(0.0, 0.600838, 4.11712)", "frames": 45 }
+PASS FPP aisle and counter { "third": false, "target": "(0.0, 0.6, 0.0)", "actual": "(0.0, 0.600838, 0.117121)", "frames": 60 }
+PASS route capture fpp-aisle-and-counter <null>
+PASS FPP east customer lane { "third": false, "target": "(4.15, 0.6, 0.0)", "actual": "(4.06505, 0.600838, 0.002397)", "frames": 62 }
+PASS FPP east counter end { "third": false, "target": "(4.15, 0.6, -2.4)", "actual": "(4.147507, 0.600838, -2.329479)", "frames": 35 }
+PASS FPP east storeroom { "third": false, "target": "(9.8, 0.6, -2.4)", "actual": "(9.680413, 0.600838, -2.398508)", "frames": 83 }
+PASS route capture fpp-east-storeroom <null>
+PASS FPP east storeroom return { "third": false, "target": "(4.15, 0.6, -2.4)", "actual": "(4.213746, 0.600838, -2.399983)", "frames": 83 }
+PASS FPP staff east behind stools { "third": false, "target": "(4.15, 0.6, -3.1)", "actual": "(4.159333, 0.600838, -2.99751)", "frames": 9 }
+PASS FPP reward racks staff lane { "third": false, "target": "(-4.15, 0.6, -3.1)", "actual": "(-4.040057, 0.600838, -3.098643)", "frames": 123 }
+PASS route capture fpp-reward-racks-staff-lane <null>
+PASS FPP west side doorway { "third": false, "target": "(-4.15, 0.6, -2.4)", "actual": "(-4.133329, 0.600838, -2.505938)", "frames": 10 }
+PASS FPP west storeroom { "third": false, "target": "(-9.8, 0.6, -2.4)", "actual": "(-9.732361, 0.600838, -2.401265)", "frames": 84 }
+PASS route capture fpp-west-storeroom <null>
+PASS FPP west storeroom return { "third": false, "target": "(-4.15, 0.6, -2.4)", "actual": "(-4.265697, 0.600838, -2.400027)", "frames": 83 }
+PASS FPP west counter end { "third": false, "target": "(-4.15, 0.6, 0.0)", "actual": "(-4.153346, 0.600841, -0.0694)", "frames": 35 }
+PASS FPP central aisle return { "third": false, "target": "(0.0, 0.6, 0.0)", "actual": "(-0.087245, 0.600838, -0.001458)", "frames": 61 }
+PASS FPP main door exit { "third": false, "target": "(0.0, 0.6, 6.6)", "actual": "(-0.000908, 0.600838, 6.531301)", "frames": 98 }
+PASS FPP east veranda approach { "third": false, "target": "(8.6, 0.6, 6.6)", "actual": "(8.532161, 0.600838, 6.599459)", "frames": 128 }
+PASS FPP east veranda { "third": false, "target": "(8.6, 0.6, 3.9)", "actual": "(8.597482, 0.600838, 4.00027)", "frames": 39 }
+PASS FPP east veranda return { "third": false, "target": "(8.6, 0.6, 6.6)", "actual": "(8.599936, 0.600836, 6.533601)", "frames": 38 }
+PASS FPP west veranda approach { "third": false, "target": "(-8.6, 0.6, 6.6)", "actual": "(-8.533259, 0.600838, 6.599742)", "frames": 257 }
+PASS FPP west veranda { "third": false, "target": "(-8.6, 0.6, 3.9)", "actual": "(-8.597515, 0.600838, 4.000529)", "frames": 39 }
+PASS FPP west veranda return { "third": false, "target": "(-8.6, 0.6, 6.6)", "actual": "(-8.599936, 0.600836, 6.533861)", "frames": 38 }
+PASS FPP return to stair { "third": false, "target": "(0.0, 0.6, 6.6)", "actual": "(-0.066857, 0.600838, 6.599485)", "frames": 128 }
+PASS FPP descend to ground { "third": false, "target": "(0.0, 0.03, 13.0)", "actual": "(-0.000687, -0.011157, 12.93419)", "frames": 95 }
+PASS FPP counter blocks (0.0, 0.600193, -0.415844)
+PASS FPP front reward board blocks (3.85, 0.600609, 5.591547)
+PASS FPP east veranda wall blocks (8.6, 0.600089, 3.430937)
+PASS FPP west veranda wall blocks (-8.6, 0.600089, 3.430934)
+PASS TPP stair and terrace { "third": true, "target": "(0.0, 0.6, 7.0)", "actual": "(0.0, 0.600838, 7.117088)", "frames": 94 }
+PASS TPP main doorway { "third": true, "target": "(0.0, 0.6, 4.0)", "actual": "(0.0, 0.600838, 4.117091)", "frames": 45 }
+PASS TPP aisle and counter { "third": true, "target": "(0.0, 0.6, 0.0)", "actual": "(0.0, 0.600838, 0.117092)", "frames": 60 }
+PASS route capture tpp-aisle-and-counter <null>
+PASS TPP east customer lane { "third": true, "target": "(4.15, 0.6, 0.0)", "actual": "(4.065051, 0.600838, 0.002397)", "frames": 62 }
+PASS TPP east counter end { "third": true, "target": "(4.15, 0.6, -2.4)", "actual": "(4.147507, 0.600838, -2.32948)", "frames": 35 }
+PASS TPP east storeroom { "third": true, "target": "(9.8, 0.6, -2.4)", "actual": "(9.680413, 0.600838, -2.398508)", "frames": 83 }
+PASS route capture tpp-east-storeroom <null>
+PASS TPP east storeroom return { "third": true, "target": "(4.15, 0.6, -2.4)", "actual": "(4.213746, 0.600838, -2.399983)", "frames": 83 }
+PASS TPP staff east behind stools { "third": true, "target": "(4.15, 0.6, -3.1)", "actual": "(4.159333, 0.600838, -2.99751)", "frames": 9 }
+PASS TPP reward racks staff lane { "third": true, "target": "(-4.15, 0.6, -3.1)", "actual": "(-4.040057, 0.600838, -3.098643)", "frames": 123 }
+PASS route capture tpp-reward-racks-staff-lane <null>
+PASS TPP west side doorway { "third": true, "target": "(-4.15, 0.6, -2.4)", "actual": "(-4.133329, 0.600838, -2.505938)", "frames": 10 }
+PASS TPP west storeroom { "third": true, "target": "(-9.8, 0.6, -2.4)", "actual": "(-9.732361, 0.600838, -2.401265)", "frames": 84 }
+PASS route capture tpp-west-storeroom <null>
+PASS TPP west storeroom return { "third": true, "target": "(-4.15, 0.6, -2.4)", "actual": "(-4.265697, 0.600838, -2.400027)", "frames": 83 }
+PASS TPP west counter end { "third": true, "target": "(-4.15, 0.6, 0.0)", "actual": "(-4.153346, 0.600841, -0.0694)", "frames": 35 }
+PASS TPP central aisle return { "third": true, "target": "(0.0, 0.6, 0.0)", "actual": "(-0.087245, 0.600838, -0.001458)", "frames": 61 }
+PASS TPP main door exit { "third": true, "target": "(0.0, 0.6, 6.6)", "actual": "(-0.000908, 0.600838, 6.531301)", "frames": 98 }
+PASS TPP east veranda approach { "third": true, "target": "(8.6, 0.6, 6.6)", "actual": "(8.532161, 0.600838, 6.599459)", "frames": 128 }
+PASS TPP east veranda { "third": true, "target": "(8.6, 0.6, 3.9)", "actual": "(8.597482, 0.600838, 4.00027)", "frames": 39 }
+PASS TPP east veranda return { "third": true, "target": "(8.6, 0.6, 6.6)", "actual": "(8.599936, 0.600836, 6.533601)", "frames": 38 }
+PASS TPP west veranda approach { "third": true, "target": "(-8.6, 0.6, 6.6)", "actual": "(-8.533259, 0.600838, 6.599742)", "frames": 257 }
+PASS TPP west veranda { "third": true, "target": "(-8.6, 0.6, 3.9)", "actual": "(-8.597515, 0.600838, 4.000529)", "frames": 39 }
+PASS TPP west veranda return { "third": true, "target": "(-8.6, 0.6, 6.6)", "actual": "(-8.599936, 0.600836, 6.533861)", "frames": 38 }
+PASS TPP return to stair { "third": true, "target": "(0.0, 0.6, 6.6)", "actual": "(-0.066857, 0.600838, 6.599485)", "frames": 128 }
+PASS TPP descend to ground { "third": true, "target": "(0.0, 0.03, 13.0)", "actual": "(-0.000687, -0.011157, 12.93419)", "frames": 95 }
+PASS TPP counter blocks (0.0, 0.600083, -0.415844)
+PASS TPP front reward board blocks (3.85, 0.600609, 5.591547)
+PASS TPP east veranda wall blocks (8.6, 0.600089, 3.430937)
+PASS TPP west veranda wall blocks (-8.6, 0.600089, 3.430934)
+PASS sampled upper body clears visible geometry []
+PASS sampled FPP/TPP camera clears solids and visible meshes []
+78 PASS / 0 FAIL; sampled 556

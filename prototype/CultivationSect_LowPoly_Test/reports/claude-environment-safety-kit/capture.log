@@ -1,0 +1,27 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 566.07 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3050 Laptop GPU
+
+[godot_ai game_helper] registered mcp capture (debugger active=false, logger=true)
+captured overview
+captured wall_assembly
+captured wall_gate_abutment
+captured wall_corner_and_end
+captured stair_22_side
+captured stair_22_front
+captured stair_top_join
+captured stair_foot_join
+captured stair_24_side
+captured platform_rails
+captured platform_corner
+captured retaining_4m_corner
+captured edging_bed
+captured direction_sign
+captured lineup_walls
+captured lineup_railings
+captured lineup_retaining
+captured lineup_edging_sign
+captured fpp-stair-lane
+captured tpp-stair-lane
+captured tpp-beside-wall
+captured fpp-platform-rail
+captured tpp-platform-rail

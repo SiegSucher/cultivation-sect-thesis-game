@@ -1,0 +1,115 @@
+{
+  "asset": "mission_hall",
+  "created": true,
+  "imported": true,
+  "independently_tested": true,
+  "integrated": true,
+  "human_playtested": false,
+  "performance_tested": false,
+  "final_terrain_placement_verified": false,
+  "tests": {
+    "Claude checks rerun on staged scene": {
+      "passed": 25,
+      "failed": 0
+    },
+    "Claude checks rerun on canonical scene": {
+      "passed": 25,
+      "failed": 0
+    },
+    "Independent headless traversal/collision/camera suite": {
+      "passed": 50,
+      "failed": 0
+    },
+    "Independent rendered traversal/collision/camera suite": {
+      "passed": 56,
+      "failed": 0
+    },
+    "Gallery loading and programmatic key/mouse inputs": {
+      "passed": 26,
+      "failed": 0
+    },
+    "Read-only Blender source reopening": {
+      "passed": 5,
+      "failed": 0
+    }
+  },
+  "preservation": {
+    "original_files_unchanged": 1599,
+    "preexisting_test_files": 4707,
+    "all_staging_files_unchanged": 48,
+    "existing_file_changes": [
+      "HANDOFF.md",
+      "reports/CODEX_REPORT.md",
+      "reports/LOW_POLY_CONVERSION_INVENTORY.md",
+      "assets/gallery/catalog.json"
+    ],
+    "model_and_source_byte_identical": true,
+    "scene_only_glb_path_changed": true,
+    "previous_eight_catalog_entries_unchanged": true,
+    "staged_uid": "uid://cjwrrph5fosng",
+    "canonical_uid": "uid://opp8b4xhv8ra"
+  },
+  "diagnostics": {
+    "gallery-input.log": [
+      "ERROR: Failed to read the root certificate store."
+    ],
+    "import.log": [
+      "ERROR: Failed to read the root certificate store.",
+      "ERROR: Cannot save file 'C:/Users/pasto/AppData/Roaming/Godot/editor_settings-4.7.tres'.",
+      "ERROR: Error saving editor settings to C:/Users/pasto/AppData/Roaming/Godot/editor_settings-4.7.tres"
+    ],
+    "independent-routes.log": [
+      "ERROR: Failed to read the root certificate store."
+    ],
+    "initial-route-failures.log": [
+      "ERROR: Failed to read the root certificate store."
+    ],
+    "integrated-basic.log": [
+      "ERROR: Failed to read the root certificate store."
+    ],
+    "integrated-captures.log": [
+      "ERROR: Failed to read the root certificate store."
+    ],
+    "rendered-routes.log": [
+      "ERROR: Failed to read the root certificate store."
+    ],
+    "staged-basic.log": [
+      "ERROR: Failed to read the root certificate store."
+    ],
+    "staged-captures.log": [
+      "ERROR: Failed to read the root certificate store."
+    ]
+  },
+  "screenshots": [
+    "fpp-door-and-aisle.png",
+    "fpp-officials-east.png",
+    "fpp-west-board-approach.png",
+    "gallery-mission-exterior.png",
+    "gallery-mission-interior.png",
+    "input-third-person-approach.png",
+    "integrated-captures/mission_hall-first-person-interior.png",
+    "integrated-captures/mission_hall-forecourt-board.png",
+    "integrated-captures/mission_hall-front.png",
+    "integrated-captures/mission_hall-officials-area.png",
+    "integrated-captures/mission_hall-ranking-board.png",
+    "integrated-captures/mission_hall-rear.png",
+    "integrated-captures/mission_hall-side.png",
+    "integrated-captures/mission_hall-third-person-approach.png",
+    "integrated-captures/mission_hall-third-person-interior.png",
+    "integrated-captures/mission_hall-three-quarter.png",
+    "staged-captures/mission_hall-first-person-interior.png",
+    "staged-captures/mission_hall-forecourt-board.png",
+    "staged-captures/mission_hall-front.png",
+    "staged-captures/mission_hall-officials-area.png",
+    "staged-captures/mission_hall-ranking-board.png",
+    "staged-captures/mission_hall-rear.png",
+    "staged-captures/mission_hall-side.png",
+    "staged-captures/mission_hall-third-person-approach.png",
+    "staged-captures/mission_hall-third-person-interior.png",
+    "staged-captures/mission_hall-three-quarter.png",
+    "tpp-door-and-aisle.png",
+    "tpp-officials-east.png",
+    "tpp-west-board-approach.png"
+  ],
+  "next_action": "Manual Mission Hall visual/traversal review; defer town placement and other assets"
+}

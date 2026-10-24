@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://phase4d/phase4d_valley.tscn" id="baseline"]
+[ext_resource type="Script" path="res://proposal_demo/demo_walkthrough.gd" id="script"]
+
+[node name="ProposalDemo_FirstCurrent" instance=ExtResource("baseline")]
+script = ExtResource("script")

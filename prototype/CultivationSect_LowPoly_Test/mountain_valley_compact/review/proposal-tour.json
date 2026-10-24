@@ -1,0 +1,12 @@
+{
+  "walk_metres": 598.8045730930701,
+  "nominal_walk_seconds": 149.70114327326752,
+  "selected_stops_seconds": {
+    "Gate": 15,
+    "Living": 20,
+    "Training": 20,
+    "Main Hall": 25,
+    "Scripture": 15
+  },
+  "total_seconds": 244.70114327326752
+}

@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" path="res://phase4c/resources/kit/railings/rail_section_2m_model.scn" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="Shape_000"]
+size = Vector3(0.24, 1.29, 0.24)
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_001"]
+points = PackedVector3Array(0.12, -0.05, -0.12, 0.12, -0.05, 0.12, 0.12, 1.1, -0.12, 0.12, 1.1, 0.12, 1.88, -0.05, -0.12, 1.88, -0.05, 0.12, 1.88, 1.1, -0.12, 1.88, 1.1, 0.12)
+
+[node name="RailSection2M" type="Node3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="Collision" type="StaticBody3D" parent="." groups=["solid_world"]]
+collision_mask = 2
+
+[node name="RailPost_000" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.595, 0)
+shape = SubResource("Shape_000")
+
+[node name="Rail_001" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_001")

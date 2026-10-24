@@ -1,0 +1,69 @@
+{
+  "pass": true,
+  "protected_manifests": {
+    "test": {
+      "checked_original_files": 6050,
+      "modified": [],
+      "missing": [],
+      "added": []
+    },
+    "original": {
+      "checked_original_files": 1599,
+      "modified": [],
+      "missing": [],
+      "added": []
+    },
+    "old_map": {
+      "checked_original_files": 196,
+      "modified": [],
+      "missing": [],
+      "added": []
+    }
+  },
+  "kit_import_adapters": [
+    {
+      "module": "railings/rail_post.tscn",
+      "only_model_reference_changed": true
+    },
+    {
+      "module": "railings/rail_section_1m.tscn",
+      "only_model_reference_changed": true
+    },
+    {
+      "module": "railings/rail_section_2m.tscn",
+      "only_model_reference_changed": true
+    },
+    {
+      "module": "railings/rail_stair_22deg_1m.tscn",
+      "only_model_reference_changed": true
+    },
+    {
+      "module": "railings/rail_stair_22deg_2m.tscn",
+      "only_model_reference_changed": true
+    },
+    {
+      "module": "railings/rail_stair_24deg_2m.tscn",
+      "only_model_reference_changed": true
+    },
+    {
+      "module": "retaining/retaining_corner_2.tscn",
+      "only_model_reference_changed": true
+    },
+    {
+      "module": "retaining/retaining_end_2.tscn",
+      "only_model_reference_changed": true
+    },
+    {
+      "module": "retaining/retaining_end_4.tscn",
+      "only_model_reference_changed": true
+    },
+    {
+      "module": "retaining/retaining_wall_4x2.tscn",
+      "only_model_reference_changed": true
+    },
+    {
+      "module": "retaining/retaining_wall_4x4.tscn",
+      "only_model_reference_changed": true
+    }
+  ]
+}

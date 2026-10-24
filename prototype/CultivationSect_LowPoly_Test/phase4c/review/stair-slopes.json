@@ -1,0 +1,58 @@
+[
+  {
+    "route": "entry_stairs",
+    "horizontal_run_m": 11.0,
+    "rise_m": 4,
+    "actual_degrees": 19.98310652189998,
+    "installed_nominal_degrees": null,
+    "per_2m_end_difference_mm": null
+  },
+  {
+    "route": "middle_stairs",
+    "horizontal_run_m": 15.0,
+    "rise_m": 6,
+    "actual_degrees": 21.80140948635181,
+    "installed_nominal_degrees": 22,
+    "per_2m_end_difference_mm": 8.052451670313543
+  },
+  {
+    "route": "training_link",
+    "horizontal_run_m": 19.4164878389476,
+    "rise_m": 4,
+    "actual_degrees": 11.640676498726375,
+    "installed_nominal_degrees": null,
+    "per_2m_end_difference_mm": null
+  },
+  {
+    "route": "cloud",
+    "horizontal_run_m": 15.0,
+    "rise_m": 6,
+    "actual_degrees": 21.80140948635181,
+    "installed_nominal_degrees": 22,
+    "per_2m_end_difference_mm": 8.052451670313543
+  },
+  {
+    "route": "grand",
+    "horizontal_run_m": 18.0,
+    "rise_m": 8,
+    "actual_degrees": 23.962488974578186,
+    "installed_nominal_degrees": 24,
+    "per_2m_end_difference_mm": 1.5684817281835794
+  },
+  {
+    "route": "scholar",
+    "horizontal_run_m": 22.360679774997898,
+    "rise_m": 4,
+    "actual_degrees": 10.142106156573982,
+    "installed_nominal_degrees": null,
+    "per_2m_end_difference_mm": null
+  },
+  {
+    "route": "alchemy",
+    "horizontal_run_m": 24.08318915758459,
+    "rise_m": 4,
+    "actual_degrees": 9.430225138005692,
+    "installed_nominal_degrees": null,
+    "per_2m_end_difference_mm": null
+  }
+]

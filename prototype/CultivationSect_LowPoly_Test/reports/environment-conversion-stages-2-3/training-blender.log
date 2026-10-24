@@ -1,0 +1,209 @@
+C:\Users\pasto\OneDrive\Documents\ChatGPT\Character Sprite Image for Thesis game\prototype\CultivationSect_LowPoly_Test\tools\convert_facility_stages.py:24: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  mat=bpy.data.materials.new('SplitCloud_'+role); mat.use_nodes=True
+19:46:34 | INFO: Data are loaded, start creating Blender stuff
+19:46:34 | INFO: Blender create Mesh node arm_dummy iron restraint Mesh.001
+19:46:34 | INFO: Blender create Mesh node arm_dummy octagonal timber trunk Mesh.001
+19:46:34 | INFO: Blender create Mesh node arm_dummy square stone footing Mesh.001
+19:46:34 | INFO: glTF import finished in 0.05s
+INFO Draco is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_draco_bridge.dll
+INFO MeshOptimizer is available, use library at C:\Program Files\Blender Foundation\Blender 5.2\5.2\scripts\addons_core\io_scene_gltf2\bf_intern_meshopt_bridge.dll
+19:46:34 | INFO: Starting glTF 2.0 export
+19:46:34 | INFO: Extracting primitive: arm_dummy octagonal timber trunk Mesh.001
+19:46:34 | INFO: Primitives created: 1
+19:46:34 | INFO: Extracting primitive: arm_dummy square stone footing Mesh.001
+19:46:34 | INFO: Primitives created: 1
+19:46:34 | INFO: Extracting primitive: arm_dummy iron restraint Mesh.001
+19:46:34 | INFO: Primitives created: 1
+19:46:35 | INFO: Finished glTF 2.0 export in 0.15974831581115723 s
+
+19:46:35 | INFO: Data are loaded, start creating Blender stuff
+19:46:35 | INFO: Blender create Mesh node Continuous structural slab repaired mesh.001
+19:46:35 | INFO: Blender create Mesh node Plaque bronze edge Mesh.001
+19:46:35 | INFO: Blender create Mesh node Fence post cap Mesh.001
+19:46:35 | INFO: Blender create Mesh node Broad entrance stone tread Mesh.001
+19:46:35 | INFO: Blender create Mesh node Continuous formation paving Mesh.001
+19:46:35 | INFO: Blender create Mesh node Heavy muted sect banner Mesh.001
+19:46:35 | INFO: Blender create Mesh node Instructor pavilion column iron band Mesh.001
+19:46:35 | INFO: Blender create Mesh node Instructor pavilion tile field Mesh.001
+19:46:35 | INFO: Blender create Mesh node Drain channel dark recess repaired mesh.001
+19:46:35 | INFO: Blender create Mesh node Compacted earth training lane repaired mesh.001
+19:46:35 | INFO: Blender create Mesh node Flush yard finish repaired mesh.001
+19:46:35 | INFO: Blender create Mesh node Glazed water crock Mesh.001
+19:46:35 | INFO: Blender create Mesh node Instructor pavilion barrel tile ribs Mesh.001
+19:46:36 | INFO: Blender create Mesh node Fence mortised upright Mesh.001
+19:46:36 | INFO: Blender create Mesh node Crock dark water Mesh.001
+19:46:36 | INFO: Blender create Mesh node Central inset datum Mesh.001
+19:46:36 | INFO: glTF import finished in 1.11s
+19:46:37 | INFO: Starting glTF 2.0 export
+19:46:37 | INFO: Extracting primitive: Plaque bronze edge Mesh.001
+19:46:37 | INFO: Primitives created: 1
+19:46:37 | INFO: Extracting primitive: Fence post cap Mesh.001
+19:46:37 | INFO: Primitives created: 1
+19:46:37 | INFO: Extracting primitive: Broad entrance stone tread Mesh.001
+19:46:37 | INFO: Primitives created: 1
+19:46:37 | INFO: Extracting primitive: Heavy muted sect banner Mesh.001
+19:46:37 | INFO: Primitives created: 1
+19:46:37 | INFO: Extracting primitive: Instructor pavilion tile field Mesh.001
+19:46:37 | INFO: Primitives created: 1
+19:46:37 | INFO: Extracting primitive: Continuous structural slab repaired mesh.001
+19:46:37 | INFO: Primitives created: 1
+19:46:37 | INFO: Extracting primitive: Instructor pavilion barrel tile ribs Mesh.001
+19:46:37 | INFO: Primitives created: 1
+19:46:37 | INFO: Extracting primitive: Instructor pavilion column iron band Mesh.001
+19:46:37 | INFO: Primitives created: 1
+19:46:37 | INFO: Extracting primitive: Crock dark water Mesh.001
+19:46:37 | INFO: Primitives created: 1
+19:46:37 | INFO: Extracting primitive: Continuous formation paving Mesh.001
+19:46:37 | INFO: Primitives created: 1
+19:46:37 | INFO: Extracting primitive: Drain channel dark recess repaired mesh.001
+19:46:37 | INFO: Primitives created: 1
+19:46:37 | INFO: Extracting primitive: Compacted earth training lane repaired mesh.001
+19:46:37 | INFO: Primitives created: 1
+19:46:37 | INFO: Extracting primitive: Flush yard finish repaired mesh.001
+19:46:37 | INFO: Primitives created: 1
+19:46:38 | INFO: Finished glTF 2.0 export in 0.3373231887817383 s
+
+19:46:38 | INFO: Data are loaded, start creating Blender stuff
+19:46:38 | INFO: Blender create Mesh node Continuous structural slab repaired mesh.002
+19:46:38 | INFO: Blender create Mesh node Plaque bronze edge Mesh.002
+19:46:38 | INFO: Blender create Mesh node Fence post cap Mesh.002
+19:46:38 | INFO: Blender create Mesh node Broad entrance stone tread Mesh.002
+19:46:38 | INFO: Blender create Mesh node Continuous formation paving Mesh.002
+19:46:38 | INFO: Blender create Mesh node Heavy muted sect banner Mesh.002
+19:46:38 | INFO: Blender create Mesh node Instructor pavilion column iron band Mesh.002
+19:46:38 | INFO: Blender create Mesh node Instructor pavilion tile field Mesh.002
+19:46:38 | INFO: Blender create Mesh node Drain channel dark recess repaired mesh.002
+19:46:38 | INFO: Blender create Mesh node Compacted earth training lane repaired mesh.002
+19:46:38 | INFO: Blender create Mesh node Flush yard finish repaired mesh.002
+19:46:38 | INFO: Blender create Mesh node Glazed water crock Mesh.002
+19:46:38 | INFO: Blender create Mesh node Instructor pavilion diagonal hip caps Mesh.002
+19:46:38 | INFO: Blender create Mesh node Fence mortised upright Mesh.002
+19:46:38 | INFO: Blender create Mesh node Crock dark water Mesh.002
+19:46:38 | INFO: Blender create Mesh node Central inset datum Mesh.002
+19:46:38 | INFO: glTF import finished in 0.21s
+19:46:38 | INFO: Starting glTF 2.0 export
+19:46:38 | INFO: Extracting primitive: Plaque bronze edge Mesh.002
+19:46:38 | INFO: Primitives created: 1
+19:46:38 | INFO: Extracting primitive: Fence post cap Mesh.002
+19:46:38 | INFO: Primitives created: 1
+19:46:38 | INFO: Extracting primitive: Broad entrance stone tread Mesh.002
+19:46:38 | INFO: Primitives created: 1
+19:46:38 | INFO: Extracting primitive: Heavy muted sect banner Mesh.002
+19:46:38 | INFO: Primitives created: 1
+19:46:38 | INFO: Extracting primitive: Instructor pavilion tile field Mesh.002
+19:46:38 | INFO: Primitives created: 1
+19:46:38 | INFO: Extracting primitive: Continuous structural slab repaired mesh.002
+19:46:38 | INFO: Primitives created: 1
+19:46:38 | INFO: Extracting primitive: Instructor pavilion diagonal hip caps Mesh.002
+19:46:38 | INFO: Primitives created: 1
+19:46:38 | INFO: Extracting primitive: Instructor pavilion column iron band Mesh.002
+19:46:38 | INFO: Primitives created: 1
+19:46:38 | WARNING: Mesh Crock dark water Mesh.002 is not valid, and may be exported wrongly
+19:46:38 | INFO: Extracting primitive: Crock dark water Mesh.002
+19:46:38 | INFO: Primitives created: 1
+19:46:38 | INFO: Extracting primitive: Continuous formation paving Mesh.002
+19:46:38 | INFO: Primitives created: 1
+19:46:38 | INFO: Extracting primitive: Drain channel dark recess repaired mesh.002
+19:46:38 | INFO: Primitives created: 1
+19:46:38 | INFO: Extracting primitive: Compacted earth training lane repaired mesh.002
+19:46:38 | INFO: Primitives created: 1
+19:46:38 | INFO: Extracting primitive: Flush yard finish repaired mesh.002
+19:46:38 | INFO: Primitives created: 1
+19:46:38 | INFO: Finished glTF 2.0 export in 0.13917303085327148 s
+
+19:46:38 | INFO: Data are loaded, start creating Blender stuff
+19:46:38 | INFO: Blender create Mesh node rest_bench under-seat stretcher Mesh.001
+19:46:38 | INFO: Blender create Mesh node rest_bench single thick seat Mesh.001
+19:46:38 | INFO: Blender create Mesh node rest_bench splayed leg Mesh.001
+19:46:38 | INFO: glTF import finished in 0.02s
+19:46:38 | INFO: Starting glTF 2.0 export
+19:46:38 | INFO: Extracting primitive: rest_bench under-seat stretcher Mesh.001
+19:46:38 | INFO: Primitives created: 1
+19:46:38 | INFO: Extracting primitive: rest_bench single thick seat Mesh.001
+19:46:38 | INFO: Primitives created: 1
+19:46:38 | INFO: Extracting primitive: rest_bench splayed leg Mesh.001
+19:46:38 | INFO: Primitives created: 1
+19:46:38 | INFO: Finished glTF 2.0 export in 0.025890827178955078 s
+
+19:46:38 | INFO: Data are loaded, start creating Blender stuff
+19:46:38 | INFO: Blender create Mesh node staff_rack upright Mesh.001
+19:46:38 | INFO: Blender create Mesh node staff_rack blunted spear head Mesh.001
+19:46:38 | INFO: Blender create Mesh node staff_rack staff shaft Mesh.001
+19:46:38 | INFO: Blender create Mesh node staff_rack spear binding Mesh.001
+19:46:38 | INFO: Blender create Mesh node staff_rack broad foot Mesh.001
+19:46:38 | INFO: glTF import finished in 0.05s
+19:46:38 | INFO: Starting glTF 2.0 export
+19:46:38 | INFO: Extracting primitive: staff_rack upright Mesh.001
+19:46:38 | INFO: Primitives created: 1
+19:46:38 | INFO: Extracting primitive: staff_rack staff shaft Mesh.001
+19:46:38 | INFO: Primitives created: 1
+19:46:38 | INFO: Extracting primitive: staff_rack spear binding Mesh.001
+19:46:38 | INFO: Primitives created: 1
+19:46:38 | INFO: Extracting primitive: staff_rack blunted spear head Mesh.001
+19:46:38 | INFO: Primitives created: 1
+19:46:38 | INFO: Finished glTF 2.0 export in 0.0359950065612793 s
+
+19:46:38 | INFO: Data are loaded, start creating Blender stuff
+19:46:38 | INFO: Blender create Mesh node stone_weight wooden grip Mesh.001
+19:46:38 | INFO: Blender create Mesh node stone_weight octagonal lifting stone Mesh.001
+19:46:38 | INFO: glTF import finished in 0.02s
+19:46:39 | INFO: Starting glTF 2.0 export
+19:46:39 | INFO: Extracting primitive: stone_weight wooden grip Mesh.001
+19:46:39 | INFO: Primitives created: 1
+19:46:39 | INFO: Extracting primitive: stone_weight octagonal lifting stone Mesh.001
+19:46:39 | INFO: Primitives created: 1
+19:46:39 | INFO: Finished glTF 2.0 export in 0.018949270248413086 s
+
+19:46:39 | INFO: Data are loaded, start creating Blender stuff
+19:46:39 | INFO: Blender create Mesh node striking_post rooted post Mesh.001
+19:46:39 | INFO: Blender create Mesh node striking_post bound striking pad Mesh.001
+19:46:39 | INFO: Blender create Mesh node striking_post braced foot Mesh.001
+19:46:39 | INFO: Blender create Mesh node striking_post stone socket Mesh.001
+19:46:39 | INFO: glTF import finished in 0.05s
+19:46:39 | INFO: Starting glTF 2.0 export
+19:46:39 | INFO: Extracting primitive: striking_post rooted post Mesh.001
+19:46:39 | INFO: Primitives created: 1
+19:46:39 | INFO: Extracting primitive: striking_post bound striking pad Mesh.001
+19:46:39 | INFO: Primitives created: 1
+19:46:39 | INFO: Extracting primitive: striking_post stone socket Mesh.001
+19:46:39 | INFO: Primitives created: 1
+19:46:39 | INFO: Extracting primitive: striking_post braced foot Mesh.001
+19:46:39 | INFO: Primitives created: 1
+19:46:39 | INFO: Finished glTF 2.0 export in 0.04303765296936035 s
+
+19:46:39 | INFO: Data are loaded, start creating Blender stuff
+19:46:39 | INFO: Blender create Mesh node sword_rack upright Mesh.001
+19:46:39 | INFO: Blender create Mesh node sword_rack tapered practice blade Mesh.001
+19:46:39 | INFO: Blender create Mesh node sword_rack broad foot Mesh.001
+19:46:39 | INFO: glTF import finished in 0.04s
+19:46:39 | INFO: Starting glTF 2.0 export
+19:46:39 | INFO: Extracting primitive: sword_rack upright Mesh.001
+19:46:39 | INFO: Primitives created: 1
+19:46:39 | INFO: Extracting primitive: sword_rack tapered practice blade Mesh.001
+19:46:39 | INFO: Primitives created: 1
+19:46:39 | INFO: Extracting primitive: sword_rack broad foot Mesh.001
+19:46:39 | INFO: Primitives created: 1
+19:46:39 | INFO: Finished glTF 2.0 export in 0.031126976013183594 s
+
+19:46:39 | INFO: Data are loaded, start creating Blender stuff
+19:46:39 | INFO: Blender create Mesh node thrust_target target upright Mesh.001
+19:46:39 | INFO: Blender create Mesh node thrust_target worn center pad Mesh.001
+19:46:39 | INFO: Blender create Mesh node thrust_target woven thrust pad Mesh.001
+19:46:39 | INFO: Blender create Mesh node thrust_target foot runner Mesh.001
+19:46:39 | INFO: glTF import finished in 0.04s
+19:46:39 | INFO: Starting glTF 2.0 export
+19:46:39 | INFO: Extracting primitive: thrust_target target upright Mesh.001
+19:46:39 | INFO: Primitives created: 1
+19:46:39 | INFO: Extracting primitive: thrust_target worn center pad Mesh.001
+19:46:39 | INFO: Primitives created: 1
+19:46:39 | INFO: Extracting primitive: thrust_target woven thrust pad Mesh.001
+19:46:39 | INFO: Primitives created: 1
+19:46:39 | INFO: Extracting primitive: thrust_target foot runner Mesh.001
+19:46:39 | INFO: Primitives created: 1
+19:46:39 | INFO: Finished glTF 2.0 export in 0.0368802547454834 s
+
+Info: Saved as "martial_training_ground_low_poly.blend"
+training complete [('arm_dummy.glb', 544), ('martial_training_ground.glb', 88020), ('martial_training_ground_lod.glb', 12913), ('rest_bench.glb', 264), ('staff_rack.glb', 868), ('stone_weight.glb', 100), ('striking_post.glb', 2820), ('sword_rack.glb', 916), ('thrust_target.glb', 504)]
+Blender 5.2.2 LTS (hash d13f752e3b9c built 2026-09-15 01:37:04)
+
+Blender quit

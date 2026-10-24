@@ -1,0 +1,354 @@
+[gd_scene load_steps=46 format=3]
+
+[ext_resource type="PackedScene" path="res://assets/architecture/alchemy_pavilion/alchemy_pavilion.glb" id="1_model"]
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_000"]
+points = PackedVector3Array(2.908, 0, 7.021, -2.908, 0, 7.021, -7.021, 0, 2.908, -7.021, 0, -2.908, -2.908, 0, -7.021, 2.908, 0, -7.021, 7.021, 0, -2.908, 7.021, 0, 2.908, 2.908, 0.82, 7.021, -2.908, 0.82, 7.021, -7.021, 0.82, 2.908, -7.021, 0.82, -2.908, -2.908, 0.82, -7.021, 2.908, 0.82, -7.021, 7.021, 0.82, -2.908, 7.021, 0.82, 2.908)
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_001"]
+points = PackedVector3Array(2.966, 0.82, 7.16, -2.966, 0.82, 7.16, -7.16, 0.82, 2.966, -7.16, 0.82, -2.966, -2.966, 0.82, -7.16, 2.966, 0.82, -7.16, 7.16, 0.82, -2.966, 7.16, 0.82, 2.966, 2.966, 0.9, 7.16, -2.966, 0.9, 7.16, -7.16, 0.9, 2.966, -7.16, 0.9, -2.966, -2.966, 0.9, -7.16, 2.966, 0.9, -7.16, 7.16, 0.9, -2.966, 7.16, 0.9, 2.966)
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_002"]
+points = PackedVector3Array(-1.7, 0.9, 7.16, -1.7, 0, 7.16, -1.7, 0, 8.76, 1.7, 0.9, 7.16, 1.7, 0, 7.16, 1.7, 0, 8.76)
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_003"]
+points = PackedVector3Array(-2.163, 6.4, 5.014, -2.163, 6.4, 5.334, -2.163, 0.9, 5.334, -2.163, 0.9, 5.014, -1.1, 6.4, 5.014, -1.1, 6.4, 5.334, -1.1, 0.9, 5.334, -1.1, 0.9, 5.014)
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_004"]
+points = PackedVector3Array(1.1, 6.4, 5.014, 1.1, 6.4, 5.334, 1.1, 0.9, 5.334, 1.1, 0.9, 5.014, 2.163, 6.4, 5.014, 2.163, 6.4, 5.334, 2.163, 0.9, 5.334, 2.163, 0.9, 5.014)
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_005"]
+points = PackedVector3Array(-1.1, 6.4, 5.044, -1.1, 6.4, 5.304, -1.1, 3.9, 5.304, -1.1, 3.9, 5.044, 1.1, 6.4, 5.044, 1.1, 6.4, 5.304, 1.1, 3.9, 5.304, 1.1, 3.9, 5.044)
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_006"]
+points = PackedVector3Array(-5.075, 6.4, 2.016, -5.301, 6.4, 2.242, -5.301, 0.9, 2.242, -5.075, 0.9, 2.016, -2.016, 6.4, 5.075, -2.242, 6.4, 5.301, -2.242, 0.9, 5.301, -2.016, 0.9, 5.075)
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_007"]
+points = PackedVector3Array(-5.014, 6.4, -2.163, -5.334, 6.4, -2.163, -5.334, 0.9, -2.163, -5.014, 0.9, -2.163, -5.014, 6.4, 2.163, -5.334, 6.4, 2.163, -5.334, 0.9, 2.163, -5.014, 0.9, 2.163)
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_008"]
+points = PackedVector3Array(-2.016, 6.4, -5.075, -2.242, 6.4, -5.301, -2.242, 0.9, -5.301, -2.016, 0.9, -5.075, -5.075, 6.4, -2.016, -5.301, 6.4, -2.242, -5.301, 0.9, -2.242, -5.075, 0.9, -2.016)
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_009"]
+points = PackedVector3Array(2.163, 6.4, -5.014, 2.163, 6.4, -5.334, 2.163, 0.9, -5.334, 2.163, 0.9, -5.014, -2.163, 6.4, -5.014, -2.163, 6.4, -5.334, -2.163, 0.9, -5.334, -2.163, 0.9, -5.014)
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_010"]
+points = PackedVector3Array(5.075, 6.4, -2.016, 5.301, 6.4, -2.242, 5.301, 0.9, -2.242, 5.075, 0.9, -2.016, 2.016, 6.4, -5.075, 2.242, 6.4, -5.301, 2.242, 0.9, -5.301, 2.016, 0.9, -5.075)
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_011"]
+points = PackedVector3Array(5.014, 6.4, 2.163, 5.334, 6.4, 2.163, 5.334, 0.9, 2.163, 5.014, 0.9, 2.163, 5.014, 6.4, -2.163, 5.334, 6.4, -2.163, 5.334, 0.9, -2.163, 5.014, 0.9, -2.163)
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_012"]
+points = PackedVector3Array(2.016, 6.4, 5.075, 2.242, 6.4, 5.301, 2.242, 0.9, 5.301, 2.016, 0.9, 5.075, 5.075, 6.4, 2.016, 5.301, 6.4, 2.242, 5.301, 0.9, 2.242, 5.075, 0.9, 2.016)
+
+[sub_resource type="CylinderShape3D" id="Shape_013"]
+height = 5.5
+radius = 0.23
+
+[sub_resource type="CylinderShape3D" id="Shape_014"]
+height = 5.5
+radius = 0.23
+
+[sub_resource type="CylinderShape3D" id="Shape_015"]
+height = 5.5
+radius = 0.23
+
+[sub_resource type="CylinderShape3D" id="Shape_016"]
+height = 5.5
+radius = 0.23
+
+[sub_resource type="CylinderShape3D" id="Shape_017"]
+height = 5.5
+radius = 0.23
+
+[sub_resource type="CylinderShape3D" id="Shape_018"]
+height = 5.5
+radius = 0.23
+
+[sub_resource type="CylinderShape3D" id="Shape_019"]
+height = 5.5
+radius = 0.23
+
+[sub_resource type="CylinderShape3D" id="Shape_020"]
+height = 5.5
+radius = 0.23
+
+[sub_resource type="CylinderShape3D" id="Shape_021"]
+height = 3.48
+radius = 0.2
+
+[sub_resource type="CylinderShape3D" id="Shape_022"]
+height = 3.48
+radius = 0.2
+
+[sub_resource type="CylinderShape3D" id="Shape_023"]
+height = 3.48
+radius = 0.2
+
+[sub_resource type="CylinderShape3D" id="Shape_024"]
+height = 3.48
+radius = 0.2
+
+[sub_resource type="CylinderShape3D" id="Shape_025"]
+height = 3.48
+radius = 0.2
+
+[sub_resource type="CylinderShape3D" id="Shape_026"]
+height = 3.48
+radius = 0.2
+
+[sub_resource type="CylinderShape3D" id="Shape_027"]
+height = 3.48
+radius = 0.2
+
+[sub_resource type="CylinderShape3D" id="Shape_028"]
+height = 3.48
+radius = 0.2
+
+[sub_resource type="CylinderShape3D" id="Shape_029"]
+height = 0.42
+radius = 2
+
+[sub_resource type="CylinderShape3D" id="Shape_030"]
+height = 2.3
+radius = 0.95
+
+[sub_resource type="BoxShape3D" id="Shape_031"]
+size = Vector3(0.7, 0.4, 1)
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_032"]
+points = PackedVector3Array(-4.534, 3, -1.55, -4.974, 3, -1.55, -4.974, 0.9, -1.55, -4.534, 0.9, -1.55, -4.534, 3, 1.55, -4.974, 3, 1.55, -4.974, 0.9, 1.55, -4.534, 0.9, 1.55)
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_033"]
+points = PackedVector3Array(1.55, 3, -4.534, 1.55, 3, -4.974, 1.55, 0.9, -4.974, 1.55, 0.9, -4.534, -1.55, 3, -4.534, -1.55, 3, -4.974, -1.55, 0.9, -4.974, -1.55, 0.9, -4.534)
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_034"]
+points = PackedVector3Array(4.534, 3, 1.55, 4.974, 3, 1.55, 4.974, 0.9, 1.55, 4.534, 0.9, 1.55, 4.534, 3, -1.55, 4.974, 3, -1.55, 4.974, 0.9, -1.55, 4.534, 0.9, -1.55)
+
+[sub_resource type="CylinderShape3D" id="Shape_035"]
+height = 0.9
+radius = 0.42
+
+[sub_resource type="CylinderShape3D" id="Shape_036"]
+height = 0.9
+radius = 0.42
+
+[sub_resource type="CylinderShape3D" id="Shape_037"]
+height = 0.9
+radius = 0.42
+
+[sub_resource type="CylinderShape3D" id="Shape_038"]
+height = 0.9
+radius = 0.42
+
+[sub_resource type="BoxShape3D" id="Shape_039"]
+size = Vector3(1.3, 0.82, 0.7)
+
+[sub_resource type="CylinderShape3D" id="Shape_040"]
+height = 0.82
+radius = 0.72
+
+[sub_resource type="CylinderShape3D" id="Shape_041"]
+height = 0.82
+radius = 0.72
+
+[sub_resource type="ConvexPolygonShape3D" id="Shape_042"]
+points = PackedVector3Array(2.105, 6.6, 5.081, -2.105, 6.6, 5.081, -5.081, 6.6, 2.105, -5.081, 6.6, -2.105, -2.105, 6.6, -5.081, 2.105, 6.6, -5.081, 5.081, 6.6, -2.105, 5.081, 6.6, 2.105, 2.105, 6.7, 5.081, -2.105, 6.7, 5.081, -5.081, 6.7, 2.105, -5.081, 6.7, -2.105, -2.105, 6.7, -5.081, 2.105, 6.7, -5.081, 5.081, 6.7, -2.105, 5.081, 6.7, 2.105)
+
+[sub_resource type="BoxShape3D" id="StaticOpenLeaf"]
+size = Vector3(0.10, 2.94, 1.08)
+
+[node name="AlchemyPavilion" type="Node3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="Collision" type="StaticBody3D" parent="." groups=["solid_world"]]
+collision_mask = 2
+
+[node name="Podium_000" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_000")
+
+[node name="PodiumCap_001" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_001")
+
+[node name="StairRamp_002" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_002")
+
+[node name="Wall_003" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_003")
+
+[node name="Wall_004" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_004")
+
+[node name="WallLintel_005" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_005")
+
+[node name="Wall_006" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_006")
+
+[node name="Wall_007" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_007")
+
+[node name="Wall_008" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_008")
+
+[node name="Wall_009" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_009")
+
+[node name="Wall_010" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_010")
+
+[node name="Wall_011" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_011")
+
+[node name="Wall_012" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_012")
+
+[node name="WallColumn_013" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.143, 3.65, 5.174)
+shape = SubResource("Shape_013")
+
+[node name="WallColumn_014" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.143, 3.65, 5.174)
+shape = SubResource("Shape_014")
+
+[node name="WallColumn_015" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.174, 3.65, 2.143)
+shape = SubResource("Shape_015")
+
+[node name="WallColumn_016" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5.174, 3.65, -2.143)
+shape = SubResource("Shape_016")
+
+[node name="WallColumn_017" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.143, 3.65, -5.174)
+shape = SubResource("Shape_017")
+
+[node name="WallColumn_018" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.143, 3.65, -5.174)
+shape = SubResource("Shape_018")
+
+[node name="WallColumn_019" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.174, 3.65, -2.143)
+shape = SubResource("Shape_019")
+
+[node name="WallColumn_020" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.174, 3.65, 2.143)
+shape = SubResource("Shape_020")
+
+[node name="Column_021" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.755, 2.64, 6.652)
+shape = SubResource("Shape_021")
+
+[node name="Column_022" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.755, 2.64, 6.652)
+shape = SubResource("Shape_022")
+
+[node name="Column_023" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.652, 2.64, 2.755)
+shape = SubResource("Shape_023")
+
+[node name="Column_024" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -6.652, 2.64, -2.755)
+shape = SubResource("Shape_024")
+
+[node name="Column_025" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.755, 2.64, -6.652)
+shape = SubResource("Shape_025")
+
+[node name="Column_026" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.755, 2.64, -6.652)
+shape = SubResource("Shape_026")
+
+[node name="Column_027" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.652, 2.64, -2.755)
+shape = SubResource("Shape_027")
+
+[node name="Column_028" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.652, 2.64, 2.755)
+shape = SubResource("Shape_028")
+
+[node name="FurnaceDais_029" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.11, 0)
+shape = SubResource("Shape_029")
+
+[node name="PillFurnace_030" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.47, 0)
+shape = SubResource("Shape_030")
+
+[node name="Bellows_031" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9, 1.2, 1.3)
+shape = SubResource("Shape_031")
+
+[node name="JarShelf_032" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_032")
+
+[node name="JarShelf_033" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_033")
+
+[node name="JarShelf_034" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_034")
+
+[node name="StorageUrn_035" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.118, 1.35, 2.28)
+shape = SubResource("Shape_035")
+
+[node name="StorageUrn_036" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.28, 1.35, -4.118)
+shape = SubResource("Shape_036")
+
+[node name="StorageUrn_037" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.118, 1.35, -2.28)
+shape = SubResource("Shape_037")
+
+[node name="StorageUrn_038" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.28, 1.35, 4.118)
+shape = SubResource("Shape_038")
+
+[node name="GrindingTable_039" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.6, 1.31, 1.6)
+shape = SubResource("Shape_039")
+
+[node name="WaterBasin_040" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.3, 0.41, 8.75)
+shape = SubResource("Shape_040")
+
+[node name="WaterBasin_041" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.3, 0.41, 8.75)
+shape = SubResource("Shape_041")
+
+[node name="CeilingClearance_042" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0)
+shape = SubResource("Shape_042")
+
+[node name="Plaque" type="Label3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.82, 6.68)
+pixel_size = 0.0042
+modulate = Color(0.718, 0.631, 0.427, 1)
+outline_size = 0
+text = "ALCHEMY PAVILION"
+font_size = 64
+
+[node name="StaticOpenLeaf0" type="CollisionShape3D" parent="Collision"]
+position = Vector3(-1.05, 2.4, 4.50372538)
+shape = SubResource("StaticOpenLeaf")
+
+[node name="StaticOpenLeaf1" type="CollisionShape3D" parent="Collision"]
+position = Vector3(1.05, 2.4, 4.50372538)
+shape = SubResource("StaticOpenLeaf")

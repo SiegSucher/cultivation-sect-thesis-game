@@ -1,0 +1,170 @@
+{
+	"checks": [
+		{
+			"check": "Scene starts in playable third person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Hall keeps identity transform",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "All eleven existing environmental scenes instanced",
+			"detail": [
+				"pine_windswept",
+				"pine_tiered",
+				"bamboo_cluster",
+				"rock_outcrop",
+				"rock_cluster",
+				"stone_lantern",
+				"sect_banner",
+				"stone_bench",
+				"training_dummy_rack",
+				"flowering_shrub",
+				"grass_tuft"
+			],
+			"pass": true
+		},
+		{
+			"check": "W moves the walking player",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Tab switches to first person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Tab returns to third person",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Approach preset opens",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Screenshot 01-hall-approach",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Screenshot 02-courtyard",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk resumes after overview",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk southern approach",
+			"detail": {
+				"height": -0.02415731549263,
+				"remaining_m": 0.200088500976563,
+				"travel_m": 5.79991149902344
+			},
+			"pass": true
+		},
+		{
+			"check": "Screenshot 03-third-person-gameplay",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk into open courtyard",
+			"detail": {
+				"height": -0.02415731549263,
+				"remaining_m": 0.200235366821289,
+				"travel_m": 12.9998531341553
+			},
+			"pass": true
+		},
+		{
+			"check": "Screenshot 04-first-person-approach",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Walk across clear courtyard to stair toe",
+			"detail": {
+				"height": -0.0243222285062075,
+				"remaining_m": 0.200115203857422,
+				"travel_m": 11.0001201629639
+			},
+			"pass": true
+		},
+		{
+			"check": "Climb existing Hall front stairs",
+			"detail": {
+				"height": 1.52082502841949,
+				"remaining_m": 0.171048164367676,
+				"travel_m": 7.19689273834229
+			},
+			"pass": true
+		},
+		{
+			"check": "Enter existing Hall through open entrance",
+			"detail": {
+				"height": 1.5308381319046,
+				"remaining_m": 0.176026344299316,
+				"travel_m": 6.99502897262573
+			},
+			"pass": true
+		},
+		{
+			"check": "Return from Hall to courtyard",
+			"detail": {
+				"height": -0.0241573117673397,
+				"remaining_m": 0.218545913696289,
+				"travel_m": 16.6780757904053
+			},
+			"pass": true
+		},
+		{
+			"check": "Explore western bench pocket",
+			"detail": {
+				"height": -0.0307334177196026,
+				"remaining_m": 0.218123540282249,
+				"travel_m": 15.5333032608032
+			},
+			"pass": true
+		},
+		{
+			"check": "Cross open courtyard",
+			"detail": {
+				"height": -0.0241573248058558,
+				"remaining_m": 0.201984524726868,
+				"travel_m": 14.2000637054443
+			},
+			"pass": true
+		},
+		{
+			"check": "Explore practice corner",
+			"detail": {
+				"height": -0.0241590533405542,
+				"remaining_m": 0.162089109420776,
+				"travel_m": 14.3333415985107
+			},
+			"pass": true
+		},
+		{
+			"check": "Screenshot 05-garden-corner",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "R returns to safe approach spawn",
+			"detail": null,
+			"pass": true
+		}
+	],
+	"failures": 0,
+	"passes": 23,
+	"rendered": true
+}

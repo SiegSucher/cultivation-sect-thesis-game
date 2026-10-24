@@ -1,0 +1,294 @@
+{
+  "training": [
+    {
+      "path": "baseline\\stage23_training\\martial_training_ground.glb",
+      "vertices": 170012,
+      "triangles": 94776,
+      "batches": [
+        {
+          "material": "Training_Ashlar",
+          "vertices": 392,
+          "triangles": 216
+        },
+        {
+          "material": "Training_Bronze",
+          "vertices": 524,
+          "triangles": 396
+        },
+        {
+          "material": "Training_CarvedWood",
+          "vertices": 95672,
+          "triangles": 44396
+        },
+        {
+          "material": "Training_Coping",
+          "vertices": 4552,
+          "triangles": 2508
+        },
+        {
+          "material": "Training_CourtPaving",
+          "vertices": 24,
+          "triangles": 12
+        },
+        {
+          "material": "Training_Fabric",
+          "vertices": 256,
+          "triangles": 128
+        },
+        {
+          "material": "Training_Iron",
+          "vertices": 15364,
+          "triangles": 10052
+        },
+        {
+          "material": "Training_JadeTile",
+          "vertices": 2355,
+          "triangles": 4476
+        },
+        {
+          "material": "Training_Joint",
+          "vertices": 192,
+          "triangles": 120
+        },
+        {
+          "material": "Training_PackedEarth",
+          "vertices": 48,
+          "triangles": 24
+        },
+        {
+          "material": "Training_Paving",
+          "vertices": 464,
+          "triangles": 288
+        },
+        {
+          "material": "Training_Pottery",
+          "vertices": 712,
+          "triangles": 836
+        },
+        {
+          "material": "Training_TileEdge",
+          "vertices": 31270,
+          "triangles": 19116
+        },
+        {
+          "material": "Training_Timber",
+          "vertices": 16251,
+          "triangles": 11256
+        },
+        {
+          "material": "Training_Window",
+          "vertices": 176,
+          "triangles": 152
+        },
+        {
+          "material": "Training_WornStone",
+          "vertices": 1760,
+          "triangles": 800
+        }
+      ]
+    },
+    {
+      "path": "assets\\architecture\\martial_training_ground\\martial_training_ground.glb",
+      "vertices": 216685,
+      "triangles": 88020,
+      "batches": [
+        {
+          "material": "SplitCloud_Bronze",
+          "vertices": 804,
+          "triangles": 396
+        },
+        {
+          "material": "SplitCloud_Cedar",
+          "vertices": 113178,
+          "triangles": 44124
+        },
+        {
+          "material": "SplitCloud_Coping",
+          "vertices": 5388,
+          "triangles": 2508
+        },
+        {
+          "material": "SplitCloud_Fabric",
+          "vertices": 372,
+          "triangles": 124
+        },
+        {
+          "material": "SplitCloud_Jade",
+          "vertices": 5629,
+          "triangles": 2081
+        },
+        {
+          "material": "SplitCloud_Stone",
+          "vertices": 2280,
+          "triangles": 1016
+        },
+        {
+          "material": "SplitCloud_TileLight",
+          "vertices": 46605,
+          "triangles": 19116
+        },
+        {
+          "material": "SplitCloud_Timber",
+          "vertices": 41445,
+          "triangles": 18059
+        },
+        {
+          "material": "SplitCloud_Window",
+          "vertices": 256,
+          "triangles": 152
+        },
+        {
+          "material": "SplitCloud_CourtStone",
+          "vertices": 24,
+          "triangles": 12
+        },
+        {
+          "material": "SplitCloud_Window",
+          "vertices": 192,
+          "triangles": 120
+        },
+        {
+          "material": "SplitCloud_Earth",
+          "vertices": 48,
+          "triangles": 24
+        },
+        {
+          "material": "SplitCloud_Stone",
+          "vertices": 464,
+          "triangles": 288
+        }
+      ]
+    }
+  ],
+  "pavilion": [
+    {
+      "path": "baseline\\stage23_pavilion\\scripture_pavilion.glb",
+      "vertices": 223016,
+      "triangles": 118720,
+      "batches": [
+        {
+          "material": "Scripture_Bronze",
+          "vertices": 6276,
+          "triangles": 3956
+        },
+        {
+          "material": "Scripture_CarvedWood",
+          "vertices": 144000,
+          "triangles": 67132
+        },
+        {
+          "material": "Scripture_Coping",
+          "vertices": 1350,
+          "triangles": 880
+        },
+        {
+          "material": "Scripture_Floor",
+          "vertices": 864,
+          "triangles": 400
+        },
+        {
+          "material": "Scripture_Indigo",
+          "vertices": 144,
+          "triangles": 72
+        },
+        {
+          "material": "Scripture_Iron",
+          "vertices": 144,
+          "triangles": 72
+        },
+        {
+          "material": "Scripture_JadeTile",
+          "vertices": 2416,
+          "triangles": 4504
+        },
+        {
+          "material": "Scripture_Plaster",
+          "vertices": 312,
+          "triangles": 156
+        },
+        {
+          "material": "Scripture_Stone",
+          "vertices": 352,
+          "triangles": 204
+        },
+        {
+          "material": "Scripture_TileEdge",
+          "vertices": 44402,
+          "triangles": 26704
+        },
+        {
+          "material": "Scripture_Timber",
+          "vertices": 22132,
+          "triangles": 14328
+        },
+        {
+          "material": "Scripture_Window",
+          "vertices": 624,
+          "triangles": 312
+        }
+      ]
+    },
+    {
+      "path": "assets\\architecture\\scripture_pavilion\\scripture_pavilion.glb",
+      "vertices": 264629,
+      "triangles": 110960,
+      "batches": [
+        {
+          "material": "SplitCloud_Bronze",
+          "vertices": 7716,
+          "triangles": 3956
+        },
+        {
+          "material": "SplitCloud_Cedar",
+          "vertices": 165766,
+          "triangles": 66840
+        },
+        {
+          "material": "SplitCloud_Coping",
+          "vertices": 1660,
+          "triangles": 880
+        },
+        {
+          "material": "SplitCloud_Fabric",
+          "vertices": 144,
+          "triangles": 72
+        },
+        {
+          "material": "SplitCloud_Floor",
+          "vertices": 896,
+          "triangles": 400
+        },
+        {
+          "material": "SplitCloud_Jade",
+          "vertices": 3054,
+          "triangles": 1050
+        },
+        {
+          "material": "SplitCloud_Plaster",
+          "vertices": 312,
+          "triangles": 156
+        },
+        {
+          "material": "SplitCloud_Stone",
+          "vertices": 352,
+          "triangles": 204
+        },
+        {
+          "material": "SplitCloud_TileLight",
+          "vertices": 61718,
+          "triangles": 26704
+        },
+        {
+          "material": "SplitCloud_Timber",
+          "vertices": 22387,
+          "triangles": 10386
+        },
+        {
+          "material": "SplitCloud_Window",
+          "vertices": 624,
+          "triangles": 312
+        }
+      ]
+    }
+  ]
+}

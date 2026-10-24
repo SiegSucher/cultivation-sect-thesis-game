@@ -1,0 +1,35 @@
+{
+	"checks": [
+		{
+			"check": "Review scene opens",
+			"pass": true
+		},
+		{
+			"check": "Walk with unchanged fixture",
+			"pass": true
+		},
+		{
+			"check": "Tab third-person",
+			"pass": true
+		},
+		{
+			"check": "E uses existing gate interaction",
+			"pass": true
+		},
+		{
+			"check": "Review pauses fixture",
+			"pass": true
+		},
+		{
+			"check": "Esc existing gallery",
+			"pass": true
+		},
+		{
+			"check": "Gate Walk button",
+			"pass": true
+		}
+	],
+	"failed": 0,
+	"limits": "Programmatic events, not human keyboard rehearsal.",
+	"passed": 7
+}

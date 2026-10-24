@@ -1,0 +1,156 @@
+{
+  "failed": 0,
+  "passed": 22,
+  "results": [
+    {
+      "check": "disciple_residence imported triangles match build",
+      "detail": [
+        9518,
+        9518.0
+      ],
+      "pass": true
+    },
+    {
+      "check": "disciple_residence imported size matches build (0.05 m)",
+      "detail": [
+        "(21.40122, 6.955353, 10.89071)",
+        [
+          21.4,
+          6.96,
+          10.89
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "check": "disciple_residence sits on ground (min y ~ 0)",
+      "detail": 0.0,
+      "pass": true
+    },
+    {
+      "check": "disciple_residence has authored collision",
+      "detail": 36,
+      "pass": true
+    },
+    {
+      "check": "elder_residence imported triangles match build",
+      "detail": [
+        16338,
+        16338.0
+      ],
+      "pass": true
+    },
+    {
+      "check": "elder_residence imported size matches build (0.05 m)",
+      "detail": [
+        "(22.64, 8.050104, 22.30463)",
+        [
+          22.64,
+          8.05,
+          22.3
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "check": "elder_residence sits on ground (min y ~ 0)",
+      "detail": 0.0,
+      "pass": true
+    },
+    {
+      "check": "elder_residence has authored collision",
+      "detail": 49,
+      "pass": true
+    },
+    {
+      "check": "dining_hall_kitchen imported triangles match build",
+      "detail": [
+        23328,
+        23328.0
+      ],
+      "pass": true
+    },
+    {
+      "check": "dining_hall_kitchen imported size matches build (0.05 m)",
+      "detail": [
+        "(23.14744, 9.255352, 21.12061)",
+        [
+          23.15,
+          9.26,
+          21.12
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "check": "dining_hall_kitchen sits on ground (min y ~ 0)",
+      "detail": 0.0,
+      "pass": true
+    },
+    {
+      "check": "dining_hall_kitchen has authored collision",
+      "detail": 53,
+      "pass": true
+    },
+    {
+      "check": "spirit_herb_garden imported triangles match build",
+      "detail": [
+        12474,
+        12474.0
+      ],
+      "pass": true
+    },
+    {
+      "check": "spirit_herb_garden imported size matches build (0.05 m)",
+      "detail": [
+        "(24.46, 6.506274, 25.14392)",
+        [
+          24.46,
+          6.51,
+          25.14
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "check": "spirit_herb_garden sits on ground (min y ~ 0)",
+      "detail": -0.00627437653020024,
+      "pass": true
+    },
+    {
+      "check": "spirit_herb_garden has authored collision",
+      "detail": 37,
+      "pass": true
+    },
+    {
+      "check": "disciple_residence walk: room 2 reached",
+      "detail": "(2.2, 0.500154, 0.280185)",
+      "pass": true
+    },
+    {
+      "check": "disciple_residence walk: solid wall between doors blocks",
+      "detail": "(1.0, 0.500162, 2.431976)",
+      "pass": true
+    },
+    {
+      "check": "elder_residence walk: gate, stair, main room reached",
+      "detail": "(0.0, 0.999916, -5.369799)",
+      "pass": true
+    },
+    {
+      "check": "dining_hall_kitchen walk: dining hall and kitchen reached",
+      "detail": "(0.0, 0.598942, -9.918278)",
+      "pass": true
+    },
+    {
+      "check": "spirit_herb_garden walk: garden gate passable",
+      "detail": "(0.0, -0.001638, 3.287551)",
+      "pass": true
+    },
+    {
+      "check": "spirit_herb_garden walk: pavilion stair climbable",
+      "detail": "(0.0, 0.500049, -7.299167)",
+      "pass": true
+    }
+  ]
+}

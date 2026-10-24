@@ -1,0 +1,417 @@
+[
+  {
+    "model": "edging/edging_2m.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 48,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Stone"
+    ],
+    "pass": true
+  },
+  {
+    "model": "edging/edging_corner.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 24,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "pass": true
+  },
+  {
+    "model": "edging/edging_end.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 18,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "pass": true
+  },
+  {
+    "model": "railings/rail_post.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 30,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "pass": true
+  },
+  {
+    "model": "railings/rail_section_1m.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 78,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "pass": true
+  },
+  {
+    "model": "railings/rail_section_2m.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 102,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "pass": true
+  },
+  {
+    "model": "railings/rail_stair_22deg_1m.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 78,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "pass": true
+  },
+  {
+    "model": "railings/rail_stair_22deg_2m.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 102,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "pass": true
+  },
+  {
+    "model": "railings/rail_stair_24deg_1m.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 78,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "pass": true
+  },
+  {
+    "model": "railings/rail_stair_24deg_2m.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 102,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "pass": true
+  },
+  {
+    "model": "retaining/retaining_corner_2.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 72,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Rock",
+      "Stone"
+    ],
+    "pass": true
+  },
+  {
+    "model": "retaining/retaining_corner_4.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 120,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Rock",
+      "Stone"
+    ],
+    "pass": true
+  },
+  {
+    "model": "retaining/retaining_end_2.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 72,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Rock",
+      "Stone"
+    ],
+    "pass": true
+  },
+  {
+    "model": "retaining/retaining_end_4.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 120,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Rock",
+      "Stone"
+    ],
+    "pass": true
+  },
+  {
+    "model": "retaining/retaining_wall_4x2.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 276,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Rock",
+      "Stone",
+      "StoneShade"
+    ],
+    "pass": true
+  },
+  {
+    "model": "retaining/retaining_wall_4x4.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 504,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Rock",
+      "Stone",
+      "StoneShade"
+    ],
+    "pass": true
+  },
+  {
+    "model": "sign/direction_sign_board.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 80,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Bronze",
+      "Timber"
+    ],
+    "pass": true
+  },
+  {
+    "model": "sign/direction_sign_post.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 86,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Stone",
+      "Timber"
+    ],
+    "pass": true
+  },
+  {
+    "model": "walls/wall_corner.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 172,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Jade",
+      "Plaster",
+      "Stone",
+      "TileLight",
+      "Timber"
+    ],
+    "pass": true
+  },
+  {
+    "model": "walls/wall_gate_end.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 60,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "pass": true
+  },
+  {
+    "model": "walls/wall_pier.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 172,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Jade",
+      "Plaster",
+      "Stone",
+      "TileLight",
+      "Timber"
+    ],
+    "pass": true
+  },
+  {
+    "model": "walls/wall_section_2m.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 176,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Jade",
+      "Plaster",
+      "Stone",
+      "TileLight",
+      "Timber"
+    ],
+    "pass": true
+  },
+  {
+    "model": "walls/wall_section_4m.glb",
+    "images": 0,
+    "textures": 0,
+    "external_uris": [],
+    "triangles": 272,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "nonfinite_positions": 0,
+    "nonflat_triangles": 0,
+    "material_errors": [],
+    "materials": [
+      "Coping",
+      "Jade",
+      "Plaster",
+      "Stone",
+      "TileLight",
+      "Timber"
+    ],
+    "pass": true
+  }
+]

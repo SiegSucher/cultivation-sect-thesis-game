@@ -1,0 +1,553 @@
+{
+  "models": [
+    {
+      "file": "archive_gate_left.glb",
+      "triangles_before": 124,
+      "triangles_after": 124,
+      "surfaces_after": 4,
+      "bounds_before_blender": [
+        [
+          0.0,
+          -0.14800000190734863,
+          0.0
+        ],
+        [
+          1.100000023841858,
+          0.05999999865889549,
+          2.559999942779541
+        ]
+      ],
+      "bounds_after_blender": [
+        [
+          0.0,
+          -0.14800000190734863,
+          0.0
+        ],
+        [
+          1.100000023841858,
+          0.05999999865889549,
+          2.559999942779541
+        ]
+      ],
+      "roles": [
+        {
+          "original_role": "Bronze",
+          "target": "Bronze",
+          "before": 52,
+          "after": 52,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Indigo",
+          "target": "Fabric",
+          "before": 12,
+          "after": 12,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Iron",
+          "target": "Timber",
+          "before": 36,
+          "after": 36,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Paper",
+          "target": "Plaster",
+          "before": 12,
+          "after": 12,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Timber",
+          "target": "Timber",
+          "before": 12,
+          "after": 12,
+          "ground_batch_preserved": false
+        }
+      ]
+    },
+    {
+      "file": "archive_gate_right.glb",
+      "triangles_before": 124,
+      "triangles_after": 124,
+      "surfaces_after": 4,
+      "bounds_before_blender": [
+        [
+          -1.100000023841858,
+          -0.14800000190734863,
+          0.0
+        ],
+        [
+          0.0,
+          0.05999999865889549,
+          2.559999942779541
+        ]
+      ],
+      "bounds_after_blender": [
+        [
+          -1.100000023841858,
+          -0.14800000190734863,
+          0.0
+        ],
+        [
+          0.0,
+          0.05999999865889549,
+          2.559999942779541
+        ]
+      ],
+      "roles": [
+        {
+          "original_role": "Bronze",
+          "target": "Bronze",
+          "before": 52,
+          "after": 52,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Indigo",
+          "target": "Fabric",
+          "before": 12,
+          "after": 12,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Iron",
+          "target": "Timber",
+          "before": 36,
+          "after": 36,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Paper",
+          "target": "Plaster",
+          "before": 12,
+          "after": 12,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Timber",
+          "target": "Timber",
+          "before": 12,
+          "after": 12,
+          "ground_batch_preserved": false
+        }
+      ]
+    },
+    {
+      "file": "library_lantern.glb",
+      "triangles_before": 168,
+      "triangles_after": 168,
+      "surfaces_after": 3,
+      "bounds_before_blender": [
+        [
+          -0.20000000298023224,
+          -0.20000000298023224,
+          0.03999999910593033
+        ],
+        [
+          0.20000000298023224,
+          0.20000000298023224,
+          1.100000023841858
+        ]
+      ],
+      "bounds_after_blender": [
+        [
+          -0.20000000298023224,
+          -0.20000000298023224,
+          0.03999999910593033
+        ],
+        [
+          0.20000000298023224,
+          0.20000000298023224,
+          1.100000023841858
+        ]
+      ],
+      "roles": [
+        {
+          "original_role": "Bronze",
+          "target": "Bronze",
+          "before": 48,
+          "after": 48,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Iron",
+          "target": "Timber",
+          "before": 20,
+          "after": 20,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Lantern",
+          "target": "Lantern",
+          "before": 12,
+          "after": 12,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Timber",
+          "target": "Timber",
+          "before": 88,
+          "after": 88,
+          "ground_batch_preserved": false
+        }
+      ]
+    },
+    {
+      "file": "reading_stool.glb",
+      "triangles_before": 220,
+      "triangles_after": 220,
+      "surfaces_after": 2,
+      "bounds_before_blender": [
+        [
+          -0.23499999940395355,
+          -0.20000000298023224,
+          0.0
+        ],
+        [
+          0.23499999940395355,
+          0.20000000298023224,
+          0.5099999904632568
+        ]
+      ],
+      "bounds_after_blender": [
+        [
+          -0.23499999940395355,
+          -0.20000000298023224,
+          0.0
+        ],
+        [
+          0.23499999940395355,
+          0.20000000298023224,
+          0.5099999904632568
+        ]
+      ],
+      "roles": [
+        {
+          "original_role": "CarvedWood",
+          "target": "Cedar",
+          "before": 44,
+          "after": 44,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Timber",
+          "target": "Timber",
+          "before": 176,
+          "after": 176,
+          "ground_batch_preserved": false
+        }
+      ]
+    },
+    {
+      "file": "reading_table.glb",
+      "triangles_before": 468,
+      "triangles_after": 468,
+      "surfaces_after": 4,
+      "bounds_before_blender": [
+        [
+          -1.0499999523162842,
+          -0.5249999761581421,
+          0.0
+        ],
+        [
+          1.0499999523162842,
+          0.5249999761581421,
+          1.0099999904632568
+        ]
+      ],
+      "bounds_after_blender": [
+        [
+          -1.0499999523162842,
+          -0.5249999761581421,
+          0.0
+        ],
+        [
+          1.0499999523162842,
+          0.5249999761581421,
+          1.0099999904632568
+        ]
+      ],
+      "roles": [
+        {
+          "original_role": "CarvedWood",
+          "target": "Cedar",
+          "before": 100,
+          "after": 100,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Indigo",
+          "target": "Fabric",
+          "before": 24,
+          "after": 24,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Paper",
+          "target": "Plaster",
+          "before": 36,
+          "after": 36,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Timber",
+          "target": "Timber",
+          "before": 308,
+          "after": 308,
+          "ground_batch_preserved": false
+        }
+      ]
+    },
+    {
+      "file": "scripture_shelf.glb",
+      "triangles_before": 2984,
+      "triangles_after": 2984,
+      "surfaces_after": 5,
+      "bounds_before_blender": [
+        [
+          -1.3250000476837158,
+          -0.3799999952316284,
+          0.0
+        ],
+        [
+          1.3250000476837158,
+          0.3799999952316284,
+          3.0950000286102295
+        ]
+      ],
+      "bounds_after_blender": [
+        [
+          -1.3250000476837158,
+          -0.3799999952316284,
+          0.0
+        ],
+        [
+          1.3250000476837158,
+          0.3799999952316284,
+          3.0950000286102295
+        ]
+      ],
+      "roles": [
+        {
+          "original_role": "CarvedWood",
+          "target": "Cedar",
+          "before": 1404,
+          "after": 1404,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Indigo",
+          "target": "Fabric",
+          "before": 252,
+          "after": 252,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Ochre",
+          "target": "Bronze",
+          "before": 228,
+          "after": 228,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Paper",
+          "target": "Plaster",
+          "before": 636,
+          "after": 636,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "RedBinding",
+          "target": "Cedar",
+          "before": 156,
+          "after": 156,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Timber",
+          "target": "Timber",
+          "before": 308,
+          "after": 308,
+          "ground_batch_preserved": false
+        }
+      ]
+    },
+    {
+      "file": "scroll_cabinet.glb",
+      "triangles_before": 2600,
+      "triangles_after": 2600,
+      "surfaces_after": 4,
+      "bounds_before_blender": [
+        [
+          -1.0099999904632568,
+          -0.4480000138282776,
+          -0.03999999910593033
+        ],
+        [
+          1.0099999904632568,
+          0.41999998688697815,
+          2.005000114440918
+        ]
+      ],
+      "bounds_after_blender": [
+        [
+          -1.0099999904632568,
+          -0.4480000138282776,
+          -0.03999999910593033
+        ],
+        [
+          1.0099999904632568,
+          0.41999998688697815,
+          2.005000114440918
+        ]
+      ],
+      "roles": [
+        {
+          "original_role": "Bronze",
+          "target": "Bronze",
+          "before": 120,
+          "after": 120,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "CarvedWood",
+          "target": "Cedar",
+          "before": 1180,
+          "after": 1180,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Paper",
+          "target": "Plaster",
+          "before": 1080,
+          "after": 1080,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Timber",
+          "target": "Timber",
+          "before": 220,
+          "after": 220,
+          "ground_batch_preserved": false
+        }
+      ]
+    },
+    {
+      "file": "sealed_cabinet.glb",
+      "triangles_before": 272,
+      "triangles_after": 272,
+      "surfaces_after": 5,
+      "bounds_before_blender": [
+        [
+          -1.0099999904632568,
+          -0.47749999165534973,
+          -0.03999999910593033
+        ],
+        [
+          1.0099999904632568,
+          0.41999998688697815,
+          2.755000114440918
+        ]
+      ],
+      "bounds_after_blender": [
+        [
+          -1.0099999904632568,
+          -0.47749999165534973,
+          -0.03999999910593033
+        ],
+        [
+          1.0099999904632568,
+          0.41999998688697815,
+          2.755000114440918
+        ]
+      ],
+      "roles": [
+        {
+          "original_role": "Bronze",
+          "target": "Bronze",
+          "before": 60,
+          "after": 60,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "CarvedWood",
+          "target": "Cedar",
+          "before": 132,
+          "after": 132,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Indigo",
+          "target": "Fabric",
+          "before": 24,
+          "after": 24,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Paper",
+          "target": "Plaster",
+          "before": 12,
+          "after": 12,
+          "ground_batch_preserved": false
+        },
+        {
+          "original_role": "Timber",
+          "target": "Timber",
+          "before": 44,
+          "after": 44,
+          "ground_batch_preserved": false
+        }
+      ]
+    }
+  ],
+  "palette": {
+    "Stone": "667e88",
+    "Coping": "bcc6bd",
+    "Timber": "432d2d",
+    "Cedar": "896048",
+    "Jade": "22594f",
+    "TileLight": "46796b",
+    "Plaster": "e6d9b8",
+    "Window": "284c53",
+    "Bronze": "cda668",
+    "Fabric": "456e73",
+    "Lantern": "ffda91",
+    "Floor": "85624d",
+    "Earth": "806b50",
+    "CourtStone": "81938d"
+  },
+  "material_map": {
+    "Ashlar": "Stone",
+    "ArchStone": "Stone",
+    "ArchStoneDark": "Stone",
+    "Stone": "Stone",
+    "WornStone": "Stone",
+    "Coping": "Coping",
+    "Paving": "Stone",
+    "CourtPaving": "CourtStone",
+    "PackedEarth": "Earth",
+    "Joint": "Window",
+    "Timber": "Timber",
+    "CarvedWood": "Cedar",
+    "PracticeWood": "Floor",
+    "Iron": "Timber",
+    "JadeTile": "Jade",
+    "TileEdge": "TileLight",
+    "Plaster": "Plaster",
+    "Window": "Window",
+    "Bronze": "Bronze",
+    "Fabric": "Fabric",
+    "Rope": "Plaster",
+    "Pottery": "Jade",
+    "Lantern": "Lantern",
+    "Floor": "Floor",
+    "Indigo": "Fabric",
+    "Paper": "Plaster",
+    "Ochre": "Bronze",
+    "RedBinding": "Cedar"
+  },
+  "preserved": "All architecture envelopes, protected ground node names, prop feet/hinge origins. No runtime/JSON/settings changes.",
+  "geometry_method": "Weld coincident seams; limited dissolve 2 degrees (10 on roof ribs), flat normals; no collapse decimation. Training repaired ground layers excluded from dissolve."
+}

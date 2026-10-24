@@ -1,0 +1,24 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="PackedScene" path="res://staging/claude_environment_batch1/stone_lantern/stone_lantern.glb" id="1_model"]
+
+[sub_resource type="BoxShape3D" id="Shape_000"]
+size = Vector3(0.64, 1.45, 0.64)
+
+[sub_resource type="BoxShape3D" id="Shape_001"]
+size = Vector3(0.92, 0.6, 0.92)
+
+[node name="StoneLantern" type="Node3D"]
+
+[node name="Model" parent="." instance=ExtResource("1_model")]
+
+[node name="Collision" type="StaticBody3D" parent="." groups=["solid_world"]]
+collision_mask = 2
+
+[node name="LanternBaseAndShaft_000" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.725, 0)
+shape = SubResource("Shape_000")
+
+[node name="LanternCap_001" type="CollisionShape3D" parent="Collision"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.75, 0)
+shape = SubResource("Shape_001")

@@ -1,0 +1,38 @@
+{
+	"checks": [
+		{
+			"check": "Terrain topology and extent unchanged",
+			"detail": 352386,
+			"pass": true
+		},
+		{
+			"check": "All occupied-shelf and route-envelope vertices identical",
+			"detail": {
+				"backdrop_vertices_changed": 133815,
+				"changed": 0,
+				"protected_vertices": 218571
+			},
+			"pass": true
+		},
+		{
+			"check": "Only vertical terrain positions changed",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Visible and physical terrain agree within 0.1 mm",
+			"detail": 0.0,
+			"pass": true
+		},
+		{
+			"check": "Existing pines retain count, horizontal placement, rotation and scale",
+			"detail": {
+				"instances": 1440,
+				"vertically_seated": 1416
+			},
+			"pass": true
+		}
+	],
+	"failures": 0,
+	"passes": 5
+}

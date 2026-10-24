@@ -1,0 +1,8 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+[godot_ai game_helper] registered mcp capture (debugger active=false, logger=true)
+FAIL sampled visible column/drum camera clearance [{ "label": "veranda sweep", "third": true, "yaw": 3.92699081698724, "pitch": -0.35, "player": [-17.1000003814697, 1.52020835876465, -9.10000038146973], "camera": [-17.6725292205811, 3.51683020591736, -9.67253017425537], "solid_camera": [], "visible_camera": ["Hall _ Timber"], "visible_body": [] }, { "label": "veranda sweep", "third": true, "yaw": 3.92699081698724, "pitch": 0.0, "player": [-17.100 (full details in JSON)
+FAIL all visible camera samples clear [{ "label": "veranda sweep", "third": true, "yaw": 3.92699081698724, "pitch": -0.35, "player": [-17.1000003814697, 1.52020835876465, -9.10000038146973], "camera": [-17.6725292205811, 3.51683020591736, -9.67253017425537], "solid_camera": [], "visible_camera": ["Hall _ Timber"], "visible_body": [] }, { "label": "veranda sweep", "third": true, "yaw": 5.23598775598299, "pitch": -0.35, "player": [-17.1 (full details in JSON)
+3 PASS / 2 FAIL; 1296 camera/body samples

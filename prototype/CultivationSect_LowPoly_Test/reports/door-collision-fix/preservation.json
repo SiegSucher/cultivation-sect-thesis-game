@@ -1,0 +1,132 @@
+{
+  "existing_test_files_checked": 5189,
+  "existing_files_changed": [
+    "HANDOFF.md",
+    "scenes/buildings/dining_hall_kitchen.tscn",
+    "scenes/buildings/disciple_residence.tscn",
+    "scenes/buildings/elder_residence.tscn",
+    "scenes/buildings/exchange_hall.tscn",
+    "scenes/buildings/medicine_hall.tscn",
+    "scenes/buildings/mission_hall.tscn"
+  ],
+  "missing_files": [],
+  "original_files_match_task_start": 1599,
+  "original_files_match_recorded_baseline": 1599,
+  "original_changed": [],
+  "staging_files_preserved": 62,
+  "staging_added_removed_changed": false,
+  "all_existing_scene_resource_node_blocks_preserved": true,
+  "models_sources_materials_controllers_settings_catalog_and_prior_reports_unchanged": true,
+  "protected_sha256": {
+    "scripts/training_inspection_player.gd": "35ece8a71aef39bd7ec9f869430f1fe5bed3482f813ea66e8bc055cd37a2adbf",
+    "scripts/hall_experiment.gd": "ae9695d581135c34f7908e865ea80dcd0b3d9904500b972a642442350ab6cb58",
+    "assets/gallery/catalog.json": "ca0fae84be0036412b5030afae770a350b2d8aa657c4811770a63301fc6a13cb",
+    "assets/architecture/medicine_hall/medicine_camera_obstructions.tres": "01c97bdc5aee3bba98004006dca40dfa0519193d80c157e8e3f313e96442c713"
+  },
+  "collision_shapes": {
+    "mission_hall": {
+      "before": 37,
+      "after": 39,
+      "before_sha256": "4d9b0bad39367ca5448a54845bc460f992281bc2b42007c3f8e287de64bc0648",
+      "after_sha256": "f279d2bc2dea6865e5d64e2745e8f9769e57b7e0872efca8d063674174d3fded"
+    },
+    "exchange_hall": {
+      "before": 73,
+      "after": 75,
+      "before_sha256": "c18df13232ab0506a83a4de86fc62b05f0987336785d22937fde20f989385960",
+      "after_sha256": "4c583b276249b3a0c59116024a4dd0bd0797cf2ca3ce6ab6bfae25caf9ffb8be"
+    },
+    "dining_hall_kitchen": {
+      "before": 53,
+      "after": 61,
+      "before_sha256": "a86ef919ae92f89c3ab42443c631e0e2165f46fc4f48dd34344cae693dd836f7",
+      "after_sha256": "748c5b0e8292534f68bbf959cd59d2770100dc4a7c717940b1098d03acdae7b8"
+    },
+    "disciple_residence": {
+      "before": 36,
+      "after": 44,
+      "before_sha256": "a065c414420feb05b50d026da416ed751560151e04f8a1428c58395814893f7d",
+      "after_sha256": "0424e1db16f62a52ee147ca1a3704a854ca5ad4dec61e0071731d2dff93ca5b4"
+    },
+    "elder_residence": {
+      "before": 49,
+      "after": 53,
+      "before_sha256": "2c3da3096f31e6d637d179e48a0c86f076f9215cc09c46b6a08039936edb2a65",
+      "after_sha256": "26a98a2db8479b7847da0d457df6d400c425fe925688fd8ff75491a5c57c2ba1"
+    },
+    "medicine_hall": {
+      "before": 54,
+      "after": 56,
+      "before_sha256": "c6e212a9ef493d007c7340216424573f5594b9e182589f77b3d677cd71282bbe",
+      "after_sha256": "e082c664139aa85c02f69d9e97f7270d5e9ba2b83c66192875ade04c8790a169"
+    }
+  },
+  "tests": {
+    "before": {
+      "passed": 30,
+      "failed": 0,
+      "file": "before-probes.json"
+    },
+    "door headless": {
+      "passed": 181,
+      "failed": 0,
+      "file": "after-headless.json"
+    },
+    "door rendered": {
+      "passed": 191,
+      "failed": 0,
+      "file": "after-rendered.json"
+    },
+    "dorm camera": {
+      "passed": 4,
+      "failed": 0,
+      "file": "dorm-camera.json"
+    },
+    "batch1 headless": {
+      "passed": 121,
+      "failed": 0,
+      "file": "batch1/headless-results.json"
+    },
+    "batch1 rendered": {
+      "passed": 138,
+      "failed": 0,
+      "file": "batch1/rendered-results.json"
+    },
+    "mission headless": {
+      "passed": 50,
+      "failed": 0,
+      "file": "mission/independent-routes.json"
+    },
+    "mission rendered": {
+      "passed": 56,
+      "failed": 0,
+      "file": "mission/rendered-routes.json"
+    },
+    "exchange headless": {
+      "passed": 70,
+      "failed": 0,
+      "file": "exchange/independent-routes.json"
+    },
+    "exchange rendered": {
+      "passed": 78,
+      "failed": 0,
+      "file": "exchange/rendered-routes.json"
+    },
+    "batch2 headless": {
+      "passed": 124,
+      "failed": 0,
+      "file": "batch2/headless-results.json"
+    },
+    "batch2 rendered": {
+      "passed": 136,
+      "failed": 0,
+      "file": "batch2/rendered-results.json"
+    },
+    "gallery": {
+      "passed": 466,
+      "failed": 0,
+      "file": "gallery/launch-results.json"
+    }
+  },
+  "screenshots": 99
+}

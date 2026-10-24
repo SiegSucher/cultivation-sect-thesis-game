@@ -1,0 +1,19 @@
+{
+	"buildings": 12,
+	"environment_counts": {
+		"bamboo_cluster": 10,
+		"flowering_shrub": 9,
+		"grass_tuft": 9,
+		"mountain_pines_batched": 1250,
+		"pine_tiered": 122,
+		"pine_windswept": 44,
+		"rock_cluster": 6,
+		"rock_outcrop": 6,
+		"sect_banner": 2,
+		"stone_bench": 2,
+		"stone_lantern": 4,
+		"training_dummy_rack": 1
+	},
+	"save_error": 0,
+	"terrain_triangles": 156800
+}

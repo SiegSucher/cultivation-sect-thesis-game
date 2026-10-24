@@ -1,0 +1,115 @@
+{
+  "compared_fields": [
+    "scene",
+    "scene_script",
+    "controller",
+    "automated",
+    "physics_enabled",
+    "unhandled_input_enabled",
+    "third_person",
+    "avatar_visible",
+    "player_camera_current",
+    "mouse_captured",
+    "avatar_mesh_count"
+  ],
+  "comparisons": [
+    {
+      "asset": "main_sect_hall",
+      "startup_fields_changed": {
+        "physics_enabled": {
+          "before": false,
+          "after": true
+        },
+        "unhandled_input_enabled": {
+          "before": false,
+          "after": true
+        },
+        "third_person": {
+          "before": false,
+          "after": true
+        },
+        "avatar_visible": {
+          "before": false,
+          "after": true
+        },
+        "player_camera_current": {
+          "before": false,
+          "after": true
+        },
+        "mouse_captured": {
+          "before": false,
+          "after": true
+        }
+      },
+      "passed": 40,
+      "failed": 0
+    },
+    {
+      "asset": "sect_gate",
+      "startup_fields_changed": {},
+      "passed": 41,
+      "failed": 0
+    },
+    {
+      "asset": "martial_training_ground",
+      "startup_fields_changed": {},
+      "passed": 24,
+      "failed": 0
+    },
+    {
+      "asset": "scripture_pavilion",
+      "startup_fields_changed": {},
+      "passed": 27,
+      "failed": 0
+    },
+    {
+      "asset": "disciple_residence",
+      "startup_fields_changed": {},
+      "passed": 46,
+      "failed": 0
+    },
+    {
+      "asset": "elder_residence",
+      "startup_fields_changed": {},
+      "passed": 46,
+      "failed": 0
+    },
+    {
+      "asset": "dining_hall_kitchen",
+      "startup_fields_changed": {},
+      "passed": 46,
+      "failed": 0
+    },
+    {
+      "asset": "spirit_herb_garden",
+      "startup_fields_changed": {},
+      "passed": 46,
+      "failed": 0
+    },
+    {
+      "asset": "mission_hall",
+      "startup_fields_changed": {},
+      "passed": 34,
+      "failed": 0
+    },
+    {
+      "asset": "exchange_hall",
+      "startup_fields_changed": {},
+      "passed": 34,
+      "failed": 0
+    },
+    {
+      "asset": "alchemy_pavilion",
+      "startup_fields_changed": {},
+      "passed": 40,
+      "failed": 0
+    },
+    {
+      "asset": "medicine_hall",
+      "startup_fields_changed": {},
+      "passed": 40,
+      "failed": 0
+    }
+  ],
+  "all_other_eleven_launch_states_unchanged": true
+}

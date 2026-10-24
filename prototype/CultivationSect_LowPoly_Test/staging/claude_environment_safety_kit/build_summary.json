@@ -1,0 +1,659 @@
+{
+  "wall_section_2m": {
+    "name": "Boundary wall section 2 m",
+    "family": "walls",
+    "scene": "res://staging/claude_environment_safety_kit/walls/wall_section_2m.tscn",
+    "model": "res://staging/claude_environment_safety_kit/walls/wall_section_2m.glb",
+    "triangles": 176,
+    "materials": [
+      "Coping",
+      "Jade",
+      "Plaster",
+      "Stone",
+      "TileLight",
+      "Timber"
+    ],
+    "bounds_min": [
+      0.0,
+      0.0,
+      -0.38
+    ],
+    "bounds_max": [
+      2.0,
+      2.7,
+      0.38
+    ],
+    "size_xyz_m": [
+      2.0,
+      2.7,
+      0.76
+    ],
+    "collision_shapes": 2
+  },
+  "wall_section_4m": {
+    "name": "Boundary wall section 4 m",
+    "family": "walls",
+    "scene": "res://staging/claude_environment_safety_kit/walls/wall_section_4m.tscn",
+    "model": "res://staging/claude_environment_safety_kit/walls/wall_section_4m.glb",
+    "triangles": 272,
+    "materials": [
+      "Coping",
+      "Jade",
+      "Plaster",
+      "Stone",
+      "TileLight",
+      "Timber"
+    ],
+    "bounds_min": [
+      0.0,
+      0.0,
+      -0.38
+    ],
+    "bounds_max": [
+      4.0,
+      2.7,
+      0.38
+    ],
+    "size_xyz_m": [
+      4.0,
+      2.7,
+      0.76
+    ],
+    "collision_shapes": 2
+  },
+  "wall_pier": {
+    "name": "Boundary wall pier (support/end)",
+    "family": "walls",
+    "scene": "res://staging/claude_environment_safety_kit/walls/wall_pier.tscn",
+    "model": "res://staging/claude_environment_safety_kit/walls/wall_pier.glb",
+    "triangles": 172,
+    "materials": [
+      "Coping",
+      "Jade",
+      "Plaster",
+      "Stone",
+      "TileLight",
+      "Timber"
+    ],
+    "bounds_min": [
+      -0.572,
+      0.0,
+      -0.572
+    ],
+    "bounds_max": [
+      0.572,
+      3.31,
+      0.572
+    ],
+    "size_xyz_m": [
+      1.14,
+      3.31,
+      1.14
+    ],
+    "collision_shapes": 2
+  },
+  "wall_corner": {
+    "name": "Boundary wall corner pier",
+    "family": "walls",
+    "scene": "res://staging/claude_environment_safety_kit/walls/wall_corner.tscn",
+    "model": "res://staging/claude_environment_safety_kit/walls/wall_corner.glb",
+    "triangles": 172,
+    "materials": [
+      "Coping",
+      "Jade",
+      "Plaster",
+      "Stone",
+      "TileLight",
+      "Timber"
+    ],
+    "bounds_min": [
+      -0.67,
+      0.0,
+      -0.67
+    ],
+    "bounds_max": [
+      0.67,
+      3.46,
+      0.67
+    ],
+    "size_xyz_m": [
+      1.34,
+      3.46,
+      1.34
+    ],
+    "collision_shapes": 2
+  },
+  "wall_gate_end": {
+    "name": "Boundary wall gate abutment",
+    "family": "walls",
+    "scene": "res://staging/claude_environment_safety_kit/walls/wall_gate_end.tscn",
+    "model": "res://staging/claude_environment_safety_kit/walls/wall_gate_end.glb",
+    "triangles": 60,
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "bounds_min": [
+      -0.11,
+      0.0,
+      -0.45
+    ],
+    "bounds_max": [
+      0.73,
+      3.24,
+      0.45
+    ],
+    "size_xyz_m": [
+      0.84,
+      3.24,
+      0.9
+    ],
+    "collision_shapes": 2
+  },
+  "rail_section_1m": {
+    "name": "Guardrail section 1 m",
+    "family": "railings",
+    "scene": "res://staging/claude_environment_safety_kit/railings/rail_section_1m.tscn",
+    "model": "res://staging/claude_environment_safety_kit/railings/rail_section_1m.glb",
+    "triangles": 78,
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "bounds_min": [
+      -0.15,
+      -0.05,
+      -0.15
+    ],
+    "bounds_max": [
+      0.88,
+      1.34,
+      0.15
+    ],
+    "size_xyz_m": [
+      1.03,
+      1.39,
+      0.3
+    ],
+    "collision_shapes": 2
+  },
+  "rail_section_2m": {
+    "name": "Guardrail section 2 m",
+    "family": "railings",
+    "scene": "res://staging/claude_environment_safety_kit/railings/rail_section_2m.tscn",
+    "model": "res://staging/claude_environment_safety_kit/railings/rail_section_2m.glb",
+    "triangles": 102,
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "bounds_min": [
+      -0.15,
+      -0.05,
+      -0.15
+    ],
+    "bounds_max": [
+      1.88,
+      1.34,
+      0.15
+    ],
+    "size_xyz_m": [
+      2.03,
+      1.39,
+      0.3
+    ],
+    "collision_shapes": 2
+  },
+  "rail_post": {
+    "name": "Guardrail end/corner post",
+    "family": "railings",
+    "scene": "res://staging/claude_environment_safety_kit/railings/rail_post.tscn",
+    "model": "res://staging/claude_environment_safety_kit/railings/rail_post.glb",
+    "triangles": 30,
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "bounds_min": [
+      -0.15,
+      -0.05,
+      -0.15
+    ],
+    "bounds_max": [
+      0.15,
+      1.34,
+      0.15
+    ],
+    "size_xyz_m": [
+      0.3,
+      1.39,
+      0.3
+    ],
+    "collision_shapes": 1
+  },
+  "rail_stair_22deg_1m": {
+    "name": "Stair guardrail 22 deg, 1 m run",
+    "family": "railings",
+    "scene": "res://staging/claude_environment_safety_kit/railings/rail_stair_22deg_1m.tscn",
+    "model": "res://staging/claude_environment_safety_kit/railings/rail_stair_22deg_1m.glb",
+    "triangles": 78,
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "bounds_min": [
+      -0.15,
+      -0.05,
+      -0.15
+    ],
+    "bounds_max": [
+      0.88,
+      1.456,
+      0.15
+    ],
+    "size_xyz_m": [
+      1.03,
+      1.51,
+      0.3
+    ],
+    "collision_shapes": 2
+  },
+  "rail_stair_22deg_2m": {
+    "name": "Stair guardrail 22 deg, 2 m run",
+    "family": "railings",
+    "scene": "res://staging/claude_environment_safety_kit/railings/rail_stair_22deg_2m.tscn",
+    "model": "res://staging/claude_environment_safety_kit/railings/rail_stair_22deg_2m.glb",
+    "triangles": 102,
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "bounds_min": [
+      -0.15,
+      -0.05,
+      -0.15
+    ],
+    "bounds_max": [
+      1.88,
+      1.86,
+      0.15
+    ],
+    "size_xyz_m": [
+      2.03,
+      1.91,
+      0.3
+    ],
+    "collision_shapes": 2
+  },
+  "rail_stair_24deg_1m": {
+    "name": "Stair guardrail 24 deg, 1 m run",
+    "family": "railings",
+    "scene": "res://staging/claude_environment_safety_kit/railings/rail_stair_24deg_1m.tscn",
+    "model": "res://staging/claude_environment_safety_kit/railings/rail_stair_24deg_1m.glb",
+    "triangles": 78,
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "bounds_min": [
+      -0.15,
+      -0.05,
+      -0.15
+    ],
+    "bounds_max": [
+      0.88,
+      1.492,
+      0.15
+    ],
+    "size_xyz_m": [
+      1.03,
+      1.54,
+      0.3
+    ],
+    "collision_shapes": 2
+  },
+  "rail_stair_24deg_2m": {
+    "name": "Stair guardrail 24 deg, 2 m run",
+    "family": "railings",
+    "scene": "res://staging/claude_environment_safety_kit/railings/rail_stair_24deg_2m.tscn",
+    "model": "res://staging/claude_environment_safety_kit/railings/rail_stair_24deg_2m.glb",
+    "triangles": 102,
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "bounds_min": [
+      -0.15,
+      -0.05,
+      -0.15
+    ],
+    "bounds_max": [
+      1.88,
+      1.937,
+      0.15
+    ],
+    "size_xyz_m": [
+      2.03,
+      1.99,
+      0.3
+    ],
+    "collision_shapes": 2
+  },
+  "retaining_wall_4x2": {
+    "name": "Retaining wall 4 x 2 m",
+    "family": "retaining",
+    "scene": "res://staging/claude_environment_safety_kit/retaining/retaining_wall_4x2.tscn",
+    "model": "res://staging/claude_environment_safety_kit/retaining/retaining_wall_4x2.glb",
+    "triangles": 276,
+    "materials": [
+      "Coping",
+      "Rock",
+      "Stone",
+      "StoneShade"
+    ],
+    "bounds_min": [
+      0.0,
+      0.0,
+      -0.62
+    ],
+    "bounds_max": [
+      4.0,
+      2.0,
+      0.06
+    ],
+    "size_xyz_m": [
+      4.0,
+      2.0,
+      0.68
+    ],
+    "collision_shapes": 1
+  },
+  "retaining_wall_4x4": {
+    "name": "Retaining wall 4 x 4 m",
+    "family": "retaining",
+    "scene": "res://staging/claude_environment_safety_kit/retaining/retaining_wall_4x4.tscn",
+    "model": "res://staging/claude_environment_safety_kit/retaining/retaining_wall_4x4.glb",
+    "triangles": 504,
+    "materials": [
+      "Coping",
+      "Rock",
+      "Stone",
+      "StoneShade"
+    ],
+    "bounds_min": [
+      0.0,
+      0.0,
+      -0.62
+    ],
+    "bounds_max": [
+      4.0,
+      4.0,
+      0.06
+    ],
+    "size_xyz_m": [
+      4.0,
+      4.0,
+      0.68
+    ],
+    "collision_shapes": 1
+  },
+  "retaining_corner_2": {
+    "name": "Retaining outer corner 2 m",
+    "family": "retaining",
+    "scene": "res://staging/claude_environment_safety_kit/retaining/retaining_corner_2.tscn",
+    "model": "res://staging/claude_environment_safety_kit/retaining/retaining_corner_2.glb",
+    "triangles": 72,
+    "materials": [
+      "Coping",
+      "Rock",
+      "Stone"
+    ],
+    "bounds_min": [
+      -0.7,
+      0.0,
+      -0.7
+    ],
+    "bounds_max": [
+      0.1,
+      2.0,
+      0.1
+    ],
+    "size_xyz_m": [
+      0.8,
+      2.0,
+      0.8
+    ],
+    "collision_shapes": 1
+  },
+  "retaining_corner_4": {
+    "name": "Retaining outer corner 4 m",
+    "family": "retaining",
+    "scene": "res://staging/claude_environment_safety_kit/retaining/retaining_corner_4.tscn",
+    "model": "res://staging/claude_environment_safety_kit/retaining/retaining_corner_4.glb",
+    "triangles": 120,
+    "materials": [
+      "Coping",
+      "Rock",
+      "Stone"
+    ],
+    "bounds_min": [
+      -0.7,
+      0.0,
+      -0.7
+    ],
+    "bounds_max": [
+      0.1,
+      4.0,
+      0.1
+    ],
+    "size_xyz_m": [
+      0.8,
+      4.0,
+      0.8
+    ],
+    "collision_shapes": 1
+  },
+  "retaining_end_2": {
+    "name": "Retaining end 2 m",
+    "family": "retaining",
+    "scene": "res://staging/claude_environment_safety_kit/retaining/retaining_end_2.tscn",
+    "model": "res://staging/claude_environment_safety_kit/retaining/retaining_end_2.glb",
+    "triangles": 72,
+    "materials": [
+      "Coping",
+      "Rock",
+      "Stone"
+    ],
+    "bounds_min": [
+      -0.4,
+      0.0,
+      -0.7
+    ],
+    "bounds_max": [
+      0.4,
+      2.0,
+      0.1
+    ],
+    "size_xyz_m": [
+      0.8,
+      2.0,
+      0.8
+    ],
+    "collision_shapes": 1
+  },
+  "retaining_end_4": {
+    "name": "Retaining end 4 m",
+    "family": "retaining",
+    "scene": "res://staging/claude_environment_safety_kit/retaining/retaining_end_4.tscn",
+    "model": "res://staging/claude_environment_safety_kit/retaining/retaining_end_4.glb",
+    "triangles": 120,
+    "materials": [
+      "Coping",
+      "Rock",
+      "Stone"
+    ],
+    "bounds_min": [
+      -0.4,
+      0.0,
+      -0.7
+    ],
+    "bounds_max": [
+      0.4,
+      4.0,
+      0.1
+    ],
+    "size_xyz_m": [
+      0.8,
+      4.0,
+      0.8
+    ],
+    "collision_shapes": 1
+  },
+  "edging_2m": {
+    "name": "Low stone edging 2 m",
+    "family": "edging",
+    "scene": "res://staging/claude_environment_safety_kit/edging/edging_2m.tscn",
+    "model": "res://staging/claude_environment_safety_kit/edging/edging_2m.glb",
+    "triangles": 48,
+    "materials": [
+      "Stone"
+    ],
+    "bounds_min": [
+      0.008,
+      -0.04,
+      -0.09
+    ],
+    "bounds_max": [
+      1.992,
+      0.14,
+      0.09
+    ],
+    "size_xyz_m": [
+      1.98,
+      0.18,
+      0.18
+    ],
+    "collision_shapes": 0
+  },
+  "edging_corner": {
+    "name": "Low stone edging corner",
+    "family": "edging",
+    "scene": "res://staging/claude_environment_safety_kit/edging/edging_corner.tscn",
+    "model": "res://staging/claude_environment_safety_kit/edging/edging_corner.glb",
+    "triangles": 24,
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "bounds_min": [
+      -0.13,
+      -0.04,
+      -0.13
+    ],
+    "bounds_max": [
+      0.13,
+      0.19,
+      0.13
+    ],
+    "size_xyz_m": [
+      0.26,
+      0.23,
+      0.26
+    ],
+    "collision_shapes": 0
+  },
+  "edging_end": {
+    "name": "Low stone edging end",
+    "family": "edging",
+    "scene": "res://staging/claude_environment_safety_kit/edging/edging_end.tscn",
+    "model": "res://staging/claude_environment_safety_kit/edging/edging_end.glb",
+    "triangles": 18,
+    "materials": [
+      "Coping",
+      "Stone"
+    ],
+    "bounds_min": [
+      -0.11,
+      -0.04,
+      -0.11
+    ],
+    "bounds_max": [
+      0.11,
+      0.21,
+      0.11
+    ],
+    "size_xyz_m": [
+      0.22,
+      0.25,
+      0.22
+    ],
+    "collision_shapes": 0
+  },
+  "direction_sign_post": {
+    "name": "Direction sign post (part)",
+    "family": "sign",
+    "scene": null,
+    "model": "res://staging/claude_environment_safety_kit/sign/direction_sign_post.glb",
+    "triangles": 86,
+    "materials": [
+      "Coping",
+      "Stone",
+      "Timber"
+    ],
+    "bounds_min": [
+      -0.28,
+      0.0,
+      -0.28
+    ],
+    "bounds_max": [
+      0.28,
+      3.14,
+      0.28
+    ],
+    "size_xyz_m": [
+      0.56,
+      3.14,
+      0.56
+    ],
+    "collision_shapes": 2
+  },
+  "direction_sign_board": {
+    "name": "Direction sign board (part)",
+    "family": "sign",
+    "scene": null,
+    "model": "res://staging/claude_environment_safety_kit/sign/direction_sign_board.glb",
+    "triangles": 80,
+    "materials": [
+      "Bronze",
+      "Timber"
+    ],
+    "bounds_min": [
+      -0.1,
+      -0.112,
+      -0.1
+    ],
+    "bounds_max": [
+      1.3,
+      0.112,
+      0.1
+    ],
+    "size_xyz_m": [
+      1.4,
+      0.22,
+      0.2
+    ],
+    "collision_shapes": 0
+  },
+  "direction_sign": {
+    "name": "Direction sign (post + 3 boards)",
+    "family": "sign",
+    "scene": "res://staging/claude_environment_safety_kit/sign/direction_sign.tscn",
+    "triangles": 326,
+    "labels": [
+      "MAIN HALL",
+      "TRAINING GROUND",
+      "LIVING DISTRICT"
+    ],
+    "collision_shapes": 2
+  }
+}

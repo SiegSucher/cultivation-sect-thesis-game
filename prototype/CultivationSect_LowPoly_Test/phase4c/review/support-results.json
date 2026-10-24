@@ -1,0 +1,55 @@
+{
+	"checks": [
+		{
+			"check": "All twelve building transforms equal approved compact baseline",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Approved smooth walking ramps retained exactly",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Visible and physical ground match within 0.1 mm",
+			"detail": {
+				"maximum_difference_m": 0.00005340576171875,
+				"physical_vertices": 352386,
+				"visible_vertices": 352386
+			},
+			"pass": true
+		},
+		{
+			"check": "Kit instances have original scale and upright posts",
+			"detail": 146,
+			"pass": true
+		},
+		{
+			"check": "Hall retaining rail has waist-height collision",
+			"detail": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_section_2m_011/Collision",
+			"pass": true
+		},
+		{
+			"check": "Living retaining rail has waist-height collision",
+			"detail": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_section_2m_035/Collision",
+			"pass": true
+		},
+		{
+			"check": "Overlook rail has waist-height collision",
+			"detail": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_section_2m_042/Collision",
+			"pass": true
+		},
+		{
+			"check": "Living stair rail has waist-height collision",
+			"detail": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_stair_22deg_2m_011/Collision",
+			"pass": true
+		},
+		{
+			"check": "Hall stair rail has waist-height collision",
+			"detail": "/root/Phase4C_CompactValley/SelectiveTerrainSupports/rail_stair_24deg_2m_005/Collision",
+			"pass": true
+		}
+	],
+	"failures": 0,
+	"passes": 9
+}

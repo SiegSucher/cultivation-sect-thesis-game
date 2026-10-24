@@ -1,0 +1,23 @@
+{
+  "existing_test_files_checked": 5133,
+  "existing_test_files_changed": [
+    "HANDOFF.md",
+    "scripts/hall_experiment.gd"
+  ],
+  "missing_files": [],
+  "original_files_unchanged_from_task_start": 1599,
+  "original_files_matching_recorded_baseline": 1599,
+  "original_changed": [],
+  "only_runtime_change_is_Hall_manual_startup_block": true,
+  "all_other_eleven_startup_fields_unchanged": true,
+  "controller_camera_sha256_unchanged": true,
+  "hall_before_sha256": "e29c5819094ff39f63146580764ed3583b497779ec5f9603e388561cbfe1b1cd",
+  "hall_after_sha256": "ae9695d581135c34f7908e865ea80dcd0b3d9904500b972a642442350ab6cb58",
+  "catalog_sha256": "ca0fae84be0036412b5030afae770a350b2d8aa657c4811770a63301fc6a13cb",
+  "audit_harness_sha256": "e9151771f41d18f174d4b3654a9a7376078a7493de38c86b6c5a206d7edd58f0",
+  "passed": 466,
+  "failed": 0,
+  "screenshots": 46,
+  "staging_files_checked": 62,
+  "all_staging_files_preserved": true
+}

@@ -1,0 +1,27 @@
+{
+	"checks": [
+		{
+			"check": "Phase 4C launches",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture healing-overlook",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture hall-approach",
+			"detail": null,
+			"pass": true
+		},
+		{
+			"check": "Capture valley-overview",
+			"detail": null,
+			"pass": true
+		}
+	],
+	"failures": 0,
+	"main_route_runs": [],
+	"passes": 4
+}

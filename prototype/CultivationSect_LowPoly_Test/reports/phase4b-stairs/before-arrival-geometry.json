@@ -1,0 +1,27 @@
+[
+	{
+		"at_z": 162.75,
+		"max_terrain_above_tread_m": 0.617625629529357,
+		"x": -5.5
+	},
+	{
+		"at_z": 162.75,
+		"max_terrain_above_tread_m": 0.135762528516352,
+		"x": -4.5
+	},
+	{
+		"at_z": 157.25,
+		"max_terrain_above_tread_m": -0.102339372038841,
+		"x": 0.0
+	},
+	{
+		"at_z": 157.25,
+		"max_terrain_above_tread_m": 0.13689287006855,
+		"x": 4.5
+	},
+	{
+		"at_z": 157.25,
+		"max_terrain_above_tread_m": 0.613405704498291,
+		"x": 5.5
+	}
+]

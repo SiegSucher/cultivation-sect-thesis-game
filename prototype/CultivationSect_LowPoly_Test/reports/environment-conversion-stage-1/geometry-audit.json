@@ -1,0 +1,46 @@
+[
+  {
+    "file": "sect_gate.glb",
+    "triangles": 78667,
+    "surfaces": 11,
+    "images": 0,
+    "textures": 0,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "finite_positions": true,
+    "opaque": true
+  },
+  {
+    "file": "sect_gate_lod.glb",
+    "triangles": 14666,
+    "surfaces": 11,
+    "images": 0,
+    "textures": 0,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "finite_positions": true,
+    "opaque": true
+  },
+  {
+    "file": "gate_leaf_left.glb",
+    "triangles": 2724,
+    "surfaces": 3,
+    "images": 0,
+    "textures": 0,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "finite_positions": true,
+    "opaque": true
+  },
+  {
+    "file": "gate_leaf_right.glb",
+    "triangles": 2724,
+    "surfaces": 3,
+    "images": 0,
+    "textures": 0,
+    "zero_area_triangles": 0,
+    "invalid_normals": 0,
+    "finite_positions": true,
+    "opaque": true
+  }
+]

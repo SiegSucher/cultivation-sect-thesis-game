@@ -1,0 +1,9 @@
+{
+  "simple_shapes": 195,
+  "roof_triangles": 2368,
+  "roof_zero_area_triangles": 0,
+  "roof_positions_finite": true,
+  "status": "PASS",
+  "collision_only_repair_applied": true,
+  "interpretation": "No zero-area roof collider faces remain. Coverage preservation is documented separately in roof-collision-fix-2026-10-22/collision-repair.json."
+}

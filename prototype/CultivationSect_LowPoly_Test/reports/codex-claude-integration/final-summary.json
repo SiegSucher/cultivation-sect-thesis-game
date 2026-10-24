@@ -1,0 +1,400 @@
+{
+  "scope": "Four Claude staged assets integrated into the isolated test project; no final town placement",
+  "tests": {
+    "basic-results": 22,
+    "headless-results": 121,
+    "rendered-results": 138,
+    "gallery-input-results": 81,
+    "native-source-audit": 9,
+    "hall-controls": 7,
+    "gate-controls": 7,
+    "facility-controls": 17
+  },
+  "preservation": {
+    "original_files_verified": 1599,
+    "original_changed": [],
+    "frozen_existing_files": 841,
+    "allowed_existing_runtime_changes": [
+      "assets/gallery/catalog.json",
+      "scripts/asset_gallery.gd"
+    ],
+    "staging_files_verified_unchanged": 21,
+    "claude_report_and_claude_evidence_unchanged": true,
+    "approved_hall_gate_training_pavilion_assets_and_existing_controllers_preserved": true,
+    "canonical_source_identical_to_staging": true,
+    "catalog_original_prefix_preserved": true,
+    "project_settings_and_default_main_scene_preserved": true,
+    "no_world_scene_or_town_positions_added": true,
+    "assets": [
+      {
+        "asset": "disciple_residence",
+        "glb_sha256": "e84230112ee47def9890fe063a88c5a28c697b9df55129e78c1b6e16256ac9ef",
+        "glb_identical_to_staging": true,
+        "scene_only_glb_path_changed": true,
+        "source_uid": "uid://be5oedw8r6bf7",
+        "canonical_uid": "uid://caohgqs3q4ok4",
+        "palette": [
+          {
+            "name": "Bronze",
+            "srgb_hex": "cda668",
+            "roughness": 0.56
+          },
+          {
+            "name": "Cedar",
+            "srgb_hex": "896048",
+            "roughness": 0.82
+          },
+          {
+            "name": "Coping",
+            "srgb_hex": "bcc6bd",
+            "roughness": 0.82
+          },
+          {
+            "name": "Fabric",
+            "srgb_hex": "456e73",
+            "roughness": 0.82
+          },
+          {
+            "name": "Floor",
+            "srgb_hex": "85624d",
+            "roughness": 0.82
+          },
+          {
+            "name": "Jade",
+            "srgb_hex": "22594f",
+            "roughness": 0.82
+          },
+          {
+            "name": "Lantern",
+            "srgb_hex": "ffda91",
+            "roughness": 0.82
+          },
+          {
+            "name": "Plaster",
+            "srgb_hex": "e6d9b8",
+            "roughness": 0.82
+          },
+          {
+            "name": "Stone",
+            "srgb_hex": "667e88",
+            "roughness": 0.82
+          },
+          {
+            "name": "TileLight",
+            "srgb_hex": "46796b",
+            "roughness": 0.82
+          },
+          {
+            "name": "Timber",
+            "srgb_hex": "432d2d",
+            "roughness": 0.82
+          },
+          {
+            "name": "Window",
+            "srgb_hex": "284c53",
+            "roughness": 0.82
+          }
+        ],
+        "scene_dependency": "res://assets/architecture/disciple_residence/disciple_residence.glb"
+      },
+      {
+        "asset": "elder_residence",
+        "glb_sha256": "2f3271996c92a23664c8efca656979c581292050ac3ff4b61eba81d5f51761ae",
+        "glb_identical_to_staging": true,
+        "scene_only_glb_path_changed": true,
+        "source_uid": "uid://xlkn8047fmeo",
+        "canonical_uid": "uid://8qk3nrg6ogy8",
+        "palette": [
+          {
+            "name": "Bronze",
+            "srgb_hex": "cda668",
+            "roughness": 0.56
+          },
+          {
+            "name": "Cedar",
+            "srgb_hex": "896048",
+            "roughness": 0.82
+          },
+          {
+            "name": "Coping",
+            "srgb_hex": "bcc6bd",
+            "roughness": 0.82
+          },
+          {
+            "name": "Fabric",
+            "srgb_hex": "456e73",
+            "roughness": 0.82
+          },
+          {
+            "name": "Floor",
+            "srgb_hex": "85624d",
+            "roughness": 0.82
+          },
+          {
+            "name": "Jade",
+            "srgb_hex": "22594f",
+            "roughness": 0.82
+          },
+          {
+            "name": "Lantern",
+            "srgb_hex": "ffda91",
+            "roughness": 0.82
+          },
+          {
+            "name": "Leaf",
+            "srgb_hex": "4d7d4f",
+            "roughness": 0.82
+          },
+          {
+            "name": "Plaster",
+            "srgb_hex": "e6d9b8",
+            "roughness": 0.82
+          },
+          {
+            "name": "Stone",
+            "srgb_hex": "667e88",
+            "roughness": 0.82
+          },
+          {
+            "name": "TileLight",
+            "srgb_hex": "46796b",
+            "roughness": 0.82
+          },
+          {
+            "name": "Timber",
+            "srgb_hex": "432d2d",
+            "roughness": 0.82
+          },
+          {
+            "name": "Window",
+            "srgb_hex": "284c53",
+            "roughness": 0.82
+          }
+        ],
+        "scene_dependency": "res://assets/architecture/elder_residence/elder_residence.glb"
+      },
+      {
+        "asset": "dining_hall_kitchen",
+        "glb_sha256": "f9e0254b98fe05a42425620f91c4abaf2e92f24b226f488909c5b047e36a7d20",
+        "glb_identical_to_staging": true,
+        "scene_only_glb_path_changed": true,
+        "source_uid": "uid://dvi1xgpism4uf",
+        "canonical_uid": "uid://cxdio6stwpppf",
+        "palette": [
+          {
+            "name": "Bronze",
+            "srgb_hex": "cda668",
+            "roughness": 0.56
+          },
+          {
+            "name": "Cedar",
+            "srgb_hex": "896048",
+            "roughness": 0.82
+          },
+          {
+            "name": "Coping",
+            "srgb_hex": "bcc6bd",
+            "roughness": 0.82
+          },
+          {
+            "name": "Floor",
+            "srgb_hex": "85624d",
+            "roughness": 0.82
+          },
+          {
+            "name": "Jade",
+            "srgb_hex": "22594f",
+            "roughness": 0.82
+          },
+          {
+            "name": "Lantern",
+            "srgb_hex": "ffda91",
+            "roughness": 0.82
+          },
+          {
+            "name": "Plaster",
+            "srgb_hex": "e6d9b8",
+            "roughness": 0.82
+          },
+          {
+            "name": "Stone",
+            "srgb_hex": "667e88",
+            "roughness": 0.82
+          },
+          {
+            "name": "TileLight",
+            "srgb_hex": "46796b",
+            "roughness": 0.82
+          },
+          {
+            "name": "Timber",
+            "srgb_hex": "432d2d",
+            "roughness": 0.82
+          },
+          {
+            "name": "Water",
+            "srgb_hex": "2c5f63",
+            "roughness": 0.5
+          },
+          {
+            "name": "Window",
+            "srgb_hex": "284c53",
+            "roughness": 0.82
+          }
+        ],
+        "scene_dependency": "res://assets/architecture/dining_hall_kitchen/dining_hall_kitchen.glb"
+      },
+      {
+        "asset": "spirit_herb_garden",
+        "glb_sha256": "94c2fbc9a32260d5255ca2105cfd5ecbc1a0fa6bb25310e905122ee6e60d4067",
+        "glb_identical_to_staging": true,
+        "scene_only_glb_path_changed": true,
+        "source_uid": "uid://m6d4yoren0wp",
+        "canonical_uid": "uid://c646nqgafsgbn",
+        "palette": [
+          {
+            "name": "Bronze",
+            "srgb_hex": "cda668",
+            "roughness": 0.56
+          },
+          {
+            "name": "Cedar",
+            "srgb_hex": "896048",
+            "roughness": 0.82
+          },
+          {
+            "name": "Coping",
+            "srgb_hex": "bcc6bd",
+            "roughness": 0.82
+          },
+          {
+            "name": "Jade",
+            "srgb_hex": "22594f",
+            "roughness": 0.82
+          },
+          {
+            "name": "Lantern",
+            "srgb_hex": "ffda91",
+            "roughness": 0.82
+          },
+          {
+            "name": "Leaf",
+            "srgb_hex": "4d7d4f",
+            "roughness": 0.82
+          },
+          {
+            "name": "Plaster",
+            "srgb_hex": "e6d9b8",
+            "roughness": 0.82
+          },
+          {
+            "name": "Soil",
+            "srgb_hex": "5d4a3a",
+            "roughness": 0.82
+          },
+          {
+            "name": "SpiritHerb",
+            "srgb_hex": "8fe0c0",
+            "roughness": 0.82
+          },
+          {
+            "name": "Stone",
+            "srgb_hex": "667e88",
+            "roughness": 0.82
+          },
+          {
+            "name": "TileLight",
+            "srgb_hex": "46796b",
+            "roughness": 0.82
+          },
+          {
+            "name": "Timber",
+            "srgb_hex": "432d2d",
+            "roughness": 0.82
+          },
+          {
+            "name": "Water",
+            "srgb_hex": "2c5f63",
+            "roughness": 0.5
+          }
+        ],
+        "scene_dependency": "res://assets/architecture/spirit_herb_garden/spirit_herb_garden.glb"
+      }
+    ],
+    "checkpoint_integrity": true
+  },
+  "files_integrated": [
+    "assets/architecture/disciple_residence/disciple_residence.glb",
+    "scenes/buildings/disciple_residence.tscn",
+    "scenes/review/disciple_residence_walkthrough.tscn",
+    "assets/architecture/elder_residence/elder_residence.glb",
+    "scenes/buildings/elder_residence.tscn",
+    "scenes/review/elder_residence_walkthrough.tscn",
+    "assets/architecture/dining_hall_kitchen/dining_hall_kitchen.glb",
+    "scenes/buildings/dining_hall_kitchen.tscn",
+    "scenes/review/dining_hall_kitchen_walkthrough.tscn",
+    "assets/architecture/spirit_herb_garden/spirit_herb_garden.glb",
+    "scenes/buildings/spirit_herb_garden.tscn",
+    "scenes/review/spirit_herb_garden_walkthrough.tscn",
+    "source/claude_buildings_integrated.blend",
+    "scripts/claude_asset_review.gd",
+    "Review Claude Assets.cmd"
+  ],
+  "existing_runtime_files_changed": [
+    "assets/gallery/catalog.json",
+    "scripts/asset_gallery.gd"
+  ],
+  "diagnostics": {
+    "import": [],
+    "basic": [],
+    "headless": [],
+    "rendered": [],
+    "gallery-input": [],
+    "hall-regression": [],
+    "gate-regression": [],
+    "facility-regression": [],
+    "default-startup": [],
+    "final-captures": []
+  },
+  "sampled_camera_and_visual_volumes": 561,
+  "screenshots": [
+    "dining-kitchen-wide.png",
+    "dining-room-wide.png",
+    "dining_hall_kitchen-first-person-interior.png",
+    "dining_hall_kitchen-first-person-kitchen.png",
+    "dining_hall_kitchen-rear.png",
+    "dining_hall_kitchen-third-person-interior.png",
+    "dining_hall_kitchen-three-quarter.png",
+    "disciple_residence-first-person-interior.png",
+    "disciple_residence-rear.png",
+    "disciple_residence-third-person-interior.png",
+    "disciple_residence-three-quarter.png",
+    "elder_residence-first-person-interior.png",
+    "elder_residence-rear.png",
+    "elder_residence-third-person-interior.png",
+    "elder_residence-three-quarter.png",
+    "gallery-dining_hall_kitchen-interior.png",
+    "gallery-dining_hall_kitchen.png",
+    "gallery-disciple_residence-interior.png",
+    "gallery-disciple_residence.png",
+    "gallery-elder_residence-interior.png",
+    "gallery-elder_residence.png",
+    "gallery-spirit_herb_garden-interior.png",
+    "gallery-spirit_herb_garden.png",
+    "spirit_herb_garden-first-person-interior.png",
+    "spirit_herb_garden-rear.png",
+    "spirit_herb_garden-third-person-interior.png",
+    "spirit_herb_garden-three-quarter.png"
+  ],
+  "limitations": [
+    "Human keyboard/mouse playtesting and user visual acceptance were not performed.",
+    "No FPS/frame-time benchmark, representative low-end hardware, sustained thermal/stutter test, exported executable or populated-world test was performed for this batch. Geometry counts do not establish performance.",
+    "Elder courtyard and Herb Garden require supporting ground/terrain. The review supplies a collision plane at y=-0.012; garden path slabs are visual-only with tops around y=0.04, so they do not raise foot contact to the decorative path top. Terrain fit, foot/path seams and production ground remain deferred.",
+    "Door leaves are authored standing open and are static geometry, not operable doors. Small decorative props/plants/lanterns/pots and path finishes are not all collidable by design. No sleeping, dining, harvesting, NPC, quest or navigation systems were added or tested.",
+    "No distant simplified mesh/LOD exists for these four models. Roof walking, exhaustive collision coverage, all camera angles and terrain/navigation integration were not tested. Collision/camera conclusions apply only to the recorded paths and sampled volumes.",
+    "Native-source button path/file availability was tested; invoking the operating-system Open source action and manually double-clicking the CMD launcher were not tested. Direct Godot scene routes and direct Blender source reopening were tested.",
+    "The shared Blender file contains four alternative asset collections at their authoring origin. Isolate one collection for editing; the overlapping authoring collections are not a town arrangement."
+  ],
+  "carried_issue": "Existing Training performance regression and its 84 zero-area roof-collider triangles remain unchanged. No timing or collider repair is claimed here; see `LOW_POLY_STAGES_2_3_REPORT.md`. Current user priority is asset completion/integration, with final town placement deferred.",
+  "next_action": "Manually review the four integrated assets and record actual observations; continue the next explicitly authorized asset batch in fresh staging with a report. Keep asset completion ahead of town placement; preserve this batch and previous assets. Profile Training before performance claims."
+}

@@ -1,0 +1,90 @@
+{
+	"buildings": [
+		{
+			"front_local_z": 6.27791309356689,
+			"id": "sect_gate",
+			"position": "(0.0, 4.0, 80.0)",
+			"scale": "(1.0, 1.0, 1.0)",
+			"scene": "res://scenes/buildings/sect_gate.tscn"
+		},
+		{
+			"front_local_z": 11.6199998855591,
+			"id": "mission_hall",
+			"position": "(-25.0, 10.0, 15.0)",
+			"scale": "(1.0, 1.0, 1.0)",
+			"scene": "res://scenes/buildings/mission_hall.tscn"
+		},
+		{
+			"front_local_z": 9.81999969482422,
+			"id": "exchange_hall",
+			"position": "(35.0, 10.0, 14.0)",
+			"scale": "(1.0, 1.0, 1.0)",
+			"scene": "res://scenes/buildings/exchange_hall.tscn"
+		},
+		{
+			"front_local_z": 5.77799892425537,
+			"id": "disciple_residence",
+			"position": "(-28.0, 10.0, 51.0)",
+			"scale": "(1.0, 1.0, 1.0)",
+			"scene": "res://scenes/buildings/disciple_residence.tscn"
+		},
+		{
+			"front_local_z": 8.1200008392334,
+			"id": "dining_hall_kitchen",
+			"position": "(40.0, 10.0, 52.0)",
+			"scale": "(1.0, 1.0, 1.0)",
+			"scene": "res://scenes/buildings/dining_hall_kitchen.tscn"
+		},
+		{
+			"front_local_z": 29.2000007629395,
+			"id": "martial_training_ground",
+			"position": "(-97.0, 14.0, -21.0)",
+			"scale": "(1.0, 1.0, 1.0)",
+			"scene": "res://scenes/buildings/martial_training_ground.tscn"
+		},
+		{
+			"front_local_z": 18.1800003051758,
+			"id": "main_sect_hall",
+			"position": "(12.0, 24.0, -98.0)",
+			"scale": "(1.0, 1.0, 1.0)",
+			"scene": "res://scenes/buildings/tang_main_hall.tscn"
+		},
+		{
+			"front_local_z": 12.5000009536743,
+			"id": "scripture_pavilion",
+			"position": "(-48.0, 28.0, -128.0)",
+			"scale": "(1.0, 1.0, 1.0)",
+			"scene": "res://scenes/buildings/scripture_pavilion.tscn"
+		},
+		{
+			"front_local_z": 11.5846300125122,
+			"id": "elder_residence",
+			"position": "(-49.0, 28.0, -88.0)",
+			"scale": "(1.0, 1.0, 1.0)",
+			"scene": "res://scenes/buildings/elder_residence.tscn"
+		},
+		{
+			"front_local_z": 9.4347620010376,
+			"id": "alchemy_pavilion",
+			"position": "(77.0, 20.0, -82.0)",
+			"scale": "(1.0, 1.0, 1.0)",
+			"scene": "res://scenes/buildings/alchemy_pavilion.tscn"
+		},
+		{
+			"front_local_z": 7.96140193939209,
+			"id": "medicine_hall",
+			"position": "(102.0, 10.0, 4.0)",
+			"scale": "(1.0, 1.0, 1.0)",
+			"scene": "res://scenes/buildings/medicine_hall.tscn"
+		},
+		{
+			"front_local_z": 12.9139156341553,
+			"id": "spirit_herb_garden",
+			"position": "(121.0, 10.0, -39.0)",
+			"scale": "(1.0, 1.0, 1.0)",
+			"scene": "res://scenes/buildings/spirit_herb_garden.tscn"
+		}
+	],
+	"medicine_exception_count": 1,
+	"scene": "Phase4D"
+}
