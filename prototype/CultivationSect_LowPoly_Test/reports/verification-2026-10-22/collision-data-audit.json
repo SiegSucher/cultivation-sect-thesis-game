@@ -1,9 +1,0 @@
-{
-  "simple_shapes": 195,
-  "roof_triangles": 2432,
-  "roof_zero_area_triangles": 64,
-  "roof_positions_finite": true,
-  "status": "REVIEW",
-  "approved_resource_modified": false,
-  "interpretation": "Redundant zero-area faces contribute no collision surface. No failure was observed in tested ground routes/camera probes. Cleanup is deferred, not a visual redesign requirement."
-}

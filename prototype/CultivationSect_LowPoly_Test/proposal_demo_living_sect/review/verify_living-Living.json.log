@@ -1,0 +1,84 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+[godot_ai game_helper] registered mcp capture (debugger active=false, logger=true)
+PASS 18 added residents, four retained quest characters
+PASS building placement retained: sect_gate
+PASS building placement retained: mission_hall
+PASS building placement retained: exchange_hall
+PASS building placement retained: disciple_residence
+PASS building placement retained: dining_hall_kitchen
+PASS building placement retained: martial_training_ground
+PASS building placement retained: main_sect_hall
+PASS building placement retained: scripture_pavilion
+PASS building placement retained: elder_residence
+PASS building placement retained: alchemy_pavilion
+PASS building placement retained: medicine_hall
+PASS building placement retained: spirit_herb_garden
+PASS foundation buried and full-height wall at (-16.1, 3.964605, 80.0)
+PASS foundation buried and full-height wall at (-18.1, 4.75675, 80.0)
+PASS foundation buried and full-height wall at (-20.1, 5.060247, 80.0)
+PASS foundation buried and full-height wall at (-24.1, 5.060247, 80.0)
+PASS foundation buried and full-height wall at (-28.1, 5.060247, 80.0)
+PASS foundation buried and full-height wall at (-32.1, 4.656792, 80.0)
+PASS foundation buried and full-height wall at (-36.1, 4.656792, 80.0)
+PASS foundation buried and full-height wall at (-40.1, 4.504992, 80.0)
+PASS foundation buried and full-height wall at (-43.67771, 4.504992, 78.21114)
+PASS foundation buried and full-height wall at (-47.25542, 4.504992, 76.42229)
+PASS foundation buried and full-height wall at (-48.58879, 4.685061, 74.93162)
+PASS foundation buried and full-height wall at (-49.92216, 4.898302, 73.44094)
+PASS foundation buried and full-height wall at (-51.25554, 4.906759, 71.95026)
+PASS foundation buried and full-height wall at (16.1, 3.92539, 80.0)
+PASS foundation buried and full-height wall at (18.1, 4.270441, 80.0)
+PASS foundation buried and full-height wall at (22.1, 4.270441, 80.0)
+PASS foundation buried and full-height wall at (26.1, 4.270441, 80.0)
+PASS foundation buried and full-height wall at (30.1, 4.066079, 80.0)
+PASS foundation buried and full-height wall at (34.1, 4.066079, 80.0)
+PASS foundation buried and full-height wall at (38.1, 4.066079, 80.0)
+PASS foundation buried and full-height wall at (40.1, 3.990743, 80.0)
+PASS foundation buried and full-height wall at (43.67771, 3.990743, 78.21114)
+FAIL wall solid from both sides at ground, eye and upper levels | { "rays": 1188, "misses": ["(18.76667, 4.805284, 80.0)", "(19.21111, 4.917779, 80.0)"] }
+PASS pier has a buried foundation (-15.4, 4.0, 80.0)
+PASS pier has a buried foundation (-18.1, 4.706749, 80.0)
+PASS pier has a buried foundation (-20.1, 5.331769, 80.0)
+PASS pier has a buried foundation (-32.1, 5.011465, 80.0)
+PASS pier has a buried foundation (-40.1, 4.526792, 80.0)
+PASS pier has a buried foundation (-47.25542, 4.454992, 76.42229)
+PASS pier has a buried foundation (-48.58879, 4.635061, 74.93162)
+PASS pier has a buried foundation (-49.92216, 4.848302, 73.44094)
+PASS pier has a buried foundation (-51.25554, 5.061658, 71.95026)
+PASS pier has a buried foundation (-52.58891, 4.856759, 70.45959)
+PASS pier has a buried foundation (15.4, 4.0, 80.0)
+PASS pier has a buried foundation (18.1, 4.220441, 80.0)
+PASS pier has a buried foundation (30.1, 4.473112, 80.0)
+PASS pier has a buried foundation (40.1, 3.936079, 80.0)
+PASS pier has a buried foundation (47.25542, 3.987173, 76.42229)
+PASS stationary feet meet support within 13 cm, including seated and training poses | []
+PASS walking resident reaches destinations: Courier Ji | { "metres": 24.1323986053467, "arrivals": 2 }
+PASS walking resident reaches destinations: Water carrier Lian | { "metres": 16.9300257302821, "arrivals": 3 }
+PASS Mentor interaction takes priority over optional residents
+PASS basin restoration changes the carrier route
+PASS carrier physically visits restored basin | { "arrivals": 5, "position": (13.00072, 10.00082, 30.99808), "travel": 33.32735324651 }
+PASS guard dialogue opens with live interaction
+PASS resident dialogue restores first-person camera and controls
+PASS reset clears visits, water response and listening count
+PASS reset restores resident duty/route: Guard Ren
+PASS reset restores resident duty/route: Guard Suyin
+PASS reset restores resident duty/route: Yun
+PASS reset restores resident duty/route: Shen
+PASS reset restores resident duty/route: Reader Fei
+PASS reset restores resident duty/route: Archivist Wen
+PASS reset restores resident duty/route: Aya
+PASS reset restores resident duty/route: Cook Bao
+PASS reset restores resident duty/route: Keeper Tao
+PASS reset restores resident duty/route: Gardener Su
+PASS reset restores resident duty/route: Courier Ji
+PASS reset restores resident duty/route: Water carrier Lian
+PASS reset restores resident duty/route: Instructor Qiao
+PASS reset restores resident duty/route: Disciple Han
+PASS reset restores resident duty/route: Disciple Rui
+PASS reset restores resident duty/route: Herbalist An
+PASS reset restores resident duty/route: Scholar Pei
+PASS reset restores resident duty/route: Hall attendant
+LIVING CHECKS 78 failures 1

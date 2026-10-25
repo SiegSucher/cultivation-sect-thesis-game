@@ -1,0 +1,61 @@
+{
+  "checks": 9,
+  "failures": 0,
+  "results": [
+    {
+      "check": "walker yields before reaching the player",
+      "detail": {
+        "distance_to_player": 1.33500099182129,
+        "yield_frames": 90
+      },
+      "pass": true
+    },
+    {
+      "check": "walking stance keeps soles near ground",
+      "detail": {
+        "errors": [],
+        "samples": 144
+      },
+      "pass": true
+    },
+    {
+      "check": "planted feet remain nearly stationary as the body advances",
+      "detail": {
+        "body_metres": 2.51998901367188,
+        "ratio": 0.0121761615515261,
+        "stance_slip_metres": 0.0306837933385395
+      },
+      "pass": true
+    },
+    {
+      "check": "walker resumes and completes route after player leaves",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "listening bench is reachable through normal E interaction",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "chime plays without changing quest state",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "listening restores first-person camera",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "listening text acknowledges actual restored water",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset during listening clears new state and restores camera",
+      "detail": null,
+      "pass": true
+    }
+  ]
+}

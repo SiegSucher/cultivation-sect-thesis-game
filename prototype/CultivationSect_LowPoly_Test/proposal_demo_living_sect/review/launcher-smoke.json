@@ -1,0 +1,9 @@
+﻿{
+    "launcher":  "Launch Living Sect.cmd",
+    "engine_resolved":  true,
+    "process_started":  true,
+    "window_title_observed":  "The First Current - Living Sect (DEBUG)",
+    "desktop_automation_exposed_window":  false,
+    "closed_test_instance":  true,
+    "note":  "Process/window-handle smoke check only. Closed this test instance so the user launcher is not blocked by the one-instance guard."
+}

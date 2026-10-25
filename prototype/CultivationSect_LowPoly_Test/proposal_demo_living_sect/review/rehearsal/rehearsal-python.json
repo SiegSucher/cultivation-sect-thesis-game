@@ -1,0 +1,138 @@
+{
+  "events": [
+    {
+      "event": "spawn (forest start), third person",
+      "t": 0.0
+    },
+    {
+      "event": "beside the Guide",
+      "t": 1.18
+    },
+    {
+      "event": "E: Guide introduction",
+      "t": 2.33
+    },
+    {
+      "event": "pressed Next",
+      "t": 6.53
+    },
+    {
+      "event": "pressed Next",
+      "t": 12.17
+    },
+    {
+      "event": "pressed Next",
+      "t": 21.18
+    },
+    {
+      "event": "pressed Next",
+      "t": 27.87
+    },
+    {
+      "event": "arrived beside the Mentor",
+      "t": 52.6
+    },
+    {
+      "event": "pressed Next",
+      "t": 55.62
+    },
+    {
+      "event": "pressed Accept",
+      "t": 62.76
+    },
+    {
+      "event": "pressed Choose_python",
+      "t": 65.66
+    },
+    {
+      "event": "pressed TeachNext",
+      "t": 75.42
+    },
+    {
+      "event": "pressed TeachNext",
+      "t": 84.25
+    },
+    {
+      "event": "pressed TeachNext",
+      "t": 91.56
+    },
+    {
+      "event": "pressed TeachNext",
+      "t": 98.82
+    },
+    {
+      "event": "pressed TeachNext",
+      "t": 108.97
+    },
+    {
+      "event": "ran awakening code (mistake)",
+      "t": 113.69
+    },
+    {
+      "event": "ran awakening code (fixed)",
+      "t": 123.37
+    },
+    {
+      "event": "pressed ResultContinue",
+      "t": 127.54
+    },
+    {
+      "event": "pressed ShowMe",
+      "t": 136.18
+    },
+    {
+      "event": "pressed TeachNext",
+      "t": 145.18
+    },
+    {
+      "event": "pressed TeachNext",
+      "t": 155.34
+    },
+    {
+      "event": "beside the basin",
+      "t": 156.89
+    },
+    {
+      "event": "ran basin code (mistake)",
+      "t": 165.14
+    },
+    {
+      "event": "ran basin code (fixed)",
+      "t": 178.21
+    },
+    {
+      "event": "pressed ResultContinue",
+      "t": 182.33
+    },
+    {
+      "event": "recognition shown",
+      "t": 185.74
+    },
+    {
+      "event": "pressed ContinueExploring",
+      "t": 191.29
+    },
+    {
+      "event": "pressed MenuReset",
+      "t": 194.18
+    }
+  ],
+  "language": "python",
+  "mouse_mode (0 visible, 2 captured)": {
+    "after_close": 2,
+    "dialogue_open": 0
+  },
+  "spawn_to_completion_seconds": 191.29,
+  "spawn_to_mentor_seconds": 52.6,
+  "state_after_reset": {
+    "basin_active": false,
+    "drafts": 0,
+    "guide_heard": false,
+    "language": "",
+    "player": "(8.0, 0.000833, 134.0)",
+    "recognition": false,
+    "reserve": 0,
+    "stage": 0
+  },
+  "total_with_reset_seconds": 195.79
+}

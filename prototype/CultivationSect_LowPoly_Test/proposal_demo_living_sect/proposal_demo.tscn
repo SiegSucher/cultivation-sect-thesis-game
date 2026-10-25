@@ -1,0 +1,14 @@
+[gd_scene load_steps=5 format=3]
+
+[ext_resource type="PackedScene" path="res://phase4d/phase4d_valley.tscn" id="baseline"]
+[ext_resource type="Script" path="res://proposal_demo_living_sect/demo_walkthrough.gd" id="script"]
+[ext_resource type="PackedScene" path="res://proposal_demo_living_sect/demo_dressing.tscn" id="dressing"]
+[ext_resource type="PackedScene" path="res://proposal_demo_living_sect/demo_boundary.tscn" id="boundary"]
+
+[node name="ProposalDemo_FirstCurrent" instance=ExtResource("baseline")]
+script = ExtResource("script")
+metadata/design_reference = Vector2i(1920, 1080)
+
+[node name="DemoDressing" parent="." instance=ExtResource("dressing")]
+
+[node name="DemoBoundary" parent="." instance=ExtResource("boundary")]

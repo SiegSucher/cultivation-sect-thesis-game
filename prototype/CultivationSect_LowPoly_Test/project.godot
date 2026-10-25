@@ -10,8 +10,8 @@ config_version=5
 
 [application]
 
-config/name="Split-Cloud Hall - Low-Poly Test"
-run/main_scene="res://scenes/hall_experiment.tscn"
+config/name="The First Current - Living Sect"
+run/main_scene="res://proposal_demo_living_sect/proposal_demo.tscn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 
 [autoload]

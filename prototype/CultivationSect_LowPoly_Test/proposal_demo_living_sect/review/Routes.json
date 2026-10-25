@@ -1,0 +1,83 @@
+{
+  "checks": 9,
+  "failures": 0,
+  "results": [
+    {
+      "check": "Gate passage: forest stair through Gate into arrival court",
+      "detail": "(-0.000006, 3.998698, 70.54478)",
+      "ok": true
+    },
+    {
+      "check": "walk path: Living terrace stair",
+      "detail": [
+        true,
+        1,
+        null
+      ],
+      "ok": true
+    },
+    {
+      "check": "walk path: Living spine",
+      "detail": [
+        true,
+        3,
+        null
+      ],
+      "ok": true
+    },
+    {
+      "check": "walk path: Shared living street",
+      "detail": [
+        true,
+        4,
+        null
+      ],
+      "ok": true
+    },
+    {
+      "check": "walk path: Training connection",
+      "detail": [
+        true,
+        3,
+        null
+      ],
+      "ok": true
+    },
+    {
+      "check": "walk path: Inner-sect stair",
+      "detail": [
+        true,
+        3,
+        null
+      ],
+      "ok": true
+    },
+    {
+      "check": "walk path: Hall ceremonial stair",
+      "detail": [
+        true,
+        1,
+        null
+      ],
+      "ok": true
+    },
+    {
+      "check": "walk path: Hall forecourt",
+      "detail": [
+        true,
+        2,
+        null
+      ],
+      "ok": true
+    },
+    {
+      "check": "walk path: Healing lane",
+      "detail": [
+        true,
+        5,
+        null
+      ],
+      "ok": true
+    }
+  ]
+}

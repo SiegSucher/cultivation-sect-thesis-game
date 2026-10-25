@@ -1,0 +1,417 @@
+{
+  "checks": 79,
+  "failures": 0,
+  "results": [
+    {
+      "check": "18 added residents, four retained quest characters",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "building placement retained: sect_gate",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "building placement retained: mission_hall",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "building placement retained: exchange_hall",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "building placement retained: disciple_residence",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "building placement retained: dining_hall_kitchen",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "building placement retained: martial_training_ground",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "building placement retained: main_sect_hall",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "building placement retained: scripture_pavilion",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "building placement retained: elder_residence",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "building placement retained: alchemy_pavilion",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "building placement retained: medicine_hall",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "building placement retained: spirit_herb_garden",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (-16.1, 3.964605, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (-18.1, 4.75675, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (-20.1, 5.060247, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (-24.1, 5.060247, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (-28.1, 5.060247, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (-32.1, 4.656792, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (-36.1, 4.656792, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (-40.1, 4.504992, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (-43.67771, 4.504992, 78.21114)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (-47.25542, 4.504992, 76.42229)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (-48.58879, 4.685061, 74.93162)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (-49.92216, 4.898302, 73.44094)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (-51.25554, 4.906759, 71.95026)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (16.1, 3.92539, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (18.1, 4.270441, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (22.1, 4.270441, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (26.1, 4.270441, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (30.1, 4.066079, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (34.1, 4.066079, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (38.1, 4.066079, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (40.1, 3.990743, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "foundation buried and full-height wall at (43.67771, 3.990743, 78.21114)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "wall solid from both sides at ground, eye and upper levels",
+      "detail": {
+        "misses": [],
+        "rays": 1188
+      },
+      "pass": true
+    },
+    {
+      "check": "pier has a buried foundation (-15.4, 4.0, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "pier has a buried foundation (-18.1, 4.706749, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "pier has a buried foundation (-20.1, 5.331769, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "pier has a buried foundation (-32.1, 5.011465, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "pier has a buried foundation (-40.1, 4.526792, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "pier has a buried foundation (-47.25542, 4.454992, 76.42229)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "pier has a buried foundation (-48.58879, 4.635061, 74.93162)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "pier has a buried foundation (-49.92216, 4.848302, 73.44094)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "pier has a buried foundation (-51.25554, 5.061658, 71.95026)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "pier has a buried foundation (-52.58891, 4.856759, 70.45959)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "pier has a buried foundation (15.4, 4.0, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "pier has a buried foundation (18.1, 4.220441, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "pier has a buried foundation (30.1, 4.473112, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "pier has a buried foundation (40.1, 3.936079, 80.0)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "pier has a buried foundation (47.25542, 3.987173, 76.42229)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "stationary feet meet support within 13 cm, including seated and training poses",
+      "detail": [],
+      "pass": true
+    },
+    {
+      "check": "walking resident reaches destinations: Courier Ji",
+      "detail": {
+        "arrivals": 2,
+        "metres": 24.1323986053467
+      },
+      "pass": true
+    },
+    {
+      "check": "walking resident reaches destinations: Water carrier Lian",
+      "detail": {
+        "arrivals": 3,
+        "metres": 16.9300257302821
+      },
+      "pass": true
+    },
+    {
+      "check": "Mentor interaction takes priority over optional residents",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "basin restoration changes the carrier route",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "carrier physically visits restored basin",
+      "detail": {
+        "arrivals": 5,
+        "position": "(13.00072, 10.00082, 30.99852)",
+        "travel": 33.3269088342786
+      },
+      "pass": true
+    },
+    {
+      "check": "guard dialogue opens with live interaction",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "resident dialogue restores first-person camera and controls",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "third-person orbit has no wall/terrain camera collisions",
+      "detail": {
+        "contacts": [],
+        "samples": 72
+      },
+      "pass": true
+    },
+    {
+      "check": "reset clears visits, water response and listening count",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset restores resident duty/route: Guard Ren",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset restores resident duty/route: Guard Suyin",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset restores resident duty/route: Yun",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset restores resident duty/route: Shen",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset restores resident duty/route: Reader Fei",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset restores resident duty/route: Archivist Wen",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset restores resident duty/route: Aya",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset restores resident duty/route: Cook Bao",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset restores resident duty/route: Keeper Tao",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset restores resident duty/route: Gardener Su",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset restores resident duty/route: Courier Ji",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset restores resident duty/route: Water carrier Lian",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset restores resident duty/route: Instructor Qiao",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset restores resident duty/route: Disciple Han",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset restores resident duty/route: Disciple Rui",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset restores resident duty/route: Herbalist An",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset restores resident duty/route: Scholar Pei",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset restores resident duty/route: Hall attendant",
+      "detail": null,
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "distance_m": 7.27493667602539,
+  "frames": 16,
+  "method": "actual CharacterBody3D movement with the ordinary animation driven by displacement",
+  "physics_fps": 60,
+  "physics_frames_per_capture": 6
+}

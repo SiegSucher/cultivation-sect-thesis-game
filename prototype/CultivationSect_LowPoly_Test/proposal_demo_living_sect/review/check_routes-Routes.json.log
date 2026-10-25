@@ -1,0 +1,14 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+[godot_ai game_helper] registered mcp capture (debugger active=false, logger=true)
+PASS  Gate passage: forest stair through Gate into arrival court  (-0.000006, 3.998698, 70.54478)
+PASS  walk path: Living terrace stair  [true, 1, <null>]
+PASS  walk path: Living spine  [true, 3, <null>]
+PASS  walk path: Shared living street  [true, 4, <null>]
+PASS  walk path: Training connection  [true, 3, <null>]
+PASS  walk path: Inner-sect stair  [true, 3, <null>]
+PASS  walk path: Hall ceremonial stair  [true, 1, <null>]
+PASS  walk path: Hall forecourt  [true, 2, <null>]
+PASS  walk path: Healing lane  [true, 5, <null>]

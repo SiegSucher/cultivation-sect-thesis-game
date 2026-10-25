@@ -1,0 +1,157 @@
+{
+  "checks": 30,
+  "failures": 0,
+  "resolution": "(1280, 720)",
+  "results": [
+    {
+      "check": "canvas uses actual pixels at 100%",
+      "detail": "(1280.0, 720.0)",
+      "pass": true
+    },
+    {
+      "check": "default terminal responds to the viewport",
+      "detail": "[P: (24.0, 24.0), S: (819.2, 672.0)]",
+      "pass": true
+    },
+    {
+      "check": "reference automatically collapses in a narrow terminal",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "editor and output retain readable font sizes",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "world result remains beside the editor",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "typed mistake and Ctrl+Enter produce a labelled language error",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "title dragging moves the terminal",
+      "detail": "(79.0, 36.0)",
+      "pass": true
+    },
+    {
+      "check": "dragging clamps to the screen",
+      "detail": "[P: (460.8, 48.0), S: (819.2, 672.0)]",
+      "pass": true
+    },
+    {
+      "check": "corner resize stops at a usable minimum",
+      "detail": "(650.0, 480.0)",
+      "pass": true
+    },
+    {
+      "check": "essential controls remain inside the smallest terminal",
+      "detail": {},
+      "pass": true
+    },
+    {
+      "check": "left edge resize clamps without moving the opposite edge",
+      "detail": "[P: (0.0, 48.0), S: (1110.8, 480.0)]",
+      "pass": true
+    },
+    {
+      "check": "Restore Layout restores the default rectangle",
+      "detail": "[P: (24.0, 24.0), S: (819.2, 672.0)]",
+      "pass": true
+    },
+    {
+      "check": "reference can be expanded at either resolution",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "horizontal divider resizes reference",
+      "detail": 380.0,
+      "pass": true
+    },
+    {
+      "check": "vertical divider resizes output",
+      "detail": 214.0,
+      "pass": true
+    },
+    {
+      "check": "worked solution remains locked before stronger hint",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional solution display changes no draft, run count or Qi",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "code font control enlarges code and output",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "Minimize leaves only the title bar",
+      "detail": "(819.2, 62.0)",
+      "pass": true
+    },
+    {
+      "check": "Restore returns the editor",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "title double-click minimizes",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "125% UI scale changes logical canvas without changing output pixels",
+      "detail": "(1024.0, 576.0)",
+      "pass": true
+    },
+    {
+      "check": "scaled terminal stays on screen",
+      "detail": "[P: (24.0, 24.0), S: (655.36, 528.0)]",
+      "pass": true
+    },
+    {
+      "check": "drag still works at 125% UI scale",
+      "detail": "(49.0, 24.0)",
+      "pass": true
+    },
+    {
+      "check": "secondary actions menu opens",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "typing and Run still succeed after window operations",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "typing, drag, resize and UI controls leave player, camera and Gate untouched",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "close restores third-person camera and input",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "close restores first-person camera and input",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset clears draft, hints, solution, effects and quest",
+      "detail": null,
+      "pass": true
+    }
+  ]
+}

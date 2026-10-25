@@ -1,0 +1,87 @@
+{
+  "additional_residents": 18,
+  "cpu": "12th Gen Intel(R) Core(TM) i5-12500H",
+  "godot": {
+    "build": "official",
+    "hash": "ed1daf0bf001b61586d9930840f2f1394092c079",
+    "hex": 263938,
+    "major": 4,
+    "minor": 7,
+    "patch": 2,
+    "status": "stable",
+    "string": "4.7.2-stable (official)",
+    "timestamp": 0
+  },
+  "godot_static_memory_mib": 137.1,
+  "gpu": "NVIDIA GeForce RTX 3050 Laptop GPU",
+  "lantern_light_count": 8,
+  "logical_processors": 16,
+  "ram": {
+    "available": 37183401984,
+    "free": 6145159168,
+    "physical": 16782307328,
+    "stack": 8388608
+  },
+  "renderer": "gl_compatibility",
+  "sample_seconds": 8,
+  "samples": [
+    {
+      "avg_fps": 154.7,
+      "avg_ms": 6.46,
+      "draw_calls": 997.0,
+      "frames": 1239,
+      "p95_ms": 8.35,
+      "view": "forest arrival, Guide in view",
+      "worst_ms": 10.27
+    },
+    {
+      "avg_fps": 103.0,
+      "avg_ms": 9.71,
+      "draw_calls": 4376.0,
+      "frames": 824,
+      "p95_ms": 12.52,
+      "view": "living court: basin flowing, Qi aura, water sound",
+      "worst_ms": 15.26
+    },
+    {
+      "avg_fps": 118.7,
+      "avg_ms": 8.42,
+      "draw_calls": 1765.0,
+      "frames": 950,
+      "p95_ms": 10.96,
+      "view": "terminal open with the coding view",
+      "worst_ms": 12.26
+    },
+    {
+      "avg_fps": 96.0,
+      "avg_ms": 10.42,
+      "draw_calls": 3698.0,
+      "frames": 768,
+      "p95_ms": 12.56,
+      "view": "populated court panorama: reading, training, tea and moving residents",
+      "worst_ms": 17.66
+    },
+    {
+      "avg_fps": 94.6,
+      "avg_ms": 10.57,
+      "draw_calls": 4024.0,
+      "frames": 757,
+      "p95_ms": 13.65,
+      "view": "Gate and both wall wings in view",
+      "worst_ms": 15.58
+    },
+    {
+      "avg_fps": 88.0,
+      "avg_ms": 11.36,
+      "draw_calls": 2498.0,
+      "frames": 705,
+      "p95_ms": 12.92,
+      "view": "valley view: the whole compound and every wall in frame",
+      "worst_ms": 17.02
+    }
+  ],
+  "total_characters_including_player": 23,
+  "vsync": "disabled",
+  "warmup_frames_per_view": 30,
+  "window": "(1920, 1080)"
+}

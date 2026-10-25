@@ -1,0 +1,681 @@
+{
+  "checks": 125,
+  "failures": 0,
+  "rendered": true,
+  "resolution": "(1920, 1080)",
+  "results": [
+    {
+      "check": "J opens journal and pauses controls",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "journal names main goal and optional practice",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "J closes journal and restores camera and controls",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "walk reaches (-5.0, 10.0, 46.0)",
+      "detail": "(-4.526306, 10.00082, 46.18948)",
+      "pass": true
+    },
+    {
+      "check": "walk reaches (-5.0, 10.0, 38.0)",
+      "detail": "(-4.972385, 10.00094, 38.47741)",
+      "pass": true
+    },
+    {
+      "check": "walk reaches (-7.0, 10.0, 38.0)",
+      "detail": "(-6.505465, 10.00084, 38.11644)",
+      "pass": true
+    },
+    {
+      "check": "Lin has a discoverable E prompt",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "Lin introduction pauses safely",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "Lin is framed beside the conversation panel",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: StartPractice",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "all three lanterns are visible beside the activity panel",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: LifeHint",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "hint explains without progressing",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: Answer1",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "wrong prediction leaves lamps unlit",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: Answer0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "first answer lights exactly one lantern",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "double activation cannot award two lamps",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "leaving restores camera and keeps practice progress",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: StartPractice",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "return resumes at second puzzle",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: Answer1",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: NextLantern",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: Answer2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: NextLantern",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "practice seal complete without modifying main quest",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: LifeJournal",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "journal records learned concepts",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "journal fits viewport at scale 1.0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "journal close always reachable at scale 1.0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "journal fits viewport at scale 1.25",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "journal close always reachable at scale 1.25",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "journal fits viewport at scale 0.9",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "journal close always reachable at scale 0.9",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "walk reaches (-5.0, 10.0, 38.0)",
+      "detail": "(-5.533367, 10.00078, 38.04125)",
+      "pass": true
+    },
+    {
+      "check": "walk reaches (0.0, 10.0, 46.0)",
+      "detail": "(-0.310151, 10.00082, 45.5539)",
+      "pass": true
+    },
+    {
+      "check": "walk reaches (11.0, 10.0, 46.0)",
+      "detail": "(10.47907, 9.993269, 45.97954)",
+      "pass": true
+    },
+    {
+      "check": "walk reaches (19.0, 10.0, 46.0)",
+      "detail": "(18.50333, 10.00083, 45.99876)",
+      "pass": true
+    },
+    {
+      "check": "walk reaches (19.0, 10.0, 36.0)",
+      "detail": "(18.97963, 10.00083, 36.50162)",
+      "pass": true
+    },
+    {
+      "check": "Mei reachable without crossing basin",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "Mei acknowledges dry basin",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: choosing the language opens the Mentor's lesson at card 1 of 5",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: lesson covers variables, initialization, calls, order, punctuation/declaration and the game command",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: no C/Java declaration syntax in any Python example",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: a runnable lesson example is labelled EXAMPLE",
+      "detail": "EXAMPLE  ·  a short program you can try in this step",
+      "pass": true
+    },
+    {
+      "check": "python: Back returns to the previous card",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: the game-command card shows a signature labelled as a reference, not a solution",
+      "detail": {
+        "code": "awaken(amount)          # amount: a whole number of Qi",
+        "head": "REFERENCE  ·  a command signature, not a complete program: amount is a placeholder for your own value"
+      },
+      "pass": true
+    },
+    {
+      "check": "python: the last card opens the code editor",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: the worked solution starts hidden and is not offered before the hints; the Lesson tab labels the signature",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: the program structure is supplied and the game command is labelled as the game's",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: Lesson, Commands and Hints tabs available beside the editor",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python code editor: movement, Tab, map and E do nothing to the world while the panel is open",
+      "detail": {
+        "mode": "code",
+        "moved_m": 0.0
+      },
+      "pass": true
+    },
+    {
+      "check": "python: the console names the sect's learning interpreter and shows no python/gcc/javac command",
+      "detail": "[sect runner] running awakening.py  ·  learning interpreter, Python subset\nUnsupported feature\nYour line 1:  for step in",
+      "pass": true
+    },
+    {
+      "check": "python: real syntax outside the subset is reported as not supported, not as an error; world unchanged",
+      "detail": "d by this learning interpreter: loops such as for and while.\nMentor: The learning interpreter understands only part of the language. Use what the Lesson and Commands tabs show: assignments, calls, whole numbers and text.",
+      "pass": true
+    },
+    {
+      "check": "python: a bare number passed to the awakening is a lesson rule on valid code, not an error; world unchanged",
+      "detail": "cise asks you to prepare the Qi first: store the amount in a variable, then pass that variable.\nMentor: Prepare the Qi first: store the value in a variable on one line, then pass that variable to the command on the next.",
+      "pass": true
+    },
+    {
+      "check": "python: an oversized paste is refused with a readable message at once; world unchanged",
+      "detail": {
+        "chars": 2800,
+        "console": " learning interpreter accepts up to 2000.\nMentor: The learning interpreter runs only short programs, and this exercise needs just two lines.",
+        "run_ms": 0.57
+      },
+      "pass": true
+    },
+    {
+      "check": "python: deeply nested brackets are refused with a readable message at once; world unchanged",
+      "detail": {
+        "console": "is learning interpreter accepts up to 12.\nMentor: The learning interpreter runs only short programs, and this exercise needs just two lines.",
+        "run_ms": 1.37
+      },
+      "pass": true
+    },
+    {
+      "check": "python: typed text reaches the editor",
+      "detail": "awaken(qi)\nqi = 3",
+      "pass": true
+    },
+    {
+      "check": "python: Ctrl+Enter runs; the mistake gives a realistic error and a Mentor note; nothing awakens",
+      "detail": "e 'qi' is not defined\nMentor: This name is used before any line gives it a value. Statements run top to bottom, so assign it on an earlier line.  (Your line 1.)",
+      "pass": true
+    },
+    {
+      "check": "python: two optional hints, then no more",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: after the stronger hint the worked solution is offered, still hidden",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: Show worked solution reveals this language's complete step-1 program",
+      "detail": "qi = 3\nawaken(qi)",
+      "pass": true
+    },
+    {
+      "check": "python: revealing it types, runs and changes nothing (editor, console, runs, Qi, basin, step)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: closing mid-step restores controls",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: the lesson can be reviewed from the Mentor at any time",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: reopening keeps the draft, output, hints and the revealed solution",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: the fixed code runs cleanly and completes step 1",
+      "detail": "ve: 3\nSuccess · Ran without errors, top to bottom.\nMentor: Good. qi held its value before the awakening command used it.",
+      "pass": true
+    },
+    {
+      "check": "python: awakening plays: aura on the player, Qi indicator rises to 3, controls held",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: the Mentor introduces the basin step (not the basin itself)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: channelling lesson explains reading the reserve and the basin command",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: the basin command card shows a labelled reference signature, not a solution",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: finishing the lesson does not start the basin; objective and marker move to the basin",
+      "detail": "Channel your Qi into the basin: walk to the basin and press E.",
+      "pass": true
+    },
+    {
+      "check": "python: beside the basin the prompt offers to channel Qi",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: E opens step 2 in the editor (language fixed now)",
+      "detail": {
+        "language_disabled": true,
+        "mode": "code",
+        "text": "# Channel your Qi into the basin\n",
+        "title": "basin.py · Python · Step 2/2"
+      },
+      "pass": true
+    },
+    {
+      "check": "python: channelling a bare 3 is a lesson rule on valid code; reserve kept; basin inactive",
+      "detail": "lue read from qi_reserve().\nMentor: Read your reserve with the reserve command, store it, and pass that value, so the inscription uses the Qi you actually hold.",
+      "pass": true
+    },
+    {
+      "check": "python: channelling too much is refused; reserve kept; basin inactive",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: step 2 starts with its solution hidden (step 1's stays revealed)",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: step 2 reveals this language's basin program; nothing typed, run or changed (reserve kept, basin dry)",
+      "detail": "reserve = qi_reserve()\nchannel_basin(reserve)",
+      "pass": true
+    },
+    {
+      "check": "python: step 2 draft, revealed solution and completed step 1 survive closing",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: the fixed code runs cleanly and completes step 2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: channelling plays; the basin starts only now",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: basin flowing; recognition shown once; the Mentor says the reserve is replenished as it refills",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: objective complete, marker hidden",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: repeat talk acknowledges completion without granting it again",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: the flowing basin no longer offers an interaction",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "original quest succeeds with optional content complete",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "Mei reacts to both restored water and lanterns",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "Mei is framed beside her dialogue",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "Reset Demo clears optional and main content together",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: Practice_python",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: selected practice language",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: reading answer agrees with interpreter 1",
+      "detail": [
+        [
+          "out",
+          "3"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "check": "python: reading answer agrees with interpreter 2",
+      "detail": [
+        [
+          "out",
+          "1"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "check": "optional button available: Answer0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: NextLantern",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: Answer1",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: NextLantern",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: Answer2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: NextLantern",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "python: first-person camera restored",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: Practice_c",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: selected practice language",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: reading answer agrees with interpreter 1",
+      "detail": [
+        [
+          "out",
+          "3"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "check": "c: reading answer agrees with interpreter 2",
+      "detail": [
+        [
+          "out",
+          "1"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "check": "optional button available: Answer0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: NextLantern",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: Answer1",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: NextLantern",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: Answer2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: NextLantern",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "c: first-person camera restored",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: Practice_java",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: selected practice language",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: reading answer agrees with interpreter 1",
+      "detail": [
+        [
+          "out",
+          "3"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "check": "java: reading answer agrees with interpreter 2",
+      "detail": [
+        [
+          "out",
+          "1"
+        ]
+      ],
+      "pass": true
+    },
+    {
+      "check": "optional button available: Answer0",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: NextLantern",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: Answer1",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: NextLantern",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: Answer2",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "optional button available: NextLantern",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "java: first-person camera restored",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "reset during optional camera restores spawn and no residual light",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "J types into code instead of opening journal",
+      "detail": null,
+      "pass": true
+    },
+    {
+      "check": "mid-quest practice preserves code draft and quest state",
+      "detail": null,
+      "pass": true
+    }
+  ]
+}

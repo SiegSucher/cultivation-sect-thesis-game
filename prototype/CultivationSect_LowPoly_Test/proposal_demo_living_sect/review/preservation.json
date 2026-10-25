@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-10-25T08:05:23.398Z",
+  "protected_files": 7248,
+  "changed": [],
+  "missing": [],
+  "added_outside_edition": [],
+  "educational_sources_unchanged_after_local_path_normalization": {
+    "code_runner.gd": true,
+    "lessons.gd": true,
+    "terminal_window.gd": true
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "generated_at": "2026-10-25T08:05:23.407Z",
+  "total_assertions": 723,
+  "failed_assertions": 0,
+  "suites": [
+    {
+      "suite": "Runner",
+      "checks": 146,
+      "failures": 0,
+      "resolution": null
+    },
+    {
+      "suite": "Quest",
+      "checks": 169,
+      "failures": 0,
+      "resolution": null
+    },
+    {
+      "suite": "Life720",
+      "checks": 125,
+      "failures": 0,
+      "resolution": "(1280, 720)"
+    },
+    {
+      "suite": "Life1080",
+      "checks": 125,
+      "failures": 0,
+      "resolution": "(1920, 1080)"
+    },
+    {
+      "suite": "Layout720",
+      "checks": 30,
+      "failures": 0,
+      "resolution": "(1280, 720)"
+    },
+    {
+      "suite": "Layout1080",
+      "checks": 31,
+      "failures": 0,
+      "resolution": "(1920, 1080)"
+    },
+    {
+      "suite": "Routes",
+      "checks": 9,
+      "failures": 0,
+      "resolution": null
+    },
+    {
+      "suite": "LivingRendered",
+      "checks": 79,
+      "failures": 0,
+      "resolution": null
+    },
+    {
+      "suite": "Extras",
+      "checks": 9,
+      "failures": 0,
+      "resolution": null
+    }
+  ]
+}

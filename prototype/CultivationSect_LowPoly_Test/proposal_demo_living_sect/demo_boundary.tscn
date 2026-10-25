@@ -1,0 +1,484 @@
+[gd_scene load_steps=9 format=3]
+
+[ext_resource type="PackedScene" path="res://staging/claude_environment_safety_kit/walls/wall_section_4m.tscn" id="wall_4m"]
+[ext_resource type="PackedScene" path="res://staging/claude_environment_safety_kit/walls/wall_section_2m.tscn" id="wall_2m"]
+[ext_resource type="PackedScene" path="res://staging/claude_environment_safety_kit/walls/wall_pier.tscn" id="pier"]
+[ext_resource type="PackedScene" path="res://staging/claude_environment_safety_kit/walls/wall_corner.tscn" id="corner"]
+[ext_resource type="PackedScene" path="res://staging/claude_environment_safety_kit/walls/wall_gate_end.tscn" id="gate_end"]
+[ext_resource type="PackedScene" path="res://staging/claude_environment_safety_kit/retaining/retaining_end_2.tscn" id="pedestal"]
+[ext_resource type="PackedScene" path="res://staging/claude_environment_batch1/rock_outcrop/rock_outcrop.tscn" id="outcrop"]
+[ext_resource type="PackedScene" path="res://staging/claude_environment_batch1/rock_cluster/rock_cluster.tscn" id="rocks"]
+
+[node name="DemoBoundary" type="Node3D"]
+
+[node name="GateWest" type="Node3D" parent="."]
+
+[node name="GateEast" type="Node3D" parent="."]
+
+[node name="GardenEast" type="Node3D" parent="."]
+
+[node name="GardenNorth" type="Node3D" parent="."]
+
+[node name="TrainingWest" type="Node3D" parent="."]
+
+[node name="GateWest_00_wall_2m" parent="GateWest" instance=ExtResource("wall_2m")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -16.1, 3.9646049, 80)
+
+[node name="GateWest_01_wall_2m" parent="GateWest" instance=ExtResource("wall_2m")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -18.1, 4.7567496, 80)
+
+[node name="GateWest_02_wall_4m" parent="GateWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -20.1, 5.060247, 80)
+
+[node name="GateWest_03_wall_4m" parent="GateWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -24.1, 5.060247, 80)
+
+[node name="GateWest_04_wall_4m" parent="GateWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -28.1, 5.060247, 80)
+
+[node name="GateWest_05_wall_4m" parent="GateWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -32.1, 4.656792, 80)
+
+[node name="GateWest_06_wall_4m" parent="GateWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -36.1, 4.656792, 80)
+
+[node name="GateWest_07_wall_4m" parent="GateWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.89442736, 0, 0.4472133, 0, 1, 0, -0.4472133, 0, -0.89442736, -40.1, 4.5049915, 80)
+
+[node name="GateWest_08_wall_4m" parent="GateWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.89442736, 0, 0.4472133, 0, 1, 0, -0.4472133, 0, -0.89442736, -43.677708, 4.5049915, 78.21114)
+
+[node name="GateWest_09_wall_2m" parent="GateWest" instance=ExtResource("wall_2m")]
+transform = Transform3D(-0.6666864, 0, 0.7453383, 0, 1, 0, -0.7453383, 0, -0.6666864, -47.255417, 4.5049915, 76.422295)
+
+[node name="GateWest_10_wall_2m" parent="GateWest" instance=ExtResource("wall_2m")]
+transform = Transform3D(-0.6666864, 0, 0.7453383, 0, 1, 0, -0.7453383, 0, -0.6666864, -48.58879, 4.6850605, 74.93162)
+
+[node name="GateWest_11_wall_2m" parent="GateWest" instance=ExtResource("wall_2m")]
+transform = Transform3D(-0.6666864, 0, 0.7453383, 0, 1, 0, -0.7453383, 0, -0.6666864, -49.92216, 4.898302, 73.44094)
+
+[node name="GateWest_12_wall_2m" parent="GateWest" instance=ExtResource("wall_2m")]
+transform = Transform3D(-0.6666864, 0, 0.7453383, 0, 1, 0, -0.7453383, 0, -0.6666864, -51.255535, 4.906759, 71.950264)
+
+[node name="GateWest_13_gate_end" parent="GateWest" instance=ExtResource("gate_end")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -15.400001, 4, 80)
+
+[node name="GateWest_14_pedestal" parent="GateWest" instance=ExtResource("pedestal")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -18.1, 2.7067497, 80)
+
+[node name="GateWest_15_pier" parent="GateWest" instance=ExtResource("pier")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -18.1, 4.7067494, 80)
+
+[node name="GateWest_16_pier" parent="GateWest" instance=ExtResource("pier")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -20.1, 5.3317695, 80)
+
+[node name="GateWest_17_pier" parent="GateWest" instance=ExtResource("pier")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -32.1, 5.0114646, 80)
+
+[node name="GateWest_18_corner" parent="GateWest" instance=ExtResource("corner")]
+transform = Transform3D(-0.973249, 0, 0.22975272, 0, 1, 0, -0.22975272, 0, -0.973249, -40.1, 4.526792, 80)
+
+[node name="GateWest_19_pier" parent="GateWest" instance=ExtResource("pier")]
+transform = Transform3D(-0.79466265, 0, 0.60705125, 0, 1, 0, -0.60705125, 0, -0.79466265, -47.255417, 4.454992, 76.422295)
+
+[node name="GateWest_20_pier" parent="GateWest" instance=ExtResource("pier")]
+transform = Transform3D(-0.6666864, 0, 0.7453383, 0, 1, 0, -0.7453383, 0, -0.6666864, -48.58879, 4.635061, 74.93162)
+
+[node name="GateWest_21_pier" parent="GateWest" instance=ExtResource("pier")]
+transform = Transform3D(-0.6666864, 0, 0.7453383, 0, 1, 0, -0.7453383, 0, -0.6666864, -49.92216, 4.8483024, 73.44094)
+
+[node name="GateWest_22_pier" parent="GateWest" instance=ExtResource("pier")]
+transform = Transform3D(-0.6666864, 0, 0.7453383, 0, 1, 0, -0.7453383, 0, -0.6666864, -51.255535, 5.0616584, 71.950264)
+
+[node name="GateWest_23_pedestal" parent="GateWest" instance=ExtResource("pedestal")]
+transform = Transform3D(-0.6666864, 0, 0.7453383, 0, 1, 0, -0.7453383, 0, -0.6666864, -52.58891, 2.8567588, 70.45959)
+
+[node name="GateWest_24_pier" parent="GateWest" instance=ExtResource("pier")]
+transform = Transform3D(-0.6666864, 0, 0.7453383, 0, 1, 0, -0.7453383, 0, -0.6666864, -52.58891, 4.8567586, 70.45959)
+
+[node name="GateWest_25_outcrop" parent="GateWest" instance=ExtResource("outcrop")]
+transform = Transform3D(-0.91921663, 0, 0.3937522, 0, 1, 0, -0.3937522, 0, -0.91921663, -53.66894, 4.8643723, 69.25214)
+
+[node name="GateWest_26_rocks" parent="GateWest" instance=ExtResource("rocks")]
+transform = Transform3D(-0.9284091, 0, -0.37155956, 0, 1, 0, 0.37155956, 0, -0.9284091, -51.886124, 7.0188065, 68.39537)
+
+[node name="GateEast_27_wall_2m" parent="GateEast" instance=ExtResource("wall_2m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.1, 3.9253898, 80)
+
+[node name="GateEast_28_wall_4m" parent="GateEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.1, 4.270441, 80)
+
+[node name="GateEast_29_wall_4m" parent="GateEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.1, 4.270441, 80)
+
+[node name="GateEast_30_wall_4m" parent="GateEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.1, 4.270441, 80)
+
+[node name="GateEast_31_wall_4m" parent="GateEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.1, 4.0660787, 80)
+
+[node name="GateEast_32_wall_4m" parent="GateEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.1, 4.0660787, 80)
+
+[node name="GateEast_33_wall_2m" parent="GateEast" instance=ExtResource("wall_2m")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38.1, 4.0660787, 80)
+
+[node name="GateEast_34_wall_4m" parent="GateEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(0.89442736, 0, 0.44721323, 0, 1, 0, -0.44721323, 0, 0.89442736, 40.1, 3.9907432, 80)
+
+[node name="GateEast_35_wall_4m" parent="GateEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(0.89442736, 0, 0.44721323, 0, 1, 0, -0.44721323, 0, 0.89442736, 43.677708, 3.9907432, 78.21114)
+
+[node name="GateEast_36_gate_end" parent="GateEast" instance=ExtResource("gate_end")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.400001, 4, 80)
+
+[node name="GateEast_37_pier" parent="GateEast" instance=ExtResource("pier")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.1, 4.2204413, 80)
+
+[node name="GateEast_38_pier" parent="GateEast" instance=ExtResource("pier")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.1, 4.4731116, 80)
+
+[node name="GateEast_39_corner" parent="GateEast" instance=ExtResource("corner")]
+transform = Transform3D(0.973249, 0, 0.22975273, 0, 1, 0, -0.22975273, 0, 0.973249, 40.1, 3.9360785, 80)
+
+[node name="GateEast_40_pier" parent="GateEast" instance=ExtResource("pier")]
+transform = Transform3D(0.89442736, 0, 0.44721323, 0, 1, 0, -0.44721323, 0, 0.89442736, 47.255417, 3.9871726, 76.42229)
+
+[node name="GateEast_41_outcrop" parent="GateEast" instance=ExtResource("outcrop")]
+transform = Transform3D(0.621626, 0, 0.78331417, 0, 1, 0, -0.78331417, 0, 0.621626, 48.704388, 4.6380234, 75.6978)
+
+[node name="GateEast_42_rocks" parent="GateEast" instance=ExtResource("rocks")]
+transform = Transform3D(-0.114330836, 0, 0.9934427, 0, 1, 0, -0.9934427, 0, -0.114330836, 49.06216, 3.0053253, 77.64318)
+
+[node name="GardenEast_43_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 149.6, 9.833623, -38.9)
+
+[node name="GardenEast_44_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 149.6, 9.833623, -34.9)
+
+[node name="GardenEast_45_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 149.6, 9.833623, -30.900002)
+
+[node name="GardenEast_46_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 149.6, 9.787694, -26.900002)
+
+[node name="GardenEast_47_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 149.6, 9.787694, -22.900002)
+
+[node name="GardenEast_48_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 149.6, 9.787694, -18.900002)
+
+[node name="GardenEast_49_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 149.6, 9.750104, -14.900002)
+
+[node name="GardenEast_50_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 149.6, 9.750104, -10.900002)
+
+[node name="GardenEast_51_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 149.6, 9.750104, -6.9000015)
+
+[node name="GardenEast_52_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 149.6, 9.711041, -2.9000015)
+
+[node name="GardenEast_53_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 149.6, 9.711041, 1.0999985)
+
+[node name="GardenEast_54_wall_2m" parent="GardenEast" instance=ExtResource("wall_2m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 149.6, 9.711041, 5.0999985)
+
+[node name="GardenEast_55_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.570693, 0, -0.8211635, 0, 1, 0, 0.8211635, 0, -0.570693, 149.6, 9.718045, 7.0999985)
+
+[node name="GardenEast_56_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.570693, 0, -0.8211635, 0, 1, 0, 0.8211635, 0, -0.570693, 147.31723, 9.718045, 10.384653)
+
+[node name="GardenEast_57_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.570693, 0, -0.8211635, 0, 1, 0, 0.8211635, 0, -0.570693, 145.03447, 9.718045, 13.669307)
+
+[node name="GardenEast_58_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.570693, 0, -0.8211635, 0, 1, 0, 0.8211635, 0, -0.570693, 142.7517, 9.604451, 16.95396)
+
+[node name="GardenEast_59_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.570693, 0, -0.8211635, 0, 1, 0, 0.8211635, 0, -0.570693, 140.46892, 9.604451, 20.238615)
+
+[node name="GardenEast_60_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.570693, 0, -0.8211635, 0, 1, 0, 0.8211635, 0, -0.570693, 138.18614, 9.604451, 23.52327)
+
+[node name="GardenEast_61_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.570693, 0, -0.8211635, 0, 1, 0, 0.8211635, 0, -0.570693, 135.90338, 9.532804, 26.807922)
+
+[node name="GardenEast_62_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.570693, 0, -0.8211635, 0, 1, 0, 0.8211635, 0, -0.570693, 133.6206, 9.532804, 30.092577)
+
+[node name="GardenEast_63_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.9999734, 0, 0.007291165, 0, 1, 0, -0.007291165, 0, -0.9999734, 131.33783, 9.680356, 33.377235)
+
+[node name="GardenEast_64_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.9999734, 0, 0.007291165, 0, 1, 0, -0.007291165, 0, -0.9999734, 127.33794, 9.680356, 33.348072)
+
+[node name="GardenEast_65_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.9999734, 0, 0.007291165, 0, 1, 0, -0.007291165, 0, -0.9999734, 123.33804, 9.680356, 33.31891)
+
+[node name="GardenEast_66_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.9999734, 0, 0.007291165, 0, 1, 0, -0.007291165, 0, -0.9999734, 119.33815, 9.790929, 33.28974)
+
+[node name="GardenEast_67_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.9999734, 0, 0.007291165, 0, 1, 0, -0.007291165, 0, -0.9999734, 115.33826, 9.790929, 33.26058)
+
+[node name="GardenEast_68_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.9999734, 0, 0.007291165, 0, 1, 0, -0.007291165, 0, -0.9999734, 111.33836, 9.790929, 33.231415)
+
+[node name="GardenEast_69_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.9999734, 0, 0.007291165, 0, 1, 0, -0.007291165, 0, -0.9999734, 107.33847, 9.677571, 33.20225)
+
+[node name="GardenEast_70_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.9999734, 0, 0.007291165, 0, 1, 0, -0.007291165, 0, -0.9999734, 103.33858, 9.677571, 33.173084)
+
+[node name="GardenEast_71_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.9999734, 0, 0.007291165, 0, 1, 0, -0.007291165, 0, -0.9999734, 99.338684, 9.677571, 33.14392)
+
+[node name="GardenEast_72_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.9999734, 0, 0.007291165, 0, 1, 0, -0.007291165, 0, -0.9999734, 95.33879, 9.593686, 33.114758)
+
+[node name="GardenEast_73_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.9999734, 0, 0.007291165, 0, 1, 0, -0.007291165, 0, -0.9999734, 91.3389, 9.593686, 33.085594)
+
+[node name="GardenEast_74_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.9999734, 0, 0.007291165, 0, 1, 0, -0.007291165, 0, -0.9999734, 87.339005, 9.593686, 33.056427)
+
+[node name="GardenEast_75_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.9999734, 0, 0.007291165, 0, 1, 0, -0.007291165, 0, -0.9999734, 83.33911, 9.653737, 33.027264)
+
+[node name="GardenEast_76_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.34000465, 0, -0.9404237, 0, 1, 0, 0.9404237, 0, -0.34000465, 79.33922, 9.445615, 32.9981)
+
+[node name="GardenEast_77_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.34000465, 0, -0.9404237, 0, 1, 0, 0.9404237, 0, -0.34000465, 77.9792, 9.445615, 36.759796)
+
+[node name="GardenEast_78_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.34000465, 0, -0.9404237, 0, 1, 0, 0.9404237, 0, -0.34000465, 76.61918, 9.445615, 40.521492)
+
+[node name="GardenEast_79_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.39219955, 0, -0.91988015, 0, 1, 0, 0.91988015, 0, -0.39219955, 75.25916, 9.829785, 44.283184)
+
+[node name="GardenEast_80_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.39219955, 0, -0.91988015, 0, 1, 0, 0.91988015, 0, -0.39219955, 73.69036, 9.829785, 47.962704)
+
+[node name="GardenEast_81_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.39219955, 0, -0.91988015, 0, 1, 0, 0.91988015, 0, -0.39219955, 72.12157, 9.829785, 51.642227)
+
+[node name="GardenEast_82_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.39219955, 0, -0.91988015, 0, 1, 0, 0.91988015, 0, -0.39219955, 70.552765, 9.67722, 55.321747)
+
+[node name="GardenEast_83_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.39219955, 0, -0.91988015, 0, 1, 0, 0.91988015, 0, -0.39219955, 68.98397, 9.67722, 59.001266)
+
+[node name="GardenEast_84_wall_4m" parent="GardenEast" instance=ExtResource("wall_4m")]
+transform = Transform3D(-0.39219955, 0, -0.91988015, 0, 1, 0, 0.91988015, 0, -0.39219955, 67.41517, 9.67722, 62.680786)
+
+[node name="GardenEast_85_pier" parent="GardenEast" instance=ExtResource("pier")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 149.6, 9.88133, -38.9)
+
+[node name="GardenEast_86_pier" parent="GardenEast" instance=ExtResource("pier")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 149.6, 9.826276, -26.900002)
+
+[node name="GardenEast_87_pier" parent="GardenEast" instance=ExtResource("pier")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 149.6, 9.776479, -14.900002)
+
+[node name="GardenEast_88_pier" parent="GardenEast" instance=ExtResource("pier")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 149.6, 9.73467, -2.9000015)
+
+[node name="GardenEast_89_corner" parent="GardenEast" instance=ExtResource("corner")]
+transform = Transform3D(-0.2990288, 0, -0.9542441, 0, 1, 0, 0.9542441, 0, -0.2990288, 149.6, 9.6505785, 7.0999985)
+
+[node name="GardenEast_90_pier" parent="GardenEast" instance=ExtResource("pier")]
+transform = Transform3D(-0.570693, 0, -0.8211635, 0, 1, 0, 0.8211635, 0, -0.570693, 142.7517, 9.820844, 16.95396)
+
+[node name="GardenEast_91_pier" parent="GardenEast" instance=ExtResource("pier")]
+transform = Transform3D(-0.570693, 0, -0.8211635, 0, 1, 0, 0.8211635, 0, -0.570693, 135.90338, 9.753629, 26.807922)
+
+[node name="GardenEast_92_corner" parent="GardenEast" instance=ExtResource("corner")]
+transform = Transform3D(-0.8878809, 0, -0.46007335, 0, 1, 0, 0.46007335, 0, -0.8878809, 131.33783, 9.596631, 33.377235)
+
+[node name="GardenEast_93_pier" parent="GardenEast" instance=ExtResource("pier")]
+transform = Transform3D(-0.9999734, 0, 0.007291165, 0, 1, 0, -0.007291165, 0, -0.9999734, 119.33815, 9.865804, 33.28974)
+
+[node name="GardenEast_94_pier" parent="GardenEast" instance=ExtResource("pier")]
+transform = Transform3D(-0.9999734, 0, 0.007291165, 0, 1, 0, -0.007291165, 0, -0.9999734, 107.33847, 9.777364, 33.20225)
+
+[node name="GardenEast_95_pier" parent="GardenEast" instance=ExtResource("pier")]
+transform = Transform3D(-0.9999734, 0, 0.007291165, 0, 1, 0, -0.007291165, 0, -0.9999734, 95.33879, 9.652242, 33.114758)
+
+[node name="GardenEast_96_pier" parent="GardenEast" instance=ExtResource("pier")]
+transform = Transform3D(-0.9999734, 0, 0.007291165, 0, 1, 0, -0.007291165, 0, -0.9999734, 83.33911, 9.638371, 33.027264)
+
+[node name="GardenEast_97_corner" parent="GardenEast" instance=ExtResource("corner")]
+transform = Transform3D(-0.82062554, 0, -0.57146627, 0, 1, 0, 0.57146627, 0, -0.82062554, 79.33922, 9.775151, 32.9981)
+
+[node name="GardenEast_98_pier" parent="GardenEast" instance=ExtResource("pier")]
+transform = Transform3D(-0.36624616, 0, -0.930518, 0, 1, 0, 0.930518, 0, -0.36624616, 75.25916, 9.939107, 44.283184)
+
+[node name="GardenEast_99_pier" parent="GardenEast" instance=ExtResource("pier")]
+transform = Transform3D(-0.39219955, 0, -0.91988015, 0, 1, 0, 0.91988015, 0, -0.39219955, 70.552765, 9.94, 55.321747)
+
+[node name="GardenEast_100_pier" parent="GardenEast" instance=ExtResource("pier")]
+transform = Transform3D(-0.39219955, 0, -0.91988015, 0, 1, 0, 0.91988015, 0, -0.39219955, 65.84637, 9.666196, 66.360306)
+
+[node name="GardenEast_101_outcrop" parent="GardenEast" instance=ExtResource("outcrop")]
+transform = Transform3D(0.033304688, 0, -0.99944526, 0, 1, 0, 0.99944526, 0, 0.033304688, 65.211006, 9.858307, 67.85051)
+
+[node name="GardenEast_102_rocks" parent="GardenEast" instance=ExtResource("rocks")]
+transform = Transform3D(0.7302644, 0, -0.6831646, 0, 1, 0, 0.6831646, 0, 0.7302644, 63.67894, 9.999863, 66.599396)
+
+[node name="GardenEast_103_outcrop" parent="GardenEast" instance=ExtResource("outcrop")]
+transform = Transform3D(0.21706028, 0, 1.2310097, 0, 1.25, 0, -1.2310097, 0, 0.21706028, 67, 8.214264, 70.8)
+
+[node name="GardenNorth_104_wall_4m" parent="GardenNorth" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 136.2, 9.650375, -52.9)
+
+[node name="GardenNorth_105_wall_4m" parent="GardenNorth" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 136.2, 9.650375, -56.9)
+
+[node name="GardenNorth_106_wall_4m" parent="GardenNorth" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 136.2, 9.650375, -60.9)
+
+[node name="GardenNorth_107_wall_4m" parent="GardenNorth" instance=ExtResource("wall_4m")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 136.2, 9.648633, -64.9)
+
+[node name="GardenNorth_108_wall_4m" parent="GardenNorth" instance=ExtResource("wall_4m")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 132.2, 9.648633, -64.9)
+
+[node name="GardenNorth_109_wall_4m" parent="GardenNorth" instance=ExtResource("wall_4m")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 128.2, 9.648633, -64.9)
+
+[node name="GardenNorth_110_wall_4m" parent="GardenNorth" instance=ExtResource("wall_4m")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 124.2, 9.64877, -64.9)
+
+[node name="GardenNorth_111_wall_4m" parent="GardenNorth" instance=ExtResource("wall_4m")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 120.2, 9.64877, -64.9)
+
+[node name="GardenNorth_112_wall_4m" parent="GardenNorth" instance=ExtResource("wall_4m")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 116.2, 9.64877, -64.9)
+
+[node name="GardenNorth_113_wall_4m" parent="GardenNorth" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 112.2, 9.985112, -64.9)
+
+[node name="GardenNorth_114_wall_2m" parent="GardenNorth" instance=ExtResource("wall_2m")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 112.2, 9.985112, -68.9)
+
+[node name="GardenNorth_115_pedestal" parent="GardenNorth" instance=ExtResource("pedestal")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 136.2, 7.6003757, -52.9)
+
+[node name="GardenNorth_116_pier" parent="GardenNorth" instance=ExtResource("pier")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 136.2, 9.600376, -52.9)
+
+[node name="GardenNorth_117_corner" parent="GardenNorth" instance=ExtResource("corner")]
+transform = Transform3D(-0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, -0.70710677, 136.2, 9.520375, -64.9)
+
+[node name="GardenNorth_118_pier" parent="GardenNorth" instance=ExtResource("pier")]
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, 124.2, 9.615613, -64.9)
+
+[node name="GardenNorth_119_corner" parent="GardenNorth" instance=ExtResource("corner")]
+transform = Transform3D(-0.70710677, 0, 0.70710677, 0, 1, 0, -0.70710677, 0, -0.70710677, 112.2, 9.94, -64.9)
+
+[node name="GardenNorth_120_pier" parent="GardenNorth" instance=ExtResource("pier")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 112.2, 10.252362, -70.9)
+
+[node name="GardenNorth_121_outcrop" parent="GardenNorth" instance=ExtResource("outcrop")]
+transform = Transform3D(-0.42261833, 0, 0.90630776, 0, 1, 0, -0.90630776, 0, -0.42261833, 112.2, 10.409828, -72.520004)
+
+[node name="GardenNorth_122_rocks" parent="GardenNorth" instance=ExtResource("rocks")]
+transform = Transform3D(-0.9396926, 0, 0.3420202, 0, 1, 0, -0.3420202, 0, -0.9396926, 114.1, 9.161774, -71.97)
+
+[node name="TrainingWest_123_wall_4m" parent="TrainingWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.193135, -47)
+
+[node name="TrainingWest_124_wall_4m" parent="TrainingWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.193135, -43)
+
+[node name="TrainingWest_125_wall_4m" parent="TrainingWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.193135, -39)
+
+[node name="TrainingWest_126_wall_4m" parent="TrainingWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.936948, -35)
+
+[node name="TrainingWest_127_wall_4m" parent="TrainingWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.936948, -31)
+
+[node name="TrainingWest_128_wall_4m" parent="TrainingWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.936948, -27)
+
+[node name="TrainingWest_129_wall_4m" parent="TrainingWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.848714, -23)
+
+[node name="TrainingWest_130_wall_4m" parent="TrainingWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.848714, -19)
+
+[node name="TrainingWest_131_wall_4m" parent="TrainingWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.848714, -15)
+
+[node name="TrainingWest_132_wall_4m" parent="TrainingWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.68028, -11)
+
+[node name="TrainingWest_133_wall_4m" parent="TrainingWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.68028, -7)
+
+[node name="TrainingWest_134_wall_4m" parent="TrainingWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.68028, -3)
+
+[node name="TrainingWest_135_wall_4m" parent="TrainingWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.477811, 1)
+
+[node name="TrainingWest_136_wall_4m" parent="TrainingWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.477811, 5)
+
+[node name="TrainingWest_137_wall_4m" parent="TrainingWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.477811, 9)
+
+[node name="TrainingWest_138_wall_4m" parent="TrainingWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.307012, 13)
+
+[node name="TrainingWest_139_wall_4m" parent="TrainingWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.307012, 17)
+
+[node name="TrainingWest_140_wall_4m" parent="TrainingWest" instance=ExtResource("wall_4m")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 12.64935, 21)
+
+[node name="TrainingWest_141_pier" parent="TrainingWest" instance=ExtResource("pier")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.156186, -47)
+
+[node name="TrainingWest_142_outcrop" parent="TrainingWest" instance=ExtResource("outcrop")]
+transform = Transform3D(0.42261824, 0, -0.9063078, 0, 1, 0, 0.9063078, 0, 0.42261824, -146.5, 12.956749, -48.62)
+
+[node name="TrainingWest_143_rocks" parent="TrainingWest" instance=ExtResource("rocks")]
+transform = Transform3D(0.9396926, 0, -0.34202012, 0, 1, 0, 0.34202012, 0, 0.9396926, -148.4, 12.627068, -48.07)
+
+[node name="TrainingWest_144_pier" parent="TrainingWest" instance=ExtResource("pier")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.94, -35)
+
+[node name="TrainingWest_145_pier" parent="TrainingWest" instance=ExtResource("pier")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.9353, -23)
+
+[node name="TrainingWest_146_pier" parent="TrainingWest" instance=ExtResource("pier")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.8397875, -11)
+
+[node name="TrainingWest_147_pier" parent="TrainingWest" instance=ExtResource("pier")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.661672, 1)
+
+[node name="TrainingWest_148_pier" parent="TrainingWest" instance=ExtResource("pier")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.448651, 13)
+
+[node name="TrainingWest_149_pier" parent="TrainingWest" instance=ExtResource("pier")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 13.265592, 21)
+
+[node name="TrainingWest_150_pedestal" parent="TrainingWest" instance=ExtResource("pedestal")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 10.599351, 25)
+
+[node name="TrainingWest_151_pier" parent="TrainingWest" instance=ExtResource("pier")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, -146.5, 12.599351, 25)
+
+[node name="TrainingWest_152_outcrop" parent="TrainingWest" instance=ExtResource("outcrop")]
+transform = Transform3D(0.42261824, 0, -0.9063078, 0, 1, 0, 0.9063078, 0, 0.42261824, -146.5, 11.966011, 26.62)
+
+[node name="TrainingWest_153_rocks" parent="TrainingWest" instance=ExtResource("rocks")]
+transform = Transform3D(0.9396926, 0, -0.34202012, 0, 1, 0, 0.34202012, 0, 0.9396926, -148.4, 11.620026, 26.07)

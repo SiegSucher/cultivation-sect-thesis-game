@@ -1,0 +1,210 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+[godot_ai game_helper] registered mcp capture (debugger active=false, logger=true)
+PASS demo scene opens on the inherited Phase 4D sect with Guide, Mentor and basin placeholders
+PASS starts at the spawn in third person: inactive basin, dormant Qi, nothing accepted
+PASS first objective and marker point to the Guide (with the Mentor as an alternative) | Talk to the Guide on the forest path, or head straight for the Mentor.
+PASS Guide clear of the 7 m forest path; Guide and Mentor outside the door-toggle radii | { "guide_from_path_centre_m": 4.11, "guide_to_gate_m": 49.3, "mentor_to_gate_m": 37.7 }
+PASS before step 2 the basin offers no interaction (only the nearest relevant prompt shows) | { "prompt": "", "visible": false }
+PASS prompt beside the Guide reads 'Talk to the Guide'
+PASS E opens the Guide's introduction (page 1 of 4) and pauses controls
+PASS Guide dialogue: movement, Tab, map and E do nothing to the world while the panel is open | { "moved_m": 0.0, "mode": "dialogue" }
+PASS Skip closes the introduction; objective and marker move to the Mentor | Find the Mentor beside the basin in the living court.
+PASS after the Guide: movement works again after closing | { "moved_m": 1.5 }
+PASS revisiting the Guide gives the short direction
+PASS 'Hear the introduction again' restarts at page 1
+PASS the full introduction pages through and closes (64 words, about 26 s read aloud at 150 wpm) | { "words": 64 }
+PASS after reset the marker is back on the Guide
+PASS going straight to the Mentor works without the Guide
+PASS Mentor greets; objective and marker switch to the Mentor | { "text": "Welcome, apprentice. I supervise every n", "marker": (5.8, 12.98129, 43.2), "visible": true, "met": true }
+PASS Not yet: polite decline, quest unaccepted
+PASS objective after declining invites a return | Speak to the Mentor when you are ready.
+PASS reopening goes straight to the offer
+PASS Accept opens the language choice; objective asks for a language
+PASS python: choosing the language opens the Mentor's lesson at card 1 of 5
+PASS python: lesson covers variables, initialization, calls, order, punctuation/declaration and the game command
+PASS python: no C/Java declaration syntax in any Python example
+PASS python: a runnable lesson example is labelled EXAMPLE | EXAMPLE  ·  a short program you can try in this step
+PASS python: Back returns to the previous card
+PASS python: the game-command card shows a signature labelled as a reference, not a solution | { "head": "REFERENCE  ·  a command signature, not a complete program: amount is a placeholder for your own value", "code": "awaken(amount)          # amount: a whole number of Qi" }
+PASS python: the last card opens the code editor
+PASS python: the worked solution starts hidden and is not offered before the hints; the Lesson tab labels the signature
+PASS python: the program structure is supplied and the game command is labelled as the game's
+PASS python: Lesson, Commands and Hints tabs available beside the editor
+PASS python code editor: movement, Tab, map and E do nothing to the world while the panel is open | { "moved_m": 0.0, "mode": "code" }
+PASS python: the console names the sect's learning interpreter and shows no python/gcc/javac command | [sect runner] running awakening.py  ·  learning interpreter, Python subset
+Unsupported feature
+Your line 1:  for step in
+PASS python: real syntax outside the subset is reported as not supported, not as an error; world unchanged | d by this learning interpreter: loops such as for and while.
+Mentor: The learning interpreter understands only part of the language. Use what the Lesson and Commands tabs show: assignments, calls, whole numbers and text.
+PASS python: a bare number passed to the awakening is a lesson rule on valid code, not an error; world unchanged | cise asks you to prepare the Qi first: store the amount in a variable, then pass that variable.
+Mentor: Prepare the Qi first: store the value in a variable on one line, then pass that variable to the command on the next.
+PASS python: an oversized paste is refused with a readable message at once; world unchanged | { "run_ms": 0.71, "chars": 2800, "console": " learning interpreter accepts up to 2000.\nMentor: The learning interpreter runs only short programs, and this exercise needs just two lines." }
+PASS python: deeply nested brackets are refused with a readable message at once; world unchanged | { "run_ms": 2.82, "console": "is learning interpreter accepts up to 12.\nMentor: The learning interpreter runs only short programs, and this exercise needs just two lines." }
+PASS python: typed text reaches the editor | awaken(qi)
+qi = 3
+PASS python: Ctrl+Enter runs; the mistake gives a realistic error and a Mentor note; nothing awakens | e 'qi' is not defined
+Mentor: This name is used before any line gives it a value. Statements run top to bottom, so assign it on an earlier line.  (Your line 1.)
+PASS python: two optional hints, then no more
+PASS python: after the stronger hint the worked solution is offered, still hidden
+PASS python: Show worked solution reveals this language's complete step-1 program | qi = 3
+awaken(qi)
+PASS python: revealing it types, runs and changes nothing (editor, console, runs, Qi, basin, step)
+PASS python: closing mid-step restores controls
+PASS python: the lesson can be reviewed from the Mentor at any time
+PASS python: reopening keeps the draft, output, hints and the revealed solution
+PASS python: the fixed code runs cleanly and completes step 1 | ve: 3
+Success · Ran without errors, top to bottom.
+Mentor: Good. qi held its value before the awakening command used it.
+PASS python: awakening plays: aura on the player, Qi indicator rises to 3, controls held
+PASS python: the Mentor introduces the basin step (not the basin itself)
+PASS python: channelling lesson explains reading the reserve and the basin command
+PASS python: the basin command card shows a labelled reference signature, not a solution
+PASS python: finishing the lesson does not start the basin; objective and marker move to the basin | Channel your Qi into the basin: walk to the basin and press E.
+PASS python: beside the basin the prompt offers to channel Qi
+PASS python: E opens step 2 in the editor (language fixed now) | { "mode": "code", "title": "basin.py · Python · Step 2/2", "language_disabled": true, "text": "# Channel your Qi into the basin\n" }
+PASS python: channelling a bare 3 is a lesson rule on valid code; reserve kept; basin inactive | lue read from qi_reserve().
+Mentor: Read your reserve with the reserve command, store it, and pass that value, so the inscription uses the Qi you actually hold.
+PASS python: channelling too much is refused; reserve kept; basin inactive
+PASS python: step 2 starts with its solution hidden (step 1's stays revealed)
+PASS python: step 2 reveals this language's basin program; nothing typed, run or changed (reserve kept, basin dry) | reserve = qi_reserve()
+channel_basin(reserve)
+PASS python: step 2 draft, revealed solution and completed step 1 survive closing
+PASS python: the fixed code runs cleanly and completes step 2
+PASS python: channelling plays; the basin starts only now
+PASS python: basin flowing; recognition shown once; the Mentor says the reserve is replenished as it refills
+PASS python: objective complete, marker hidden
+PASS python: repeat talk acknowledges completion without granting it again
+PASS python: the flowing basin no longer offers an interaction
+PASS Esc in exploration opens the demo menu
+PASS Reset Demo after success (Esc menu): spawn, Guide state, objective/marker, teaching, awakening, Qi, basin, drafts, recognition all cleared | { "player": (8.0, 0.000833, 134.0), "objective": "Talk to the Guide on the forest path, or head straight for the Mentor." }
+PASS c: Skip lesson goes straight to the editor
+PASS c: failed attempt recorded before reset
+PASS c: worked solution revealed before this reset
+PASS Esc in exploration opens the demo menu
+PASS Reset Demo after a failed attempt: spawn, Guide state, objective/marker, teaching, awakening, Qi, basin, drafts, recognition all cleared | { "player": (8.0, 0.000833, 134.0), "objective": "Talk to the Guide on the forest path, or head straight for the Mentor." }
+PASS c: choosing the language opens the Mentor's lesson at card 1 of 5
+PASS c: lesson covers variables, initialization, calls, order, punctuation/declaration and the game command
+PASS c: a runnable lesson example is labelled EXAMPLE | EXAMPLE  ·  a short program you can try in this step
+PASS c: Back returns to the previous card
+PASS c: the game-command card shows a signature labelled as a reference, not a solution | { "head": "REFERENCE  ·  a command signature, not a complete program: amount is a placeholder for your own value", "code": "void awaken(int amount);   /* declared in sect.h */" }
+PASS c: the last card opens the code editor
+PASS c: the worked solution starts hidden and is not offered before the hints; the Lesson tab labels the signature
+PASS c: the program structure is supplied and the game command is labelled as the game's
+PASS c: Lesson, Commands and Hints tabs available beside the editor
+PASS c code editor: movement, Tab, map and E do nothing to the world while the panel is open | { "moved_m": 0.0, "mode": "code" }
+PASS c: the console names the sect's learning interpreter and shows no python/gcc/javac command | [sect runner] checking awakening.c  ·  learning interpreter, C subset
+Unsupported feature
+Your line 2:  if (qi == 3) awa
+PASS c: real syntax outside the subset is reported as not supported, not as an error; world unchanged | by this learning interpreter: decisions such as if and else.
+Mentor: The learning interpreter understands only part of the language. Use what the Lesson and Commands tabs show: assignments, calls, whole numbers and text.
+PASS c: a bare number passed to the awakening is a lesson rule on valid code, not an error; world unchanged | cise asks you to prepare the Qi first: store the amount in a variable, then pass that variable.
+Mentor: Prepare the Qi first: store the value in a variable on one line, then pass that variable to the command on the next.
+PASS c: an oversized paste is refused with a readable message at once; world unchanged | { "run_ms": 0.8, "chars": 4800, "console": " learning interpreter accepts up to 2000.\nMentor: The learning interpreter runs only short programs, and this exercise needs just two lines." }
+PASS c: deeply nested brackets are refused with a readable message at once; world unchanged | { "run_ms": 2.67, "console": "is learning interpreter accepts up to 12.\nMentor: The learning interpreter runs only short programs, and this exercise needs just two lines." }
+PASS c: typed text reaches the editor | int qi = 3
+awaken(qi);
+PASS c: Ctrl+Enter runs; the mistake gives a realistic error and a Mentor note; nothing awakens | guage error
+awakening.c:5: error: expected ';' before 'awaken'
+Mentor: Every statement must end with a semicolon. Add ; at the end of this line.  (Your line 1.)
+PASS c: two optional hints, then no more
+PASS c: after the stronger hint the worked solution is offered, still hidden
+PASS c: Show worked solution reveals this language's complete step-1 program | int qi = 3;
+awaken(qi);
+PASS c: revealing it types, runs and changes nothing (editor, console, runs, Qi, basin, step)
+PASS c: closing mid-step restores controls
+PASS c: the lesson can be reviewed from the Mentor at any time
+PASS c: reopening keeps the draft, output, hints and the revealed solution
+PASS c: the fixed code runs cleanly and completes step 1 | ve: 3
+Success · Ran without errors, top to bottom.
+Mentor: Good. qi held its value before the awakening command used it.
+PASS c: awakening plays: aura on the player, Qi indicator rises to 3, controls held
+PASS c: the Mentor introduces the basin step (not the basin itself)
+PASS c: channelling lesson explains reading the reserve and the basin command
+PASS c: the basin command card shows a labelled reference signature, not a solution
+PASS c: finishing the lesson does not start the basin; objective and marker move to the basin | Channel your Qi into the basin: walk to the basin and press E.
+PASS c: beside the basin the prompt offers to channel Qi
+PASS c: E opens step 2 in the editor (language fixed now) | { "mode": "code", "title": "basin.c · C · Step 2/2", "language_disabled": true, "text": "/* Channel your Qi into the basin */\n" }
+PASS c: channelling a bare 3 is a lesson rule on valid code; reserve kept; basin inactive | lue read from qi_reserve().
+Mentor: Read your reserve with the reserve command, store it, and pass that value, so the inscription uses the Qi you actually hold.
+PASS c: channelling too much is refused; reserve kept; basin inactive
+PASS c: step 2 starts with its solution hidden (step 1's stays revealed)
+PASS c: step 2 reveals this language's basin program; nothing typed, run or changed (reserve kept, basin dry) | int reserve = qi_reserve();
+channel_basin(reserve);
+PASS c: step 2 draft, revealed solution and completed step 1 survive closing
+PASS c: the fixed code runs cleanly and completes step 2
+PASS c: channelling plays; the basin starts only now
+PASS c: basin flowing; recognition shown once; the Mentor says the reserve is replenished as it refills
+PASS c: objective complete, marker hidden
+PASS c: repeat talk acknowledges completion without granting it again
+PASS c: the flowing basin no longer offers an interaction
+PASS Esc in exploration opens the demo menu
+PASS Reset Demo after success (Esc menu): spawn, Guide state, objective/marker, teaching, awakening, Qi, basin, drafts, recognition all cleared | { "player": (8.0, 0.000833, 134.0), "objective": "Talk to the Guide on the forest path, or head straight for the Mentor." }
+PASS java: choosing the language opens the Mentor's lesson at card 1 of 5
+PASS java: lesson covers variables, initialization, calls, order, punctuation/declaration and the game command
+PASS java: a runnable lesson example is labelled EXAMPLE | EXAMPLE  ·  a short program you can try in this step
+PASS java: Back returns to the previous card
+PASS java: the game-command card shows a signature labelled as a reference, not a solution | { "head": "REFERENCE  ·  a command signature, not a complete program: amount is a placeholder for your own value", "code": "Sect.awaken(int amount)   // in the game\'s Sect class" }
+PASS java: the last card opens the code editor
+PASS java: the worked solution starts hidden and is not offered before the hints; the Lesson tab labels the signature
+PASS java: the program structure is supplied and the game command is labelled as the game's
+PASS java: Lesson, Commands and Hints tabs available beside the editor
+PASS java code editor: movement, Tab, map and E do nothing to the world while the panel is open | { "moved_m": 0.0, "mode": "code" }
+PASS java: the console names the sect's learning interpreter and shows no python/gcc/javac command | [sect runner] checking Awakening.java  ·  learning interpreter, Java subset
+Unsupported feature
+Your line 1:  int size =
+PASS java: real syntax outside the subset is reported as not supported, not as an error; world unchanged | r: calling methods on values, such as .length() or .upper().
+Mentor: The learning interpreter understands only part of the language. Use what the Lesson and Commands tabs show: assignments, calls, whole numbers and text.
+PASS java: a bare number passed to the awakening is a lesson rule on valid code, not an error; world unchanged | cise asks you to prepare the Qi first: store the amount in a variable, then pass that variable.
+Mentor: Prepare the Qi first: store the value in a variable on one line, then pass that variable to the command on the next.
+PASS java: an oversized paste is refused with a readable message at once; world unchanged | { "run_ms": 0.51, "chars": 4800, "console": " learning interpreter accepts up to 2000.\nMentor: The learning interpreter runs only short programs, and this exercise needs just two lines." }
+PASS java: deeply nested brackets are refused with a readable message at once; world unchanged | { "run_ms": 3.02, "console": "is learning interpreter accepts up to 12.\nMentor: The learning interpreter runs only short programs, and this exercise needs just two lines." }
+PASS java: typed text reaches the editor | int qi;
+Sect.awaken(qi);
+PASS java: Ctrl+Enter runs; the mistake gives a realistic error and a Mentor note; nothing awakens | .awaken(qi);
+1 error
+Mentor: This variable was declared but never given a value, so it cannot be read safely. Initialize it when you declare it.  (Your line 2.)
+PASS java: two optional hints, then no more
+PASS java: after the stronger hint the worked solution is offered, still hidden
+PASS java: Show worked solution reveals this language's complete step-1 program | int qi = 3;
+Sect.awaken(qi);
+PASS java: revealing it types, runs and changes nothing (editor, console, runs, Qi, basin, step)
+PASS java: closing mid-step restores controls
+PASS java: the lesson can be reviewed from the Mentor at any time
+PASS java: reopening keeps the draft, output, hints and the revealed solution
+PASS java: the fixed code runs cleanly and completes step 1 | ve: 3
+Success · Ran without errors, top to bottom.
+Mentor: Good. qi held its value before the awakening command used it.
+PASS java: awakening plays: aura on the player, Qi indicator rises to 3, controls held
+PASS java: the Mentor introduces the basin step (not the basin itself)
+PASS java: channelling lesson explains reading the reserve and the basin command
+PASS java: the basin command card shows a labelled reference signature, not a solution
+PASS java: finishing the lesson does not start the basin; objective and marker move to the basin | Channel your Qi into the basin: walk to the basin and press E.
+PASS java: beside the basin the prompt offers to channel Qi
+PASS java: E opens step 2 in the editor (language fixed now) | { "mode": "code", "title": "Basin.java · Java · Step 2/2", "language_disabled": true, "text": "// Channel your Qi into the basin\n" }
+PASS java: channelling a bare 3 is a lesson rule on valid code; reserve kept; basin inactive | read from Sect.qiReserve().
+Mentor: Read your reserve with the reserve command, store it, and pass that value, so the inscription uses the Qi you actually hold.
+PASS java: channelling too much is refused; reserve kept; basin inactive
+PASS java: step 2 starts with its solution hidden (step 1's stays revealed)
+PASS java: step 2 reveals this language's basin program; nothing typed, run or changed (reserve kept, basin dry) | int reserve = Sect.qiReserve();
+Sect.channelBasin(reserve);
+PASS java: step 2 draft, revealed solution and completed step 1 survive closing
+PASS java: the fixed code runs cleanly and completes step 2
+PASS java: channelling plays; the basin starts only now
+PASS java: basin flowing; recognition shown once; the Mentor says the reserve is replenished as it refills
+PASS java: objective complete, marker hidden
+PASS Reset Demo after success (recognition panel): spawn, Guide state, objective/marker, teaching, awakening, Qi, basin, drafts, recognition all cleared | { "player": (8.0, 0.000833, 134.0), "objective": "Talk to the Guide on the forest path, or head straight for the Mentor." }
+PASS first person: E opens the Mentor and pauses controls
+PASS first person: typing W into the editor types text and does not move the player
+PASS first person: closing the editor restores first person and controls
+PASS first person: movement works again after closing | { "moved_m": 1.5 }
+PASS Esc opens the menu instead of leaving to the gallery
+PASS Resume returns to exploration
+PASS no interaction from the map overview
+PASS away from the Guide and Mentor, E still toggles the Sect Gate (inherited)
+PASS python: enlarged code at 125% UI remains inside a 720p screen | { "screen": (1024.0, 576.0), "window": [P: (24.0, 24.0), S: (655.36, 528.0)], "minimum": (650.0, 480.0), "code_font": 20 }
+PASS c: enlarged code at 125% UI remains inside a 720p screen | { "screen": (1024.0, 576.0), "window": [P: (24.0, 24.0), S: (655.36, 528.0)], "minimum": (650.0, 522.0), "code_font": 20 }
+PASS java: enlarged code at 125% UI remains inside a 720p screen | { "screen": (1024.0, 576.0), "window": [P: (24.0, 24.0), S: (655.36, 528.0)], "minimum": (650.0, 503.0), "code_font": 20 }
+TOTAL 169 checks, 0 failures
