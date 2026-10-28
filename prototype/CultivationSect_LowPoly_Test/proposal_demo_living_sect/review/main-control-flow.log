@@ -1,0 +1,72 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+PASS python control case 1
+PASS python control case 2
+PASS python control case 3
+PASS python control case 4
+PASS python control case 5
+PASS python control case 6
+PASS python control case 7
+PASS python control case 8
+PASS python control case 9
+PASS python control case 10
+PASS python control case 11
+PASS python control case 12
+PASS python lesson / The Silent Crossing / a decision
+PASS python lesson / Assignment and comparison
+PASS python lesson / Put the action inside the condition
+PASS python lesson / The Threefold Ward / repetition
+PASS python lesson / Know when to stop
+PASS python lesson / The ward pulse
+PASS python bad loop is bounded
+PASS python missing block punctuation is reported
+PASS c control case 1
+PASS c control case 2
+PASS c control case 3
+PASS c control case 4
+PASS c control case 5
+PASS c control case 6
+PASS c control case 7
+PASS c control case 8
+PASS c control case 9
+PASS c control case 10
+PASS c control case 11
+PASS c control case 12
+PASS c lesson / The Silent Crossing / a decision
+PASS c lesson / Assignment and comparison
+PASS c lesson / Put the action inside the condition
+PASS c lesson / The Threefold Ward / repetition
+PASS c lesson / Know when to stop
+PASS c lesson / The ward pulse
+PASS c bad loop is bounded
+PASS c missing block punctuation is reported
+PASS c for counter does not leak from its scope
+PASS java control case 1
+PASS java control case 2
+PASS java control case 3
+PASS java control case 4
+PASS java control case 5
+PASS java control case 6
+PASS java control case 7
+PASS java control case 8
+PASS java control case 9
+PASS java control case 10
+PASS java control case 11
+PASS java control case 12
+PASS java lesson / The Silent Crossing / a decision
+PASS java lesson / Assignment and comparison
+PASS java lesson / Put the action inside the condition
+PASS java lesson / The Threefold Ward / repetition
+PASS java lesson / Know when to stop
+PASS java lesson / The ward pulse
+PASS java bad loop is bounded
+PASS java missing block punctuation is reported
+PASS java for counter does not leak from its scope
+PASS Python false body is skipped and dedent continues
+PASS nested Python loops execute their bodies
+PASS Java condition must be boolean
+PASS Python keywords cannot be loop variables
+CONTROL FLOW: 66 checks, 0 failures
+[godot_ai game_helper] registered mcp capture (debugger active=false, logger=true)

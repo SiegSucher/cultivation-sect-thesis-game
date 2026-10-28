@@ -1,0 +1,2804 @@
+{
+  "checks": 146,
+  "failures": 0,
+  "results": [
+    {
+      "code": "qi = 3\nawaken(qi)",
+      "expected": [
+        "",
+        "awaken"
+      ],
+      "got": [
+        "",
+        "awaken",
+        ""
+      ],
+      "language": "python",
+      "message": "",
+      "output": [
+        [
+          "sect",
+          "[sect] Qi awakened. Reserve: 3"
+        ]
+      ],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "# comment\nqi = 3   # store\nawaken(qi)\nprint(qi)",
+      "expected": [
+        "",
+        "awaken"
+      ],
+      "got": [
+        "",
+        "awaken",
+        ""
+      ],
+      "language": "python",
+      "message": "",
+      "output": [
+        [
+          "sect",
+          "[sect] Qi awakened. Reserve: 3"
+        ],
+        [
+          "out",
+          "3"
+        ]
+      ],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "qi = 3; awaken(qi)",
+      "expected": [
+        "",
+        "awaken"
+      ],
+      "got": [
+        "",
+        "awaken",
+        ""
+      ],
+      "language": "python",
+      "message": "",
+      "output": [
+        [
+          "sect",
+          "[sect] Qi awakened. Reserve: 3"
+        ]
+      ],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "awaken(qi)\nqi = 3",
+      "expected": [
+        "name_error",
+        ""
+      ],
+      "got": [
+        "name_error",
+        "",
+        "language"
+      ],
+      "language": "python",
+      "message": "NameError: name 'qi' is not defined",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 3\nawaken(qi)",
+      "expected": [
+        "python_type",
+        ""
+      ],
+      "got": [
+        "python_type",
+        "",
+        "language"
+      ],
+      "language": "python",
+      "message": "SyntaxError: invalid syntax",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "qi == 3\nawaken(qi)",
+      "expected": [
+        "name_error",
+        ""
+      ],
+      "got": [
+        "name_error",
+        "",
+        "language"
+      ],
+      "language": "python",
+      "message": "NameError: name 'qi' is not defined",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "  qi = 3\nawaken(qi)",
+      "expected": [
+        "indent",
+        ""
+      ],
+      "got": [
+        "indent",
+        "",
+        "language"
+      ],
+      "language": "python",
+      "message": "IndentationError: unexpected indent",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "qi = 3\nawaken qi",
+      "expected": [
+        "call_syntax",
+        ""
+      ],
+      "got": [
+        "call_syntax",
+        "",
+        "language"
+      ],
+      "language": "python",
+      "message": "SyntaxError: invalid syntax. Perhaps you forgot a comma or parentheses?",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "qi = 3\nawake(qi)",
+      "expected": [
+        "unknown",
+        ""
+      ],
+      "got": [
+        "unknown",
+        "",
+        "language"
+      ],
+      "language": "python",
+      "message": "NameError: name 'awake' is not defined. Did you mean: 'awaken'?",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "qi = 5\nawaken(qi)",
+      "expected": [
+        "wrong_amount",
+        ""
+      ],
+      "got": [
+        "wrong_amount",
+        "",
+        "exercise"
+      ],
+      "language": "python",
+      "message": "Valid Python, but the Mentor asked for a first reserve of exactly 3 Qi, and 5 was passed.",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "qi = 3\nawaken()",
+      "expected": [
+        "arity",
+        ""
+      ],
+      "got": [
+        "arity",
+        "",
+        "language"
+      ],
+      "language": "python",
+      "message": "TypeError: awaken() takes 1 positional argument but 0 were given",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "qi = \"3\"\nawaken(qi)",
+      "expected": [
+        "awaken_type",
+        ""
+      ],
+      "got": [
+        "awaken_type",
+        "",
+        "game"
+      ],
+      "language": "python",
+      "message": "SectError: awaken() needs a whole number of Qi",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "qi = 3\nawaken(qi",
+      "expected": [
+        "syntax",
+        ""
+      ],
+      "got": [
+        "syntax",
+        "",
+        "language"
+      ],
+      "language": "python",
+      "message": "SyntaxError: '(' was never closed",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "awaken(3)",
+      "expected": [
+        "literal_arg",
+        ""
+      ],
+      "got": [
+        "literal_arg",
+        "",
+        "exercise"
+      ],
+      "language": "python",
+      "message": "Valid Python, but this exercise asks you to prepare the Qi first: store the amount in a variable, then pass that variable.",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "channel_basin(3)",
+      "expected": [
+        "literal_channel",
+        ""
+      ],
+      "got": [
+        "literal_channel",
+        "",
+        "exercise"
+      ],
+      "language": "python",
+      "message": "Valid Python, but this exercise asks you to channel the Qi you actually hold: pass the value read from qi_reserve().",
+      "output": [],
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "Sect.channelBasin(3);",
+      "expected": [
+        "literal_channel",
+        ""
+      ],
+      "got": [
+        "literal_channel",
+        "",
+        "exercise"
+      ],
+      "language": "java",
+      "message": "Valid Java, but this exercise asks you to channel the Qi you actually hold: pass the value read from Sect.qiReserve().",
+      "output": [],
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "reserve = qi_reserve()\nchannel_basin(reserve)",
+      "expected": [
+        "",
+        "channel"
+      ],
+      "got": [
+        "",
+        "channel",
+        ""
+      ],
+      "language": "python",
+      "message": "",
+      "output": [
+        [
+          "sect",
+          "[sect] 3 Qi channelled into the basin. Reserve: 0"
+        ]
+      ],
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "channel_basin(qi_reserve())",
+      "expected": [
+        "",
+        "channel"
+      ],
+      "got": [
+        "",
+        "channel",
+        ""
+      ],
+      "language": "python",
+      "message": "",
+      "output": [
+        [
+          "sect",
+          "[sect] 3 Qi channelled into the basin. Reserve: 0"
+        ]
+      ],
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "channel_basin(5)",
+      "expected": [
+        "not_enough",
+        ""
+      ],
+      "got": [
+        "not_enough",
+        "",
+        "game"
+      ],
+      "language": "python",
+      "message": "SectError: not enough Qi: your reserve is 3, but you tried to channel 5",
+      "output": [],
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "reserve = qi_reserve()\nchannel_basin(reserve - 1)",
+      "expected": [
+        "too_small",
+        ""
+      ],
+      "got": [
+        "too_small",
+        "",
+        "game"
+      ],
+      "language": "python",
+      "message": "SectError: the basin needs 3 Qi to start; 2 is not enough, and nothing was spent",
+      "output": [],
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "channel_basin(reserve)",
+      "expected": [
+        "name_error",
+        ""
+      ],
+      "got": [
+        "name_error",
+        "",
+        "language"
+      ],
+      "language": "python",
+      "message": "NameError: name 'reserve' is not defined",
+      "output": [],
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "qi = 3\nchannel_basin(qi)",
+      "expected": [
+        "not_awake",
+        ""
+      ],
+      "got": [
+        "not_awake",
+        "",
+        "game"
+      ],
+      "language": "python",
+      "message": "SectError: the basin cannot draw on Qi that is not awake yet; awaken your own Qi first",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 3;\nawaken(qi);",
+      "expected": [
+        "",
+        "awaken"
+      ],
+      "got": [
+        "",
+        "awaken",
+        ""
+      ],
+      "language": "c",
+      "message": "",
+      "output": [
+        [
+          "sect",
+          "[sect] Qi awakened. Reserve: 3"
+        ]
+      ],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "/* note */\nint qi = 3;   // store\nawaken(qi);\nprintf(\"%d\\n\", qi);",
+      "expected": [
+        "",
+        "awaken"
+      ],
+      "got": [
+        "",
+        "awaken",
+        ""
+      ],
+      "language": "c",
+      "message": "",
+      "output": [
+        [
+          "sect",
+          "[sect] Qi awakened. Reserve: 3"
+        ],
+        [
+          "out",
+          "3"
+        ]
+      ],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi;\nqi = 3;\nawaken(qi);",
+      "expected": [
+        "",
+        "awaken"
+      ],
+      "got": [
+        "",
+        "awaken",
+        ""
+      ],
+      "language": "c",
+      "message": "",
+      "output": [
+        [
+          "sect",
+          "[sect] Qi awakened. Reserve: 3"
+        ]
+      ],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "qi = 3;\nawaken(qi);",
+      "expected": [
+        "undeclared",
+        ""
+      ],
+      "got": [
+        "undeclared",
+        "",
+        "language"
+      ],
+      "language": "c",
+      "message": "error: 'qi' undeclared (first use in this function)",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi;\nawaken(qi);",
+      "expected": [
+        "uninitialized",
+        ""
+      ],
+      "got": [
+        "uninitialized",
+        "",
+        "language"
+      ],
+      "language": "c",
+      "message": "warning: 'qi' is used uninitialized (its value is unpredictable)",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 3\nawaken(qi);",
+      "expected": [
+        "semicolon",
+        ""
+      ],
+      "got": [
+        "semicolon",
+        "",
+        "language"
+      ],
+      "language": "c",
+      "message": "error: expected ';' before 'awaken'",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 3;\nawaken(qi)",
+      "expected": [
+        "semicolon",
+        ""
+      ],
+      "got": [
+        "semicolon",
+        "",
+        "language"
+      ],
+      "language": "c",
+      "message": "error: expected ';' at end of input",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "qi = 3\nawaken(qi)",
+      "expected": [
+        "semicolon",
+        ""
+      ],
+      "got": [
+        "semicolon",
+        "",
+        "language"
+      ],
+      "language": "c",
+      "message": "error: expected ';' before 'awaken'",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 3;\nAwaken(qi);",
+      "expected": [
+        "unknown",
+        ""
+      ],
+      "got": [
+        "unknown",
+        "",
+        "language"
+      ],
+      "language": "c",
+      "message": "error: implicit declaration of function 'Awaken'; did you mean 'awaken'?",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "double qi = 3;\nawaken(qi);",
+      "expected": [
+        "type",
+        ""
+      ],
+      "got": [
+        "type",
+        "",
+        "exercise"
+      ],
+      "language": "c",
+      "message": "Valid C, but this exercise uses whole numbers, so declare the variable as int.",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 3;\nint qi = 3;\nawaken(qi);",
+      "expected": [
+        "redeclared",
+        ""
+      ],
+      "got": [
+        "redeclared",
+        "",
+        "language"
+      ],
+      "language": "c",
+      "message": "error: redefinition of 'qi'",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int main(void) {\nint qi = 3;",
+      "expected": [
+        "structure",
+        ""
+      ],
+      "got": [
+        "structure",
+        "",
+        "language"
+      ],
+      "language": "c",
+      "message": "error: a function definition is not allowed here",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int reserve = qi_reserve();\nchannel_basin(reserve);",
+      "expected": [
+        "",
+        "channel"
+      ],
+      "got": [
+        "",
+        "channel",
+        ""
+      ],
+      "language": "c",
+      "message": "",
+      "output": [
+        [
+          "sect",
+          "[sect] 3 Qi channelled into the basin. Reserve: 0"
+        ]
+      ],
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "int reserve = qi_reserve();\nchannel_basin(reserve + 1);",
+      "expected": [
+        "not_enough",
+        ""
+      ],
+      "got": [
+        "not_enough",
+        "",
+        "game"
+      ],
+      "language": "c",
+      "message": "[sect] error: not enough Qi: your reserve is 3, but you tried to channel 4",
+      "output": [],
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "int qi = 3;\nSect.awaken(qi);",
+      "expected": [
+        "",
+        "awaken"
+      ],
+      "got": [
+        "",
+        "awaken",
+        ""
+      ],
+      "language": "java",
+      "message": "",
+      "output": [
+        [
+          "sect",
+          "[sect] Qi awakened. Reserve: 3"
+        ]
+      ],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 3;\nSystem.out.println(\"Qi: \" + qi);\nSect.awaken(qi);",
+      "expected": [
+        "",
+        "awaken",
+        "Qi: 3"
+      ],
+      "got": [
+        "",
+        "awaken",
+        ""
+      ],
+      "language": "java",
+      "message": "",
+      "output": [
+        [
+          "out",
+          "Qi: 3"
+        ],
+        [
+          "sect",
+          "[sect] Qi awakened. Reserve: 3"
+        ]
+      ],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi;\nSect.awaken(qi);",
+      "expected": [
+        "uninitialized",
+        ""
+      ],
+      "got": [
+        "uninitialized",
+        "",
+        "language"
+      ],
+      "language": "java",
+      "message": "error: variable qi might not have been initialized",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "qi = 3;\nSect.awaken(qi);",
+      "expected": [
+        "undeclared",
+        ""
+      ],
+      "got": [
+        "undeclared",
+        "",
+        "language"
+      ],
+      "language": "java",
+      "message": "error: cannot find symbol (variable qi)",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 3;\nawaken(qi);",
+      "expected": [
+        "unknown",
+        ""
+      ],
+      "got": [
+        "unknown",
+        "",
+        "language"
+      ],
+      "language": "java",
+      "message": "error: cannot find symbol (method awaken)",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 3\nSect.awaken(qi);",
+      "expected": [
+        "semicolon",
+        ""
+      ],
+      "got": [
+        "semicolon",
+        "",
+        "language"
+      ],
+      "language": "java",
+      "message": "error: ';' expected",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "String qi = \"3\";\nSect.awaken(qi);",
+      "expected": [
+        "type",
+        ""
+      ],
+      "got": [
+        "type",
+        "",
+        "exercise"
+      ],
+      "language": "java",
+      "message": "Valid Java, but this exercise uses whole numbers, so declare the variable as int.",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int reserve = Sect.qiReserve();\nSect.channelBasin(reserve);",
+      "expected": [
+        "",
+        "channel"
+      ],
+      "got": [
+        "",
+        "channel",
+        ""
+      ],
+      "language": "java",
+      "message": "",
+      "output": [
+        [
+          "sect",
+          "[sect] 3 Qi channelled into the basin. Reserve: 0"
+        ]
+      ],
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "Sect.channelBasin(Sect.qiReserve());",
+      "expected": [
+        "",
+        "channel"
+      ],
+      "got": [
+        "",
+        "channel",
+        ""
+      ],
+      "language": "java",
+      "message": "",
+      "output": [
+        [
+          "sect",
+          "[sect] 3 Qi channelled into the basin. Reserve: 0"
+        ]
+      ],
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "int reserve = Sect.qiReserve();\nSect.awaken(reserve);",
+      "expected": [
+        "already_awake",
+        ""
+      ],
+      "got": [
+        "already_awake",
+        "",
+        "game"
+      ],
+      "language": "java",
+      "message": "Exception in thread \"main\" SectException: your Qi is already awake; this inscription uses Sect.qiReserve() and Sect.channelBasin()",
+      "output": [],
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "qi = 1 + 2\nawaken(qi)",
+      "expected": [
+        "",
+        "awaken"
+      ],
+      "got": [
+        "",
+        "awaken",
+        ""
+      ],
+      "language": "python",
+      "message": "",
+      "output": [
+        [
+          "sect",
+          "[sect] Qi awakened. Reserve: 3"
+        ]
+      ],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 1 + 2;\nawaken(qi);",
+      "expected": [
+        "",
+        "awaken"
+      ],
+      "got": [
+        "",
+        "awaken",
+        ""
+      ],
+      "language": "c",
+      "message": "",
+      "output": [
+        [
+          "sect",
+          "[sect] Qi awakened. Reserve: 3"
+        ]
+      ],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 1 + 2;\nSect.awaken(qi);",
+      "expected": [
+        "",
+        "awaken"
+      ],
+      "got": [
+        "",
+        "awaken",
+        ""
+      ],
+      "language": "java",
+      "message": "",
+      "output": [
+        [
+          "sect",
+          "[sect] Qi awakened. Reserve: 3"
+        ]
+      ],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "reserve = qi_reserve()\nchannel_basin(reserve * 1)",
+      "expected": [
+        "",
+        "channel"
+      ],
+      "got": [
+        "",
+        "channel",
+        ""
+      ],
+      "language": "python",
+      "message": "",
+      "output": [
+        [
+          "sect",
+          "[sect] 3 Qi channelled into the basin. Reserve: 0"
+        ]
+      ],
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "int reserve = qi_reserve();\nint amount = reserve - 0;\nchannel_basin(amount);",
+      "expected": [
+        "",
+        "channel"
+      ],
+      "got": [
+        "",
+        "channel",
+        ""
+      ],
+      "language": "c",
+      "message": "",
+      "output": [
+        [
+          "sect",
+          "[sect] 3 Qi channelled into the basin. Reserve: 0"
+        ]
+      ],
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "int reserve = Sect.qiReserve() + 0;\nSect.channelBasin(reserve);",
+      "expected": [
+        "",
+        "channel"
+      ],
+      "got": [
+        "",
+        "channel",
+        ""
+      ],
+      "language": "java",
+      "message": "",
+      "output": [
+        [
+          "sect",
+          "[sect] 3 Qi channelled into the basin. Reserve: 0"
+        ]
+      ],
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "qi = 2 + 2\nawaken(qi)",
+      "expected": [
+        "wrong_amount",
+        "",
+        "and 4 was passed"
+      ],
+      "got": [
+        "wrong_amount",
+        "",
+        "exercise"
+      ],
+      "language": "python",
+      "message": "Valid Python, but the Mentor asked for a first reserve of exactly 3 Qi, and 4 was passed.",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 7 - 3;\nawaken(qi);",
+      "expected": [
+        "wrong_amount",
+        "",
+        "and 4 was passed"
+      ],
+      "got": [
+        "wrong_amount",
+        "",
+        "exercise"
+      ],
+      "language": "c",
+      "message": "Valid C, but the Mentor asked for a first reserve of exactly 3 Qi, and 4 was passed.",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 2 * 3;\nSect.awaken(qi);",
+      "expected": [
+        "wrong_amount",
+        "",
+        "and 6 was passed"
+      ],
+      "got": [
+        "wrong_amount",
+        "",
+        "exercise"
+      ],
+      "language": "java",
+      "message": "Valid Java, but the Mentor asked for a first reserve of exactly 3 Qi, and 6 was passed.",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "qi = 3\nprint(qi * 2)\nawaken(qi)",
+      "expected": [
+        "",
+        "awaken",
+        "\n6\n"
+      ],
+      "got": [
+        "",
+        "awaken",
+        ""
+      ],
+      "language": "python",
+      "message": "",
+      "output": [
+        [
+          "out",
+          "6"
+        ],
+        [
+          "sect",
+          "[sect] Qi awakened. Reserve: 3"
+        ]
+      ],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 3;\nprintf(\"%d\\n\", qi + 4);\nawaken(qi);",
+      "expected": [
+        "",
+        "awaken",
+        "\n7\n"
+      ],
+      "got": [
+        "",
+        "awaken",
+        ""
+      ],
+      "language": "c",
+      "message": "",
+      "output": [
+        [
+          "out",
+          "7"
+        ],
+        [
+          "sect",
+          "[sect] Qi awakened. Reserve: 3"
+        ]
+      ],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 3;\nSystem.out.println(qi - 1);\nSect.awaken(qi);",
+      "expected": [
+        "",
+        "awaken",
+        "\n2\n"
+      ],
+      "got": [
+        "",
+        "awaken",
+        ""
+      ],
+      "language": "java",
+      "message": "",
+      "output": [
+        [
+          "out",
+          "2"
+        ],
+        [
+          "sect",
+          "[sect] Qi awakened. Reserve: 3"
+        ]
+      ],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "reserve = qi_reserve()\nchannel_basin(reserve - 1)",
+      "expected": [
+        "too_small",
+        "",
+        "2 is not enough"
+      ],
+      "got": [
+        "too_small",
+        "",
+        "game"
+      ],
+      "language": "python",
+      "message": "SectError: the basin needs 3 Qi to start; 2 is not enough, and nothing was spent",
+      "output": [],
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "int reserve = qi_reserve();\nchannel_basin(reserve + 2);",
+      "expected": [
+        "not_enough",
+        "",
+        "tried to channel 5"
+      ],
+      "got": [
+        "not_enough",
+        "",
+        "game"
+      ],
+      "language": "c",
+      "message": "[sect] error: not enough Qi: your reserve is 3, but you tried to channel 5",
+      "output": [],
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "System.out.print(\"Qi \");\nSystem.out.println(1 + 2);",
+      "expected": [
+        "",
+        "",
+        "\nQi 3\n"
+      ],
+      "got": [
+        "",
+        "",
+        ""
+      ],
+      "language": "java",
+      "message": "",
+      "output": [
+        [
+          "out",
+          "Qi 3"
+        ]
+      ],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "double qi = 3;\nSect.awaken(qi);",
+      "expected": [
+        "type",
+        "",
+        "Valid Java, but"
+      ],
+      "got": [
+        "type",
+        "",
+        "exercise"
+      ],
+      "language": "java",
+      "message": "Valid Java, but this exercise uses whole numbers, so declare the variable as int.",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "awaken(3);",
+      "expected": [
+        "literal_arg",
+        "",
+        "Valid C, but"
+      ],
+      "got": [
+        "literal_arg",
+        "",
+        "exercise"
+      ],
+      "language": "c",
+      "message": "Valid C, but this exercise asks you to prepare the Qi first: store the amount in a variable, then pass that variable.",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "channel_basin(3);",
+      "expected": [
+        "literal_channel",
+        "",
+        "Valid C, but"
+      ],
+      "got": [
+        "literal_channel",
+        "",
+        "exercise"
+      ],
+      "language": "c",
+      "message": "Valid C, but this exercise asks you to channel the Qi you actually hold: pass the value read from qi_reserve().",
+      "output": [],
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "awaken(1 + 2)",
+      "expected": [
+        "literal_arg",
+        "",
+        "Valid Python, but"
+      ],
+      "got": [
+        "literal_arg",
+        "",
+        "exercise"
+      ],
+      "language": "python",
+      "message": "Valid Python, but this exercise asks you to prepare the Qi first: store the amount in a variable, then pass that variable.",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = true;\nSect.awaken(qi);",
+      "expected": [
+        "type_mismatch",
+        "",
+        "boolean cannot be converted to int"
+      ],
+      "got": [
+        "type_mismatch",
+        "",
+        "language"
+      ],
+      "language": "java",
+      "message": "error: incompatible types: boolean cannot be converted to int",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 3;\nint r = awaken(qi);",
+      "expected": [
+        "type_mismatch",
+        "",
+        "void value not ignored"
+      ],
+      "got": [
+        "type_mismatch",
+        "",
+        "language"
+      ],
+      "language": "c",
+      "message": "error: void value not ignored as it ought to be",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 3;\nint r = Sect.awaken(qi);",
+      "expected": [
+        "type_mismatch",
+        "",
+        "void cannot be converted to int"
+      ],
+      "got": [
+        "type_mismatch",
+        "",
+        "language"
+      ],
+      "language": "java",
+      "message": "error: incompatible types: void cannot be converted to int",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "Sect.awaken(\"3\");",
+      "expected": [
+        "type_mismatch",
+        "",
+        "String cannot be converted to int"
+      ],
+      "got": [
+        "type_mismatch",
+        "",
+        "language"
+      ],
+      "language": "java",
+      "message": "error: incompatible types: String cannot be converted to int",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 3;\nqi == 3;\nSect.awaken(qi);",
+      "expected": [
+        "not_statement",
+        ""
+      ],
+      "got": [
+        "not_statement",
+        "",
+        "language"
+      ],
+      "language": "java",
+      "message": "error: not a statement",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 3;\nqi.foo();",
+      "expected": [
+        "type_mismatch",
+        "",
+        "int cannot be dereferenced"
+      ],
+      "got": [
+        "type_mismatch",
+        "",
+        "language"
+      ],
+      "language": "java",
+      "message": "error: int cannot be dereferenced",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "awaken qi;",
+      "expected": [
+        "unknown_type",
+        "",
+        "unknown type name 'awaken'"
+      ],
+      "got": [
+        "unknown_type",
+        "",
+        "language"
+      ],
+      "language": "c",
+      "message": "error: unknown type name 'awaken'",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 3;\nprintf(qi);",
+      "expected": [
+        "type_mismatch",
+        "",
+        "argument 1 of 'printf'"
+      ],
+      "got": [
+        "type_mismatch",
+        "",
+        "language"
+      ],
+      "language": "c",
+      "message": "error: passing argument 1 of 'printf' makes pointer from integer without a cast",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int size = strlen(\"qi\");",
+      "expected": [
+        "unknown",
+        "",
+        "implicit declaration of function 'strlen'"
+      ],
+      "got": [
+        "unknown",
+        "",
+        "language"
+      ],
+      "language": "c",
+      "message": "error: implicit declaration of function 'strlen'",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "qi = 3\nqi()",
+      "expected": [
+        "type_mismatch",
+        "",
+        "'int' object is not callable"
+      ],
+      "got": [
+        "type_mismatch",
+        "",
+        "language"
+      ],
+      "language": "python",
+      "message": "TypeError: 'int' object is not callable",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "qi = \"3\" + 3",
+      "expected": [
+        "type_mismatch",
+        "",
+        "can only concatenate str"
+      ],
+      "got": [
+        "type_mismatch",
+        "",
+        "language"
+      ],
+      "language": "python",
+      "message": "TypeError: can only concatenate str (not \"int\") to str",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "print(True)\nqi = 3\nawaken(qi)",
+      "expected": [
+        "",
+        "awaken",
+        "\nTrue\n"
+      ],
+      "got": [
+        "",
+        "awaken",
+        ""
+      ],
+      "language": "python",
+      "message": "",
+      "output": [
+        [
+          "out",
+          "True"
+        ],
+        [
+          "sect",
+          "[sect] Qi awakened. Reserve: 3"
+        ]
+      ],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 3;\nqi == 3;\nawaken(qi);",
+      "expected": [
+        "",
+        "awaken",
+        "warning: statement with no effect"
+      ],
+      "got": [
+        "",
+        "awaken",
+        ""
+      ],
+      "language": "c",
+      "message": "",
+      "output": [
+        [
+          "note",
+          "test:2: warning: statement with no effect"
+        ],
+        [
+          "sect",
+          "[sect] Qi awakened. Reserve: 3"
+        ]
+      ],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "for step in range(3):\n    awaken(step)",
+      "expected": [
+        "unsupported",
+        "",
+        "loops"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "python",
+      "message": "Not supported by this learning interpreter: loops such as for and while.",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "qi = 3\nif qi == 3:\n    awaken(qi)",
+      "expected": [
+        "unsupported",
+        "",
+        "decisions"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "python",
+      "message": "Not supported by this learning interpreter: decisions such as if and else.",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "qi = 3.5",
+      "expected": [
+        "unsupported",
+        "",
+        "decimal"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "python",
+      "message": "Not supported by this learning interpreter: decimal numbers (this exercise uses whole numbers).",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "qi = 6 / 2",
+      "expected": [
+        "unsupported",
+        "",
+        "division"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "python",
+      "message": "Not supported by this learning interpreter: division and remainder (/ and %).",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "qi = [3]",
+      "expected": [
+        "unsupported",
+        "",
+        "lists"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "python",
+      "message": "Not supported by this learning interpreter: lists, arrays and indexing ([ ]).",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "size = len(\"qi\")",
+      "expected": [
+        "unsupported",
+        "",
+        "len()"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "python",
+      "message": "Not supported by this learning interpreter: len() from Python's built-in functions (only print() and the game's commands are available here).",
+      "output": [],
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "qi = 3\nqi += 1",
+      "expected": [
+        "unsupported",
+        "",
+        "compound"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "python",
+      "message": "Not supported by this learning interpreter: compound assignment (+=).",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "print(\"a\", end=\"\")",
+      "expected": [
+        "unsupported",
+        "",
+        "keyword arguments"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "python",
+      "message": "Not supported by this learning interpreter: keyword arguments such as end=\"\".",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "qi = 3\nqi.bit_length()",
+      "expected": [
+        "unsupported",
+        "",
+        "methods"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "python",
+      "message": "Not supported by this learning interpreter: calling methods on values, such as qi.bit_length().",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "text = \"ab\" * 2",
+      "expected": [
+        "unsupported",
+        "",
+        "repeating text"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "python",
+      "message": "Not supported by this learning interpreter: repeating text with *.",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "from sect import *",
+      "expected": [
+        "unsupported",
+        "",
+        "imports"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "python",
+      "message": "Not supported by this learning interpreter: imports (the game's commands are already available).",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "def awaken_twice():",
+      "expected": [
+        "unsupported",
+        "",
+        "functions"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "python",
+      "message": "Not supported by this learning interpreter: defining functions or returning from them.",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "print(f\"{qi}\")",
+      "expected": [
+        "unsupported",
+        "",
+        "string prefixes"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "python",
+      "message": "Not supported by this learning interpreter: string prefixes such as f\"...\".",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 3;\nif (qi == 3) awaken(qi);",
+      "expected": [
+        "unsupported",
+        "",
+        "decisions"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "c",
+      "message": "Not supported by this learning interpreter: decisions such as if and else.",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "for (int i = 0; i < 3; i++) {}",
+      "expected": [
+        "unsupported",
+        "",
+        "loops"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "c",
+      "message": "Not supported by this learning interpreter: loops such as for and while.",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 3;\nqi++;",
+      "expected": [
+        "unsupported",
+        "",
+        "increment"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "c",
+      "message": "Not supported by this learning interpreter: increment and decrement (++ and --).",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "puts(\"hi\");",
+      "expected": [
+        "unsupported",
+        "",
+        "<stdio.h>"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "c",
+      "message": "Not supported by this learning interpreter: puts() from <stdio.h> (only printf() and the game's commands are available here).",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "{ int qi = 3; }",
+      "expected": [
+        "unsupported",
+        "",
+        "blocks"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "c",
+      "message": "Not supported by this learning interpreter: extra { } blocks (main's braces are already written).",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int qi = 6 / 2;",
+      "expected": [
+        "unsupported",
+        "",
+        "division"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "c",
+      "message": "Not supported by this learning interpreter: division and remainder (/ and %).",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int c = 'a';",
+      "expected": [
+        "unsupported",
+        "",
+        "single-quoted"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "c",
+      "message": "Not supported by this learning interpreter: single-quoted characters (use double quotes for text).",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "#include <string.h>",
+      "expected": [
+        "unsupported",
+        "",
+        "preprocessor"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "c",
+      "message": "Not supported by this learning interpreter: preprocessor lines (the #include lines are already written).",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int size = \"qi\".length();",
+      "expected": [
+        "unsupported",
+        "",
+        "methods on values"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "java",
+      "message": "Not supported by this learning interpreter: calling methods on values, such as .length() or .upper().",
+      "output": [],
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "int qi = Math.max(1, 3);",
+      "expected": [
+        "unsupported",
+        "",
+        "standard library"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "java",
+      "message": "Not supported by this learning interpreter: Math.max from Java's standard library (only System.out.println, System.out.print and Sect are available here).",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "for (int i = 0; i < 3; i++) {}",
+      "expected": [
+        "unsupported",
+        "",
+        "loops"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "java",
+      "message": "Not supported by this learning interpreter: loops such as for and while.",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "public static void f() {}",
+      "expected": [
+        "unsupported",
+        "",
+        "classes"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "java",
+      "message": "Not supported by this learning interpreter: classes, objects and other declarations (the program structure is already written).",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "int[] a = {3};",
+      "expected": [
+        "unsupported",
+        "",
+        "arrays"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "java",
+      "message": "Not supported by this learning interpreter: lists, arrays and indexing ([ ]).",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "System.out.printf(\"%d\", 3);",
+      "expected": [
+        "unsupported",
+        "",
+        "standard library"
+      ],
+      "got": [
+        "unsupported",
+        "",
+        "unsupported"
+      ],
+      "language": "java",
+      "message": "Not supported by this learning interpreter: System.out.printf from Java's standard library (only System.out.println, System.out.print and Sect are available here).",
+      "output": [],
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "example": "steps = 5",
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [],
+        "phase": "done"
+      },
+      "language": "python",
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "example": "steps = 5\nprint(steps)     # prints 5",
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [
+          [
+            "out",
+            "5"
+          ]
+        ],
+        "phase": "done"
+      },
+      "language": "python",
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "example": "steps = 5\nprint(\"Ready\")\nprint(steps)",
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [
+          [
+            "out",
+            "Ready"
+          ],
+          [
+            "out",
+            "5"
+          ]
+        ],
+        "phase": "done"
+      },
+      "language": "python",
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "example": "steps = 5        # runs first\nprint(steps)     # runs second",
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [
+          [
+            "out",
+            "5"
+          ]
+        ],
+        "phase": "done"
+      },
+      "language": "python",
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {
+          "category": "language",
+          "detail": "amount",
+          "kind": "name_error",
+          "line": 1,
+          "message": "NameError: name 'amount' is not defined"
+        },
+        "ok": false,
+        "output": [],
+        "phase": "run"
+      },
+      "language": "python",
+      "pass": true,
+      "signature": "awaken(amount)          # amount: a whole number of Qi",
+      "stage": 1
+    },
+    {
+      "example": "reserve = qi_reserve()\nprint(reserve)     # prints 3",
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [
+          [
+            "out",
+            "3"
+          ]
+        ],
+        "phase": "done"
+      },
+      "language": "python",
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {
+          "category": "language",
+          "detail": "amount",
+          "kind": "name_error",
+          "line": 1,
+          "message": "NameError: name 'amount' is not defined"
+        },
+        "ok": false,
+        "output": [],
+        "phase": "run"
+      },
+      "language": "python",
+      "pass": true,
+      "signature": "channel_basin(amount)   # amount: how much Qi to send",
+      "stage": 2
+    },
+    {
+      "example": "int steps;",
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [],
+        "phase": "done"
+      },
+      "language": "c",
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "example": "int steps = 5;",
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [],
+        "phase": "done"
+      },
+      "language": "c",
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "example": "int steps = 5;\nprintf(\"%d\\n\", steps);",
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [
+          [
+            "out",
+            "5"
+          ]
+        ],
+        "phase": "done"
+      },
+      "language": "c",
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "example": "int steps = 5;            /* first */\nprintf(\"%d\\n\", steps);   /* second */",
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [
+          [
+            "out",
+            "5"
+          ]
+        ],
+        "phase": "done"
+      },
+      "language": "c",
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {
+          "category": "unsupported",
+          "detail": "defining functions or returning from them",
+          "kind": "unsupported",
+          "line": 1,
+          "message": "Not supported by this learning interpreter: defining functions or returning from them."
+        },
+        "ok": false,
+        "output": [],
+        "phase": "compile"
+      },
+      "language": "c",
+      "pass": true,
+      "signature": "void awaken(int amount);   /* declared in sect.h */",
+      "stage": 1
+    },
+    {
+      "example": "int reserve = qi_reserve();\nprintf(\"%d\\n\", reserve);   /* prints 3 */",
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [
+          [
+            "out",
+            "3"
+          ]
+        ],
+        "phase": "done"
+      },
+      "language": "c",
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {
+          "category": "unsupported",
+          "detail": "defining functions or returning from them",
+          "kind": "unsupported",
+          "line": 1,
+          "message": "Not supported by this learning interpreter: defining functions or returning from them."
+        },
+        "ok": false,
+        "output": [],
+        "phase": "compile"
+      },
+      "language": "c",
+      "pass": true,
+      "signature": "void channel_basin(int amount);   /* declared in sect.h */",
+      "stage": 2
+    },
+    {
+      "example": "int steps;",
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [],
+        "phase": "done"
+      },
+      "language": "java",
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "example": "int steps = 5;",
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [],
+        "phase": "done"
+      },
+      "language": "java",
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "example": "int steps = 5;\nSystem.out.println(steps);",
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [
+          [
+            "out",
+            "5"
+          ]
+        ],
+        "phase": "done"
+      },
+      "language": "java",
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "example": "int steps = 5;               // first\nSystem.out.println(steps);   // second",
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [
+          [
+            "out",
+            "5"
+          ]
+        ],
+        "phase": "done"
+      },
+      "language": "java",
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {
+          "category": "language",
+          "detail": "amount",
+          "kind": "syntax",
+          "line": 1,
+          "message": "error: ')' expected"
+        },
+        "ok": false,
+        "output": [],
+        "phase": "compile"
+      },
+      "language": "java",
+      "pass": true,
+      "signature": "Sect.awaken(int amount)   // in the game's Sect class",
+      "stage": 1
+    },
+    {
+      "example": "int reserve = Sect.qiReserve();\nSystem.out.println(reserve);   // prints 3",
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [
+          [
+            "out",
+            "3"
+          ]
+        ],
+        "phase": "done"
+      },
+      "language": "java",
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {
+          "category": "language",
+          "detail": "amount",
+          "kind": "syntax",
+          "line": 1,
+          "message": "error: ')' expected"
+        },
+        "ok": false,
+        "output": [],
+        "phase": "compile"
+      },
+      "language": "java",
+      "pass": true,
+      "signature": "Sect.channelBasin(int amount)   // in the game's Sect class",
+      "stage": 2
+    },
+    {
+      "code": "authored solution",
+      "got": {
+        "effects": {
+          "awaken": 3,
+          "awaken_from_variable": true,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [
+          [
+            "sect",
+            "[sect] Qi awakened. Reserve: 3"
+          ]
+        ],
+        "phase": "done"
+      },
+      "language": "python",
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "authored solution",
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 3,
+          "channel_from_reserve": true,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [
+          [
+            "sect",
+            "[sect] 3 Qi channelled into the basin. Reserve: 0"
+          ]
+        ],
+        "phase": "done"
+      },
+      "language": "python",
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "authored solution",
+      "got": {
+        "effects": {
+          "awaken": 3,
+          "awaken_from_variable": true,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [
+          [
+            "sect",
+            "[sect] Qi awakened. Reserve: 3"
+          ]
+        ],
+        "phase": "done"
+      },
+      "language": "c",
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "authored solution",
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 3,
+          "channel_from_reserve": true,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [
+          [
+            "sect",
+            "[sect] 3 Qi channelled into the basin. Reserve: 0"
+          ]
+        ],
+        "phase": "done"
+      },
+      "language": "c",
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "code": "authored solution",
+      "got": {
+        "effects": {
+          "awaken": 3,
+          "awaken_from_variable": true,
+          "bridge": 0,
+          "channel": 0,
+          "channel_from_reserve": false,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [
+          [
+            "sect",
+            "[sect] Qi awakened. Reserve: 3"
+          ]
+        ],
+        "phase": "done"
+      },
+      "language": "java",
+      "pass": true,
+      "stage": 1
+    },
+    {
+      "code": "authored solution",
+      "got": {
+        "effects": {
+          "awaken": 0,
+          "awaken_from_variable": false,
+          "bridge": 0,
+          "channel": 3,
+          "channel_from_reserve": true,
+          "ward": 0
+        },
+        "fail": {},
+        "ok": true,
+        "output": [
+          [
+            "sect",
+            "[sect] 3 Qi channelled into the basin. Reserve: 0"
+          ]
+        ],
+        "phase": "done"
+      },
+      "language": "java",
+      "pass": true,
+      "stage": 2
+    },
+    {
+      "chars": 2100,
+      "got": [
+        "compile",
+        "Not run: the program is 2100 characters long; this learning interpreter accepts up to 2000.",
+        0
+      ],
+      "language": "python",
+      "limit": "characters long",
+      "pass": true
+    },
+    {
+      "chars": 2400,
+      "got": [
+        "compile",
+        "Not run: the program is 2400 characters long; this learning interpreter accepts up to 2000.",
+        0
+      ],
+      "language": "c",
+      "limit": "characters long",
+      "pass": true
+    },
+    {
+      "chars": 758,
+      "got": [
+        "compile",
+        "Not run: the program has more than 400 words, numbers and symbols; this learning interpreter accepts up to 400.",
+        0
+      ],
+      "language": "python",
+      "limit": "words, numbers and symbols",
+      "pass": true
+    },
+    {
+      "chars": 287,
+      "got": [
+        "compile",
+        "Not run: the program has more than 40 statements; this learning interpreter accepts up to 40.",
+        0
+      ],
+      "language": "python",
+      "limit": "statements",
+      "pass": true
+    },
+    {
+      "chars": 66,
+      "got": [
+        "compile",
+        "Not run: brackets, calls or signs are nested more than 12 deep; this learning interpreter accepts up to 12.",
+        0
+      ],
+      "language": "python",
+      "limit": "nested more than",
+      "pass": true
+    },
+    {
+      "chars": 399,
+      "got": [
+        "compile",
+        "Not run: brackets, calls or signs are nested more than 12 deep; this learning interpreter accepts up to 12.",
+        0
+      ],
+      "language": "python",
+      "limit": "nested more than",
+      "pass": true
+    },
+    {
+      "chars": 306,
+      "got": [
+        "compile",
+        "Not run: brackets, calls or signs are nested more than 12 deep; this learning interpreter accepts up to 12.",
+        0
+      ],
+      "language": "python",
+      "limit": "nested more than",
+      "pass": true
+    },
+    {
+      "chars": 51,
+      "got": [
+        "compile",
+        "Not run: brackets, calls or signs are nested more than 12 deep; this learning interpreter accepts up to 12.",
+        0
+      ],
+      "language": "java",
+      "limit": "nested more than",
+      "pass": true
+    },
+    {
+      "chars": 315,
+      "got": [
+        "run",
+        "Stopped: the program printed more than 30 lines; this learning interpreter shows at most 30.",
+        30
+      ],
+      "language": "python",
+      "limit": "more than 30 lines",
+      "pass": true
+    },
+    {
+      "chars": 15,
+      "got": [
+        "compile",
+        "Not run: 9999999999 is too large; this learning interpreter keeps whole numbers between -999999999 and 999999999.",
+        0
+      ],
+      "language": "python",
+      "limit": "too large",
+      "pass": true
+    },
+    {
+      "chars": 18,
+      "got": [
+        "run",
+        "Stopped: 9999800001 is too large; this learning interpreter keeps whole numbers between -999999999 and 999999999.",
+        0
+      ],
+      "language": "python",
+      "limit": "too large",
+      "pass": true
+    },
+    {
+      "case": "190 additions",
+      "got": {
+        "category": "exercise",
+        "detail": "",
+        "kind": "wrong_amount",
+        "line": 2,
+        "message": "Valid Python, but the Mentor asked for a first reserve of exactly 3 Qi, and 191 was passed."
+      },
+      "pass": true
+    },
+    {
+      "case": "500-character line",
+      "pass": true,
+      "shown": 204
+    },
+    {
+      "case": "slowest run",
+      "ms": 2.37,
+      "pass": true
+    }
+  ],
+  "slowest_ms": 2.37
+}

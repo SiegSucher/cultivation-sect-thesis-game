@@ -377,14 +377,14 @@ func full_run(lang: String, from_cards := false, reset_from_recognition := false
 	check(lang+": channelling plays; the basin starts only now", quest.stage == 3 and quest.mode == "flow" and paused())
 	await create_timer(3.8).timeout
 	check(lang+": basin flowing; recognition shown once; the Mentor says the reserve is replenished as it refills", demo.basin.active and demo.basin.water.visible and demo.basin.jet.emitting and quest.mode == "recognition" and quest.recognitions_granted == 1 and quest.reserve == 3 and quest.recognition_text.text.contains(lesson.name) and quest.recognition_text.text.contains("replenishing"))
-	check(lang+": objective complete, marker hidden", quest.objective.text.begins_with("Complete") and not quest.marker.visible)
+	check(lang+": basin complete, next service marked", quest.objective.text.contains("The Silent Crossing") and quest.objective_target() == demo.story.bridge and quest.marker.visible)
 	if reset_from_recognition:
 		await press("RecognitionReset")
 		return
 	await press("ContinueExploring")
 	await go(AT_MENTOR)
 	await tap(KEY_E)
-	check(lang+": repeat talk acknowledges completion without granting it again", quest.dialogue_text.text == Lessons.MENTOR_DONE and quest.recognitions_granted == 1)
+	check(lang+": repeat talk offers basin continuation without granting recognition again", quest.dialogue_text.text.contains("basin is running") and quest.recognitions_granted == 1)
 	await press("Close")
 	await go(AT_BASIN)
 	check(lang+": the flowing basin no longer offers an interaction", quest.nearest() == "")

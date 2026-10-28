@@ -31,6 +31,18 @@ var palette := {}
 var last_position := Vector3.ZERO
 var travel := 0.0
 var grounded := true
+var speed := 0.0                  # smoothed ground speed, m/s
+var run := 0.0                    # 0 walk .. 1 sprint: shorter stance, higher knees, pumping arms
+var stance := .60                 # planted share of each stride cycle
+var shown := ""                   # activity pose currently blended in; eases between duties
+var shown_weight := 1.0
+var talk_weight := 0.0
+var look_target: Node3D           # heads turn toward this node (the player) when it comes near
+var look_range := 4.5
+var head_turn := Vector3.ZERO     # yaw, pitch, weight of looking at the target
+var glance := 0.0
+var glance_wait := 2.0
+var lotus_legs := []              # per leg: hip and knee rotations for the cross-legged seat
 func material(c: Color) -> StandardMaterial3D:
 	if palette.has(c): return palette[c]
 	var m := StandardMaterial3D.new()
@@ -164,6 +176,14 @@ func _ready() -> void:
 	build_props()
 	bake_bones(self)
 	last_position = global_position
+	shown = activity
+	glance_wait = randf_range(1.0,5.0)
+	for side: float in [-1.0,1.0]:
+		# Lotus seat: thigh out and forward along the floor, shin folded in across the front.
+		# The right shin rides a little higher so the crossed legs do not intersect.
+		var thigh := aim(Vector3(side*.72,-.08,-.69))
+		var shin := aim(Vector3(-side*.9,.1 if side < 0 else .3,.35))
+		lotus_legs.append([thigh.get_rotation_quaternion(),(thigh.inverse()*shin).get_rotation_quaternion()])
 	pose(0)
 func bake_bones(parent: Node3D) -> void:
 	# Merge the static pieces on each joint using vertex colours. Animation keeps its pivots,
@@ -216,92 +236,140 @@ func build_props() -> void:
 	var cup := pivot(hands[0],Vector3(0,-.03,-.05),"Cup")
 	tube(cup,Vector3.ZERO,.055,.04,.085,Color("a7b7ae"))
 	props.cup = cup
+func aim(dir: Vector3) -> Basis:
+	# A limb basis whose -Y, the way a limb hangs, points along dir.
+	return Basis.looking_at(dir,Vector3.UP)*Basis(Vector3.RIGHT,PI*.5)
 func set_activity(value: String) -> void: activity = value
 func _process(delta: float) -> void:
 	time += delta
 	var distance := Vector2(global_position.x-last_position.x,global_position.z-last_position.z).length()
 	last_position = global_position
-	var actual_speed := distance/maxf(delta,.001) if distance < .6 else 0.0
-	stride_span = lerpf(stride_span,clampf(actual_speed*.12,.27,.52),minf(1,delta*6))
-	if distance < .6:
-		travel += distance
-		# Stance covers 60% of the cycle. Match its backwards foot travel to body travel.
-		phase += distance*TAU/(2*stride_span/.60)
-	var target := clampf(actual_speed/.25,0,1)
-	moving_speed = move_toward(moving_speed,target,delta*7)
+	if distance >= .6: distance = 0.0     # a teleport, not a step
+	speed = lerpf(speed,distance/maxf(delta,.001),1-exp(-10*delta))
+	run = smoothstep(1.8,6.0,speed)
+	# Faster gaits lengthen the stride and shorten ground contact, giving running a flight phase.
+	stride_span = lerpf(stride_span,clampf(speed*.12,.27,.55),minf(1,delta*6))
+	stance = lerpf(.60,.38,run)
+	travel += distance
+	# The stance covers `stance` of the cycle. Match its backwards foot travel to body travel.
+	phase += distance*TAU/(2*stride_span/stance)
+	moving_speed = move_toward(moving_speed,clampf(speed/.25,0,1),delta*7)
+	# Ease out of one duty pose before easing into the next, instead of snapping.
+	var rate := 1.6 if "lotus" in [activity,shown] else 3.0    # sitting down takes a moment
+	if activity != shown:
+		if shown == "idle": shown_weight = 0.0                  # nothing to ease out of
+		shown_weight = move_toward(shown_weight,0,delta*rate)
+		if shown_weight == 0: shown = activity
+	else: shown_weight = move_toward(shown_weight,1,delta*rate)
+	talk_weight = move_toward(talk_weight,1.0 if speaking > .01 else 0.0,delta*4)
+	look(delta)
 	pose(delta)
+func look(delta: float) -> void:
+	# Idle glances around, and a natural head turn toward the player when they come close.
+	glance_wait -= delta
+	if glance_wait <= 0:
+		glance_wait = randf_range(2.5,6.5)
+		glance = randf_range(-.55,.55) if activity == "idle" else randf_range(-.15,.15)
+	var want := Vector3(glance*(1-moving_speed),0,0)
+	if activity == "lotus": want = Vector3.ZERO           # eyes forward while meditating
+	elif look_target and is_inside_tree():
+		var to := to_local(look_target.global_position+Vector3.UP*1.55)-Vector3(0,1.5,0)
+		var flat := Vector2(to.x,to.z).length()
+		var yaw := atan2(-to.x,-to.z)
+		var busy := activity in ["read","sweep","train","tend","tea"]
+		if flat < (2.5 if busy else look_range) and absf(yaw) < 1.9:
+			want = Vector3(clampf(yaw,-1.1,1.1),clampf(atan2(to.y,flat),-.35,.3),1)
+	head_turn = head_turn.lerp(want,1-exp(-4*delta))
 func pose(_delta: float) -> void:
 	var walk := moving_speed
-	var talk := minf(speaking,1)
-	var read := activity == "read" and walk < .1
-	var sweep := activity == "sweep" and walk < .1
-	var train := activity == "train" and walk < .1
-	var tea := activity == "tea" and walk < .1
-	var sit := activity == "sit" and walk < .1
-	var tend := activity == "tend" and walk < .1
-	torso.rotation = Vector3(-bow+sin(time*1.7)*.009-(.22 if tend else .07 if sweep else 0),0,sin(time*1.1)*.009)
-	head.rotation.x = -.20 if read or tend else -.05*sin(time*5)*talk
-	head.rotation.y = .08*sin(time*.63)
+	var sprint := run*walk
+	var act := shown_weight*(1-walk)
+	var talk := talk_weight
+	var read := shown == "read"
+	var sweep := shown == "sweep"
+	var train := shown == "train"
+	var tea := shown == "tea"
+	var sit := shown == "sit"
+	var tend := shown == "tend"
+	var lotus := smoothstep(0,1,act) if shown == "lotus" else 0.0
+	var busy_hands := act > .01 and (read or sweep or train or tend or tea or lotus > 0)
+	# Lean into faster gaits; the body dips at each footfall and rises over the planted leg.
+	var lean := walk*.04+sprint*.16
+	var bob := -cos(phase*2)*walk*lerpf(.012,.03,sprint)
+	torso.rotation = Vector3(-bow-lean+sin(time*1.7)*.009-(.22 if tend else .07 if sweep else 0.0)*act,0,sin(time*1.1)*.009)
+	# Seated on the floor in lotus, breathing slowly with the head slightly bowed.
+	torso.position.y = lerpf(.9+bob,.17+.006*sin(time*1.4),lotus)
+	var focus := -.20*act if read or tend else -.12*lotus
+	head.rotation.x = lerpf(focus,head_turn.y,head_turn.z)-.05*sin(time*5)*talk+lean*.5
+	head.rotation.y = head_turn.x+.03*sin(time*.63)
 	for i in 2:
 		var side := -1.0 if i == 0 else 1.0
-		# During the planted half-cycle a foot moves backwards relative to the body.
+		# During the planted part of the cycle a foot moves backwards relative to the body.
 		var cycle := fposmod(phase/TAU+i*.5,1.0)
 		var z: float
 		var lift := 0.0
-		if cycle < .60: z = lerpf(-stride_span,stride_span,cycle/.60)
+		var toe := 0.0
+		if cycle < stance: z = lerpf(-stride_span,stride_span,cycle/stance)
 		else:
-			var k := (cycle-.60)/.40
-			z = lerpf(stride_span,-stride_span,k)
-			lift = sin(k*PI)*.12
+			# Swing eases out and in, the knee lifts higher when running and the toe rolls.
+			var k := (cycle-stance)/(1-stance)
+			z = lerpf(stride_span,-stride_span,(1-cos(k*PI))*.5)
+			lift = sin(k*PI)*lerpf(.12,.30,run)
+			toe = -sin(k*TAU)*.3
 		# Lower the hip inside the overlapping tunic during a stride so the leg can
 		# actually reach its planted target instead of clamping and lifting the sole.
-		var hip_height := .9-walk*stride_span*.4
-		if train: hip_height = .87
-		if sit: hip_height = .9
-		hips[i].position.y = hip_height
+		var hip_height := .9-walk*stride_span*.4+bob
+		if train: hip_height = lerpf(hip_height,.87,act)
+		if sit: hip_height = lerpf(hip_height,.9,act)
+		hips[i].position.y = lerpf(hip_height,.16,lotus)
 		var target := Vector2(z*walk,-(hip_height-.08)+lift*walk)
-		if train: target.x = side*.20
+		if train: target.x = lerpf(target.x,side*.20,act)
 		# Two-bone leg solve. The ankle counter-rotates to keep the sole horizontal.
 		var len := clampf(target.length(),.1,.829)
 		var knee_angle := -(PI-acos(clampf((.43*.43+.40*.40-len*len)/(2*.43*.40),-1,1)))
 		var hip_angle := atan2(-target.x,-target.y)+acos(clampf((.43*.43+len*len-.40*.40)/(2*.43*len),-1,1))
-		hips[i].rotation.x = hip_angle
-		knees[i].rotation.x = knee_angle
-		feet[i].rotation.x = -hip_angle-knee_angle
-		feet[i].position.y = -.39
-		if sit:
-			hips[i].rotation.x = PI*.5
-			knees[i].rotation.x = -PI*.5
-			feet[i].rotation.x = 0
-			feet[i].position.y = -.45
-		hems[i].rotation.x = hip_angle*.32*walk
-		hems[i].position.y = .09 if sit else 0.0
-		hems[i].scale.z = .4 if sit else 1.0
-		if sit: hems[i].rotation.x = PI*.5
-		arms[i].rotation = Vector3(sin(phase+PI*i)*.42*walk,0,side*.08)
-		elbows[i].rotation.x = .10+.15*walk
+		var seat := act if sit else 0.0
+		hips[i].quaternion = Quaternion(Vector3.RIGHT,lerpf(hip_angle,PI*.5,seat)).slerp(lotus_legs[i][0],lotus)
+		knees[i].quaternion = Quaternion(Vector3.RIGHT,lerpf(knee_angle,-PI*.5,seat)).slerp(lotus_legs[i][1],lotus)
+		feet[i].rotation.x = lerpf(lerpf(-hip_angle-knee_angle+toe*walk,0,seat),-1.3,lotus)
+		feet[i].position.y = lerpf(-.39,-.45,seat)
+		# The robe's split skirts drape forward over the crossed thighs.
+		hems[i].rotation = Vector3(lerpf(lerpf(hip_angle*.32*walk,PI*.5,seat),PI*.5,lotus),-side*.78*lotus,0)
+		hems[i].position.y = .09*seat+.05*lotus
+		hems[i].scale.z = lerpf(lerpf(1,.4,seat),.7,lotus)
+		# Arms swing against the legs (forward as the same-side foot pushes off), pumping when running.
+		var arm := Vector3(cos(phase+PI*i-TAU*stance)*lerpf(.42,.85,run)*walk,0,side*.08)
+		var elbow := .10+.15*walk+1.1*sprint
+		var pose_arm := arm
+		var pose_elbow := elbow
 		if read:
-			arms[i].rotation = Vector3(.58,side*.25,-side*.04)
-			elbows[i].rotation.x = 1.12
+			pose_arm = Vector3(.58,side*.25,-side*.04)
+			pose_elbow = 1.12
 		elif sweep:
-			arms[i].rotation = Vector3(.20,0,-side*.05+sin(time*1.8)*.12)
-			elbows[i].rotation.x = .7 if i == 1 else .25
+			pose_arm = Vector3(.20,0,-side*.05+sin(time*1.8)*.12)
+			pose_elbow = .7 if i == 1 else .25
 		elif train:
-			arms[i].rotation = Vector3(.9+sin(time*1.65+PI*i)*.65,side*.18,side*.13)
-			elbows[i].rotation.x = .45+.4*(.5+.5*cos(time*1.65+PI*i))
+			pose_arm = Vector3(.9+sin(time*1.65+PI*i)*.65,side*.18,side*.13)
+			pose_elbow = .45+.4*(.5+.5*cos(time*1.65+PI*i))
 		elif tend:
-			arms[i].rotation.x = .4+.12*sin(time*1.8+PI*i)
+			pose_arm.x = .4+.12*sin(time*1.8+PI*i)
 		elif tea and i == 0:
-			arms[i].rotation.x = .4
-			elbows[i].rotation.x = 1.25+.2*sin(time*.7)
-		elif talk > .01 and i == 0:
-			arms[i].rotation.x = .35+.10*sin(time*2.7)
-			elbows[i].rotation.x = .85+.22*sin(time*2)
-	props.book.visible = read
-	props.broom.visible = sweep
+			pose_arm.x = .4
+			pose_elbow = 1.25+.2*sin(time*.7)
+		elif shown == "lotus":
+			pose_arm = Vector3(.56,0,side*.33)                 # hands resting on the knees
+			pose_elbow = .3
+		arms[i].rotation = arm.lerp(pose_arm,act)
+		elbows[i].rotation.x = lerpf(elbow,pose_elbow,act)
+		if i == 0 and not busy_hands:
+			var gesture := talk*(1-walk)
+			arms[i].rotation.x = lerpf(arms[i].rotation.x,.35+.10*sin(time*2.7),gesture)
+			elbows[i].rotation.x = lerpf(elbows[i].rotation.x,.85+.22*sin(time*2),gesture)
+	props.book.visible = read and act > .5
+	props.broom.visible = sweep and act > .5
 	props.broom.rotation.z = sin(time*1.8)*.12
 	props.staff.visible = role == "guard" or role == "teacher"
-	props.cup.visible = tea
+	props.cup.visible = tea and act > .5
 	if props.staff.visible:
 		arms[1].rotation.x = .20
 		arms[1].rotation.z = -.14

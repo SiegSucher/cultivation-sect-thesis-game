@@ -29,6 +29,7 @@ func _ready() -> void:
 	if title.begins_with("Lin"):
 		figure.hairstyle = 1
 		figure.skin = Color("d3b18c")
+	figure.look_target = watch
 	figure.name = "ArticulatedFigure"
 	add_child(figure)
 	var label := Label3D.new()

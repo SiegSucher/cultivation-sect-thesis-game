@@ -1,0 +1,152 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+PASS python s1 qi = 3 / awaken(qi)                              ->  awaken  | 
+PASS python s1 # comment / qi = 3   # store / awaken(qi) / prin ->  awaken  | 
+PASS python s1 qi = 3; awaken(qi)                               ->  awaken  | 
+PASS python s1 awaken(qi) / qi = 3                              -> name_error  language | NameError: name 'qi' is not defined
+PASS python s1 int qi = 3 / awaken(qi)                          -> python_type  language | SyntaxError: invalid syntax
+PASS python s1 qi == 3 / awaken(qi)                             -> name_error  language | NameError: name 'qi' is not defined
+PASS python s1   qi = 3 / awaken(qi)                            -> indent  language | IndentationError: unexpected indent
+PASS python s1 qi = 3 / awaken qi                               -> call_syntax  language | SyntaxError: invalid syntax. Perhaps you forgot a comma or parentheses?
+PASS python s1 qi = 3 / awake(qi)                               -> unknown  language | NameError: name 'awake' is not defined. Did you mean: 'awaken'?
+PASS python s1 qi = 5 / awaken(qi)                              -> wrong_amount  exercise | Valid Python, but the Mentor asked for a first reserve of exactly 3 Qi, and 5 was passed.
+PASS python s1 qi = 3 / awaken()                                -> arity  language | TypeError: awaken() takes 1 positional argument but 0 were given
+PASS python s1 qi = "3" / awaken(qi)                            -> awaken_type  game | SectError: awaken() needs a whole number of Qi
+PASS python s1 qi = 3 / awaken(qi                               -> syntax  language | SyntaxError: '(' was never closed
+PASS python s1 awaken(3)                                        -> literal_arg  exercise | Valid Python, but this exercise asks you to prepare the Qi first: store the amount in a variable, then pass that variable.
+PASS python s2 channel_basin(3)                                 -> literal_channel  exercise | Valid Python, but this exercise asks you to channel the Qi you actually hold: pass the value read from qi_reserve().
+PASS java s2 Sect.channelBasin(3);                            -> literal_channel  exercise | Valid Java, but this exercise asks you to channel the Qi you actually hold: pass the value read from Sect.qiReserve().
+PASS python s2 reserve = qi_reserve() / channel_basin(reserve)  ->  channel  | 
+PASS python s2 channel_basin(qi_reserve())                      ->  channel  | 
+PASS python s2 channel_basin(5)                                 -> not_enough  game | SectError: not enough Qi: your reserve is 3, but you tried to channel 5
+PASS python s2 reserve = qi_reserve() / channel_basin(reserve - -> too_small  game | SectError: the basin needs 3 Qi to start; 2 is not enough, and nothing was spent
+PASS python s2 channel_basin(reserve)                           -> name_error  language | NameError: name 'reserve' is not defined
+PASS python s1 qi = 3 / channel_basin(qi)                       -> not_awake  game | SectError: the basin cannot draw on Qi that is not awake yet; awaken your own Qi first
+PASS c s1 int qi = 3; / awaken(qi);                        ->  awaken  | 
+PASS c s1 /* note */ / int qi = 3;   // store / awaken(qi) ->  awaken  | 
+PASS c s1 int qi; / qi = 3; / awaken(qi);                  ->  awaken  | 
+PASS c s1 qi = 3; / awaken(qi);                            -> undeclared  language | error: 'qi' undeclared (first use in this function)
+PASS c s1 int qi; / awaken(qi);                            -> uninitialized  language | warning: 'qi' is used uninitialized (its value is unpredictable)
+PASS c s1 int qi = 3 / awaken(qi);                         -> semicolon  language | error: expected ';' before 'awaken'
+PASS c s1 int qi = 3; / awaken(qi)                         -> semicolon  language | error: expected ';' at end of input
+PASS c s1 qi = 3 / awaken(qi)                              -> semicolon  language | error: expected ';' before 'awaken'
+PASS c s1 int qi = 3; / Awaken(qi);                        -> unknown  language | error: implicit declaration of function 'Awaken'; did you mean 'awaken'?
+PASS c s1 double qi = 3; / awaken(qi);                     -> type  exercise | Valid C, but this exercise uses whole numbers, so declare the variable as int.
+PASS c s1 int qi = 3; / int qi = 3; / awaken(qi);          -> redeclared  language | error: redefinition of 'qi'
+PASS c s1 int main(void) { / int qi = 3;                   -> structure  language | error: a function definition is not allowed here
+PASS c s2 int reserve = qi_reserve(); / channel_basin(rese ->  channel  | 
+PASS c s2 int reserve = qi_reserve(); / channel_basin(rese -> not_enough  game | [sect] error: not enough Qi: your reserve is 3, but you tried to channel 4
+PASS java s1 int qi = 3; / Sect.awaken(qi);                   ->  awaken  | 
+PASS java s1 int qi = 3; / System.out.println("Qi: " + qi); / ->  awaken  | 
+PASS java s1 int qi; / Sect.awaken(qi);                       -> uninitialized  language | error: variable qi might not have been initialized
+PASS java s1 qi = 3; / Sect.awaken(qi);                       -> undeclared  language | error: cannot find symbol (variable qi)
+PASS java s1 int qi = 3; / awaken(qi);                        -> unknown  language | error: cannot find symbol (method awaken)
+PASS java s1 int qi = 3 / Sect.awaken(qi);                    -> semicolon  language | error: ';' expected
+PASS java s1 String qi = "3"; / Sect.awaken(qi);              -> type  exercise | Valid Java, but this exercise uses whole numbers, so declare the variable as int.
+PASS java s2 int reserve = Sect.qiReserve(); / Sect.channelBa ->  channel  | 
+PASS java s2 Sect.channelBasin(Sect.qiReserve());             ->  channel  | 
+PASS java s2 int reserve = Sect.qiReserve(); / Sect.awaken(re -> already_awake  game | Exception in thread "main" SectException: your Qi is already awake; this inscription uses Sect.qiReserve() and Sect.channelBasin()
+PASS python s1 qi = 1 + 2 / awaken(qi)                          ->  awaken  | 
+PASS c s1 int qi = 1 + 2; / awaken(qi);                    ->  awaken  | 
+PASS java s1 int qi = 1 + 2; / Sect.awaken(qi);               ->  awaken  | 
+PASS python s2 reserve = qi_reserve() / channel_basin(reserve * ->  channel  | 
+PASS c s2 int reserve = qi_reserve(); / int amount = reser ->  channel  | 
+PASS java s2 int reserve = Sect.qiReserve() + 0; / Sect.chann ->  channel  | 
+PASS python s1 qi = 2 + 2 / awaken(qi)                          -> wrong_amount  exercise | Valid Python, but the Mentor asked for a first reserve of exactly 3 Qi, and 4 was passed.
+PASS c s1 int qi = 7 - 3; / awaken(qi);                    -> wrong_amount  exercise | Valid C, but the Mentor asked for a first reserve of exactly 3 Qi, and 4 was passed.
+PASS java s1 int qi = 2 * 3; / Sect.awaken(qi);               -> wrong_amount  exercise | Valid Java, but the Mentor asked for a first reserve of exactly 3 Qi, and 6 was passed.
+PASS python s1 qi = 3 / print(qi * 2) / awaken(qi)              ->  awaken  | 
+PASS c s1 int qi = 3; / printf("%d\n", qi + 4); / awaken(q ->  awaken  | 
+PASS java s1 int qi = 3; / System.out.println(qi - 1); / Sect ->  awaken  | 
+PASS python s2 reserve = qi_reserve() / channel_basin(reserve - -> too_small  game | SectError: the basin needs 3 Qi to start; 2 is not enough, and nothing was spent
+PASS c s2 int reserve = qi_reserve(); / channel_basin(rese -> not_enough  game | [sect] error: not enough Qi: your reserve is 3, but you tried to channel 5
+PASS java s1 System.out.print("Qi "); / System.out.println(1  ->    | 
+PASS java s1 double qi = 3; / Sect.awaken(qi);                -> type  exercise | Valid Java, but this exercise uses whole numbers, so declare the variable as int.
+PASS c s1 awaken(3);                                       -> literal_arg  exercise | Valid C, but this exercise asks you to prepare the Qi first: store the amount in a variable, then pass that variable.
+PASS c s2 channel_basin(3);                                -> literal_channel  exercise | Valid C, but this exercise asks you to channel the Qi you actually hold: pass the value read from qi_reserve().
+PASS python s1 awaken(1 + 2)                                    -> literal_arg  exercise | Valid Python, but this exercise asks you to prepare the Qi first: store the amount in a variable, then pass that variable.
+PASS java s1 int qi = true; / Sect.awaken(qi);                -> type_mismatch  language | error: incompatible types: boolean cannot be converted to int
+PASS c s1 int qi = 3; / int r = awaken(qi);                -> type_mismatch  language | error: void value not ignored as it ought to be
+PASS java s1 int qi = 3; / int r = Sect.awaken(qi);           -> type_mismatch  language | error: incompatible types: void cannot be converted to int
+PASS java s1 Sect.awaken("3");                                -> type_mismatch  language | error: incompatible types: String cannot be converted to int
+PASS java s1 int qi = 3; / qi == 3; / Sect.awaken(qi);        -> not_statement  language | error: not a statement
+PASS java s1 int qi = 3; / qi.foo();                          -> type_mismatch  language | error: int cannot be dereferenced
+PASS c s1 awaken qi;                                       -> unknown_type  language | error: unknown type name 'awaken'
+PASS c s1 int qi = 3; / printf(qi);                        -> type_mismatch  language | error: passing argument 1 of 'printf' makes pointer from integer without a cast
+PASS c s1 int size = strlen("qi");                         -> unknown  language | error: implicit declaration of function 'strlen'
+PASS python s1 qi = 3 / qi()                                    -> type_mismatch  language | TypeError: 'int' object is not callable
+PASS python s1 qi = "3" + 3                                     -> type_mismatch  language | TypeError: can only concatenate str (not "int") to str
+PASS python s1 print(True) / qi = 3 / awaken(qi)                ->  awaken  | 
+PASS c s1 int qi = 3; / qi == 3; / awaken(qi);             ->  awaken  | 
+PASS python s1 for step in range(3): /     awaken(step)         -> unsupported  unsupported | Not supported by this learning interpreter: loops such as for and while.
+PASS python s1 qi = 3 / if qi == 3: /     awaken(qi)            -> unsupported  unsupported | Not supported by this learning interpreter: decisions such as if and else.
+PASS python s1 qi = 3.5                                         -> unsupported  unsupported | Not supported by this learning interpreter: decimal numbers (this exercise uses whole numbers).
+PASS python s1 qi = 6 / 2                                       -> unsupported  unsupported | Not supported by this learning interpreter: division and remainder (/ and %).
+PASS python s1 qi = [3]                                         -> unsupported  unsupported | Not supported by this learning interpreter: lists, arrays and indexing ([ ]).
+PASS python s2 size = len("qi")                                 -> unsupported  unsupported | Not supported by this learning interpreter: len() from Python's built-in functions (only print() and the game's commands are available here).
+PASS python s1 qi = 3 / qi += 1                                 -> unsupported  unsupported | Not supported by this learning interpreter: compound assignment (+=).
+PASS python s1 print("a", end="")                               -> unsupported  unsupported | Not supported by this learning interpreter: keyword arguments such as end="".
+PASS python s1 qi = 3 / qi.bit_length()                         -> unsupported  unsupported | Not supported by this learning interpreter: calling methods on values, such as qi.bit_length().
+PASS python s1 text = "ab" * 2                                  -> unsupported  unsupported | Not supported by this learning interpreter: repeating text with *.
+PASS python s1 from sect import *                               -> unsupported  unsupported | Not supported by this learning interpreter: imports (the game's commands are already available).
+PASS python s1 def awaken_twice():                              -> unsupported  unsupported | Not supported by this learning interpreter: defining functions or returning from them.
+PASS python s1 print(f"{qi}")                                   -> unsupported  unsupported | Not supported by this learning interpreter: string prefixes such as f"...".
+PASS c s1 int qi = 3; / if (qi == 3) awaken(qi);           -> unsupported  unsupported | Not supported by this learning interpreter: decisions such as if and else.
+PASS c s1 for (int i = 0; i < 3; i++) {}                   -> unsupported  unsupported | Not supported by this learning interpreter: loops such as for and while.
+PASS c s1 int qi = 3; / qi++;                              -> unsupported  unsupported | Not supported by this learning interpreter: increment and decrement (++ and --).
+PASS c s1 puts("hi");                                      -> unsupported  unsupported | Not supported by this learning interpreter: puts() from <stdio.h> (only printf() and the game's commands are available here).
+PASS c s1 { int qi = 3; }                                  -> unsupported  unsupported | Not supported by this learning interpreter: extra { } blocks (main's braces are already written).
+PASS c s1 int qi = 6 / 2;                                  -> unsupported  unsupported | Not supported by this learning interpreter: division and remainder (/ and %).
+PASS c s1 int c = 'a';                                     -> unsupported  unsupported | Not supported by this learning interpreter: single-quoted characters (use double quotes for text).
+PASS c s1 #include <string.h>                              -> unsupported  unsupported | Not supported by this learning interpreter: preprocessor lines (the #include lines are already written).
+PASS java s2 int size = "qi".length();                        -> unsupported  unsupported | Not supported by this learning interpreter: calling methods on values, such as .length() or .upper().
+PASS java s1 int qi = Math.max(1, 3);                         -> unsupported  unsupported | Not supported by this learning interpreter: Math.max from Java's standard library (only System.out.println, System.out.print and Sect are available here).
+PASS java s1 for (int i = 0; i < 3; i++) {}                   -> unsupported  unsupported | Not supported by this learning interpreter: loops such as for and while.
+PASS java s1 public static void f() {}                        -> unsupported  unsupported | Not supported by this learning interpreter: classes, objects and other declarations (the program structure is already written).
+PASS java s1 int[] a = {3};                                   -> unsupported  unsupported | Not supported by this learning interpreter: lists, arrays and indexing ([ ]).
+PASS java s1 System.out.printf("%d", 3);                      -> unsupported  unsupported | Not supported by this learning interpreter: System.out.printf from Java's standard library (only System.out.println, System.out.print and Sect are available here).
+PASS python s1 lesson example A variable stores a value          -> runs, does not solve
+PASS python s1 lesson example Give it a value before you use it  -> runs, does not solve
+PASS python s1 lesson example A function call performs an action -> runs, does not solve
+PASS python s1 lesson example Statements run in order            -> runs, does not solve
+PASS python s1 lesson signature The game's awakening command     -> labelled reference; alone it gives: NameError: name 'amount' is not defined
+PASS python s2 lesson example Calls can give back a value        -> runs, does not solve
+PASS python s2 lesson signature Channelling Qi into the basin    -> labelled reference; alone it gives: NameError: name 'amount' is not defined
+PASS c s1 lesson example A variable stores a value          -> runs, does not solve
+PASS c s1 lesson example Initialize it before use           -> runs, does not solve
+PASS c s1 lesson example A function call performs an action -> runs, does not solve
+PASS c s1 lesson example Statements run in order; each ends -> runs, does not solve
+PASS c s1 lesson signature The game's awakening command     -> labelled reference; alone it gives: Not supported by this learning interpreter: defining functions or returning from them.
+PASS c s2 lesson example Calls can return a value           -> runs, does not solve
+PASS c s2 lesson signature Channelling Qi into the basin    -> labelled reference; alone it gives: Not supported by this learning interpreter: defining functions or returning from them.
+PASS java s1 lesson example A variable stores a value          -> runs, does not solve
+PASS java s1 lesson example Initialize it before use           -> runs, does not solve
+PASS java s1 lesson example A method call performs an action   -> runs, does not solve
+PASS java s1 lesson example Statements run in order; each ends -> runs, does not solve
+PASS java s1 lesson signature The game's awakening command     -> labelled reference; alone it gives: error: ')' expected
+PASS java s2 lesson example Methods can return a value         -> runs, does not solve
+PASS java s2 lesson signature Channelling Qi into the basin    -> labelled reference; alone it gives: error: ')' expected
+PASS python s1 authored solution
+PASS python s2 authored solution
+PASS c s1 authored solution
+PASS c s2 authored solution
+PASS java s1 authored solution
+PASS java s2 authored solution
+PASS python limit characters long              (2100 chars) -> Not run: the program is 2100 characters long; this learning interpreter accepts up to 2000.
+PASS c limit characters long              (2400 chars) -> Not run: the program is 2400 characters long; this learning interpreter accepts up to 2000.
+PASS python limit words, numbers and symbols   (758 chars) -> Not run: the program has more than 400 words, numbers and symbols; this learning interpreter accepts up to 400.
+PASS python limit statements                   (287 chars) -> Not run: the program has more than 40 statements; this learning interpreter accepts up to 40.
+PASS python limit nested more than             (66 chars) -> Not run: brackets, calls or signs are nested more than 12 deep; this learning interpreter accepts up to 12.
+PASS python limit nested more than             (399 chars) -> Not run: brackets, calls or signs are nested more than 12 deep; this learning interpreter accepts up to 12.
+PASS python limit nested more than             (306 chars) -> Not run: brackets, calls or signs are nested more than 12 deep; this learning interpreter accepts up to 12.
+PASS java limit nested more than             (51 chars) -> Not run: brackets, calls or signs are nested more than 12 deep; this learning interpreter accepts up to 12.
+PASS python limit more than 30 lines           (315 chars) -> Stopped: the program printed more than 30 lines; this learning interpreter shows at most 30.
+PASS python limit too large                    (15 chars) -> Not run: 9999999999 is too large; this learning interpreter keeps whole numbers between -999999999 and 999999999.
+PASS python limit too large                    (18 chars) -> Stopped: 9999800001 is too large; this learning interpreter keeps whole numbers between -999999999 and 999999999.
+PASS python 190 additions run -> Valid Python, but the Mentor asked for a first reserve of exactly 3 Qi, and 191 was passed.
+PASS python 500-character output line shown as 204 characters
+PASS slowest run of all 145 programs: 2.37 ms
+TOTAL 146 checks, 0 failures
+[godot_ai game_helper] registered mcp capture (debugger active=false, logger=true)

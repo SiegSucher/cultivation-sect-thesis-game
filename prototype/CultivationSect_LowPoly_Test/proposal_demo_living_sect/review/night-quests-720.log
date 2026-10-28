@@ -1,0 +1,121 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+OpenGL API 3.3.0 NVIDIA 566.07 - Compatibility - Using Device: NVIDIA - NVIDIA GeForce RTX 3050 Laptop GPU
+
+ERROR: Failed to read the root certificate store.
+   at: get_system_ca_certificates (platform/windows/os_windows.cpp:2582)
+PASS python authored solution garden
+PASS python card Keep some, share the rest
+PASS python card Read the running basin
+PASS python wrong amount rejected garden
+PASS python service locked before unlock garden
+PASS python later error prevents success garden
+PASS python authored solution jars
+PASS python card Calculate for a group
+PASS python card Fill the travellers' reserve
+PASS python wrong amount rejected jars
+PASS python service locked before unlock jars
+PASS python later error prevents success jars
+PASS c authored solution garden
+PASS c card Keep some, share the rest
+PASS c card Read the running basin
+PASS c wrong amount rejected garden
+PASS c service locked before unlock garden
+PASS c later error prevents success garden
+PASS c authored solution jars
+PASS c card Calculate for a group
+PASS c card Fill the travellers' reserve
+PASS c wrong amount rejected jars
+PASS c service locked before unlock jars
+PASS c later error prevents success jars
+PASS java authored solution garden
+PASS java card Keep some, share the rest
+PASS java card Read the running basin
+PASS java wrong amount rejected garden
+PASS java service locked before unlock garden
+PASS java later error prevents success garden
+PASS java authored solution jars
+PASS java card Calculate for a group
+PASS java card Fill the travellers' reserve
+PASS java wrong amount rejected jars
+PASS java service locked before unlock jars
+PASS java later error prevents success jars
+[godot_ai game_helper] registered mcp capture (debugger active=false, logger=true)
+PASS night ambient and dark sky
+PASS moonlight replaces daytime sun
+PASS services locked before basin
+PASS python progression stage 1
+PASS python typed run solves stage 1
+PASS python progression stage 2
+PASS python typed run solves stage 2
+PASS python progression stage 3
+PASS python E interaction discovers service 3
+PASS python new service teaches first 3
+PASS python service framed beside editor 3
+PASS python service draft survives close 3
+PASS python hints and worked answer available 3
+PASS python failed run keeps world unchanged 3
+PASS python typed run solves stage 3
+PASS python progression stage 4
+PASS python E interaction discovers service 4
+PASS python new service teaches first 4
+PASS python service framed beside editor 4
+PASS python service draft survives close 4
+PASS python hints and worked answer available 4
+PASS python failed run keeps world unchanged 4
+PASS python typed run solves stage 4
+PASS python all four completed once
+PASS python completed objective has no marker
+PASS python journal records both services
+PASS c progression stage 1
+PASS c typed run solves stage 1
+PASS c progression stage 2
+PASS c typed run solves stage 2
+PASS c progression stage 3
+PASS c E interaction discovers service 3
+PASS c new service teaches first 3
+PASS c service framed beside editor 3
+PASS c service draft survives close 3
+PASS c hints and worked answer available 3
+PASS c failed run keeps world unchanged 3
+PASS c typed run solves stage 3
+PASS c progression stage 4
+PASS c E interaction discovers service 4
+PASS c new service teaches first 4
+PASS c service framed beside editor 4
+PASS c service draft survives close 4
+PASS c hints and worked answer available 4
+PASS c failed run keeps world unchanged 4
+PASS c typed run solves stage 4
+PASS c all four completed once
+PASS c completed objective has no marker
+PASS c journal records both services
+PASS java progression stage 1
+PASS java typed run solves stage 1
+PASS java progression stage 2
+PASS java typed run solves stage 2
+PASS java progression stage 3
+PASS java E interaction discovers service 3
+PASS java new service teaches first 3
+PASS java service framed beside editor 3
+PASS java service draft survives close 3
+PASS java hints and worked answer available 3
+PASS java failed run keeps world unchanged 3
+PASS java typed run solves stage 3
+PASS java progression stage 4
+PASS java E interaction discovers service 4
+PASS java new service teaches first 4
+PASS java service framed beside editor 4
+PASS java service draft survives close 4
+PASS java hints and worked answer available 4
+PASS java failed run keeps world unchanged 4
+PASS java typed run solves stage 4
+PASS java all four completed once
+PASS java completed objective has no marker
+PASS java journal records both services
+PASS all lanterns emit warm light and visible halos
+ERROR: Condition "f.is_null()" is true.
+   at: _save_to_cache (drivers/gles3/shader_gles3.cpp:648)
+ERROR: Condition "f.is_null()" is true.
+   at: _save_to_cache (drivers/gles3/shader_gles3.cpp:648)
+PASS reset clears services, drafts, lanterns and main quest
+NIGHT QUESTS: 110 checks, 0 failures

@@ -28,6 +28,8 @@ const ORDER := ["python", "c", "java"]
 const OBJECTIVE := {
 	1: "Store 3 in a variable named qi, then call the awakening command with qi.",
 	2: "Read your Qi reserve into a variable, then channel that amount into the basin.",
+	3: "The Silent Crossing: read the seal charge; release the bridge only if that reading equals 3.",
+	4: "The Threefold Ward: use a for loop to prepare exactly three ward pulses.",
 }
 const INTERPRETER_NOTE := "Your code runs in the sect's learning interpreter, a custom interpreter for a small subset of %s. Its messages imitate %s's style and are approximate."
 
@@ -150,3 +152,6 @@ const NOTES := {
 	"literal_channel": "Read your reserve with the reserve command, store it, and pass that value, so the inscription uses the Qi you actually hold.",
 }
 const NOTE_C_UNINITIALIZED := "A real C compiler would only warn here, but the program would read an unpredictable value. The sect's checker stops it before it runs."
+
+static func for_language(language: String) -> Dictionary:
+	return preload("res://proposal_demo_living_sect/followup_lessons.gd").append_to(LESSONS[language], language)

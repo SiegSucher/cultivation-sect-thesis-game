@@ -21,6 +21,8 @@ var restoring := false
 var default_route: Array[Vector3] = []
 var default_duty := "idle"
 var stuck_time := 0.0
+var pace := 0.0                   # current walking speed; eases in and out
+var tick_from := Vector3.ZERO     # position before the latest physics step
 func _ready() -> void:
 	collision_layer = 4
 	collision_mask = 7
@@ -43,6 +45,7 @@ func _ready() -> void:
 	figure.elder = role == "teacher"
 	figure.hair_color = Color("777e79") if role == "teacher" else Color("252c2b")
 	figure.activity = duty
+	figure.look_target = watch
 	add_child(figure)
 	if duty == "sit": figure.position.y = -.37
 	home = position
@@ -51,15 +54,26 @@ func _ready() -> void:
 	default_duty = duty
 	waiting = 3.0+variant*.75
 	figure.time = variant*1.71
+func turn_to(yaw: float, delta: float) -> void:
+	# Ease toward a heading, but never spin faster than a person turns.
+	var d := angle_difference(rotation.y,yaw)
+	rotation.y += clampf(d*(1-exp(-4*delta)),-2.5*delta,2.5*delta)
+func _process(_delta: float) -> void:
+	# Draw the figure between physics steps so walking stays smooth at any refresh rate.
+	if duty == "sit": return
+	var lag := (tick_from-global_position)*(1-Engine.get_physics_interpolation_fraction())
+	figure.position = global_basis.inverse()*lag if lag.length() < 1 else Vector3.ZERO
 func _physics_process(delta: float) -> void:
 	talking = maxf(0,talking-delta)
 	figure.speaking = talking if duty != "converse" else .8
 	if duty == "sit": return
-	var direction := Vector3.ZERO
-	var near_player := watch and global_position.distance_to(watch.global_position) < 1.35
+	tick_from = global_position
+	var want := 0.0
+	var to_player := watch.global_position-global_position if watch else Vector3.ZERO
+	# Only someone ahead on the path makes a walker stop; passing behind them does not.
+	var near_player := watch and to_player.length() < 1.5 and to_player.dot(-global_basis.z) > 0
 	if talking > 0 and watch:
-		var d := watch.global_position-global_position
-		rotation.y = lerp_angle(rotation.y,atan2(-d.x,-d.z),1-exp(-4*delta))
+		turn_to(atan2(-to_player.x,-to_player.z),delta)
 	elif route.size() > 1:
 		if waiting > 0:
 			waiting -= delta
@@ -71,21 +85,26 @@ func _physics_process(delta: float) -> void:
 				destination = (destination+1)%route.size()
 				waiting = 4.0+variant*.27
 				reached += 1
-			elif not near_player:
-				direction = d.normalized()
-				rotation.y = lerp_angle(rotation.y,atan2(-d.x,-d.z),1-exp(-4*delta))
+			else:
 				figure.activity = "idle"
-			else: yield_count += 1
+				var yaw := atan2(-d.x,-d.z)
+				turn_to(yaw,delta)
+				# Walk where the body faces: turn first, then set off; slow for the last steps.
+				if near_player: yield_count += 1
+				else: want = speed*clampf(cos(angle_difference(rotation.y,yaw)),0,1)*clampf(d.length()/.6+.3,0,1)
 	else:
 		figure.activity = duty
-	velocity.x = direction.x*speed
-	velocity.z = direction.z*speed
+		turn_to(home_yaw,delta*.5)      # settle back to work after a conversation
+	pace = move_toward(pace,want,delta*(3.5 if want < pace else 2.0))
+	var direction := -global_basis.z
+	velocity.x = direction.x*pace
+	velocity.z = direction.z*pace
 	velocity.y = -.4 if is_on_floor() else velocity.y-18*delta
 	var before := position
 	move_and_slide()
 	var distance := Vector2(position.x-before.x,position.z-before.z).length()
 	total_distance += distance
-	if direction.length() > .1 and distance < .002:
+	if pace > .3 and distance < .002:
 		stuck_time += delta
 		if stuck_time > 2:
 			destination = (destination+1)%route.size()
@@ -96,6 +115,8 @@ func reset() -> void:
 	position = home
 	rotation.y = home_yaw
 	velocity = Vector3.ZERO
+	pace = 0
+	tick_from = global_position
 	route = default_route.duplicate()
 	duty = default_duty
 	destination = 1
@@ -110,5 +131,6 @@ func reset() -> void:
 	figure.phase = 0
 	figure.moving_speed = 0
 	figure.stride_span = .33
+	figure.speed = 0
 	figure.speaking = 0
 	figure.last_position = global_position

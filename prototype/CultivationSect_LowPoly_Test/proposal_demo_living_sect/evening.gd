@@ -106,26 +106,27 @@ func configure_atmosphere() -> void:
 		if env:
 			env = env.duplicate(true)
 			w.environment = env
-		env.ambient_light_color = Color("bbc9d2")
-		env.ambient_light_energy = .48
+		env.ambient_light_source = Environment.AMBIENT_SOURCE_COLOR
+		env.ambient_light_color = Color("8298c4")
+		env.ambient_light_energy = .18
 		env.tonemap_mode = Environment.TONE_MAPPER_FILMIC
-		env.tonemap_exposure = .9
+		env.tonemap_exposure = 1.0
 		env.fog_enabled = true
-		env.fog_light_color = Color("778eaa")
-		env.fog_density = .0015
-		env.fog_sky_affect = 0.0
+		env.fog_light_color = Color("15253f")
+		env.fog_density = .0018
+		env.fog_sky_affect = .65
 		env.fog_height = 7.0
 		env.fog_height_density = .008
 		var sky: ProceduralSkyMaterial = env.sky.sky_material
-		sky.sky_top_color = Color("334f70")
-		sky.sky_horizon_color = Color("c2a998")
-		sky.ground_horizon_color = Color("b7a89c")
-		sky.ground_bottom_color = Color("344c55")
-		sky.sky_energy_multiplier = .8
+		sky.sky_top_color = Color("030818")
+		sky.sky_horizon_color = Color("142442")
+		sky.ground_horizon_color = Color("111e34")
+		sky.ground_bottom_color = Color("050b18")
+		sky.sky_energy_multiplier = .35
 	for sun: DirectionalLight3D in world.find_children("*", "DirectionalLight3D", true, false):
 		sun.rotation_degrees = Vector3(-29, -43, 0)
-		sun.light_color = Color("ffd6a7")
-		sun.light_energy = .85
+		sun.light_color = Color("a9c5ff")
+		sun.light_energy = .18
 		sun.directional_shadow_max_distance = 130
 
 func style_scene() -> void:
@@ -183,7 +184,7 @@ func light_lanterns() -> void:
 			local.albedo_color = WARM
 			local.emission_enabled = true
 			local.emission = WARM
-			local.emission_energy_multiplier = .65
+			local.emission_energy_multiplier = 1.8
 			node.set_surface_override_material(surface, local)
 			# Avoid duplicate near/distant building lamps and keep only lights along the route.
 			var at := node.global_transform*node.get_aabb().get_center()
@@ -196,13 +197,13 @@ func light_lanterns() -> void:
 			var light := OmniLight3D.new()
 			light.name = "LanternPool"
 			light.light_color = WARM
-			light.light_energy = .85
+			light.light_energy = 1.5
 			light.omni_range = 5.5
 			light.omni_attenuation = 1.7
 			light.shadow_enabled = false
 			add_child(light)
 			light.global_position = at
-			lamps.append({"light": light, "material": local, "base": .85, "court": at.z < 55 and at.z > 30, "phase": at.x*.43+at.z})
+			lamps.append({"light": light, "material": local, "base": 1.5, "court": at.z < 55 and at.z > 30, "phase": at.x*.43+at.z})
 
 func air(at: Vector3, amount: int, extent: Vector3) -> CPUParticles3D:
 	var p := CPUParticles3D.new()
@@ -343,7 +344,10 @@ func tick(delta: float) -> void:
 		lamp.light.light_energy = lamp.base*(1.0+.035*sin(time*2.3+lamp.phase))
 	for i in boot_pivots.size(): boot_pivots[i].rotation.x = sin(world.stride_phase+PI*i)*.35*world.move_weight
 	if not quest.ui_open and not world.player.automated:
-		world.player.speed = 6.2 if Input.is_physical_key_pressed(KEY_SHIFT) else 4.5
+		# Ease into a stride and into a sprint (Shift) instead of jumping straight to full speed.
+		var p: CharacterBody3D = world.player
+		var target := 6.2 if Input.is_physical_key_pressed(KEY_SHIFT) else 4.5
+		p.speed = move_toward(p.speed, target, delta*8) if Vector2(p.velocity.x, p.velocity.z).length() > .1 else 2.6
 	if nearby_discovery():
 		quest.prompt.visible = true
 		quest.prompt.text = "[E]  Pause at the listening bench"
@@ -379,6 +383,9 @@ func update_world_feedback() -> void:
 	width = minf(width, 340)
 	world_chip.size = Vector2(width, 52)
 	world_chip.position = Vector2(rect.end.x+(free_right-width)/2 if free_right >= free_left else (free_left-width)/2, screen.y-88)
+	if quest.stage in [3, 4]:
+		world_caption.text = ("Ready / Release the crossing" if quest.stage == 3 else "Ready / Restore the ward") if quest.stage_solved else ("Check the seal before releasing it" if quest.stage == 3 else "Repeat one pulse for each of 3 stones")
+		return
 	if quest.stage_solved:
 		world_caption.text = "Ready · Awaken to feel the current" if quest.stage == 1 else "Ready · Channel to restore the basin"
 	else:

@@ -1,8 +1,8 @@
 extends CanvasLayer
-## "The First Current": the Guide's introduction, the Mentor's offer and syntax teaching, and two
+## "The First Current": the Guide's introduction, the Mentor's offer and syntax teaching, and four
 ## typed-code stages run by the sect's learning interpreter (code_runner.gd, a custom interpreter
 ## for a small subset of Python, C and Java). Stage 1 awakens the apprentice's Qi
-## (reserve 3); stage 2, started at the basin, channels that reserve into the basin. While any
+## (reserve 3); stage 2 restores the basin; stages 3 and 4 release the Silent Crossing and restore the Threefold Ward. While any
 ## panel is open, movement and camera look are paused and the mouse is released; closing restores
 ## them. Reset Demo clears everything.
 ## One shared Theme styles every panel. The inscription terminal is a movable, resizable window
@@ -47,7 +47,7 @@ var guide_page := 0
 var met := false
 var declined := false
 var language := ""
-var stage := 0                 # 0 not accepted, 1 awakening, 2 basin, 3 complete
+var stage := 0                 # 0 not accepted, 1 awakening, 2 basin, 3 crossing, 4 ward, 5 complete
 var stage_solved := false      # current stage ran correctly; its world effect has not played yet
 var reserve := 0
 var shown_reserve := 0.0       # animated Qi indicator value
@@ -375,7 +375,7 @@ func build_language(screen: Control) -> void:
 	language_panel = panel(screen, Vector2(290, 130), Vector2(700, 0))
 	var v := column(language_panel, 12)
 	title(v, "MENTOR  ·  Choose your inscription language", 22)
-	label(v, "I teach all three. Each version is real code for the same two steps: awaken your Qi, then channel it into the basin. Only the language changes.", 18, TEXT, 660)
+	label(v, "I teach all three. Each version uses the same four steps: awaken your Qi, restore the basin, release the Silent Crossing, then restore the Threefold Ward. Only the language changes.", 18, TEXT, 660)
 	for id: String in Lessons.ORDER:
 		var lesson: Dictionary = Lessons.LESSONS[id]
 		var b := button(v, "%s   ·   %s" % [lesson.name, lesson.files[0]], choose_language.bind(id), "Choose_"+id, 22)
@@ -626,13 +626,16 @@ func frame_code_view() -> void:
 	apprentice with the Mentor (awakening) or the apprentice at the basin (channelling). _process
 	then turns it so the subject sits in the screen area the terminal leaves free."""
 	var p := player.global_position
-	var target: Vector3 = (basin if stage == 2 else mentor).global_position
+	var target: Vector3 = (world.story.bridge if stage == 3 else (world.story.ward if stage == 4 else (basin if stage == 2 else mentor))).global_position
 	var flat := Vector3(target.x-p.x, 0, target.z-p.z)
 	if flat.length() < .1: flat = -player.camera.global_basis.z
 	flat = Vector3(flat.x, 0, flat.z).normalized()
 	var focus := p.lerp(target, .55 if stage == 2 else .4)+Vector3(0, .8 if stage == 2 else 1.1, 0)
+	if stage in [3, 4]: focus = target+Vector3(0, 1.3, -1.2 if stage == 3 else 0.0)
 	var side := flat.rotated(Vector3.UP, deg_to_rad(40))      # beside, not over the shoulder
 	var eye := focus-side*(5.6 if stage == 2 else 5.8)+Vector3(0, 1.9, 0)
+	# View the new quest sites from the open side of the living street.
+	if stage in [3, 4]: eye = focus+Vector3(6.5, 3.2, 2.8)
 	var hit := world.get_world_3d().direct_space_state.intersect_ray(PhysicsRayQueryParameters3D.create(focus, eye, 1, [player.get_rid()]))
 	if hit: eye = hit.position+(focus-eye).normalized()*.3
 	code_cam.global_position = eye
@@ -794,6 +797,8 @@ func nearest() -> String:
 	if world.life:
 		for id: String in world.life.residents: options[id] = [world.life.residents[id], 3.0]
 	if stage == 2: options["basin"] = [basin, BASIN_RANGE]
+	if stage == 3: options["crossing"] = [world.story.bridge, BASIN_RANGE]
+	if stage == 4: options["ward"] = [world.story.ward, BASIN_RANGE]
 	for id: String in options:
 		var d: Vector3 = player.global_position-options[id][0].global_position
 		var flat := Vector2(d.x, d.z).length()
@@ -807,6 +812,7 @@ func interact() -> void:
 		"guide": talk_guide()
 		"mentor": talk_mentor()
 		"basin": open_basin()
+		"crossing", "ward": open_story_quest()
 		"lin": world.life.talk_lin()
 		"mei": world.life.talk_mei()
 
@@ -821,6 +827,8 @@ func _process(delta: float) -> void:
 	var near := nearest() if not ui_open and not world.overview else ""
 	prompt.visible = near != ""
 	prompt.text = {"guide": "[E]  Talk to the Guide", "mentor": "[E]  Talk to the Mentor", "basin": "[E]  Channel Qi into the basin"}.get(near, "")
+	if near == "crossing": prompt.text = "[E]  The Silent Crossing / inspect the seal"
+	if near == "ward": prompt.text = "[E]  The Threefold Ward / restore the stones"
 	if near == "lin": prompt.text = "[E]  Lin - lantern practice (optional)"
 	if near == "mei": prompt.text = "[E]  Mei - court keeper"
 	tracker.visible = mode not in ["code", "teach", "language", "life"]
@@ -851,6 +859,8 @@ func _process(delta: float) -> void:
 func target_name(target: Node3D) -> String:
 	if target == guide: return "Guide"
 	if target == basin: return "Basin"
+	if target == world.story.bridge: return "Silent Crossing"
+	if target == world.story.ward: return "Threefold Ward"
 	return "Mentor"
 
 func sfx(id: String) -> void:
@@ -858,13 +868,17 @@ func sfx(id: String) -> void:
 
 # ---------------------------------------------------------------- objectives
 func objective_target() -> Node3D:
-	if stage == 3: return null
+	if stage == 5: return null
+	if stage == 3: return world.story.bridge
+	if stage == 4: return world.story.ward
 	if stage == 2: return basin
 	if stage == 1 or met or declined or guide_heard: return mentor
 	return guide
 
 func objective_text() -> String:
-	if stage == 3: return "Complete. The basin flows, and you have been welcomed into training."
+	if stage == 5: return "Complete. The basin flows, the Silent Crossing is open and the Threefold Ward protects the sect."
+	if stage == 3: return "MAIN QUEST / The Silent Crossing: follow the marker north to the sealed bridge and press E."
+	if stage == 4: return "MAIN QUEST / The Threefold Ward: cross the released bridge to the shrine and press E."
 	if stage == 2: return "Channel your Qi into the basin: walk to the basin and press E."
 	if stage == 1 and language == "": return "Choose an inscription language with the Mentor."
 	if stage == 1: return "Awaken your Qi: write and run the awakening inscription with the Mentor."
@@ -875,7 +889,7 @@ func objective_text() -> String:
 func update_status() -> void:
 	objective.text = objective_text()
 	var lang_name := "not chosen" if language == "" else str(Lessons.LESSONS[language].name)
-	var step: String = ["not started", "1 of 2 (awaken)", "2 of 2 (basin)", "both complete"][stage]
+	var step: String = ["not started", "1 of 4 (awaken)", "2 of 4 (basin)", "3 of 4 (crossing)", "4 of 4 (ward)", "all four complete"][stage]
 	status.text = "Language: %s   ·   Step: %s   ·   Recognition: %s" % [lang_name, step, "earned" if recognition_earned else "not yet"]
 
 # ---------------------------------------------------------------- dialogue
@@ -923,7 +937,8 @@ func talk_mentor() -> void:
 	mentor.face(player.global_position)
 	face(mentor.global_position+Vector3(0, 1.5, 0))
 	match stage:
-		3: say("MENTOR", Lessons.MENTOR_DONE, [["Close", close_ui, "Close"]])
+		5: say("MENTOR", "The night mist is held at the shrine. You have restored the basin, checked a condition to release the crossing, and repeated an action to restore the ward. You have earned the trust of the sect.", [["Close", close_ui, "Close"]])
+		3, 4: say("MENTOR", "The basin is running. Its current woke an old shrine, but the Silent Crossing is sealed and the Threefold Ward is dormant. Follow the marker north. Verify the seal first, then restore the ward beyond it.", [["Follow the quest marker", close_ui, "ContinueStory"], ["Close", close_ui, "Close"]])
 		2: say("MENTOR", Lessons.MENTOR_STAGE2, [["Close", close_ui, "Close"], ["Review the lesson", review_lesson, "Review"]])
 		1:
 			if language == "": say("MENTOR", Lessons.MENTOR_STAGE1, [["Continue", show_language, "Continue"], ["Not now", close_ui, "NotNow"]])
@@ -962,7 +977,7 @@ func key(s := -1) -> String:
 	return "%s:%d" % [language, stage if s < 0 else s]
 
 func lesson() -> Dictionary:
-	return Lessons.LESSONS[language]
+	return Lessons.for_language(language)
 
 func cards(s: int) -> Array:
 	return lesson().cards[s-1]
@@ -975,13 +990,13 @@ func show_teaching(s: int, then: String) -> void:
 	show_card(0)
 
 func review_lesson() -> void:
-	show_teaching(mini(stage, 2), "close")
+	show_teaching(clampi(stage, 1, 4), "close")
 
 func show_card(page: int) -> void:
 	var all := cards(teach_stage)
 	teach_page = clampi(page, 0, all.size()-1)
 	var card: Array = all[teach_page]
-	teach_head.text = "MENTOR  ·  %s lesson  ·  %s  ·  %d / %d" % [lesson().name, "Awakening" if teach_stage == 1 else "Channelling", teach_page+1, all.size()]
+	teach_head.text = "MENTOR  ·  %s lesson  ·  %s  ·  %d / %d" % [lesson().name, ["Awakening", "Channelling", "The Silent Crossing", "The Threefold Ward"][teach_stage-1], teach_page+1, all.size()]
 	teach_title.text = card[0]
 	teach_text.text = card[1]
 	teach_example_head.text = signature_caption() if card.size() > 3 else "EXAMPLE  ·  a short program you can try in this step"
@@ -1038,6 +1053,11 @@ func highlighter() -> CodeHighlighter:
 	h.add_color_region("\"", "\"", Color("bdc4ab"))
 	return h
 
+func open_story_quest() -> void:
+	if stage not in [3, 4]: return
+	if taught.get(key(), false): show_code()
+	else: show_teaching(stage, "code")
+
 func open_basin() -> void:
 	face(basin.global_position+Vector3(0, .6, 0), -.15)
 	show_code()
@@ -1049,7 +1069,7 @@ func show_code() -> void:
 	else: code.visible = true
 	var l := lesson()
 	var s := stage
-	code_title.text = "%s · %s · Step %d/2" % [l.files[s-1], l.name, s]
+	code_title.text = "%s · %s · Step %d/4" % [l.files[s-1], l.name, s]
 	code_objective.text = "OBJECTIVE  "+Lessons.OBJECTIVE[s]
 	options_button.get_popup().set_item_disabled(1, s != 1)
 	editor.syntax_highlighter = highlighter()
@@ -1068,7 +1088,7 @@ func show_code() -> void:
 	for c in lesson_box.get_children():
 		lesson_box.remove_child(c)
 		c.queue_free()
-	for g in ([1] if s == 1 else [2, 1]):
+	for g in ([1] if s == 1 else [s, 1]):
 		if g == 1 and s == 2: caption(lesson_box, "FROM THE AWAKENING LESSON")
 		for card: Array in cards(g):
 			title(lesson_box, card[0], 19)
@@ -1105,7 +1125,7 @@ func refresh_code() -> void:
 	editor.editable = not stage_solved
 
 func save_draft() -> void:
-	if language != "" and stage in [1, 2]: drafts[key()] = editor.text
+	if language != "" and stage in [1, 2, 3, 4]: drafts[key()] = editor.text
 
 func clear_marks() -> void:
 	for i in editor.get_line_count(): editor.set_line_background_color(i, Color(0, 0, 0, 0))
@@ -1134,7 +1154,7 @@ func flash_output(_colour: Color) -> void:
 	console_box.self_modulate = Color.WHITE
 
 func run_code() -> void:
-	if mode != "code" or stage_solved or not (stage in [1, 2]): return
+	if mode != "code" or stage_solved or not (stage in [1, 2, 3, 4]): return
 	save_draft()
 	attempts[key()] = attempts.get(key(), 0)+1
 	var l := lesson()
@@ -1158,7 +1178,7 @@ func run_code() -> void:
 		lines.append("[b]%s[/b]" % {"language": "Language error", "game": "Game rule", "exercise": "Lesson restriction", "unsupported": "Unsupported feature", "limit": "Interpreter limit"}.get(f.category, "Feedback"))
 		lines.append_array(error_lines(f, r.phase, file_line, source))
 		if on_line: editor.set_line_background_color(f.line-1, Color(.55, .3, .3, .12) if language_error else Color(.5, .45, .3, .12))
-		if r.effects.awaken > 0 or r.effects.channel > 0: lines.append(grey % "[sect runner] the program did not finish, so its Qi effects were not applied.")
+		if r.effects.awaken > 0 or r.effects.channel > 0 or r.effects.bridge > 0 or r.effects.ward > 0: lines.append(grey % "[sect runner] the program did not finish, so its world effects were not applied.")
 		var note: String = Lessons.NOTES.get(f.kind, "Read the message above, then compare your line with the Lesson tab.")
 		if f.kind == "uninitialized" and language == "c": note = Lessons.NOTE_C_UNINITIALIZED+" "+note
 		lines.append("[color=#8daac7]Mentor: %s%s[/color]" % [esc(note), ("  (Your line %d.)" % f.line) if language_error and on_line else ""])
@@ -1166,16 +1186,16 @@ func run_code() -> void:
 		world.qi_flicker()
 		flash_output(Color(1.6, .7, .6) if language_error else Color(1.5, 1.2, .6))
 		sfx("error" if language_error else "note")
-	elif (stage == 1 and r.effects.awaken > 0) or (stage == 2 and r.effects.channel > 0):
+	elif (stage == 1 and r.effects.awaken > 0) or (stage == 2 and r.effects.channel > 0) or (stage == 3 and r.effects.bridge > 0) or (stage == 4 and r.effects.ward > 0):
 		stage_solved = true
 		lines.append("[color=#6fd19a]Success · Ran without errors, top to bottom.[/color]")
-		lines.append("[color=#8daac7]Mentor: %s[/color]" % ("Good. qi held its value before the awakening command used it." if stage == 1 else "Good. You read your reserve, then passed exactly what you hold to the basin."))
+		lines.append("[color=#8daac7]Mentor: %s[/color]" % ["Good. qi held its value before the awakening command used it.", "Good. You read your reserve, then passed exactly what you hold to the basin.", "Your condition checked the real seal before releasing the Silent Crossing.", "Your loop prepared exactly three ward pulses. The Threefold Ward is ready."][stage-1])
 		world.qi_stir(stage)
 		flash_output(Color(.7, 1.6, 1.0))
 		sfx("success")
 	else:
 		lines.append("[color=#6fd19a]Ran without errors.[/color]")
-		lines.append("[color=#8daac7]Mentor: The program ran, but %s[/color]" % ("nothing called the awakening command yet." if stage == 1 else "no Qi was channelled into the basin yet."))
+		lines.append("[color=#8daac7]Mentor: The program ran, but %s[/color]" % ["nothing called the awakening command yet.", "no Qi was channelled into the basin yet.", "the seal has not been released inside a true condition. Read its charge and check it against 3.", "the ward needs exactly three pulses from a for loop."][stage-1])
 		flash_output(Color(1.5, 1.2, .6))
 		sfx("note")
 	consoles[key()] = "\n".join(lines)
@@ -1243,7 +1263,7 @@ func continue_after_success() -> void:
 		face(mentor.global_position+Vector3(0, 1.5, 0))
 		mentor.greet()
 		say("MENTOR", Lessons.MENTOR_STAGE2_INTRO, [["Show me", show_teaching.bind(2, "basin"), "ShowMe"]])
-	else:
+	elif stage == 2:
 		stage = 3
 		reserve = 0
 		open_ui("flow")
@@ -1253,6 +1273,7 @@ func continue_after_success() -> void:
 		await get_tree().create_timer(.9).timeout
 		if token != run: return
 		basin.activate()
+		world.story.unlock_crossing()
 		sfx("basin")
 		if sound: sound.start_water(basin)
 		update_status()
@@ -1260,6 +1281,20 @@ func continue_after_success() -> void:
 		if token != run: return
 		show_recognition()
 		reserve = Runner.FIRST_RESERVE     # the Mentor replenishes it after practice, as the recognition text says
+
+	elif stage == 3:
+		world.story.open_crossing()
+		stage = 4
+		sfx("channel")
+		say("CROSSING INSCRIPTION", "The seal fades. A way to the old shrine is open. Beyond the bridge, three ward stones wait in the night mist. Restore their repeating inscription to protect the sect.", [["Cross to the shrine", close_ui, "ContinueStory"]])
+		world.story.frame_result(3)
+	elif stage == 4:
+		world.story.activate_ward()
+		stage = 5
+		sfx("recognition")
+		say("THREEFOLD WARD", "Three pulses answer as one. The stones rise and a protective veil surrounds the shrine. The night's mist can no longer pass. Your first service brought water; your next brought safe passage and protection. Main quest arc complete / Trusted by the sect.", [["Return to the sect", close_ui, "Close"]])
+		world.story.frame_result(4)
+	update_status()
 
 func show_recognition() -> void:
 	if recognition_earned:
@@ -1271,6 +1306,7 @@ func show_recognition() -> void:
 	var a1: int = attempts.get(key(1), 0)
 	var a2: int = attempts.get(key(2), 0)
 	recognition_text.text = "Your Qi is awake, and the public basin flows for every traveller.\n\nThe Mentor:  %s\n\nRecognition earned:  Welcomed into training  ·  Split-Cloud Sect\nLanguage:  %s   ·   Awakening runs: %d   ·   Basin runs: %d" % [Lessons.RECOGNITION, lesson().name, a1, a2]
+	recognition_text.text += "\n\nNEXT MAIN QUEST: The Silent Crossing. The restored current has awakened an old shrine. Follow the marker north, verify the crossing seal, then restore the Threefold Ward beyond it."
 	reveal(recognition)
 	sfx("recognition")
 	mentor.greet()
@@ -1301,6 +1337,7 @@ func reset_demo() -> void:
 	recognitions_granted = 0
 	for d: Dictionary in [drafts, consoles, hints, solutions, attempts, taught]: d.clear()
 	basin.reset()
+	world.story.reset()
 	world.clear_aura()
 	if sound: sound.reset()
 	restore_terminal_layout()

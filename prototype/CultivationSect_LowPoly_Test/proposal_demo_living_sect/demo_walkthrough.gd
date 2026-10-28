@@ -5,7 +5,6 @@ extends "res://phase4d/walkthrough.gd"
 const GUIDE_AT := Vector3(3.5, -.057, 129.0)
 const MENTOR_AT := Vector3(5.8, 10.0, 43.2)
 const BASIN_AT := Vector3(9.6, 9.98, 40.2)
-const STRIDE := 1.35                     # metres between footsteps
 const QI := Color("7fe6ff")
 const COLUMN_SHADER := """
 shader_type spatial;
@@ -49,12 +48,17 @@ var robe_sleeves: Array[Node3D] = []
 var avatar_yaw := 0.0
 var stride_phase := 0.0
 var move_weight := 0.0
-var walked := 0.0
+var step_count := 0
+var phys_prev := Vector3.ZERO           # player position before the latest physics step
+var cam_rel := Vector3.ZERO             # camera offset the controller set on the latest step
+var cam_tick := -1
+var fov_kick := 0.0
 var anim_t := 0.0
 var name_labels: Array[Label3D] = []
 var help_panel: Control
 var life: Node3D
 var living: Node3D
+var story: Node3D
 var evening: Node3D
 var player_figure: Node3D
 
@@ -70,6 +74,10 @@ func _ready() -> void:
 	basin.set_script(load("res://proposal_demo_living_sect/basin.gd"))
 	basin.position = BASIN_AT
 	add_child(basin)
+	story = Node3D.new()
+	story.set_script(preload("res://proposal_demo_living_sect/main_story.gd"))
+	add_child(story)
+	story.setup()
 	mentor = character("PlaceholderMentor", "Mentor", MENTOR_AT)
 	mentor.face(Vector3(0, 10, 50), true)            # toward the top of the living-terrace stair
 	guide = character("PlaceholderGuide", "Guide", GUIDE_AT, Color("d9c9a6"), Color("3d5a80"), "lantern")
@@ -159,16 +167,50 @@ func _process(delta: float) -> void:
 	var v := Vector2(player.velocity.x, player.velocity.z)
 	var moving := player.is_physics_processing() and v.length() > .25
 	if quest.ui_open: avatar_yaw = player.yaw
-	elif moving:
-		avatar_yaw = atan2(-v.x,-v.y)
-		if player.is_on_floor():
-			walked += v.length()*delta
-			if walked >= STRIDE:
-				walked = 0
-				sound.play("step")
+	elif moving: avatar_yaw = atan2(-v.x,-v.y)
+	# The apprentice sits in the lotus position to awaken their Qi: while writing the awakening
+	# inscription and while it takes effect. They stand again when the Mentor speaks.
+	var awakening: bool = quest.ui_open and ((quest.stage == 1 and quest.mode == "code") or (quest.stage == 2 and quest.mode == "flow"))
+	player_figure.activity = "lotus" if awakening else "idle"
+	# One footstep per foot contact, so sound, legs and head bob share a rhythm.
+	var steps := floori(player_figure.phase/PI)
+	if steps != step_count:
+		if moving and player.is_on_floor(): sound.play("step")
+		step_count = steps
 	player.avatar.rotation.y = lerp_angle(player.avatar.rotation.y,avatar_yaw,1-exp(-9*delta))
-	player.avatar.position.y = 0
 	player.avatar.rotation.x = 0
+	# Draw the player between physics steps so movement and camera stay smooth at any refresh rate.
+	var at := player.global_position
+	if phys_prev.distance_to(at) < 1: at = phys_prev.lerp(at,Engine.get_physics_interpolation_fraction())
+	player.avatar.position = at-player.global_position
+	if player.camera.current: feel_camera(at)
+
+func _physics_process(_delta: float) -> void:
+	phys_prev = player.global_position   # this parent runs before the player moves
+
+func feel_camera(at: Vector3) -> void:
+	"""Walking and sprinting you can feel: the view dips on each footfall, sways toward the planted
+	foot, rolls slightly and widens when sprinting. The controller's own camera stays untouched."""
+	if player.is_physics_processing() and Engine.get_physics_frames() != cam_tick:
+		cam_tick = Engine.get_physics_frames()
+		cam_rel = player.camera.global_position-player.global_position
+	var cam: Camera3D = player.camera
+	var kick := 7.0*smoothstep(4.8,6.2,player_figure.speed)
+	cam.fov += kick-fov_kick
+	fov_kick = kick
+	if player.third_person:
+		if player.is_physics_processing(): cam.global_position = at+cam_rel
+		return
+	player.update_camera()                 # first person: the controller's eye with this frame's mouse look
+	var w: float = player_figure.moving_speed
+	var run: float = player_figure.run
+	var phase: float = player_figure.phase
+	var turn := Basis(Vector3.UP,player.yaw)
+	var bob := Vector3(-sin(phase)*lerpf(.018,.032,run),-cos(phase*2)*lerpf(.028,.06,run),0)*w
+	cam.global_basis = cam.global_basis*Basis(Vector3.BACK,sin(phase)*lerpf(.004,.012,run)*w)
+	# First person drops to seated eye height in the lotus position.
+	var seated: float = smoothstep(0,1,player_figure.shown_weight) if player_figure.shown == "lotus" else 0.0
+	cam.global_position += at-player.global_position+turn*bob+Vector3.DOWN*.75*seated
 
 # ---------------------------------------------------------------- Qi and basin effects
 func glow_material(color: Color, energy: float) -> StandardMaterial3D:

@@ -1,0 +1,14 @@
+{
+  "executable_bytes": 358755976,
+  "executable_sha256": "536e495b6d38b74e329fd904cb23126da7d5faa3a08f6f970b4b701969ec313a",
+  "zip_bytes": 246906058,
+  "zip_entries": [
+    "The First Current.exe"
+  ],
+  "zip_integrity": "PASS",
+  "archived_executable_matches": "PASS",
+  "source_backup_integrity": "PASS",
+  "source_checks": 491,
+  "source_failures": 0,
+  "export_startup_exit_code": 0
+}

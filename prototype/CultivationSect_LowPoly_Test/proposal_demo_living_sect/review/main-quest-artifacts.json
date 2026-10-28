@@ -1,0 +1,17 @@
+{
+  "source_checks": 573,
+  "source_failures": 0,
+  "executable_bytes": 365088880,
+  "executable_sha256": "afc4770a388e8778be5b6e0e2bde4d7877a9a430398a8278ef07d75187b6e73c",
+  "zip_bytes": 253148792,
+  "zip_integrity": "PASS",
+  "archived_executable_matches": "PASS",
+  "source_backup_integrity": "PASS",
+  "removed_water_quest_script": "ABSENT",
+  "release_export": "PASS",
+  "standalone_startup": "NOT RETESTED: earlier launch was blocked by Windows Application Control",
+  "source_launcher_smoke": "PASS: launcher returned 0, bounded engine run produced a clean game-script log and exited",
+  "exe_refreshed_at": "2026-10-26T18:41:44.984716+08:00",
+  "refresh_build_log": "exe-refresh-build.log",
+  "source_check_note": "573 checks retained from the preceding implementation run; source unchanged during this export refresh"
+}

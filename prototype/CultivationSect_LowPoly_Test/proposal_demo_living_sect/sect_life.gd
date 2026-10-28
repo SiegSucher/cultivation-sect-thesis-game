@@ -19,6 +19,7 @@ var quest: CanvasLayer
 var residents := {}
 var lamps: Array[MeshInstance3D] = []
 var lights: Array[OmniLight3D] = []
+var halos: Array[MeshInstance3D] = []
 var lamp_labels: Array[Label3D] = []
 var solved := 0
 var wrong_attempts := 0
@@ -117,10 +118,33 @@ func build_station() -> void:
 		var light := OmniLight3D.new()
 		light.position = at+Vector3.UP*1.8
 		light.light_color = Color("ffcf83")
-		light.omni_range = 3
+		light.omni_range = 4.5
+		light.omni_attenuation = 1.2
 		light.light_energy = 0
 		add_child(light)
 		lights.append(light)
+		# A radial transparent halo works on GL Compatibility without a post-processing dependency.
+		var gradient := Gradient.new()
+		gradient.set_color(0, Color(1, .65, .25, .32))
+		gradient.set_color(1, Color(1, .65, .25, 0))
+		var texture := GradientTexture2D.new()
+		texture.gradient = gradient
+		texture.width = 128
+		texture.height = 128
+		texture.fill = GradientTexture2D.FILL_RADIAL
+		texture.fill_from = Vector2(.5, .5)
+		texture.fill_to = Vector2(1, .5)
+		var quad := QuadMesh.new()
+		quad.size = Vector2(1.8, 1.8)
+		var halo := mesh_part(quad, at+Vector3.UP*1.8, Color.WHITE)
+		var halo_mat: StandardMaterial3D = halo.material_override
+		halo_mat.shading_mode = BaseMaterial3D.SHADING_MODE_UNSHADED
+		halo_mat.transparency = BaseMaterial3D.TRANSPARENCY_ALPHA
+		halo_mat.blend_mode = BaseMaterial3D.BLEND_MODE_ADD
+		halo_mat.billboard_mode = BaseMaterial3D.BILLBOARD_ENABLED
+		halo_mat.albedo_texture = texture
+		halo.cast_shadow = GeometryInstance3D.SHADOW_CASTING_SETTING_OFF
+		halos.append(halo)
 		var label := Label3D.new()
 		label.position = at+Vector3.UP*2.5
 		label.font_size = 30
@@ -226,13 +250,16 @@ func open_journal() -> void:
 	for i in solved: notes += "\n"+str(i+1)+". "+EXPLANATIONS[i]+"\n"
 	if visited.has("mei"): notes += "\nMei: cultivation is useful when it helps the next person. The public basin is shared, not a private trophy.\n"
 	if solved == 3: notes += "\n[b]Lantern Keeper[/b] / Lin's practice seal earned. No extra Qi or quest recognition is granted.\n"
+	notes += "\n[b]NEXT MAIN QUESTS[/b]\n"
+	notes += "The Silent Crossing: an if condition verified the real seal charge and released the bridge.\n" if quest.stage >= 4 else "The Silent Crossing: after the basin, follow the marker north to the sealed bridge.\n"
+	notes += "The Threefold Ward: a for loop repeated exactly three pulses. The shrine protects the sect.\n" if quest.stage >= 5 else "The Threefold Ward: cross the released bridge, then restore the repeating inscription at the shrine.\n"
 	if world.living:
 		notes += "\n[b]PLACES & PEOPLE[/b]\nMorning forms beside the west stair. Reading court beyond Lin. Tea and maintenance on the east side. The training terrace, library and herb garden have their own residents.\n"
 		if world.living.visits.size(): notes += "Spoken with: "+", ".join(world.living.visits.keys())+".\n"
 		if world.living.dusk.listen_count > 0: notes += "Listening bench: the bamboo chime leaves room for the sound of water.\n"
 	notes += "\n[b]CONTROLS[/b]\nWASD move / mouse look / E talk / Tab camera / J journal / Esc menu.\n\nThe main exercises use a restricted learning interpreter for Python, C and Java, not a full language runtime. Lantern practice is a reading activity; it does not execute your code.\n\nProgress and drafts last for this running session. Reset Demo clears both the main quest and optional activities."
 	open_page("Apprentice journal", main+notes, "journal")
-	if quest.stage in [1, 2] and quest.language != "": quest.button(footer, "Review lesson", quest.review_lesson, "JournalLesson")
+	if quest.stage in [1, 2, 3, 4] and quest.language != "": quest.button(footer, "Review lesson", quest.review_lesson, "JournalLesson")
 
 func talk_lin() -> void:
 	visited.lin = true
@@ -312,18 +339,23 @@ func talk_mei() -> void:
 	if quest.stage >= 3:
 		text = "[b]The court has its water again.[/b]\n\nI heard the basin before I saw you return. Travellers can wash away the dust now. Thank you.\n\nYour inscription read a reserve and passed its value into an action. That small chain of instructions changed something everyone here can use."
 	if solved == 3: text += "\n\nAnd Lin's lanterns are glowing again. The evening arrivals will find their way."
+	if quest.stage == 3: text += "\n\nThe basin sent a signal to the old shrine. Follow the marker north to the Silent Crossing and verify its seal. This is your next main quest."
+	if quest.stage == 4: text += "\n\nThe crossing is open. The next main quest is beyond it: restore the Threefold Ward before the night mist reaches the sect."
+	if quest.stage == 5: text += "\n\nThe crossing is open and the Threefold Ward protects the sect. You have earned our trust."
 	open_page("Mei / court keeper", text, "mei")
+	if quest.stage in [3, 4]: quest.button(choices, "Follow the main quest marker", quest.close_ui, "MeiStory")
 	quest.button(footer, "Open journal", open_journal, "LifeJournal")
 	frame_activity(MEI+Vector3.UP, Vector3(19.8, 12.3, 40.5))
 
 func update_lamps() -> void:
 	for i in lamps.size():
 		var mat: StandardMaterial3D = lamps[i].material_override
-		mat.albedo_color = Color("ffd18a") if i < solved else Color("444c4c")
+		mat.albedo_color = Color("ffbc66") if i < solved else Color("444c4c")
 		mat.emission_enabled = i < solved
-		mat.emission = Color("ffbb5c")
-		mat.emission_energy_multiplier = 1.4
-		lights[i].light_energy = .6 if i < solved else 0
+		mat.emission = Color("ff8f32")
+		mat.emission_energy_multiplier = 1.7
+		lights[i].light_energy = 1.8 if i < solved else 0
+		halos[i].visible = i < solved
 		lamp_labels[i].text = "%d / %s" % [i+1, "restored" if i < solved else "unlit"]
 
 func toast(text: String, seconds := 6.0) -> void:
@@ -351,7 +383,7 @@ func _process(delta: float) -> void:
 	if quest.stage != last_stage:
 		last_stage = quest.stage
 		if last_stage == 2: toast("Your Qi is awake. The next inscription belongs at the basin.")
-		if last_stage == 3: toast("The court has water again.\nOptional: meet Lin at the western lanterns or Mei to the east.", 12)
+		if last_stage == 3: toast("The court has water again.\nNext main quest: The Silent Crossing / follow the marker north.\nLin\'s lanterns remain optional.", 12)
 	for label: Label3D in lamp_labels: label.visible = not quest.ui_open
 	station_label.visible = not quest.ui_open
 	for npc: Node3D in residents.values():

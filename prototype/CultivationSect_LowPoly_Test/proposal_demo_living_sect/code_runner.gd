@@ -15,8 +15,8 @@ extends RefCounted
 ##   exercise     valid code that does not meet this lesson's requirement
 ##   unsupported  real language syntax this interpreter does not handle
 ##   limit        the program goes past one of the limits below
-## The subset has no loops or function definitions, so every program finishes in one synchronous
-## call within these limits; there is nothing left running to stop.
+## Main quests 3/4 add if blocks and bounded for loops. Nested blocks, loop iterations and total
+## executed statements are limited; every run finishes synchronously. No function definitions.
 const BASIN_NEEDS := 3
 const FIRST_RESERVE := 3
 const MAX_SOURCE := 2000        # characters
@@ -30,12 +30,12 @@ const NAMES := {"python": "Python", "c": "C", "java": "Java"}
 
 # Command table: name as written -> [action, fewest arguments, most arguments].
 const COMMANDS := {
-	"python": {"awaken": ["awaken", 1, 1], "qi_reserve": ["reserve", 0, 0], "channel_basin": ["channel", 1, 1], "print": ["print", 0, 99]},
-	"c": {"awaken": ["awaken", 1, 1], "qi_reserve": ["reserve", 0, 0], "channel_basin": ["channel", 1, 1], "printf": ["printf", 1, 99]},
-	"java": {"Sect.awaken": ["awaken", 1, 1], "Sect.qiReserve": ["reserve", 0, 0], "Sect.channelBasin": ["channel", 1, 1],
+	"python": {"awaken": ["awaken", 1, 1], "qi_reserve": ["reserve", 0, 0], "channel_basin": ["channel", 1, 1], "seal_charge": ["charge", 0, 0], "unseal_bridge": ["bridge", 0, 0], "pulse_ward": ["ward", 0, 0], "print": ["print", 0, 99]},
+	"c": {"awaken": ["awaken", 1, 1], "qi_reserve": ["reserve", 0, 0], "channel_basin": ["channel", 1, 1], "seal_charge": ["charge", 0, 0], "unseal_bridge": ["bridge", 0, 0], "pulse_ward": ["ward", 0, 0], "printf": ["printf", 1, 99]},
+	"java": {"Sect.awaken": ["awaken", 1, 1], "Sect.qiReserve": ["reserve", 0, 0], "Sect.channelBasin": ["channel", 1, 1], "Sect.sealCharge": ["charge", 0, 0], "Sect.unsealBridge": ["bridge", 0, 0], "Sect.pulseWard": ["ward", 0, 0],
 		"System.out.println": ["println", 0, 1], "System.out.print": ["print_no_newline", 1, 1]},
 }
-const VOID_ACTIONS := ["awaken", "channel", "println", "print_no_newline"]
+const VOID_ACTIONS := ["awaken", "channel", "bridge", "ward", "println", "print_no_newline"]
 # C and Java type words. Only int is used in this exercise.
 const TYPES := {"c": ["int", "double", "float", "long", "short", "char", "unsigned", "signed"],
 	"java": ["int", "double", "float", "long", "short", "char", "byte", "boolean", "String", "var"]}
@@ -81,11 +81,16 @@ var pos := 0
 var depth := 0
 var fail: Fail = null
 # run state
-var vars := {}            # name -> {"value": Variant, "set": bool, "reserve": bool}
+var vars := {}            # name -> value, initialized?, source bits (1 = Qi reserve, 2 = seal charge)
 var reserve := 0
 var output: Array = []    # [kind, text]: out, sect, note
+var guard_depth := 0
+var loop_depth := 0
+var executed := 0
+const MAX_ITERATIONS := 16
+const MAX_EXECUTED := 256
 var pending := ""         # printed text not yet ended by a newline
-var effects := {"awaken": 0, "awaken_from_variable": false, "channel": 0, "channel_from_reserve": false}
+var effects := {"awaken": 0, "awaken_from_variable": false, "channel": 0, "channel_from_reserve": false, "bridge": 0, "ward": 0}
 
 # ---------------------------------------------------------------- entry point
 func run(language: String, stage_number: int, code: String, file_name: String, header_lines: int, current_reserve: int) -> Dictionary:
@@ -101,8 +106,11 @@ func run(language: String, stage_number: int, code: String, file_name: String, h
 	vars = {}
 	output = []
 	pending = ""
+	guard_depth = 0
+	loop_depth = 0
+	executed = 0
 	fail = null
-	effects = {"awaken": 0, "awaken_from_variable": false, "channel": 0, "channel_from_reserve": false}
+	effects = {"awaken": 0, "awaken_from_variable": false, "channel": 0, "channel_from_reserve": false, "bridge": 0, "ward": 0}
 	if code.length() > MAX_SOURCE:
 		limit(0, "Not run: the program is %d characters long; this learning interpreter accepts up to %d." % [code.length(), MAX_SOURCE])
 		return result("compile")
@@ -114,6 +122,8 @@ func run(language: String, stage_number: int, code: String, file_name: String, h
 	for s: Dictionary in statements:
 		execute(s)
 		if fail != null: return result("run")
+	if stage == 4 and effects.ward > 0 and effects.ward != 3:
+		rule("ward_count", last_line(), "the ward needs exactly 3 pulses; your loop delivered %d." % effects.ward)
 	return result("done")
 
 func result(phase: String) -> Dictionary:
@@ -234,6 +244,10 @@ func tokenize(code: String) -> void:
 			elif two in ["+=", "-=", "*="] or (two == "**" and lang == "python") or (two in ["++", "--"] and lang != "python"):
 				unsupported_token(tok, two, symbol_feature(two))
 				i += 2
+			elif stage >= 3 and c in ":<":
+				tok.t = "sym"
+				tok.v = c
+				i += 1
 			elif c in UNSUPPORTED_SYMBOLS[lang]:
 				unsupported_token(tok, c, symbol_feature(c))
 				i += 1
@@ -322,6 +336,8 @@ func is_sym(t: Dictionary, v: String) -> bool:
 
 func parse_program() -> Array:
 	pos = 0
+	if stage >= 3:
+		return preload("res://proposal_demo_living_sect/control_flow.gd").new(self).sequence()
 	var out: Array = []
 	while fail == null and peek().t != "end":
 		if lang == "python":
@@ -405,10 +421,11 @@ func prev_line() -> int:
 func parse_expr():
 	var a = parse_sum()
 	if fail: return null
-	if is_sym(peek(), "=="):
-		var l: int = take().line
+	if is_sym(peek(), "==") or (stage >= 3 and is_sym(peek(), "<")):
+		var comparison := take()
+		var l: int = comparison.line
 		var b = parse_sum()
-		return {"k": "cmp", "a": a, "b": b, "line": l}
+		return {"k": "cmp", "a": a, "b": b, "op": comparison.v, "line": l}
 	return a
 
 func parse_sum():
@@ -542,9 +559,25 @@ func missing_semicolon(line: int, next: Dictionary) -> void:
 
 # ---------------------------------------------------------------- C/Java checks before running
 func check_program(statements: Array) -> void:
-	var declared := {}        # name -> initialized?
+	check_block(statements, {})
+
+func check_condition(expr, declared: Dictionary, line: int) -> void:
+	check_expr(expr, declared)
+	if fail == null and lang == "java" and type_of(expr) != "boolean":
+		error("type_mismatch", line, "error: an if/for condition must be boolean; compare with == or <", "")
+
+func check_block(statements: Array, declared: Dictionary) -> void:
 	for s: Dictionary in statements:
 		match s.k:
+			"if":
+				check_condition(s.condition, declared, s.line)
+				check_block(s.body, declared.duplicate())
+			"for":
+				var scoped := declared.duplicate()
+				check_block([s.initial], scoped)
+				check_condition(s.condition, scoped, s.line)
+				check_block(s.body, scoped.duplicate())
+				check_block([s.step], scoped)
 			"decl":
 				if s.init != null:
 					check_expr(s.init, declared)
@@ -584,7 +617,7 @@ func check_expr(e, declared: Dictionary) -> void:
 			for i in e.args.size():
 				var t := type_of(e.args[i])
 				if t == "void": void_value(e.line, false)
-				elif cmd[0] in ["awaken", "channel"] and t != "int":
+				elif cmd[0] in ["awaken", "channel", "bridge", "ward"] and t != "int":
 					error("type_mismatch", e.line, ("error: passing argument %d of '%s' makes integer from pointer without a cast" % [i+1, e.f]) if lang == "c"
 						else "error: incompatible types: %s cannot be converted to int" % t, e.f)
 				elif cmd[0] == "printf" and i == 0 and t != "String":
@@ -592,6 +625,8 @@ func check_expr(e, declared: Dictionary) -> void:
 		"bin", "cmp":
 			check_expr(e.a, declared)
 			check_expr(e.b, declared)
+			if fail == null and e.k == "cmp" and e.get("op", "==") == "<" and (type_of(e.a) != "int" or type_of(e.b) != "int"):
+				error("type_mismatch", e.line, "error: this comparison needs two whole numbers", "")
 			if fail == null and type_of(e) == "invalid":
 				if "void" in [type_of(e.a), type_of(e.b)]: void_value(e.line, false)
 				else: error("type_mismatch", e.line, ("error: invalid operands to binary %s" if lang == "c" else "error: bad operand types for binary operator '%s'") % e.op, "")
@@ -681,8 +716,64 @@ func distance(a: String, b: String) -> int:
 	return prev[b.length()]
 
 # ---------------------------------------------------------------- execution
+func execute_body(body: Array) -> void:
+	var outer := vars.keys()
+	for statement: Dictionary in body:
+		execute(statement)
+		if fail: break
+	# C/Java block declarations do not leak outside their braces. Python has no block scope.
+	if lang != "python":
+		for name: String in vars.keys():
+			if name not in outer: vars.erase(name)
+
 func execute(s: Dictionary) -> void:
+	if fail: return
+	executed += 1
+	if executed > MAX_EXECUTED:
+		limit(s.line, "Stopped after 256 executed statements; shorten the loop or fix its counter.")
+		return
 	match s.k:
+		"if":
+			var condition := eval_expr(s.condition)
+			if fail or not condition[0]: return
+			# A bridge command must run inside a true guard derived from the actual seal reading.
+			var guarded := 1 if (int(condition[1]) & 2) != 0 else 0
+			guard_depth += guarded
+			execute_body(s.body)
+			guard_depth -= guarded
+		"repeat":
+			var count := eval_expr(s.count)
+			if fail: return
+			if not (count[0] is int):
+				error("type_mismatch", s.line, "TypeError: range needs a whole-number count", "")
+				return
+			if count[0] > MAX_ITERATIONS:
+				limit(s.line, "Not run: range count exceeds the 16-iteration lesson limit.")
+				return
+			loop_depth += 1
+			for index in maxi(0, count[0]):
+				vars[s.name] = {"value": index, "set": true, "reserve": false}
+				execute_body(s.body)
+				if fail: break
+			loop_depth -= 1
+		"for":
+			var outer := vars.keys()
+			execute(s.initial)
+			var iterations := 0
+			loop_depth += 1
+			while fail == null:
+				var condition := eval_expr(s.condition)
+				if fail or not condition[0]: break
+				if iterations >= MAX_ITERATIONS:
+					limit(s.line, "Stopped after 16 loop iterations; check the counter update and stopping condition.")
+					break
+				iterations += 1
+				execute_body(s.body)
+				if fail: break
+				execute(s.step)
+			loop_depth -= 1
+			for name: String in vars.keys():
+				if name not in outer: vars.erase(name)
 		"decl":
 			var v := [null, false] if s.init == null else eval_expr(s.init)
 			if fail: return
@@ -699,7 +790,7 @@ func execute(s: Dictionary) -> void:
 				else: emit("note", "%s:%d: warning: statement with no effect" % [file, s.line+offset], s.line)
 
 func eval_expr(e) -> Array:
-	"""Returns [value, came_from_qi_reserve]."""
+	"""Returns [value, source bits]: 1 for a Qi-reserve reading, 2 for a seal-charge reading."""
 	if e == null or fail: return [null, false]
 	match e.k:
 		"num", "str", "lit": return [e.v, false]
@@ -719,8 +810,14 @@ func eval_expr(e) -> Array:
 		"cmp":
 			var a := eval_expr(e.a)
 			var b := eval_expr(e.b)
+			if fail: return [null, false]
 			var same: bool = typeof(a[0]) == typeof(b[0]) and a[0] == b[0]
-			return [int(same) if lang == "c" else same, false]
+			if e.get("op", "==") == "<":
+				if not (a[0] is int and b[0] is int):
+					error("type_mismatch", e.line, "This comparison needs two whole numbers.", "")
+					return [null, false]
+				same = a[0] < b[0]
+			return [int(same) if lang == "c" else same, (int(a[1]) | int(b[1])) if stage >= 3 else false]
 		"bin":
 			var a := eval_expr(e.a)
 			var b := eval_expr(e.b)
@@ -730,7 +827,7 @@ func eval_expr(e) -> Array:
 				if absi(v) > MAX_NUMBER:
 					limit(e.line, "Stopped: %d is too large; this learning interpreter keeps whole numbers between -%d and %d." % [v, MAX_NUMBER, MAX_NUMBER])
 					return [null, false]
-				return [v, a[1] or b[1]]
+				return [v, int(a[1]) | int(b[1])]
 			if e.op == "+" and a[0] is String and b[0] is String: return [a[0]+b[0], false]
 			if e.op == "+" and lang == "java": return [text_of(a[0])+text_of(b[0]), false]
 			if lang == "python" and e.op == "*" and (a[0] is String or b[0] is String) and (a[0] is int or b[0] is int):
@@ -775,6 +872,30 @@ func run_call(e: Dictionary) -> Array:
 			if fail: return [null, false]
 			write(text, e.line)
 			return [text.length(), false]
+		"charge":
+			if stage < 3: return game_error(e.line, "restore the basin before reading the crossing seal", "seal_locked")
+			# Source bits distinguish an actual seal reading (2) from the learner's Qi reserve (1).
+			return [3, 2]
+		"bridge":
+			if stage != 3: return game_error(e.line, "the crossing belongs to the next main quest after the basin", "quest_order")
+			if guard_depth == 0:
+				rule("bridge_guard", e.line, "check the actual seal charge with an if condition before releasing the crossing.")
+				return [null, false]
+			if effects.bridge > 0: return game_error(e.line, "the crossing was already released in this run", "bridge_repeat")
+			effects.bridge = 1
+			flush()
+			emit("sect", "[sect] Seal verified. The Silent Crossing is ready to open.", e.line)
+		"ward":
+			if stage != 4: return game_error(e.line, "release the crossing before tending the Threefold Ward", "quest_order")
+			if loop_depth == 0:
+				rule("ward_loop", e.line, "repeat the ward pulse using a for loop rather than copying the command.")
+				return [null, false]
+			if effects.ward >= 3:
+				rule("ward_count", e.line, "the ward has exactly 3 stones; stop the loop after 3 pulses.")
+				return [null, false]
+			effects.ward += 1
+			flush()
+			emit("sect", "[sect] Ward pulse %d / 3 prepared." % effects.ward, e.line)
 		"reserve":
 			return [reserve, true]
 		"awaken":
