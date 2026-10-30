@@ -101,7 +101,9 @@ func wav(samples: PackedFloat32Array, loop := false) -> AudioStreamWAV:
 	w.data = data
 	if loop:
 		w.loop_mode = AudioStreamWAV.LOOP_FORWARD
-		w.loop_end = samples.size()
+		# Not size(): Godot 4.7.2 mixes the frame at loop_end too, which reads past the buffer and
+		# crashes Android (godotengine/godot#124849). Dropping one frame of a crossfaded loop is inaudible.
+		w.loop_end = samples.size()-1
 	return w
 
 func seamless(s: PackedFloat32Array, fade: int) -> PackedFloat32Array:

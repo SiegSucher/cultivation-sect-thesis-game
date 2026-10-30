@@ -104,6 +104,12 @@ func _ready() -> void:
 			name_labels.append(l)
 			l.font_size = mini(l.font_size, 38)
 			l.outline_size = 5
+	if OS.has_feature("mobile") or "--touch" in OS.get_cmdline_user_args():
+		var touch := CanvasLayer.new()
+		touch.name = "TouchControls"
+		touch.set_script(preload("res://proposal_demo_living_sect/touch_controls.gd"))
+		touch.world = self
+		add_child(touch)
 	dress_apprentice()
 	polish_palette()
 	life = Node3D.new()
